@@ -1,0 +1,15 @@
+{
+  "create-new-project": {
+    "prefix": "cn",
+    "body": [
+			"cmake_minimum_required(VERSION 3.0)",
+			"",
+			"project($1 CXX)",
+			"",
+			"add_executable($2 $2.cc)",
+			"target_link_libraries($2 $3)",
+			"$0"
+    ],
+    "description": "create new project for cmake"
+  }
+}
