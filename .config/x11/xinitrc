@@ -1,0 +1,7 @@
+xset r rate 300 50
+xmodmap "${XDG_CONFIG_HOME:-$HOME/.config}/x11/Xmodmap"
+xrdb "${XDG_CONFIG_HOME:-$HOME/.config}/x11/Xresources"
+feh --no-fehbg --bg-fill "${XDG_DATA_HOME:-$HOME/.local/share}/wallpaper/wall_01.png"
+xcompmgr -c&
+fcitx5 --disable fcitx5-xkb -d
+exec dwm
