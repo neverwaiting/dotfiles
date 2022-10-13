@@ -1,5 +1,5 @@
 !! terminal name:
-st.termname: st-color256
+! st.termname: st-color256
 ! st.borderpx: 2
 
 !! gruvbox material dark:
