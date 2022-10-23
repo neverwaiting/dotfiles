@@ -1,28 +1,18 @@
-# interpreter for shell commands
 set shell sh
-
-# set '-eu' options for shell commands
-# These options are used to have safer shell commands. Option '-e' is used to
-# exit on error and option '-u' is used to give error for unset variables.
-# Option '-f' disables pathname expansion which can be useful when $f, $fs, and
-# $fx variables contain names with '*' or '?' characters. However, this option
-# is used selectively within individual commands as it can be limiting at
-# times.
 set shellopts '-eu'
-
-# set internal field separator (IFS) to "\n" for shell commands
-# This is useful to automatically split file names in $fs and $fx properly
-# since default file separator used in these variables (i.e. 'filesep' option)
-# is newline. You need to consider the values of these options and create your
-# commands accordingly.
 set ifs "\n"
-
-# leave some space at the top and the bottom of the screen
+set hiddenfiles "*.no"
 set scrolloff 10
+set icons
+set drawbox
+set period 1
+set autoquit on
+
+set previewer ~/.config/lf/previewer
+set cleaner ~/.config/lf/cleaner
 
 # use enter for shell commands
 map <enter> shell
-
 # execute current file (must be executable)
 map x $$f
 map X !$f
@@ -38,9 +28,41 @@ map O $mimeopen --ask $f
 cmd open ${{
     test -L $f && f=$(readlink -f $f)
     case $(file --mime-type $f -b) in
-        text/*) $EDITOR $fx;;
+        application/vnd.openxmlformats-officedocument.spreadsheetml.sheet) localc $fx ;;
+        image/vnd.djvu|application/pdf|application/octet-stream|application/postscript) setsid -f zathura $fx >/dev/null 2>&1 ;;
+              text/*|application/json|inode/x-empty) $EDITOR $fx;;
+        image/x-xcf) setsid -f gimp $f >/dev/null 2>&1 ;;
+        image/svg+xml) display -- $f ;;
+        image/*) rotdir $f | grep -i "\.\(png\|jpg\|jpeg\|gif\|webp\|tif\|ico\)\(_large\)*$" |
+          setsid -f sxiv -aio 2>/dev/null | while read -r file; do
+            [ -z "$file" ] && continue
+            lf -remote "send select \"$file\""
+            lf -remote "send toggle"
+          done &
+          ;;
+        audio/*) mpv --audio-display=no $f ;;
+        video/*) setsid -f mpv $f -quiet >/dev/null 2>&1 ;;
+        application/pdf|application/vnd*|application/epub*) setsid -f zathura $fx >/dev/null 2>&1 ;;
+        application/pgp-encrypted) $EDITOR $fx ;;
+        application/vnd.openxmlformats-officedocument.wordprocessingml.document|application/vnd.oasis.opendocument.text) setsid -f lowriter $fx >/dev/null 2>&1 ;;
+        application/vnd.openxmlformats-officedocument.spreadsheetml.sheet|application/octet-stream|application/vnd.oasis.opendocument.spreadsheet|application/vnd.oasis.opendocument.spreadsheet-template) setsid -f localc $fx >/dev/null 2>&1 ;;
+        application/vnd.openxmlformats-officedocument.presentationml.presentation|application/vnd.oasis.opendocument.presentation-template|application/vnd.oasis.opendocument.presentation|application/vnd.ms-powerpoint) setsid -f loimpress $fx >/dev/null 2>&1 ;;
+        application/vnd.oasis.opendocument.graphics|application/vnd.oasis.opendocument.graphics-template) setsid -f lodraw $fx >/dev/null 2>&1 ;;
+        application/vnd.oasis.opendocument.formula) setsid -f lomath $fx >/dev/null 2>&1 ;;
+        application/vnd.oasis.opendocument.database) setsid -f lobase $fx >/dev/null 2>&1 ;;
         *) for f in $fx; do setsid $OPENER $f > /dev/null 2> /dev/null & done;;
     esac
+}}
+
+cmd mkdir $mkdir -p "$(echo $* | tr ' ' '\ ')"
+
+cmd delete ${{
+	clear; tput cup $(($(tput lines)/3)); tput bold
+	set -f
+	printf "%s\n\t" "$fx"
+	printf "delete?[y/N]"
+	read ans
+	[ $ans = "y" ] && rm -rf -- $fx
 }}
 
 # define a custom 'rename' command without prompt for overwrite

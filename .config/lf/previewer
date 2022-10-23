@@ -1,0 +1,75 @@
+#!/bin/sh
+
+ifub() {
+	[ -n "$DISPLAY" ] && [ -z "$WAYLAND_DISPLAY" ] && command -V ueberzug >/dev/null 2>&1
+}
+
+draw() {
+  if [ ifub -a -n "$FIFO_UEBERZUG" ]; then
+    path="$(printf '%s' "$1" | sed 's/\\/\\\\/g;s/"/\\"/g')"
+    printf '{"action": "add", "identifier": "preview", "x": %d, "y": %d, "width": %d, "height": %d, "scaler": "contain", "scaling_position_x": 0.5, "scaling_position_y": 0.5, "path": "%s"}\n' \
+      "$4" "$5" "$(($2-1))" "$(($3-1))" "$1" >"$FIFO_UEBERZUG"
+	else
+		mediainfo "$6"
+  fi
+  exit 1
+}
+
+hash() {
+  printf '%s/.cache/lf/%s' "$HOME" \
+    "$(stat --printf '%n\0%i\0%F\0%s\0%W\0%Y' -- "$(readlink -f "$1")" | sha256sum | awk '{print $1}')"
+}
+
+cache() {
+  if [ -f "$1" ]; then
+    draw "$@"
+  fi
+}
+
+file="$1"
+shift
+width="$1"
+
+case "$(file -Lb --mime-type -- "$file")" in
+  image/*)
+    orientation="$(identify -format '%[EXIF:Orientation]\n' -- "$file")"
+    if [ -n "$orientation" ] && [ "$orientation" != 1 ]; then
+      cache="$(hash "$file").jpg"
+      cache "$cache" "$@"
+      convert -- "$file" -auto-orient "$cache"
+      draw "$cache" "$@" "$file"
+    else
+      draw "$file" "$@" "$file"
+    fi
+    ;;
+  video/*)
+    cache="$(hash "$file").jpg"
+    cache "$cache" "$@"
+    ffmpegthumbnailer -i "$file" -o "$cache" -s 0
+    draw "$cache" "$@"
+    ;;
+  text/html)
+    lynx -width="$width" -display_charset=utf-8 -dump "$file" ;;
+  text/troff)
+    man ./ "$file" | col -b ;;
+  text/* | */xml | application/json)
+    bat --terminal-width "$(($width-2))" -f "$file" ;;
+  application/zip)
+    atool --list -- "$file" ;;
+  audio/* | application/octet-stream)
+    mediainfo "$file" || exit 1 ;;
+	*/pdf)
+    CACHE="$(hash "$file")"
+		[ ! -f "$CACHE.jpg" ] && pdftoppm -jpeg -f 1 -singlefile "$file" "$CACHE"
+		draw "$CACHE.jpg" "$@" "$file"
+		;;
+	*/epub+zip|*/mobi*)
+    cache="$(hash "$file".jpg)"
+		[ ! -f "$cache" ] && gnome-epub-thumbnailer "$file" "$cache"
+		draw "$cache" "$@" "$file"
+		;;
+	*opendocument*) odt2txt "$file" ;;
+	application/pgp-encrypted) gpg -d -- "$file" ;;
+esac
+
+exit 0

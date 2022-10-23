@@ -1,5 +1,12 @@
 local M = {}
 
+local function find_in_disable_tables(item)
+  for _,v in ipairs(vim.g.plugins_disable) do
+    if (v == item) then return true end
+  end
+  return false
+end
+
 local function require_plugin(plugin)
   local status_ok, _ = pcall(require, plugin)
   if not status_ok then
@@ -17,7 +24,7 @@ local function load_plugins_for_path(path, priority)
   if init_lua_path:len() ~= 0 then
     local require_file = init_lua_path:match('/lua/(.+)/init%.lua\n$'):gsub('/', '.')
     local plugin_name = require_file:match('.*%.(.+)$')
-    if not vim.g.plugins_disable[plugin_name] then
+    if not find_in_disable_tables(plugin_name) then
       if vim.g.plugins_priority[plugin_name] then
         plugins[require_file] = vim.g.plugins_priority[plugin_name]
       else
@@ -34,7 +41,7 @@ local function load_plugins_for_path(path, priority)
     for file in files:lines() do
       local require_file = file:match('/lua/(.+)%.lua$'):gsub('/', '.')
       local plugin_name = require_file:match('.*%.(.+)$')
-      if not vim.g.plugins_disable[plugin_name] then
+      if not find_in_disable_tables(plugin_name) then
         if vim.g.plugins_priority[plugin_name] then
           plugins[require_file] = vim.g.plugins_priority[plugin_name]
         else

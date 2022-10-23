@@ -147,7 +147,7 @@ packer.startup {
     ----- my plugins here -----
     ---------------------------
     use "lewis6991/impatient.nvim" -- Speed up loading Lua modules
-    use "rcarriga/nvim-notify" -- notify
+    -- use "rcarriga/nvim-notify" -- notify
     use "nvim-lua/plenary.nvim" -- useful lua functions used any lots of plugins
     use "kyazdani42/nvim-web-devicons" -- nerd font icons
 
@@ -178,7 +178,7 @@ packer.startup {
     use 'f3fora/cmp-spell' -- spell check
     use 'saadparwaiz1/cmp_luasnip'
 
-    use 'folke/lua-dev.nvim' -- neovim bultin function help
+    use 'folke/neodev.nvim' -- neovim bultin function help
 
     -- snippet engine and snippet collections
     use 'L3MON4D3/LuaSnip' -- snippets engine written in lua
@@ -226,10 +226,7 @@ packer.startup {
 
     -- workspace restore manager
     use 'Shatur/neovim-session-manager'
-    use {
-      'nvim-telescope/telescope.nvim', tag = '0.1.*',
-      requires = { {'nvim-lua/plenary.nvim'} }
-    }
+    use { 'nvim-telescope/telescope.nvim', tag = '0.1.0' }
     use {
       'nvim-telescope/telescope-fzf-native.nvim',
       run = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build'

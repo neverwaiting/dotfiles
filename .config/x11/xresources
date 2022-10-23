@@ -1,7 +1,17 @@
-Xft.dpi: 170
-!! terminal name:
+Xft.dpi: 150
+!! st style
 ! st.termname: st-color256
 ! st.borderpx: 2
+
+!! dwm style
+! dwm.selbordercolor: #ffd700
+! dwm.font:
+! dwm.dmenufont:
+! dwm.normbgcolor:
+! dwm.normfgcolor:
+! dwm.normbordercolor:
+! dwm.selbgcolor:
+! dwm.selfgcolor:
 
 !! gruvbox material dark:
 /* *color0:  #32302f */

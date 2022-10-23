@@ -14,7 +14,7 @@ local servers = {
 require 'wintersun.plugins.lsp.mason'
 
 require 'mason-lspconfig'.setup {
-	ensure_installed = servers,
+	-- ensure_installed = servers,
 	automatic_installation = true,
 }
 

@@ -79,11 +79,7 @@ if not status_ok then
 	return
 end
 
-local capabilities = vim.lsp.protocol.make_client_capabilities()
-capabilities.textDocument.completion.completionItem.snippetSupport = true
-capabilities.textDocument.completion.completionItem.resolveSupport = {
-	properties = { "documentation", "detail", "additionalTextEdits" },
-}
-M.capabilities = cmp_nvim_lsp.update_capabilities(capabilities)
+local capabilities = require('cmp_nvim_lsp').default_capabilities()
+M.capabilities = capabilities
 
 return M

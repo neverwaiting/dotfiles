@@ -53,14 +53,13 @@ telescope.setup{
         -- e.g. git_{create, delete, ...}_branch for the git_branches picker
         -- ['<C-/>'] = 'which_key',
 				['<C-d>'] = false,
-				['<C-c>'] = false,
 				['<C-x>'] = false,
 				['<C-v>'] = false,
+				['<C-u>'] = false,
 				['<C-J>'] = 'move_selection_next',
 				['<C-k>'] = 'move_selection_previous',
 				['<C-n>'] = 'preview_scrolling_down',
 				['<C-p>'] = 'preview_scrolling_up',
-				['<C-u>'] = 'close',
 				['<C-l>'] = 'select_vertical',
 				['<C-h>'] = 'select_horizontal',
       }
