@@ -189,11 +189,18 @@ packer.startup {
       'kosayoda/nvim-lightbulb',
       requires = 'antoinemadec/FixCursorHold.nvim'
     }
-    use 'numToStr/Comment.nvim'
+    use {
+      'numToStr/Comment.nvim',
+      config = function()
+        require 'Comment'.setup()
+      end
+    }
+
     use {
       "folke/todo-comments.nvim",
       requires = "nvim-lua/plenary.nvim",
     }
+
     -- display all diagnostics list
     use {
       'folke/trouble.nvim',

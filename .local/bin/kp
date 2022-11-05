@@ -1,0 +1,5 @@
+process_info="$(ps axch | fzf | awk '{ print $1,$5 }')"
+process_id=$(echo "$process_info" | awk '{ print $1 }')
+process_name=$(echo "$process_info" | awk '{ print $2 }')
+
+[ -n "$process_id" ] && kill -9 "$process_id" && notify-send "$process_name(pid=$process_id) exited!"

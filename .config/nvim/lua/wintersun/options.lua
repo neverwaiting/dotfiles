@@ -1,4 +1,5 @@
 local options = {
+  winbar = '%=%m %f ',
   laststatus = 3, -- global status line
   showmode = false, -- undisplay insert/virsual/... mode ui
 
@@ -27,7 +28,7 @@ local options = {
 
   timeoutlen = 400, -- timeout for keymaps
 
-  -- swapfile = false,
+  swapfile = false,
   -- backup = false,
   -- undodir = '~/.config/nvim/undodir',
   undofile = true,

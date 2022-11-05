@@ -8,9 +8,9 @@ local function find_in_disable_tables(item)
 end
 
 local function require_plugin(plugin)
-  local status_ok, _ = pcall(require, plugin)
+  local status_ok, errmsg = pcall(require, plugin)
   if not status_ok then
-    vim.notify(plugin .. ' module require error!', vim.log.levels.ERROR)
+    vim.notify(plugin .. ' module require error!' .. errmsg, vim.log.levels.ERROR)
   end
   return status_ok
 end

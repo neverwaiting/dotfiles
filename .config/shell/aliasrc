@@ -52,3 +52,8 @@ alias \
 	magit="nvim -c MagitOnly" \
 	ref="shortcuts >/dev/null; source ${XDG_CONFIG_HOME:-$HOME/.config}/shell/shortcutrc ; source ${XDG_CONFIG_HOME:-$HOME/.config}/shell/zshnameddirrc" \
 	weath="less -S ${XDG_CACHE_HOME:-$HOME/.cache}/weatherreport" \
+
+# enable and diable proxy
+alias \
+  ep="export https_proxy=http://127.0.0.1:9000 http_proxy=http://127.0.0.1:9000 all_proxy=socks5://127.0.0.1:1089" \
+  uep="unset https_proxy http_proxy all_proxy"

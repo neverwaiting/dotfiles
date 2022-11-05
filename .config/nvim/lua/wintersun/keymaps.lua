@@ -19,16 +19,16 @@ vim.g.maplocalleader = ' '
 --   command_mode = 'c'
 
 -- better save(quit,refresh) file
-keymap('n', '<leader>w', ':w<CR>', term_opts)
-keymap('n', '<leader>q', ':q<CR>', term_opts)
-keymap('n', '<leader>a', ':qall<CR>', term_opts)
-keymap('n', '<leader>r', ':source %<CR>', term_opts)
+keymap('n', '<leader>w', '<cmd>w<CR>', term_opts)
+keymap('n', '<leader>q', '<cmd>q<CR>', term_opts)
+keymap('n', '<leader>a', '<cmd>qall<CR>', term_opts)
+-- keymap('n', '<leader>r', '<cmd>source %<CR>', term_opts)
 
 -- split window operations
-keymap('n', 'sr', ':set splitright<CR>:vsp<CR>', term_opts)
-keymap('n', 'sl', ':set nosplitright<CR>:vsp<CR>', term_opts)
-keymap('n', 'su', ':set nosplitbelow<CR>:sp<CR>', term_opts)
-keymap('n', 'sd', ':set splitbelow<CR>:sp<CR>', term_opts)
+keymap('n', 'sr', '<cmd>set splitright<CR><cmd>vsp<CR>', term_opts)
+keymap('n', 'sl', '<cmd>set nosplitright<CR><cmd>vsp<CR>', term_opts)
+keymap('n', 'su', '<cmd>set nosplitbelow<CR><cmd>sp<CR>', term_opts)
+keymap('n', 'sd', '<cmd>set splitbelow<CR><cmd>sp<CR>', term_opts)
 
 -- move window
 keymap('n', '<leader>l', '<C-w>l', term_opts)
@@ -37,36 +37,40 @@ keymap('n', '<leader>j', '<C-w>j', term_opts)
 keymap('n', '<leader>h', '<C-w>h', term_opts)
 
 -- resize with arrows
-keymap('n', '<up>', ':resize -3<CR>', term_opts)
-keymap('n', '<down>', ':resize +3<CR>', term_opts)
-keymap('n', '<left>', ':vertical resize -3<CR>', term_opts)
-keymap('n', '<right>', ':vertical resize +3<CR>', term_opts)
+keymap('n', '<up>', '<cmd>resize -3<CR>', term_opts)
+keymap('n', '<down>', '<cmd>resize +3<CR>', term_opts)
+keymap('n', '<left>', '<cmd>vertical resize -3<CR>', term_opts)
+keymap('n', '<right>', '<cmd>vertical resize +3<CR>', term_opts)
+
+-- line numbers
+-- keymap('n', '<leader>n', '<cmd>set nu!<CR>', term_opts)
+keymap('n', '<leader>n', '<cmd>set rnu!<CR>', term_opts)
 
 -- quick move, move half screen
 -- keymap('n', '<S-h>', '<S-h>zz', term_opts)
 -- keymap('n', '<S-l>', '<S-l>zz', term_opts)
 
 -- table
-keymap('n', 'tu', ':tabe<CR>', term_opts)
-keymap('n', 'tl', ':+tabnext<CR>', term_opts)
-keymap('n', 'th', ':-tabnext<CR>', term_opts)
+keymap('n', 'tu', '<cmd>tabe<CR>', term_opts)
+keymap('n', 'tl', '<cmd>+tabnext<CR>', term_opts)
+keymap('n', 'th', '<cmd>-tabnext<CR>', term_opts)
 
 -- nvim-tree
-keymap('n', '<leader>t', ':NvimTreeToggle<CR>', term_opts)
-keymap('n', '<leader>f', ':NvimTreeFindFile<CR>', term_opts)
+keymap('n', '<leader>t', '<cmd>NvimTreeToggle<CR>', term_opts)
+keymap('n', '<leader>f', '<cmd>NvimTreeFindFile<CR>', term_opts)
 
 -- symbols-outoine
-keymap('n', 'so', ':SymbolsOutline<CR>', term_opts)
+keymap('n', 'so', '<cmd>SymbolsOutline<CR>', term_opts)
 
 -- bufferline
-keymap('n', '<C-h>', ':BufferLineCyclePrev<CR>', term_opts)
-keymap('n', '<C-l>', ':BufferLineCycleNext<CR>', term_opts)
+keymap('n', '<C-h>', '<cmd>BufferLineCyclePrev<CR>', term_opts)
+keymap('n', '<C-l>', '<cmd>BufferLineCycleNext<CR>', term_opts)
 
 -- telescope
-keymap('n', 'sj', ':Telescope find_files<CR>', term_opts)
-keymap('n', 'sk', ':Telescope treesitter<CR>', term_opts)
-keymap('n', 'sh', ':Telescope current_buffer_fuzzy_find<CR>', term_opts)
+keymap('n', 'sj', '<cmd>Telescope find_files<CR>', term_opts)
+keymap('n', 'sk', '<cmd>Telescope treesitter<CR>', term_opts)
+keymap('n', 'sh', '<cmd>Telescope current_buffer_fuzzy_find<CR>', term_opts)
 
 -- toggle terminal
-keymap('n', 'sfl', ':ToggleTerm direction=vertical<CR>', term_opts)
-keymap('n', 'sfj', ':ToggleTerm direction=horizontal<CR>', term_opts)
+keymap('n', 'sfl', '<cmd>ToggleTerm direction=vertical<CR>', term_opts)
+keymap('n', 'sfj', '<cmd>ToggleTerm direction=horizontal<CR>', term_opts)

@@ -1,4 +1,3 @@
--- if not set user_dir, default user_dir="user"
 vim.g.user_dir = "wintersun"
 
 -- if not set mirror_github_url, default github_url="https://github.com/"
@@ -14,6 +13,7 @@ vim.g.plugins_priority = {
   ['notify'] = 888,
   ['theme'] = 800,
   ['cmp'] = 700,
+  ['neodev'] = 610,
   ['lsp'] = 600
 }
 

@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# Cache in tmpfs to improve speed and reduce SSD load
+cache=/tmp/cpubarscache
+
 case $BLOCK_BUTTON in
 	1) notify-send "🖥 CPU hogs" "$(ps axch -o cmd:15,%cpu --sort=-%cpu | head)\\n(100% per core)" ;;
 	2) setsid -f "$TERMINAL" -e htop ;;
@@ -9,4 +12,16 @@ case $BLOCK_BUTTON in
 	6) "$TERMINAL" -e "$EDITOR" "$0" ;;
 esac
 
-sensors | awk '/Core 0/ {print "🌡" $3}'
+
+stats=$(sed -n '1p' /proc/stat | awk '{ print $5,($2 + $3 + $4 + $5 + $6 + $7 + $8) }')
+[ ! -f $cache ] && echo "$stats" > "$cache"
+old=$(cat "$cache")
+idle=${stats%% *}
+total=${stats#* }
+
+cpu_usage=$(echo "$old" | awk '{ printf "%d", (1 - (idle - $1) / (total - $2)) * 100 + 1 }' idle="$idle" total="$total")
+
+cpu_tempature=$(sensors | awk '/Tctl/ {print "🌡 " $2}')
+printf "CPU: $cpu_usage%% $cpu_tempature\\n"
+
+echo "$stats" > "$cache"

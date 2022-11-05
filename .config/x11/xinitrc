@@ -12,9 +12,9 @@
 
 # you can choose either of the following two options 
 # option 1: normal startup
-ssh-agent dwm
+# ssh-agent dwm
 
 # option 2: easy to restart dwm after overwriting the configuration file
-# while true; do
-#   ssh-agent dwm
-# done
+while true; do
+  ssh-agent dwm
+done
