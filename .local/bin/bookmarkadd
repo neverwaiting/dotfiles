@@ -2,6 +2,11 @@
 
 url="$(xclip -o)"
 
+if echo "$url" | grep -qvE "^(http:|https:)"; then
+  notify-send "$url" "is not a valid url"
+  exit 1
+fi
+
 file="$HOME/.local/share/bookmarks/urls"
 
 if grep -q "^$url$" "$file"; then
