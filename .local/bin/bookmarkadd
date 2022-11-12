@@ -2,7 +2,9 @@
 
 url="$(xclip -o)"
 
-if echo "$url" | grep -qvE "^(http:|https:)"; then
+protocol="^(https?|ftps?|mailto|about|file):///?"
+
+if echo "$url" | grep -qvE "$protocol"; then
   notify-send "$url" "is not a valid url"
   exit 1
 fi
