@@ -1,4 +1,5 @@
 local options = {
+  mouse = '', -- disable mouse
   winbar = '%=%m %f ',
   laststatus = 3, -- global status line
   showmode = false, -- undisplay insert/virsual/... mode ui

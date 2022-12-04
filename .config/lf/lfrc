@@ -11,16 +11,6 @@ set autoquit on
 set previewer ~/.config/lf/previewer
 set cleaner ~/.config/lf/cleaner
 
-# use enter for shell commands
-map <enter> shell
-# execute current file (must be executable)
-map x $$f
-map X !$f
-
-# dedicated keys for file opener actions
-map o &mimeopen $f
-map O $mimeopen --ask $f
-
 # define a custom 'open' command
 # This command is called when current file is not a directory. You may want to
 # use either file extensions and/or mime types here. Below uses an editor for
@@ -57,7 +47,6 @@ cmd open ${{
 cmd mkdir $mkdir -p "$(echo $* | tr ' ' '\ ')"
 
 cmd delete ${{
-	clear; tput cup $(($(tput lines)/3)); tput bold
 	set -f
 	printf "%s\n\t" "$fx"
 	printf "delete?[y/N]"
@@ -65,9 +54,28 @@ cmd delete ${{
 	[ $ans = "y" ] && rm -rf -- $fx
 }}
 
+cmd moveto ${{
+	set -f
+	clear; echo "Move to where?"
+	dest="$(sed -e 's/\s*#.*//' -e '/^$/d' -e 's/^\S*\s*//' ${XDG_CONFIG_HOME:-$HOME/.config}/shell/bm-dirs | fzf | sed 's|~|$HOME|')" &&
+	for x in $fx; do
+		eval mv -iv \"$x\" \"$dest\"
+	done &&
+	notify-send "🚚 File(s) moved." "File(s) moved to $dest."
+}}
+
+cmd copyto ${{
+	set -f
+	clear; echo "Copy to where?"
+	dest="$(sed -e 's/\s*#.*//' -e '/^$/d' -e 's/^\S*\s*//' ${XDG_CONFIG_HOME:-$HOME/.config}/shell/bm-dirs | fzf | sed 's|~|$HOME|')" &&
+	for x in $fx; do
+		eval cp -ivr \"$x\" \"$dest\"
+	done &&
+	notify-send "📋 File(s) copied." "File(s) copies to $dest."
+}}
+
 # define a custom 'rename' command without prompt for overwrite
-# cmd rename %[ -e $1 ] && printf "file exists" || mv $f $1
-# map r push :rename<space>
+cmd rename %[ -e $1 ] && printf "file exists" || mv $f $1
 
 # make sure trash folder exists
 # %mkdir -p ~/.trash
@@ -120,3 +128,32 @@ cmd zip ${{
     zip -r $1.zip $1
     rm -rf $1
 }}
+
+cmd setbg "$1"
+
+# use enter for shell commands
+map <enter> shell
+
+# Bindings
+map <c-f> $lf -remote "send $id select \"$(fzf)"\""
+map gh
+map r push :rename<space>
+map D delete
+map a push :mkdir<space>
+map E extract
+map M moveto
+map C copyto
+map Z zip
+map T tar
+# execute current file (must be executable)
+map x $$f
+map X !$f
+# dedicated keys for file opener actions
+map o &mimeopen $f
+map O $mimeopen --ask $f
+
+map b $setbg $f
+map Y $printf "%s" "$fx" | xclip -selection clipboard
+map W $setsid -f $TERMINAL >/dev/null 2>&1
+source "~/.config/lf/shortcutrc"
+

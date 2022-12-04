@@ -21,7 +21,8 @@ vim.g.plugins_priority = {
 -- NOTE: 只需要脚本名，不需要带路径和“.lua”后缀
 vim.g.plugins_disable = {
   'packer-startup',
-  'notify'
+  'notify',
+  'nvim-tree'
 }
 
 local packer_bootstrap = require((vim.g.user_dir or 'user') .. '.packer-startup')
@@ -30,4 +31,3 @@ if not packer_bootstrap then
   -- 如果文件夹中有init.lua，则只加载init.lua并且不会再往下递归加载目录中的lua脚本，否则加载全部的lua脚本
   require("utils").load_all_plugins()
 end
-

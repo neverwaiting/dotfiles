@@ -26,11 +26,14 @@ alias \
 
 # Colorize commands when possible.
 alias \
-	ls="ls -hN --color=auto --group-directories-first" \
+  l="ls -FAhl --color=auto" \
+  ll='l' \
+	ls="ls -hN --color=auto" \
 	grep="grep --color=auto" \
 	diff="diff --color=auto" \
 	ccat="highlight --out-format=ansi" \
-	ip="ip -color=auto"
+	ip="ip -color=auto" \
+	showip="curl ip.gs"
 
 # These common commands are just too long! Abbreviate them.
 alias \
@@ -42,18 +45,20 @@ alias \
 	e="$EDITOR" \
 	v="$EDITOR" \
 	p="pacman" \
-	xi="sudo xbps-install" \
-	xr="sudo xbps-remove -R" \
-	xq="xbps-query" \
 	z="zathura"
 
 alias \
 	lf="lfub" \
 	magit="nvim -c MagitOnly" \
-	ref="shortcuts >/dev/null; source ${XDG_CONFIG_HOME:-$HOME/.config}/shell/shortcutrc ; source ${XDG_CONFIG_HOME:-$HOME/.config}/shell/zshnameddirrc" \
+	ref="shortcuts >/dev/null; source ${XDG_CONFIG_HOME:-$HOME/.config}/shell/shortcutrc " \
 	weath="less -S ${XDG_CACHE_HOME:-$HOME/.cache}/weatherreport" \
 
 # enable and diable proxy
 alias \
   ep="export https_proxy=http://127.0.0.1:9000 http_proxy=http://127.0.0.1:9000 all_proxy=socks5://127.0.0.1:1089" \
-  uep="unset https_proxy http_proxy all_proxy"
+  uep="unset https_proxy http_proxy all_proxy && echo disabled proxy"
+
+# cmake build command
+alias \
+  cmk="cmake -Bbuild && cmake --build build -j$(nproc)" \
+  cmkj="cmake -Bbuild -DCMAKE_EXPORT_COMPILE_COMMANDS=YES && cmake --build build -j$(nproc) && ln -sf build/compile_commands.json ."

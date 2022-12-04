@@ -2,9 +2,10 @@
   "namespace": {
     "prefix": "ns",
     "body": [
-      "namespace $1",
-			"{",
+      "namespace $1 {",
+      "",
       "$0",
+      "",
       "} // namespace $1"
     ],
     "description": "namespace for cc"
@@ -12,8 +13,8 @@
   "ifndef-def-endif": {
     "prefix": "inf",
     "body": [
-      "#ifndef $1_H",
-			"#define $1_H",
+      "#ifndef $1_H_",
+			"#define $1_H_",
 			"",
       "$0",
 			"",
@@ -32,21 +33,38 @@
     ],
     "description": "main function for cc"
   },
+  "header-with-class": {
+    "prefix": "hcls",
+    "body": [
+      "#ifndef $1_H_",
+			"#define $1_H_",
+      "",
+      "namespace $2 {",
+      "",
+			"class $3 {",
+			" public:",
+			"\t$3();",
+			"\t~$3();",
+			"",
+			" private:",
+			"\t$0",
+			"};",
+			"",
+      "} // namespace $2",
+      "",
+      "#endif // #ifndef $1_H"
+    ],
+    "description": "define class for cc"
+  },
   "class": {
     "prefix": "cls",
     "body": [
-			"class $1",
-			"{",
-			"public:",
-			"\t$1()",
-			"\t{",
-			"\t}",
+			"class $1 {",
+			" public:",
+			"\t$1();",
+			"\t~$1();",
 			"",
-			"\t~$1()",
-			"\t{",
-			"\t}",
-			"",
-			"private:",
+			" private:",
 			"\t$0",
 			"};"
     ],

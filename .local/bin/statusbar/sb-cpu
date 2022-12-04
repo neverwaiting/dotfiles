@@ -19,7 +19,7 @@ old=$(cat "$cache")
 idle=${stats%% *}
 total=${stats#* }
 
-cpu_usage=$(echo "$old" | awk '{ printf "%d", (1 - (idle - $1) / (total - $2)) * 100 + 1 }' idle="$idle" total="$total")
+cpu_usage=$(echo "$old" | awk '{ printf "%.1f", (1 - (idle - $1) / (total - $2)) * 100 + 0.1 }' idle="$idle" total="$total")
 
 cpu_tempature=$(sensors | awk '/Tctl/ {print "🌡 " $2}')
 printf "CPU: $cpu_usage%% $cpu_tempature\\n"

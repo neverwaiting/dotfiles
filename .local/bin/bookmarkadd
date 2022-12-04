@@ -14,7 +14,7 @@ file="$HOME/.local/share/bookmarks/urls"
 if grep -q "^$url$" "$file"; then
   notify-send "bookmark have already been added!" -u critical
 else
-  tag_input="$(grep -e '^# ' $file | dmenu -i -l 30 -p 'select tag' | sed 's/^ *//g;s/ *$//g')"
+  tag_input="$(grep -e '^# ' $file | dmenu -i -l 30 -p 'select tag' | sed 's/^ *//g; s/ *$//g')"
   if [ -z "$tag_input" ]; then
     notify-send "cancel bookmark this url!"
   else

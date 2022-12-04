@@ -1,9 +1,10 @@
 # personal resources
 https://github.com/neverwaiting/
 https://github.com/
-https://cchess.nstop.cn/
-https://blog.nstop.cn/
-http://cchess.nstop.cn:8090/
+https://blog.zwled.xyz/
+https://nstop.cn/cchess/
+https://app.netlify.com/
+https://nstop.cn/chat/
 
 # video
 https://www.bilibili.com/
@@ -48,6 +49,8 @@ https://design-patterns.readthedocs.io/zh_CN/latest/index.html
 https://www.tcpdump.org/index.html#latest-releases
 http://ipcmen.com/ldconfig
 https://stackoverflow.com/
+https://www.gnu.org/software/gsl/
+https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md
 
 # go
 https://www.topgoer.com/
@@ -99,9 +102,16 @@ https://w1.v2free.net/user
 https://v2rayse.com/
 https://github.com/freefq/free
 https://github.com/Dreamacro/clash/wiki/configuration
+https://getafreenode.com/node.php?uuid=7BB3B62F-5F08-F136-53E7-DB40B92B640C&inviter=EE61E5FF-AA80-6C0D-37E8-3183396F0E35
+https://spotssh.com/
+https://yugogo.xyz/?page_id=3
+https://proxy.yugogo.xyz/
 
 # typing
 https://monkeytype.com/
+https://www.keybr.com/
+https://10fastfingers.com/typing-test/english
+https://10fastfingers.com/widget/typingtest?dur=60&rand=1&words=asm|auto|bool|break|case|catch|char|const|continue|default|delete|do|double|else|enum|explicit|export|extern|false|float|for|friend|goto|if|inline|int|long|mutable|namespace|new|operator|private|protected|public|register|return|short|signed|sizeof|static|struct|switch|template|this|throw|true|try|typedef|typeid|typename|union|unsigned|using|virtual|void|volatile|while
 
 # search resources
 https://www.aigei.com/
@@ -134,20 +144,48 @@ https://www.google.com/
 https://cn.bing.com/
 https://www.baidu.com/
 
-# test
-moz-extension://21666193-7401-4b3d-9d84-ebfcad919606/pages/options.html
-https://vimawesome.com
-
-# firefox
-about:addons
-
 # lua
 https://www.cnblogs.com/meamin9/p/4502461.html
 
 # sokoban
 http://sokobano.de/wiki/index.php?title=Main_Page
+https://timallanwheeler.com/blog/
 
 # nice music
 https://www.youtube.com/watch?v=J2ZFNjPEDZo
 https://www.youtube.com/watch?v=jSIcR3RNVio
+https://www.youtube.com/watch?v=jaznaL0o2tg
+https://www.youtube.com/watch?v=COGXH8sZZ2k
+https://www.youtube.com/watch?v=hBo9k8FlrCQ
+
+# proxy github
+https://github.91chi.fun/
+
+# drawing
+https://www.autodraw.com
+
+# websocket
+http://websocketd.com/
+
+# ssl/tls
+https://www.libressl.org/
+https://kinsta.com/knowledgebase/tls-vs-ssl/
+
+# ssl/tls
+https://www.boost.org/doc/libs/1_62_0/doc/html/boost_asio/example/cpp03/ssl/server.cpp
+
+# ssl/tls
+https://wiki.openssl.org/index.php/Simple_TLS_Server
+
+# ssl/tls
+https://wiki.openssl.org/
+
+# ssl/tls
+https://zhuanlan.zhihu.com/p/30655259/
+
+# skynet
+https://blog.codingnow.com/eo/skynet/
+
+# selenium
+https://www.selenium.dev/zh-cn/documentation/webdriver/waits/
 

@@ -1,0 +1,21 @@
+[username]
+style_user = "yellow bold"
+style_root = "red bold"
+format = "[ $user]($style) "
+disabled = false
+show_always = true
+
+[directory]
+truncation_length = 8
+# truncation_symbol = "…/"
+
+[character]
+success_symbol = "[➜](bold green) "
+error_symbol = "[✗](bold red) "
+vimcmd_symbol = "[ ](bold green)"
+vimcmd_visual_symbol = "[](bold yellow)"
+vimcmd_replace_one_symbol = "[](bold purple)" 
+vimcmd_replace_symbol = "[](bold purple)"
+
+[lua]
+symbol = " "
