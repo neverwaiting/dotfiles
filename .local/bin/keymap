@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# clear all options
+setxkbmap -option
+# swap caps_lock and escape, swap left_ctrl and left_alt, change right_menu to right_win
+setxkbmap -layout us -option caps:swapescape,ctrl:swap_lalt_lctl,altwin:menu_win

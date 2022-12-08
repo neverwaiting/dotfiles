@@ -1,0 +1,26 @@
+#!/bin/sh
+
+file="$HOME/.local/share/bookmarks/urls"
+
+sed -i 's/^\s*//; s/\s*$//' "$file"
+
+url=$(awk '{
+  if (/^# /) tag=$0
+  else if (!/^$/) print tag,"->",$0
+}' "$file" | \
+dmenu -fn "CaskaydiaCove Nerd Font:size=14" -nb "#222222" -nf "#bbbbbb" -sb "#ffd700" -sf "#005577" -l 30 -p Bookmarks: | \
+sed 's/^#.*->\s//')
+
+[ -n "$url" ] || exit 1
+
+if ps aux | grep "brave-bin" | grep -qv grep; then
+  xdg-open "$url"
+else
+  if echo -e "brave_proxy\nbrave" | \
+dmenu -fn "CaskaydiaCove Nerd Font:size=14" -nb "#222222" -nf "#bbbbbb" -sb "#ffd700" -sf "#005577" -l 30 -p Bookmarks: | \
+grep -q 'proxy'; then
+    brave --proxy-server="127.0.0.1:9000" "$url"
+  else
+    brave "$url"
+  fi
+fi
