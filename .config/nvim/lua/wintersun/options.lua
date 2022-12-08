@@ -25,7 +25,7 @@ local options = {
   incsearch = true,
   ignorecase = true,
   smartcase = true,
-  hlsearch = false,
+  hlsearch = true,
 
   timeoutlen = 400, -- timeout for keymaps
 

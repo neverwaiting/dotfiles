@@ -35,10 +35,19 @@ bindkey -v '^?' backward-delete-char
 
 bindkey -s '^o' '^ucd "$(dirname "$(fzf)")"\n'
 
-# Load syntax highlighting; should be last.
-source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh 2>/dev/null
+# replace history search with fzf
+fzf_history_search() {
+  ret=$(eval fc -l -1 0 | awk '{ a=$0; gsub("^\\s*[0-9]+\\s*", ""); if (!x[$0]++) print a }' | fzf +s +m -x -e | sed 's/^\s*//g' | cut -d' ' -f1)
+  zle vi-fetch-history -n "$ret"
+  zle reset-prompt
+}
+zle -N fzf_history_search
+bindkey -v '^r' fzf_history_search
+
 # vi mode
 source $HOME/.config/zsh/zsh-vi-mode/zsh-vi-mode.plugin.zsh 2>/dev/null
-# source $HOME/.config/zsh/zsh-fzf-history-search/zsh-fzf-history-search.plugin.zsh 2>/dev/null
+
+# Load syntax highlighting; should be last.
+source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh 2>/dev/null
 
 eval "$(starship init zsh)"

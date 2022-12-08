@@ -87,7 +87,7 @@ require("bufferline").setup {
 		persist_buffer_sort = true,
 		-- can also be a table containing 2 custom separators
 		-- [focused and unfocused]. eg: { '|', '|' }
-		separator_style = 'slant', -- 'slant' | 'thick' | 'thin' | { 'any', 'any' }
+		separator_style = 'thick', -- 'slant' | 'thick' | 'thin' | { 'any', 'any' }
 		enforce_regular_tabs = true, -- false | true
 		always_show_bufferline = true, -- true | false
 		hover = {

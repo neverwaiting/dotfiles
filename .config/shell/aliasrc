@@ -55,7 +55,7 @@ alias \
 
 # enable and diable proxy
 alias \
-  ep="export https_proxy=http://127.0.0.1:9000 http_proxy=http://127.0.0.1:9000 all_proxy=socks5://127.0.0.1:1089" \
+  ep="export https_proxy=http://127.0.0.1:9000 http_proxy=http://127.0.0.1:9000 all_proxy=socks5://127.0.0.1:1089 && echo 'enable proxy: http(s)://127.0.0.1:9000' && showip" \
   uep="unset https_proxy http_proxy all_proxy && echo disabled proxy"
 
 # cmake build command

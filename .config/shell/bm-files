@@ -7,6 +7,7 @@ efx	${XDG_CONFIG_HOME:-$HOME/.config}/x11/xresources	# Colors, themes and variab
 
 efb	~/.local/src/dwmblocks/config.h			# dwmblocks: the status bar for dwm
 efd	~/.local/src/dwm/config.def.h				# dwm: a dynamic window manager
+efm	~/.local/src/dmenu/config.def.h			# dmenu: dwm menu bar
 efs	~/.local/src/st/config.def.h				# st: a simple terminal
 
 # These do not update automatically, but on the next new instance of a program:
@@ -14,7 +15,6 @@ efv	${XDG_CONFIG_HOME:-$HOME/.config}/nvim/init.lua		# vim/neovim config
 efz	$ZDOTDIR/.zshrc						# zsh (shell) config
 efa	${XDG_CONFIG_HOME:-$HOME/.config}/shell/aliasrc		# aliases used by zsh (and potentially other shells)
 efp	${XDG_CONFIG_HOME:-$HOME/.config}/shell/profile		# profile file for login settings for zsh
-efm	${XDG_CONFIG_HOME:-$HOME/.config}/mutt/muttrc		# mutt (email client) config
 efn	${XDG_CONFIG_HOME:-$HOME/.config}/newsboat/config	# newsboat (RSS reader)
 # cfu	${XDG_CONFIG_HOME:-$HOME/.config}/newsboat/urls		# RSS urls for newsboat
 efmb	${XDG_CONFIG_HOME:-$HOME/.config}/ncmpcpp/bindings	# ncmpcpp (music player) keybinds file

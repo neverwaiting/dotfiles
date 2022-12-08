@@ -202,10 +202,7 @@ packer.startup {
     }
 
     -- display all diagnostics list
-    use {
-      'folke/trouble.nvim',
-      requires = 'kyazdani42/nvim-web-devicons',
-    }
+    use 'folke/trouble.nvim'
     use {
       'nvim-treesitter/nvim-treesitter',
       run = function()
@@ -213,23 +210,11 @@ packer.startup {
       end
     }
     -- automatically highlighting other uses of the word under the cursor
-    use 'RRethy/vim-illuminate'
+    -- use 'RRethy/vim-illuminate'
     -- indent line
     use 'lukas-reineke/indent-blankline.nvim'
     -- a color highlighter
     use 'NvChad/nvim-colorizer.lua'
-
-    -- a very nice tools for c/c++ user
-    use 'Shatur/neovim-cmake'
-    -- use 'Civitasv/cmake-tools.nvim'
-    -- display calltree
-    use 'ldelossa/litee.nvim'
-    use 'ldelossa/litee-calltree.nvim'
-    -- run program in editor
-    use {
-      'michaelb/sniprun',
-      run = 'bash ./install.sh'
-    }
 
     -- workspace restore manager
     use 'Shatur/neovim-session-manager'
@@ -245,41 +230,19 @@ packer.startup {
       'akinsho/toggleterm.nvim',
       tag = '*'
     }
-    -- file explorer
-    use {
-      'kyazdani42/nvim-tree.lua',
-      requires = 'kyazdani42/nvim-web-devicons',
-      tag = 'nightly' -- optional, updated every week. (see issue #1193)
-    }
     -- buffer tag
-    use {
-      'akinsho/bufferline.nvim', tag = "v2.*",
-      requires = 'kyazdani42/nvim-web-devicons'
-    }
+    use { 'akinsho/bufferline.nvim', tag = "v2.*" }
     -- symbols display
     use 'simrat39/symbols-outline.nvim'
     -- status line on bottom
-    use {
-      'nvim-lualine/lualine.nvim',
-      requires = { 'kyazdani42/nvim-web-devicons', opt = true }
-    }
+    use 'nvim-lualine/lualine.nvim'
 
     -- colorscheme or theme
     use 'projekt0n/github-nvim-theme' -- nvim-theme
     use { 'catppuccin/nvim', as = 'catppuccin' }
     use 'sainnhe/gruvbox-material'
+    use 'folke/tokyonight.nvim'
 
-    -- dashboard
-    -- use 'goolord/alpha-nvim'
-
-    -- smooth scrolling
-    -- use 'karb94/neoscroll.nvim'
-
-    -- easy movesition
-    -- use {
-    -- 	'phaazon/hop.nvim',
-    -- 	branch = 'v2', -- optional but strongly recommended
-    -- }
     use 'godlygeek/tabular' -- align text
     use 'tpope/vim-surround'
     use 'tpope/vim-repeat'
@@ -299,7 +262,6 @@ packer.startup {
   config = {
     -- Have packer use a popup window
     display = {
-
       open_fn = function()
         local result, win, buf = require('packer.util').float({border = "rounded"})
         vim.api.nvim_win_set_option(win, 'winhighlight', 'NormalFloat:Normal')

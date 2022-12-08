@@ -52,6 +52,12 @@ case "$(file -Lb --mime-type -- "$file")" in
     lynx -width="$width" -display_charset=utf-8 -dump "$file" ;;
   text/troff)
     man ./ "$file" | col -b ;;
+  text/plain)
+    if echo "$file" | grep -q '\.csv$'; then
+      column -t -s, "$file" | bat --terminal-width "$(($width-2))" -f --file-name "$file"
+    else
+      bat --terminal-width "$(($width-2))" -f "$file"
+    fi;;
   text/* | */xml | application/json)
     bat --terminal-width "$(($width-2))" -f "$file" ;;
   application/zip)

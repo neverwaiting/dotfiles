@@ -20,9 +20,7 @@ vim.g.plugins_priority = {
 -- 可以通过此列表来禁用一些脚本的加载
 -- NOTE: 只需要脚本名，不需要带路径和“.lua”后缀
 vim.g.plugins_disable = {
-  'packer-startup',
-  'notify',
-  'nvim-tree'
+  'packer-startup'
 }
 
 local packer_bootstrap = require((vim.g.user_dir or 'user') .. '.packer-startup')

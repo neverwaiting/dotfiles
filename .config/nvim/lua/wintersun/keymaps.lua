@@ -55,12 +55,10 @@ keymap('n', 'tu', '<cmd>tabe<CR>', term_opts)
 keymap('n', 'tl', '<cmd>+tabnext<CR>', term_opts)
 keymap('n', 'th', '<cmd>-tabnext<CR>', term_opts)
 
--- nvim-tree
-keymap('n', '<leader>t', '<cmd>NvimTreeToggle<CR>', term_opts)
-keymap('n', '<leader>f', '<cmd>NvimTreeFindFile<CR>', term_opts)
-
--- symbols-outoine
-keymap('n', 'so', '<cmd>SymbolsOutline<CR>', term_opts)
+-- netrw
+keymap('n', '<leader>t', '<cmd>Ex<CR>', term_opts)
+-- format
+keymap('n', '<leader>f', 'gg=G<C-o>', term_opts)
 
 -- bufferline
 keymap('n', '<C-h>', '<cmd>BufferLineCyclePrev<CR>', term_opts)
@@ -74,3 +72,6 @@ keymap('n', 'sh', '<cmd>Telescope current_buffer_fuzzy_find<CR>', term_opts)
 -- toggle terminal
 keymap('n', 'sfl', '<cmd>ToggleTerm direction=vertical<CR>', term_opts)
 keymap('n', 'sfj', '<cmd>ToggleTerm direction=horizontal<CR>', term_opts)
+
+-- unhighlight search
+keymap('n', '<esc>', '<cmd>noh<CR>', term_opts)

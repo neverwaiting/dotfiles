@@ -69,7 +69,6 @@ function M.on_attach(client, bufnr)
     client.resolved_capabilities.document_formatting = false
   end
   lsp_keymaps(bufnr)
-  require 'illuminate'.on_attach(client)
   require 'lsp_signature'.on_attach({}, bufnr)
 end
 

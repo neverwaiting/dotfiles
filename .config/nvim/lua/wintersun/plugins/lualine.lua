@@ -126,7 +126,8 @@ local config = {
 		ignore_focus = { "alpha", "dashboard", "NvimTree", "Outline" },
 		globalstatus = true,
 		icons_enabled = true,
-    -- theme = 'gruvbox-material'
+    --theme = 'gruvbox-material'
+    theme = 'tokyonight'
   },
   sections = {
     -- these are to remove the defaults
