@@ -1,8 +1,8 @@
 local telescope = require("telescope")
-local telescopeConfig = require("telescope.config")
+local telescope_config = require("telescope.config")
 
 -- Clone the default Telescope configuration
-local vimgrep_arguments = { unpack(telescopeConfig.values.vimgrep_arguments) }
+local vimgrep_arguments = { unpack(telescope_config.values.vimgrep_arguments) }
 
 -- I want to search in hidden/dot files.
 -- table.insert(vimgrep_arguments, "--hidden")
@@ -11,8 +11,31 @@ local vimgrep_arguments = { unpack(telescopeConfig.values.vimgrep_arguments) }
 table.insert(vimgrep_arguments, "--glob")
 table.insert(vimgrep_arguments, "!.git/*")
 
+-- Don't preview binaries
+local previewers = require("telescope.previewers")
+local Job = require("plenary.job")
+local new_maker = function(filepath, bufnr, opts)
+  filepath = vim.fn.expand(filepath)
+  Job:new({
+    command = "file",
+    args = { "--mime-type", "-b", filepath },
+    on_exit = function(j)
+      local mime_type = vim.split(j:result()[1], "/", _)[1]
+      if mime_type == "text" then
+        previewers.buffer_previewer_maker(filepath, bufnr, opts)
+      else
+        -- maybe we want to write something to the buffer here
+        vim.schedule(function()
+          vim.api.nvim_buf_set_lines(bufnr, 0, -1, false, { "BINARY" })
+        end)
+      end
+    end
+  }):sync()
+end
+
 telescope.setup{
   defaults = {
+    buffer_previewer_maker = new_maker,
     -- Default configuration for telescope goes here:
     -- config_key = value,
 		vimgrep_arguments = vimgrep_arguments,
@@ -41,13 +64,6 @@ telescope.setup{
 		results_title = '',
     mappings = {
 			-- i: insert, n: normal
-			--[[
-				<C-C>        -> close                           i -> <Up>    -> move_selection_previous         i -> <CR>    -> select_default                  i -> <C-Q>   -> send_to_qflist + open_qflist
-				i -> <C-L>   -> complete_tag                    i -> <C-D>   -> preview_scrolling_down          i -> <C-X>   -> select_horizontal               i -> <S-Tab> -> toggle_selection + move_selec…
-				i -> <C-N>   -> move_selection_next             i -> <C-U>   -> preview_scrolling_up            i -> <C-T>   -> select_tab                      i -> <Tab>   -> toggle_selection + move_selec…
-				i -> <Down>  -> move_selection_next             i -> <PageD… -> results_scrolling_down          i -> <C-V>   -> select_vertical
-				i -> <C-P>   -> move_selection_previous         i -> <PageU… -> results_scrolling_up            i -> <M-q>   -> send_selected_to_qflist + ope…
-			]]
       i = {
         -- map actions.which_key to <C-h> (default: <C-/>)
         -- actions.which_key shows the mappings for your picker,
@@ -76,6 +92,17 @@ telescope.setup{
     -- builtin picker
 		find_files = {
 			find_command = { 'rg', '--files', '--hidden', '--glob', '!.git/*' },
+      mappings = {
+        n = {
+          ["cd"] = function(prompt_bufnr)
+            local selection = require("telescope.actions.state").get_selected_entry()
+            local dir = vim.fn.fnamemodify(selection.path, ":p:h")
+            require("telescope.actions").close(prompt_bufnr)
+            -- Depending on what you want put `cd`, `lcd`, `tcd`
+            vim.cmd(string.format("silent lcd %s", dir))
+          end
+        }
+      }
 		}
   },
   extensions = {
@@ -95,3 +122,38 @@ telescope.setup{
 }
 
 require('telescope').load_extension('fzf')
+
+local M = {}
+
+function M.builtin()
+  return require('telescope.builtin').builtin()
+end
+
+function M.nvim_config()
+  require('telescope.builtin').find_files {
+    prompt_title = "Neovim Config",
+    shorten_path = false,
+    cwd = "$HOME/.config/nvim/",
+    -- width = .25,
+  }
+end
+
+function M.zsh_config()
+  require('telescope.builtin').find_files {
+    prompt_title = "Zsh Config",
+    shorten_path = false,
+    cwd = "$HOME/.config/zsh/",
+    -- width = .25,
+  }
+end
+
+function M.xconfig()
+  require('telescope.builtin').find_files {
+    prompt_title = "X Config",
+    shorten_path = false,
+    cwd = "$HOME/.config/x11/",
+    -- width = .25,
+  }
+end
+
+return M

@@ -1,30 +1,6 @@
-local M = {}
-
-local function get_visual_selection()
-  local s_start = vim.fn.getpos("'<")
-  local s_end = vim.fn.getpos("'>")
-  local n_lines = math.abs(s_end[2] - s_start[2]) + 1
-  local lines = vim.api.nvim_buf_get_lines(0, s_start[2] - 1, s_end[2], false)
-  lines[1] = string.sub(lines[1], s_start[3], -1)
-  if n_lines == 1 then
-    lines[n_lines] = string.sub(lines[n_lines], 1, s_end[3] - s_start[3] + 1)
-  else
-    lines[n_lines] = string.sub(lines[n_lines], 1, s_end[3])
-  end
-  return table.concat(lines, '\n')
-end
-
-M.trans = function()
-  local string = get_visual_selection;
-  local output = io.popen("trans -b -e bing en:zh \"".. string.. "\"")
-  if output then
-    for line in output:lines() do
-      vim.notify(line)
-    end
-    vim.notify("translate success")
-  else
-    vim.notify("translate failed")
-  end
-end
-
-return M
+-- This script translates virtual text
+vim.api.nvim_create_user_command("TransVtext", function()
+  local str = require('utils').get_visual_selection()
+  if (not str) then return end
+  io.popen("cat <<EOF > /tmp/vimcopyfile && xclip -selection clipboard /tmp/vimcopyfile\n".. str.. "\nEOF\n", "w")
+end, {})

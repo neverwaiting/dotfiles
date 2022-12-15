@@ -38,9 +38,7 @@ alias \
 # These common commands are just too long! Abbreviate them.
 alias \
 	ka="killall" \
-	g="git" \
 	trem="transmission-remote" \
-	YT="youtube-viewer" \
 	sdn="shutdown -h now" \
 	e="$EDITOR" \
 	v="$EDITOR" \
@@ -50,15 +48,31 @@ alias \
 alias \
 	lf="lfub" \
 	magit="nvim -c MagitOnly" \
-	ref="shortcuts >/dev/null; source ${XDG_CONFIG_HOME:-$HOME/.config}/shell/shortcutrc " \
+	ref="shortcuts >/dev/null; source ${XDG_CONFIG_HOME:-$HOME/.config}/shell/shortcutrc; source ${XDG_CONFIG_HOME:-$HOME/.config}/shell/aliasrc" \
 	weath="less -S ${XDG_CACHE_HOME:-$HOME/.cache}/weatherreport" \
 
 # enable and diable proxy
 alias \
-  ep="export https_proxy=http://127.0.0.1:9000 http_proxy=http://127.0.0.1:9000 all_proxy=socks5://127.0.0.1:1089 && echo 'enable proxy: http(s)://127.0.0.1:9000' && showip" \
+  ep="export https_proxy=http://127.0.0.1:9000 http_proxy=http://127.0.0.1:9000 all_proxy=socks5://127.0.0.1:1089 && echo 'enable proxy: http(s)://127.0.0.1:9000'" \
   uep="unset https_proxy http_proxy all_proxy && echo disabled proxy"
 
 # cmake build command
 alias \
   cmk="cmake -Bbuild && cmake --build build -j$(nproc)" \
   cmkj="cmake -Bbuild -DCMAKE_EXPORT_COMPILE_COMMANDS=YES && cmake --build build -j$(nproc) && ln -sf build/compile_commands.json ."
+
+# git
+alias \
+  g="git" \
+  gs="git status" \
+  gd="git diff" \
+  ga="git add -A" \
+  gam="git add -A && git commit -m" \
+  gp="git push" \
+  gcl="git clone"
+
+# pacman
+alias \
+  pi="sudo pacman -S" \
+  piy="sudo pacman -Sy" \
+  pu="sudo pacman -Syyu"

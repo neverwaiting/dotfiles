@@ -1,0 +1,2 @@
+00 */1 * * * $HOME/.local/bin/cron/updatepacages
+00 12 */5 * * $HOME/.local/bin/cron/updatemirrorlist

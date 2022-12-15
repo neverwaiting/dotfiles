@@ -1,0 +1,41 @@
+#!/bin/sh
+
+# /usr/bin/rm -rf .local/bin
+# /usr/bin/cp -r $HOME/.local/bin .local/
+# /usr/bin/rm -rf .local/share/bookmarks
+# /usr/bin/rm -rf .local/share/fonts
+# /usr/bin/cp -r $HOME/.local/share/bookmarks .local/share/
+# /usr/bin/cp -r $HOME/.local/share/fonts .local/share/
+# /usr/bin/cp $HOME/.local/share/history .local/share/history
+
+IFS=$'\n'
+raw_config_path="$HOME/.config"
+repo_config_path=".config"
+
+for diff_item in `diff -qr "$raw_config_path" "$repo_config_path" | grep differ | sed 's/^.* and //; s/\sdiffer$//'`; do
+  printf "differ: $diff_item, Are you change it? y/n "
+  read answer
+  if [ ! "$answer" == "n" ]; then
+    /usr/bin/cp "$HOME/$diff_item" "$diff_item" && echo "changed!"
+  fi
+done
+
+for added_item in `diff -qr "$raw_config_path" "$repo_config_path" | grep -v differ | grep "$HOME" | sed "s#^Only in $HOME/##"`; do
+  printf "added: $added_item, Are you add it? y/n "
+  read answer
+  if [ ! "$answer" == "n" ]; then
+    path=$(echo "$added_item" | grep -oE "^[^:]*")
+    file_or_dir=$(echo "$added_item" | sed "s#$path: ##")
+    /usr/bin/cp -rf "$HOME/$path/$file_or_dir" "$path/$file_or_dir" && echo "added!"
+  fi
+done
+
+for deleted_item in `diff -qr "$raw_config_path" "$repo_config_path" | grep -v differ | grep -v "$HOME" | sed "s/^Only in //"`; do
+  printf "deleted: $deleted_item, Are you delete it? y/n "
+  read answer
+  if [ ! "$answer" == "n" ]; then
+    path=$(echo "$deleted_item" | grep -oE "^[^:]*")
+    file_or_dir=$(echo "$deleted_item" | sed "s#$path: ##")
+    /usr/bin/rm -rf "$path/$file_or_dir" && echo "deleted!"
+  fi
+done

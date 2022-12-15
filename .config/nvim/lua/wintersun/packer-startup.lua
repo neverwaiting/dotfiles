@@ -231,7 +231,7 @@ packer.startup {
       tag = '*'
     }
     -- buffer tag
-    use { 'akinsho/bufferline.nvim', tag = "v2.*" }
+    -- use { 'akinsho/bufferline.nvim', tag = "v2.*" }
     -- symbols display
     use 'simrat39/symbols-outline.nvim'
     -- status line on bottom

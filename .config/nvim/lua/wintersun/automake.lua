@@ -1,4 +1,4 @@
--- for dwm dwmblocks dmenu st
+-- Autocompile for dwm dwmblocks dmenu st after saving config
 vim.api.nvim_create_autocmd("BufWritePost", {
   pattern = { "*config.def.h", "*config.h" },
   callback = function()
