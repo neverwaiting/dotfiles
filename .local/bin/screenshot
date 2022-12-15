@@ -1,0 +1,14 @@
+#!/bin/sh
+
+screenshot_dir="$HOME/files/screenshot"
+[ -d "$screenshot_dir" ] || mkdir -p "$screenshot_dir"
+
+file="screenshot_$(date +%Y-%m-%d_%H-%M-%S).png"
+
+type=$(echo -e "FullScreen\nSpecify" | dmenu -i -fn "Fira Code Nerd Font:size=14" -nb "#222222" -nf "#bbbbbb" -sb "#ffd700" -sf "#005577" -p Screenshot:)
+[ -n "$type" ] || exit 1
+if [ "$type" == "FullScreen" ]; then
+  import -window root "$screenshot_dir/$file"
+else
+  import "$screenshot_dir/$file"
+fi

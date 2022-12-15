@@ -1,0 +1,21 @@
+#!/bin/sh
+
+urlregex="(((http|https|gopher|gemini|ftp|ftps|git)://|www\\.)[a-zA-Z0-9.]*[:;a-zA-Z0-9./+@$&%?$\#=_~-]*)|((magnet:\\?xt=urn:btih:)[a-zA-Z0-9]*)"
+
+urls="$(sed 's/.*│//g' | tr -d '\n' | # First remove linebreaks and mutt sidebars:
+	grep -aEo "$urlregex" | # grep only urls as defined above.
+	uniq | # Ignore neighboring duplicates.
+	sed "s/\(\.\|,\|;\|\!\\|\?\)$//;
+	s/^www./http:\/\/www\./")" # xdg-open will not detect url without http
+
+[ -z "$urls" ] && exit
+
+chosen="$(echo "$urls" | dmenuwrap -i -p 'Choose which url?' -l 10)"
+[ -n "$chosen" ] || exit
+
+op=$(echo -e " Browser\n Bookmark\n Copy" | dmenuwrap -i -p 'Which operation?')
+case "$op" in
+  " Browser") xdg-open "$chosen" >/dev/null 2>&1 ;;
+  " Bookmark") bookmarkadd "$chosen" ;;
+  " Copy") echo "$chosen" | tr -d '\n' | xclip -selection clipboard ;;
+esac

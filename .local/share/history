@@ -15931,3 +15931,5185 @@ virtualboxvm
 fg
 ssh git@zwled.xyz
 ssh wintersun@zwled.xyz
+ls
+pacman -Q linux
+ls
+vim
+vim
+vim 
+l .config/nvim
+ls
+l
+ssh wintersun@zwled.xyz
+ssh git@zwled.xyz
+ls
+l
+git clone git@github.com:neverwaiting/workspace.git
+l
+l
+sudo pacman -S virtualbox
+l
+pwd
+lf
+lf
+ls
+ls
+vim /etc/xdg/picom.conf
+l
+fg
+vim
+vim 
+vim a
+l
+node -v
+ls
+l
+ls
+sh -c "$(curl -fsL https://github.91chi.fun/https://raw.github.com/neverwaiting/archinstall/master/clonerepos.sh)"
+clc
+l
+cd archinstall
+l
+git remote -v
+git push personal
+cd ..
+l
+cd dotfiles
+git push personal
+cd ../dmenu
+git push personal
+l
+cd ..
+l
+l
+cd ..
+l
+cd
+l
+l
+sensors
+ls
+ls
+vim
+l
+l
+ls
+pwd
+fcitx5-configtool
+ls
+ls
+ls
+l
+ls
+pwd
+l
+l
+vim .npmrc
+l
+fg
+kp
+clb
+vim bookmarkadd
+vim bookmarkadd
+cd
+l
+rsync --progress -va wintersun@zwled.xyz:~/arch-backup .
+rsync --progress -va wintersun@zwled.xyz:~/arch-backup .
+sudo pacman -S rsync
+rsync --progress -va wintersun@zwled.xyz:~/arch-backup .
+ls
+l
+ls
+cd arch-backup
+l
+lf
+l
+cd ..
+l
+mv arch-backup/* .
+rm -rf arch-backup
+l
+lf
+l
+cd videos
+yt-dlp https://www.youtube.com/watch\?v\=hBo9k8FlrCQ
+ep
+yt-dlp https://www.youtube.com/watch\?v\=hBo9k8FlrCQ
+lf
+lf
+l
+l
+lf
+l
+l
+cd
+l
+sudo pacman -S virtualbox
+l
+fg
+lf
+fg
+kp
+lf
+lf
+fg
+kp
+kp
+lf
+kp
+kp
+lf
+cd videos
+l
+mpv å¤ƒºå·´èƒ£ºåƒ¨ƒ¦æ³ƒ¬éƒ¿³æ¨‚\[60åƒ¨ƒ¦éƒ°ƒ¸\]ç¬¬åƒ¥­è¼¯\ ç¶±çƒ°´æƒ»²çƒ»®\ å¿ƒ£æƒ£ƒ¥èƒ¨ƒ§è¨ƒ¸æƒ¦¶æƒ´¹åƒ¶ƒ¤\ åƒª©æ­£éƒ½ƒ‚èƒ£½éƒ§ƒ¯éƒ§ƒ«æƒ´¾\ \[hBo9k8FlrCQ\].f251.webm
+ls
+l
+kp
+sdn
+efu
+clb
+vim bookmarkdisplay
+l
+vim
+l
+fg
+sudo pacman -S virtualbox
+virtualbox
+sudo pacman -S linux-lts-headers
+virtualbox
+sudo vboxreload
+l /lib/modules
+l /lib/modules/5.15.81-1-lts
+reboot
+virtualbox
+efd
+ls
+lf
+lf
+lf files/pdfs/shell
+ls
+pwd
+ls
+fc-list
+fc-list | grep Fira
+ls
+ls
+efa
+efa
+fg
+mv firacode ~/.local/share/fonts
+l
+ls
+virtualbox
+sudo /sbin/vboxconfig
+brave brave://history
+brave brave://history
+clc
+clb
+vim bookmarkdisplay
+clc
+cd
+xdg-open brave://history
+xdg-open brave://history/
+clb
+vim bookmarkdisplay
+l
+l
+cd ..
+l
+xdg-open brave://extensions
+clb
+vim bookmarkdisplay
+brave brave://history
+xdg-open firfox://extenstions
+xdg-open https://brave://extenstions
+xdg-open https://brave:/extenstions
+xdg-screensaver
+man xdg-screensaver
+xdg-screensaver lock
+xdg-screensaver 
+xroot
+xprop
+vim sd
+pstree 1634
+fg
+vim sd
+fg
+xprop -root
+xdg-screensaver 0x1000006
+fg
+man xdg-screensaver
+xdg-screensaver status
+xdg-screensaver suspend 0x1000006
+xdg-screensaver status
+xdg-screensaver resume
+xdg-screensaver resume 0x1000006
+xdg-screensaver status
+fg
+fg
+fg
+fg
+rcvboxdrv setup
+sudo rcvboxdrv setup
+sudo /sbin/vboxconfig
+sudo pacman -Q vboxconfig
+sudo pacman -Q vbox
+sudo pacman -Qs vbox
+sudo pacman -Qs vboxconfig
+sudo pacman -S vboxconfig
+sudo pacman -S vbox
+l
+cd
+l
+virtualbox
+modprobe vboxdrv
+vim /etc/pacman.d/mirrorlist
+l
+tail -f /var/log/Xorg.0.log
+l
+fg
+pacman -Q | dmenu -l 30
+sudo pacman -Rc virtualbox
+sudo pacman -Rc virtualbox-host-modules-arch
+sudo pacman -S virtualbox
+virtualbox
+column -t -s: /etc/passwd
+ls /srv/ftp
+ls /srv/http
+modprobe vboxdrv
+sudo modprobe vboxdrv
+virtualbox
+virtualbox
+virtualbox
+l
+sudo pacman -S ed2k
+l
+l Downloads
+wget https://software.download.prss.microsoft.com/dbazure/Win10_22H2_Chinese_Simplified_x64.iso\?t\=a405eddc-0907-4dbd-b9c3-e2b6d75d12c8\&e\=1670650680\&h\=d4a3d07eafcd68968091c532dfe3113248e753dd54c6c2940907857aeb4ccd0a
+ls
+l
+ls
+l
+lf
+wget https://software.download.prss.microsoft.com/dbazure/Win10_22H2_Chinese_Simplified_x64.iso\?t\=a405eddc-0907-4dbd-b9c3-e2b6d75d12c8\&e\=1670650680\&h\=d4a3d07eafcd68968091c532dfe3113248e753dd54c6c2940907857aeb4ccd0a
+ep
+wget https://software.download.prss.microsoft.com/dbazure/Win10_22H2_Chinese_Simplified_x64.iso\?t\=a405eddc-0907-4dbd-b9c3-e2b6d75d12c8\&e\=1670650680\&h\=d4a3d07eafcd68968091c532dfe3113248e753dd54c6c2940907857aeb4ccd0a
+d
+l
+l
+l
+lf
+lf
+unzip FiraCode.zip
+l
+rm -rf Fira\ Code\ Bold\ Nerd\ Font\ Complete\ Mono.ttf Fira\ Code\ Bold\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf Fira\ Code\ Bold\ Nerd\ Font\ Complete.ttf Fira\ Code\ Bold\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf Fira\ Code\ Light\ Nerd\ Font\ Complete\ Mono.ttf Fira\ Code\ Light\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf Fira\ Code\ Light\ Nerd\ Font\ Complete.ttf Fira\ Code\ Light\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf Fira\ Code\ Medium\ Nerd\ Font\ Complete\ Mono.ttf Fira\ Code\ Medium\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf Fira\ Code\ Medium\ Nerd\ Font\ Complete.ttf Fira\ Code\ Medium\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf Fira\ Code\ Regular\ Nerd\ Font\ Complete\ Mono.ttf Fira\ Code\ Regular\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf Fira\ Code\ Regular\ Nerd\ Font\ Complete.ttf Fira\ Code\ Regular\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf Fira\ Code\ Retina\ Nerd\ Font\ Complete\ Mono.ttf Fira\ Code\ Retina\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf Fira\ Code\ Retina\ Nerd\ Font\ Complete.ttf Fira\ Code\ Retina\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf Fira\ Code\ SemiBold\ Nerd\ Font\ Complete\ Mono.ttf Fira\ Code\ SemiBold\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf Fira\ Code\ SemiBold\ Nerd\ Font\ Complete.ttf Fira\ Code\ SemiBold\ Nerd\ Font\ Complete\ Windows\ Compatible.ttf 
+l
+rm- rf LICENSE
+rm -rf readme.md
+l
+man unzip
+unzip FiraCode.zip -d firacode
+l
+cd firacode
+l
+ls | grep Windows
+ls | grep Windows | xargs rm
+ls | grep Windows | xargs ls
+ls | grep Windows | ls
+ls | grep Windows | xargs echo
+ls | grep Windows | xargs -0 ls
+man xargs
+ls | grep Windows | xargs -d'\n' ls
+ls | grep Windows | xargs -d'\n' echo
+ls | grep Windows | xargs -d'\n' ls -al
+ls | grep Windows | xargs -d'\n' rm 
+l
+rm -rf readme.md Li
+rm -rf readme.md LICENSE
+l
+cd ..
+l
+cp -r firacode ~/.local/share/fonts/
+cls
+cd for
+cd fonts
+l
+mkdir caskaydia
+cp *.otf caskaydia
+l
+rm -rf *.otf
+l
+l
+l
+figlet
+neofetch
+fg
+l
+fc-list
+fc-list | grep faricode
+fc-list | grep firacode
+fc-list | grep emoji
+fc-list | grep moji
+fc-list | grep noto
+fc-list | grep noto
+l
+l firacode
+fc-list -v
+fc-list -q firacode
+fc-list -v
+fc-list -v | grep firacode
+fc-list -v | grep Caskaydia
+fc-list -v | grep CaskaydiaCove
+fc-list -v | grep firacode
+fc-list -v | grep firacode
+l
+l firacode
+lf
+sudo pacman -S firacode
+cd
+sudo pacman -S firacode
+sudo pacman -S nerd-fonts-fira-code
+neofetch
+fc-list -v
+fc-list -v | grep firacode
+fc-list -v | grep fira
+fc-list -l
+fc-list
+fc-list | grep fira
+sudo pacman -S nerd-fonts-fira-code
+l /usr/share/fonts
+l /usr/share/fonts/nerd-fonts/
+lf /usr/share/fonts/nerd-fonts/
+fc-list
+fc-list | grep nerd-fonts
+ls
+l
+wget https://software.download.prss.microsoft.com/dbazure/Win10_22H2_Chinese_Simplified_x64.iso\?t\=a405eddc-0907-4dbd-b9c3-e2b6d75d12c8\&e\=1670650680\&h\=d4a3d07eafcd68968091c532dfe3113248e753dd54c6c2940907857aeb4ccd0a
+l
+rm -rf Win10_22H2_Chinese_Simplified_x64.iso\?t=a405eddc-0907-4dbd-b9c3-e2b6d75d12c8\&e=1670650680\&h=d4a3d07eafcd68968091c532dfe3113248e753dd54c6c2940907857aeb4ccd0a
+l
+lf
+l
+ls
+l
+lf
+cls
+cd fonts
+l
+mv firacode ~
+l
+fc-list
+fc-listl
+efs
+lf
+fg
+lf
+d
+rm -rf LICENSE
+l
+unzip FiraCode.zip -d tm
+lf
+l
+unzip Fira_Code_v6.2.zip -d tmp
+cd tmp
+l
+lf
+lf
+cd ..
+unzip Fira_Code_v6.2\ \(1\).zip -d tt
+lf
+lf
+fg
+ls
+efd
+lf
+ls
+lf
+pwd
+efd
+clc
+clb
+vim bookmarkdisplay
+fg
+fg
+fg
+fg
+fontconfig
+l
+fc-cache -fv
+ls
+ls
+sudo fc-cache -fv
+ls
+ls
+kp
+kp
+reboot
+ls
+pwd
+l
+ls
+ls
+efd
+efs
+ls
+l
+ls
+clc
+clb
+vim bookmarkdisplay
+l
+fg
+d
+l tt
+cd tt
+l
+l ttf
+mkdir firacode
+l
+l woff
+l woff2
+cp woff2/* firacode
+l
+mv ~/.local/share/fonts/firacode ~
+cp -r firacode ~/.local/share/fonts
+fc-list -v | grep FiraCode
+l
+lf
+cd
+lf
+fc-list -v | grep FiraCode
+l
+vim .zprofile
+l
+sudo pacman -Rc nerd-fonts-fira-code
+l /usr/share/fonts/
+ls
+l
+lf
+efs
+efs
+clc
+cd st
+l
+rm -rf config.h
+fg
+l
+ls
+l
+efd
+cd "$(dirname "$(fzf)")"
+l
+vim cpu_usage.c
+ls
+l
+l
+cd
+cd workspace/project/cc
+ls
+git status
+git -l
+l
+l
+cd
+cd workspace/project
+l
+cd cc
+l
+l
+git staus
+git status
+ls
+l
+l
+cd
+efd
+l
+ls
+lf
+l
+lf
+lf
+l
+lf
+lf /usr/share/font
+lf /usr/share/fonts
+l
+l
+ls -A
+efu
+l
+efu
+l
+vim .zprofile
+l
+lf
+cd .local/share/fonts
+l
+rm -rf firacode
+cp -r ~/Downloads/tt/firacode .
+l
+ls
+cd .local/share/fonts
+ls
+ls firacode
+fc-list -v | grep Fira
+efs
+ls
+ls
+pwd
+cd "$(dirname "$(fzf)")"
+vim typespeed.cc
+vim ncurses_ui.h
+vim typespeed.h
+l
+efd
+clc
+cd dwm
+l
+efu
+clc
+cd
+clb
+vim bookmarkdisplay
+l
+l
+cd ..
+l
+cd share/fonts
+l
+rm -rf firacode
+l
+cd
+d
+l
+l firacode
+l
+mv firacode ~/.local/share/fonts
+l
+efd
+l
+fc-list -v | grep family
+fc-list -v | grep family:
+fc-list -v | grep family: | grep Fira
+fc-list -v | grep family: | grep Nerd Font
+fc-list -v | grep family: | grep Nerd\ Font
+fc-list -v | grep family: | grep Nerd\ Font | sort | uniq
+fc-list -v | grep family: | sort | uniq
+fc-list -v | grep family: | sort | uniq | head
+fg
+l
+efs
+l
+ls
+l
+rm -rf *
+l
+l
+cd
+ls
+lf
+lf
+ls
+efs
+lf
+ls
+cd "$(dirname "$(fzf)")"
+vim typespeed.cc
+l
+cd
+l
+ls
+lf
+fg
+fg
+kp
+kp
+kp
+lf files/screenshot
+lf
+lf files/screenshot
+fg
+pacman -Q | fzf
+pulsemixer
+pulseaudio
+fg
+cfx
+cfz
+cd ../shell
+l
+vim profile
+cfx
+cd ../x11
+l
+vim xprofile
+cd
+l
+rm -rf a.flac 
+l
+rm -rf screenshot.png
+l
+rm test.png
+l
+rm -rf recording.m4a
+l
+lf videos
+cd videos
+l
+mpv screencast-221209-1744-56.mp4
+lf
+lf
+fg
+xdpyinfo | awk '/dimensions/ {print $2;}'
+l /dev/ | grep vi
+echo $!
+vim 
+echo $1
+echo $!
+fg
+echo $!
+fg
+ffmpeg -f alsa -i default -c:a flac a.flac
+man ffmpeg
+ffmpeg -f pulse -i default -c:a flac a.flac
+mpv a.flac
+ffmpeg -f pulse -i default -c:a flac a.flac
+mpv a.flac
+ffmpeg -f x11grab -i :0.0 -framerate 60 -f pulse -i default -r 30 -c:v h264 -crf 0 -preset ultrafast -c:a aac out.mp4
+ffmpeg -f x11grab -i :0.0 -f pulse -i default -r 30 -c:v h264 -crf 0 -preset ultrafast -c:a aac out.mp4
+mpv out.mp4
+rm -rf out.mp4
+l
+ffmpeg -f pulse -i alsa_output.pci-0000_00_1b.0.analog-stereo.monitor -ac 2 recording.m4a
+pactl list
+pactl list short
+pactl list short sources
+ffmpeg -f pulse -i alsa_input.pci-0000_0a_00.4.analog-stereo -ac 2 recording.m4a
+mpv recording.m4a
+mpv recording.m4a
+pactl list short sources
+ffmpeg -f pulse -i alsa_input.pci-0000_0a_00.4.analog-stereo.monitor -ac 1 recording.m4a
+ffmpeg -f pulse -i alsa_output.pci-0000_0a_00.4.analog-stereo.monitor -ac 1 recording.m4a
+ffmpeg -f pulse -i alsa_output.pci-0000_0a_00.4.analog-stereo.monitor -ac 1 recording.m4a
+mpv recording.m4a
+ffmpeg -f pulse -i alsa_output.pci-0000_0a_00.4.analog-stereo.monitor -ac 2 recording.m4a
+mpv recording.m4a
+fg
+pactl list short sources
+man ffmpeg 
+ls
+pactl list short sources
+pactl list short sources | sed -n '/alsa_output/ p'
+pactl list short sources | sed -n 's/alsa_output*.\.monitor/ p'
+pactl list short sources | grep 'alsa_output*.\.monitor'
+pactl list short sources | grep -E 'alsa_output*.\.monitor'
+pactl list short sources | grep -E "alsa_output*..monitor"
+pactl list short sources | grep -E "alsa_output\*..monitor"
+pactl list short sources | grep -E "alsa_output*monitor"
+pactl list short sources | grep -E "alsa_output.*monitor"
+man grep
+pactl list short sources | grep -e "alsa_output.*monitor"
+pactl list short sources | grep -e "alsa_output.*monitor"
+man grep
+man grep
+pactl list short sources | grep -le "alsa_output.*monitor"
+pactl list short sources | grep -lE "alsa_output.*monitor"
+pactl list short sources | grep -E "alsa_output.*monitor"
+pactl list short sources | grep -lE "alsa_output.*monitor"
+fg
+man grep
+pactl list short sources | grep -oE "alsa_output.*monitor"
+pactl list short sources | grep -oE "alsa_output.*monitor"
+pactl list short sources | grep -oE "alsa_input.*"
+pactl list short sources | grep -oE "alsa_input\S*"
+pactl list short sources | grep -oE "alsa_input\S*"
+pactl list short sources | grep -oE "alsa_input\S*"
+pactl list short sources 
+pactl list short sources | grep -oE "alsa_output\S*o\.monitor")
+pactl list short sources | grep -oE "alsa_output\S*o\.monitor"
+fg
+clb
+vim statusbar/sb-iplocate
+vim statusbar/sb-doppler
+vim statusbar/sb-music
+vim statusbar/sb-price
+vim statusbar/sb-price
+vim statusbar/sb-nettraf
+vim statusbar/sb-tasks
+vim statusbar/sb-help-icon
+vim statusbar/sb-popupgrade
+vim statusbar/sb-volume
+vim statusbar/sb-volume
+vim statusbar/sb-internet
+nmtui
+fg
+vim statusbar/sb-disk
+vim statusbar/sb-cpu
+vim statusbar/sb-news
+vim statusbar/sb-price
+vim statusbar/sb-doppler
+vim statusbar/sb-music
+vim statusbar/sb-internet
+vim statusbar/sb-volume
+vim statusbar/sb-pacpackages
+vim statusbar/sb-popupgrade
+man pkill 
+fg
+man dmenu
+man dwmblocks
+l
+ls
+pkill -35 dwmblocks
+pkill -35 dwmblocks
+pkill -35 dwmblocks
+pkill -35 dwmblocks
+pkill -35 dwmblocks
+pkill -35 dwmblocks
+pkill -35 dwmblocks
+pkill -35 dwmblocks
+pkill -42 dwmblocks
+pkill -42 dwmblocks
+pkill -42 dwmblocks
+pkill -39 dwmblocks
+pkill -39 dwmblocks
+pkill -39 dwmblocks
+pkill -52 dwmblocks
+pkill -52 dwmblocks
+pkill -52 dwmblocks
+pkill -52 dwmblocks
+pkill -48 dwmblocks
+pkill -48 dwmblocks
+pkill -48 dwmblocks
+pkill -48 dwmblocks
+pkill -48 dwmblocks
+pkill -42 dwmblocks
+sb-pacpackages
+sb-pacpackages
+pacman -Su
+pacman -Qu
+pacman -Qu
+l /tmp/recordingicon
+cat /tmp/recordingicon
+ls
+l
+cd statusbar
+l
+vim sb-app
+sh sb-app
+fg
+chmod +x sb-app
+l
+sb-app
+sb-app
+fg
+fg
+vim sb-app
+fg
+vim sb-app
+lf
+fg
+lf videos
+lf
+ls
+l
+mpv audio-221209-1756-25.flac
+l
+lf
+lf
+lf
+lf
+lf
+l
+echo $dwmblocks
+echo $STATUSBAR
+alias df
+alias ef
+alias | grep ef
+efmb
+efb
+l
+clc
+cd dwmblocks
+l
+efb
+pidof dwmblocks
+kill -9 $(pidof dwmblocks)
+dwmblocks &
+fg
+l
+fg
+l
+fg
+l
+ps aux | grep yesplaymusic
+ps aux | grep yesplaymusic | grep -v grep
+ps aux | grep yesplaymusic | grep -v grep
+ps aux | grep yesplaymusic | grep -v grep
+clb
+vim bookmarkdisplay
+ps aux | grep yesplaymusic | grep -1v grep
+ps aux | grep yesplaymusic | grep -qv grep
+ps aux | grep brave | grep -qv grep
+ps aux | grep brave1 | grep -qv grep
+ps aux | grep brave11 | grep -qv grep
+ps aux | grep yesplaymusic | grep -qv grep
+ps aux | grep brave11 | grep -qv grep
+ps aux | grep yesplaymusic | grep -qv grep
+dwmblocks &
+fg
+fg
+fg
+dwmblocks &
+fg
+dwmblocks &
+fg
+dwmblocks &
+lf
+l
+fg
+dwmblocks &
+fg
+dwmblocks &
+fg
+fg
+import -window root screenshot.png
+man import
+l
+lf
+lf
+l
+lf
+l
+import -window
+import test.png
+ls
+lf
+man import
+l
+clb
+l
+vim screenshot
+date +%Y
+date +%Y_%m
+date +%Y-%m-%d_%h-%M-%s
+date +%Y-%m-%d_%H-%M-%S
+fg
+sh screenshot
+sh screenshot
+fg
+sh screenshot
+lf
+fg
+sh screenshot
+fg
+sh screenshot
+ls
+lf ~/files/screenshot
+l
+sh screenshot
+fg
+lf ~/files/screenshot
+l
+screenshot
+sh screenshot
+sh screenshot
+chmod +x screenshot
+ls
+fg
+l
+vim screenshot
+vim screenshot
+l
+lf ~/files/screenshot
+fg
+efd
+l
+vim dmenurecord
+lf
+fg
+kp
+ls
+dwmblocks &
+fg
+fg
+slop
+sudo pacman -S slop
+man slop
+slop -f "%x %y %w %h"
+lf
+l
+ls
+l
+rm -rf audio-221209-1*
+l
+fg
+l
+mpv screencast-221209-1944-16.mp4
+rm -rf screencast-221209-1944-16.mp4
+l
+fg
+kp
+ls
+clb
+l
+vim dmenurecord
+l
+efd
+ls
+lf
+kp
+pwdw
+ls
+lf
+lf
+fg
+lf
+lf
+lf
+l
+lf
+lf
+lf
+mpv videos/audio-221209-2012-29.flac
+ls
+l
+mpv box-221209-2011-22.mkv
+rm -rf box-221209-2011-22.mkv
+clb
+vim dmenurecord
+cd
+videos
+l
+lf
+lf
+kp
+reboot
+ls
+pwd
+ls
+lf
+fg
+kp
+kp
+sdn
+netstat -tna
+netstat -tna
+netstat -tna
+clb
+l
+vim bookmarkdisplay
+man netstat
+netstat
+netstat -t
+man netstat 
+netstat -tn
+netstat -tn
+netstat -tn
+netstat -tna
+netstat -tn
+netstat -ta
+netstat -tan
+netstat -tan | grep -E ".*127.0.0.1:9000\s*"
+netstat -tan | grep -qE ".*127.0.0.1:9000\s*"
+fg
+netstat -tan | grep -qE ".*127.0.0.1:9000\s*"
+netstat -tan
+fg
+fg
+fg
+vim statusbar/sb-app
+efb
+fg
+sdn
+netstat -tan | grep -qE ".*127.0.0.1:9000\s*.*LISTEN$"
+netstat -tan | grep -qE ".*127.0.0.1:9000\s+.*LISTEN$"
+netstat -tan | grep -qE ".*127.0.0.1:9000\s+.*LISTEN$"
+netstat -tan
+netstat -tan | grep -q ".*127.0.0.1:9000\s+.*LISTEN$"
+netstat -tan | grep -E ".*127.0.0.1:9000\s+.*LISTEN$"
+netstat -tan | grep -E ".*127.0.0.1:9000\s+.*LISTEN"
+netstat -tan | grep -E ".*127.0.0.1:9000\s+.*LISTEN $"
+netstat -tan | grep -E ".*127.0.0.1:9000\s+.*LISTEN\s*$"
+netstat -tan | grep -E ".*127.0.0.1:9000\s+.*LISTEN\s*$"
+netstat -tan | grep -E ".*127.0.0.1:9000\s+.*LISTEN\s*$"
+vim ~/.local/share/larbs/chars/font-awesome
+vim ~/.local/share/larbs/emoji
+l
+netstat -tan
+sudo pacman -S nc
+sudo pacman -S netcat
+nc localhost 2222
+sd
+nc localhost 2222
+nc localhost 2222
+./build/client localhost 2222
+fg
+sd
+fg
+./build/client localhost 2222
+l
+fg
+clb
+vim sd
+fg
+ls
+man slock
+manpdf
+lslocks
+sox
+sudo pacman -S sox
+man sox
+sudo pacman -S unicode-character-database
+l /usr/share/font
+l /usr/share/fonts
+l /usr/share/fonts/encodings
+sysact
+manpdf
+manpdf
+manpdf
+echo $ps1
+ls
+l
+efs
+man xargs 
+echo "ajdf ajdf" | xargs echo
+echo "ajdf ajdf" | xargs ls
+echo "" | xargs ls
+echo "" | xargs -r ls
+echo -e "a\najdlf\n" | dmenu | xargs -r xdg-open
+echo -e "a\najdlf\n" | dmenu | xargs -r xdg-open
+echo -e "a\najdlf\n" | dmenu | xargs -r xdg-open
+echo -e "a\najdlf\n" | dmenu | xargs xdg-open
+man -k . | dmenuwrap -l 30 -p Command: | cut -d' ' -f1 | xargs -r man -Tpdf | zathura -
+man -k . | dmenuwrap -l 30 -p Command: | cut -d' ' -f1 | xargs -r man -Tpdf 
+man -k . | dmenuwrap -l 30 -p Command: | cut -d' ' -f1 | xargs -r man -Tpdf | zathura -
+clb
+l
+mv dmenuwarp dmenuwrap
+l
+vim manpdf
+vim sysact
+vim bookmarkdisplay
+vim bookmarkadd
+fg
+vim bookmarkadd
+vim bookmarkdisplay
+l
+ls
+vim bookmarkadd
+l
+vim cht
+l
+vim displayselect
+displayselect
+vim displayselect
+displayselect
+displayselect
+fg
+displayselect
+ls
+fg
+l
+vim manpdf
+manpdf
+l
+vim ifinstalled
+l
+vim noisereduce
+l
+vim shortcuts
+l
+vim sysact
+vim sysact
+l
+fg
+vim dmenurecord
+vim dmenurecord
+fg
+fg
+g
+fg
+fg
+l
+vim bookmarkadd
+l
+vim bookmarkadd
+l
+fg
+l
+vim dmenuhandler
+vim linkhandler
+vim linkhandler
+vim manpdf
+fg
+st-utils
+st-urlhandler
+cat > a
+echo ajdklf | cat > a
+l
+cat a
+rm -rf a
+l
+l
+st-urlhandler o
+st-urlhandler *
+echo adjlf | st-urlhandler *
+echo adjlf | st-urlhandler 
+echo adjlf | st-urlhandler o
+echo "https://baidu.com" | st-urlhandler
+echo "https://baidu.com" | st-urlhandler 0
+echo "https://baidu.com" | st-urlhandler
+echo "https://baidu.com" | st-urlhandler o
+echo "https://baidu.com" | st-urlhandler c
+echo -e "https://baidu.com\n" | st-urlhandler c
+l
+clb
+l
+vim testurl
+echo -e "https://baidu.com\n" | sh testurl
+chmod +x testurl
+echo -e "https://baidu.com\n" | testurl
+vim testurl
+echo -e "https://baidu.com\n" | testurl
+echo -e "https://baidu.com"
+echo -e "https://baidu.com" | testurl
+brave https://baidu.com
+perl -v
+fg
+vim testurl
+echo -e "https://baidu.com" | testurl
+echo $BROWSER
+echo -e "https://baidu.com" | testurl
+echo -e "https://baidu.com" | testurl
+echo -e "https://baidu.com" | testurl
+echo -e "https://baidu.com" 
+echo -e "https://baidu.com" | testurl
+echo -e "https://baidu.com" | sed 's/.*|//g'
+echo -e "https://baidu.com" | sed 's/.*//g'
+echo -e "https://baidu.com\n" | sed 's/.*|//g'
+echo -e "  https://baidu.com   " | sed 's/.*|//g'
+echo -e "\nhttps://baidu.com" | sed 's/.*|//g'
+echo -e "\nhttps://baidu.com" | sed 's/.*|//g' | tr -d '\n'
+echo -e "\n   https://baidu.com\n  \n" | sed 's/.*|//g' | tr -d '\n'
+echo -e "\nhttps://baidu.com|sjk" | sed 's/.*|//g' | tr -d '\n'
+cfz
+vim .zshrc
+l
+l
+l
+cd 
+echo "https://github.com" | st-urlhandler
+echo "https://github.com" | st-urlhandler
+echo "https://github.com" | testurl
+echo "https://github.com" | testurl
+echo "https://github.com" | testurl
+echo "https://github.com" | testurl
+echo "https://github.com" | testurl
+echo "https://github.com" | testurl
+echo "https://github.com" | testurl
+echo "https://github.com" | testurl
+echo "https://github.com" | testurl
+echo "https://github.com" | st-urlhandler
+echo "https://github.com" | st-urlhandler s
+echo "https://github.com" | st-urlhandler ss
+echo "https://github.com" | st-urlhandler ajsdklf
+echo "https://github.com" | st-urlhandler 
+echo "https://github.com" | st-urlhandler 
+echo "https://github.com" | st-urlhandler 
+echo "https://github.com" | st-urlhandler -sj
+echo "https://github.com" | st-urlhandler -o
+echo "https://github.com" | st-urlhandler -ss
+echo "https://github.com" | st-urlhandler --helo
+echo "https://github.com" | st-urlhandler -s
+echo "https://github.com" | st-urlhandler -h
+echo "https://github.com" | st-urlhandler -o
+fg
+efu
+efu
+dmenuwrap
+dmenuwrap -l 10
+echo ajdk | dmenuwrap -l 10
+efu
+echo -e "# ajdklf\n# aa\n" | awk '/^# / { sub("/^#/","î©¦ ") print }'
+echo -e "# ajdklf\n# aa\n" | awk '/^# / { sub("/^#/","î©¦ ") print; }'
+echo -e "# ajdklf\n# aa\n" | awk '/^# / { sub("/^#/","î©¦ "); print; }'
+echo -e "# ajdklf\n# aa\n" | awk '/^# / { sub("/^#/","î©¦ "); print; }'
+echo -e "# ajdklf\n# aa\n" | awk '/^# / { sub("/#/","î©¦ "); print; }'
+echo -e "# ajdklf\n# aa\n" | awk '/^# / { sub("/#/","a"); print; }'
+echo -e "# ajdklf\n# aa\n" | awk '/^# / { sub("/#/","a", $0); print; }'
+echo -e "# ajdklf\n# aa\n" | awk '/^# / { sub("/\#/","a", $0); print; }'
+echo -e "# ajdklf\n# aa\n" | awk '/^# / { sub("/#/","a"); print; }'
+echo -e "# ajdklf\n# aa\n" | awk '/^# / { sub("/#/","a"); }'
+echo -e "# ajdklf\n# aa\n" | awk '/^# / { sub("/#/","a"); }'
+echo -e "# ajdklf\n# aa\n" | awk '/^# / { sub("/#/","a"); print $0 }'
+echo -e "# ajdklf\n# aa\n" | awk '/^# / { sub("/#/","a"); print; }'
+echo -e "# ajdklf\n# aa\n" | awk '/^# / { print; }'
+echo -e "# ajdklf\n# aa\n" | awk '/^# / { sub("/#/","a"); print; }'
+echo -e "# ajdklf\n# aa\n" | awk '/^# / { sub("/a/","j"); print; }'
+echo "a b c 2011-11-22 a:d" | awk 'gsub(/-/,"_",$4)'
+echo "a b c 2011-11-22 a:d" | awk 'sub(/-/,"_",$4)'
+echo -e "# ajdklf\n# aa\n" | awk '{ sub("/#/","a"); print $0 }'
+echo -e "# ajdklf\n# aa\n" | awk '{ sub("/#/","a"); print $0 }'
+echo -e "# ajdklf\n# aa\n" | awk 'sub("/#/","a"); print $0'
+echo -e "# ajdklf\n# aa\n" | awk 'sub("/#/","a")'
+echo -e "# ajdklf\n# aa\n" | awk 'sub("/#/","a")'
+echo "a b c 2011-11-22 a:d" | awk 'sub(/-/,"_",$4)'
+echo -e "# ajdklf\n# aa\n" | awk '/^# / { sub(/a/,"j"); print; }'
+echo -e "# ajdklf\n# aa\n" | awk '/^# / { sub(/^#/,"î©¦ "); print; }'
+echo -e "# ajdklf\n# aa\n" | awk '/^# / { sub(/^#/,"î©¦ "); print $#; }'
+echo -e "# ajdklf\n# aa\n" | awk '/^# / { sub(/^#/,"î©¦ "); print #0; }'
+echo -e "# ajdklf\n# aa\n" | awk '/^# / { sub(/^#/,"î©¦ "); print #$0; }'
+echo -e "# ajdklf\n# aa\n" | awk '/^# / { sub(/^#/,"î©¦ "); print length(); }'
+echo -e "# ajdklf\n# aa\n" | awk '/^# / { if (maxlen < length()) maxlen=length() } END {print maxlen}'
+echo -e "# ajdklf\n# aa\n" | awk '/^# / { if (maxlen < length()) maxlen=length() } END {print maxlen}'
+echo -e "# ajdklf\n# aa\n" | awk '/^# / { sub(/^#/,"î©¦ "); print length(); }'
+echo -e "# ajdklf\n# aa\n" | awk '/^# / { print length(); }'
+maxlen=$(awk '/^# / { if (maxlen < length()) maxlen=length() } END { print maxlen }' .local/share/bookmarks/urls)
+echo $maxlen
+awk '/^# / { sub(/^#/,""); if (maxlen < length()) maxlen=length() } END { print maxlen }' .local/share/bookmarks/urls
+awk '/^# / { sub(/^#/,""); if (maxlen < length()) maxlen=length() } END { print maxlen }' .local/share/bookmarks/urls
+awk '/^# / { sub(/^# /,""); if (maxlen < length()) maxlen=length() } END { print maxlen }' .local/share/bookmarks/urls
+column -t -s: /etc/passwd
+column -t -s: /etc/passwd
+efu
+efs
+clc
+cd st
+l
+l
+ls
+vim boxdraw.c
+l
+git log
+vim config.def.h
+l
+efs
+l
+fg
+pacman -Q
+pacman -Q | dmenu
+pacman -Q | dmenuwrap
+pacman -Q | dmenuwrap -l 30
+pacman -Q | dmenuwrap -l 30 -p Installed\ list:
+pacman -Q | dmenuwrap -l 30 -p Installed\ packages:
+pacman -Qu
+pacman -Qu
+l
+man dmenu 
+ls
+l
+xclip -o
+l
+ls
+ls
+fg
+clc
+cd st
+l
+clc
+clb
+vim st-utils/st-urlhandler
+fg
+l
+rm -rf testurl
+vim st-utils/st-urlhandler
+st-urlhandler
+vim st-utils
+vim st-utils
+clb
+vim sysact
+fg
+netstat -tan
+netstat -tan
+efd
+fg
+l
+efu
+efu
+l
+ls
+ls
+l
+l
+ls
+pacman -Q
+date +%s
+ls
+pacman -Q
+echo https://github.com
+ls
+l
+cd workspace/project/cc
+l
+cd ..
+l
+cd http-server
+l
+l
+vim httpserver.cc
+cd build
+make
+l
+cd ..
+./build/server
+./build/server 2222
+l
+vim server.cc
+make -C build
+l
+./build/httpserver 2222
+fg
+ls
+vim httpserver.cc
+l
+cd build
+make
+l
+cd ..
+l
+./build/httpserver 2222
+fg
+vim httpserver.cc
+vim httpserver.cc
+make -C build
+./build/httpserver 2222
+l
+lsblk
+lsblk -nrpo "name,type,size,mountpoint,label"
+cat /etc/mtab
+grep simple-mtpfscat /etc/mtab
+grep simple-mtpfs /etc/mtab
+fg
+clb
+dmenuumount
+dmenuumount
+mountpoint
+l /mnt
+/mnt
+l
+lf
+l
+cd
+ls
+ls
+l
+clb
+l
+vim dmenuunicode
+l
+manpdf
+l
+vim kp
+l
+l
+ls
+l
+vim --version
+vim --version | grep .xterm_clipboard
+nvim -V
+l
+man nivm
+man nvim
+vim -V
+l
+l
+rotdir
+l
+ls
+l
+vim dmenuwrap
+l
+l
+ls
+l
+vim screenshot
+l
+vim bookmarkdisplay
+l
+vim shortcuts
+l
+vim dmenuhandler
+l
+ls
+l
+vim dmenuumount
+l /mnt
+l
+l /mnt
+man mount 
+mount /dev/nvme1n1 /mnt
+mount /dev/nvme1n1p1 /mnt
+l
+mount /dev/nvme1n1p1 /mnt
+dmsg
+dmesg
+sudo dmesg
+sudo mount /dev/nvme1n1p1 /mnt
+mount /dev/nvme1n1p1 /mnt
+sudo dmesg
+ls /dev/pts/1
+cat /dev/pts/1
+ls
+clc
+vim archinstall/chroot.sh
+vim archinstall
+l /mnt
+mount /dev/nvme1n1p1 /mnt
+sudo fdisk -l
+fg
+l
+vim archinstall/preinstall.sh
+fg
+vim archinstall/preinstall.sh
+mkfs.ext4 /dev/nvme1n1p1
+sudo mkfs.ext4 /dev/nvme1n1p1
+sudo mkfs.ext4 /dev/sda1
+sudo fdisk -l
+ls
+l /mnt
+cd /mnt
+l
+l lost+found
+sudo l lost+found
+sudo ls lost+found
+l
+cd
+ls temp
+l temp
+l
+rm -rf temp
+l mounts
+rm -rf mounts
+l
+fg
+l
+ls
+l
+l
+l /mnt
+cd /mnt
+l
+cd
+fg
+vim a
+l
+vim a
+l
+rm -rf a
+l
+vim a
+l
+cd "$(dirname "$(fzf)")"
+l
+cd "$(dirname "$(fzf)")"
+ls
+cd workspace/project/http-server
+l
+vim httpserver.cc
+l
+cfv
+vim init.lua
+l
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+fg
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+ls
+lf
+cd
+lf
+l
+lf
+lf
+l
+ls
+ssh git@zwled.xyz
+l
+ls
+ping 192.168.1.128
+ping 192.168.1.11
+ping 192.168.1.2
+ping 192.168.1.1
+ping 192.168.1.1
+ls
+ping 192.168.1.1
+l
+ls
+l
+ls
+grep simple-mtpfs /etc/mtab
+grep  /etc/mtab
+cat /etc/mtab
+fdisk -l
+sudo fdisk -l
+cat /etc/mtab
+lsblk
+lsblk -rpo
+lsblk -rp
+lsblk -rp
+lsblk -rp
+lsblk -rpo "name,type,size,label"
+lsblk -rpo "name,type,size,label,mountpoint,fstype"
+lsblk -rpo "name,type,size,label,mountpoint,fstype" | column -t
+lsblk -rpo "name,type,size,label,mountpoint,fstype" | column -t
+simple-mtpfs
+lsblk -rpo "name,type,size,label,mountpoint,fstype" | column -t
+fdisk -l
+sudo fdisk -l
+sudo fdisk /dev/sdba
+sudo fdisk /dev/sda
+ls
+lsblk -rpo "name,type,size,label,mountpoint,fstype" | column -t
+sudo fdisk -l
+sudo fdisk /dev/sda
+sudo fdisk /dev/sda
+l
+ls
+l
+sudo fdisk -l
+ls
+l
+sudo fdisk /dev/nvme1n1:
+sudo fdisk /dev/nvme1n1
+l
+ls
+l
+ls /mnt
+l
+ls /mnt
+l
+l
+l mounts
+l
+ls mounts
+l
+ls
+l
+ls
+l
+l
+l /mt
+l /mnt
+l
+l /mnt
+l
+l
+fdisk -l
+sudo fdisk -l
+l mounts
+l mounts
+l
+l mounts
+l
+l mounts
+l mounts
+l mounts
+lsblk -rpo "name,type,size,label,mountpoint,fstype" | column -t
+mount -l
+lsblk -rpo "name,type,size,label,mountpoint,fstype" | column -t | dmenuwrap -l 30
+mount -l | column -t -s, | dmenuwrap -l 30
+man lsblk
+cht mount 
+cht mount 
+cht mount 
+ls
+l
+cht mount 
+cat /etc/fstab
+mount -a
+mount -l
+ls /dev/shm
+ls /tmp
+mount
+mount | grep /dev/
+mount | grep ^/dev/
+mount | grep ^/dev/
+mount | grep ^/dev/
+mount | grep ^/dev/
+mount | grep ^/dev/
+mount | grep ^/dev/
+fg
+l
+clb
+vim dmenumount
+fg
+ls
+l
+l
+l
+fg
+l
+fg
+fg
+l
+cd
+l
+ls
+clb
+l
+vim sysact
+lf
+cd
+lf
+l
+l
+ls
+ls
+ls
+cd workspace/project/http-server
+l
+./build/httpserver
+./build/httpserver 2222
+l
+cd
+lf
+l
+cfv
+l
+vim init.lua
+lf
+l
+cd
+l
+ls
+vim .ssh/known_hosts
+ping zwled.xyz
+ping zlwed.xyz
+ping zlwed.xyz
+ping zlwed.xyz
+ping zwled.xyz
+wget https://software.download.prss.microsoft.com/dbazure/Win10_22H2_Chinese_Simplified_x64.iso\?t\=a405eddc-0907-4dbd-b9c3-e2b6d75d12c8\&e\=1670650680\&h\=d4a3d07eafcd68968091c532dfe3113248e753dd54c6c2940907857aeb4ccd0a
+ls
+l
+cd workspace
+l
+vim project/RE
+l
+cd
+cd workspace/project
+l
+cd http-server
+l
+l
+./build/server
+./build/server 2222
+fg
+sed -n "/^$tag$/,/^$/ {/^$/=}" .local/share/bookmarks/urls
+sed -n "/^# vim / neovim$/,/^$/ {/^$/=}" .local/share/bookmarks/urls
+sed -n "$^# vim / neovim$$,/^$/ {/^$/=}" .local/share/bookmarks/urls
+sed -n "#^# vim / neovim$#,/^$/ {/^$/=}" .local/share/bookmarks/urls
+sed -n "#^# vim / neovim$#,/^$/ {/^$/=}" .local/share/bookmarks/urls
+sed -n "$^# vim / neovim$,/^$/ {/^$/=}" .local/share/bookmarks/urls
+sed -n "$^# vim / neovim$,/^$/ {/^$/=}" .local/share/bookmarks/urls
+echo asdjlkfjas | sed '$asd$ABC$'
+echo asdjlkfjas | sed 's$asd$ABC$'
+echo asdjlkfjas | sed '$asd$ABC$'
+echo asdjlkfjas | sed '#asd# p'
+echo asdjlkfjas | sed '##asd# p'
+echo \#\ asdjlkfjas | sed '##asd# p'
+echo \#\ asdjlkfjas | sed '#^# asd# p'
+echo \#\ asdjlkfjas | sed -n '#^# asd# p'
+echo \#\ asdjlkfjas | sed -n '@^# asd@ p'
+echo \#\ asdjlkfjas | sed -n '2^# asd2 p'
+echo \#\ asdjlkfjas | sed -n '/^# asd/ p'
+echo \#\ asdjlkfjas | sed -n '+^# asd+ p'
+echo \#\ asdjlkfjas | sed -n '=^# asd= p'
+echo \#\ asdjlkfjas | sed -n '%^# asd% p'
+echo \#\ asdjlkfjas | sed -n '$^# asd$ p'
+echo \#\ asdjlkfjas | sed -n '$^# asd$ p'
+echo \#\ asdjlkfjas | sed -n '$# asd$ p'
+echo \#\ asdjlkfjas | sed -ne '$# asd$ p'
+echo \#\ asdjlkfjas | sed -ne '## asd# p'
+echo \#\ asdjlkfjas | sed -ne '#\# asd# p'
+echo \#\ asdjlkfjas | sed -ne '#^\# asd# p'
+echo \#\ asdjlkfjas | sed -ne '$^\# asd$ p'
+echo \#\ asdjlkfjas | sed -ne '$^# asd$ p'
+echo \#\ asdjlkfjas | sed -ne '/^# asd/ p'
+echo "# vim / neovim" | sed '/\//\\\\//g'
+echo "# vim / neovim" | sed '/\//\\\//g'
+echo "# vim / neovim" | sed '/\//\\\///g'
+echo "# vim / neovim" | sed '/\//\//g'
+echo "# vim / neovim" | sed '/\//a\//g'
+echo "# vim / neovim" | sed 's/\//a\//g'
+echo "# vim / neovim" | sed 's/\//\\\//g'
+echo "# vim / neovim" | sed 's/\//\\\//g'
+fg
+efu
+fg
+efu
+clb
+vim bookmarkadd
+l
+ls
+l
+ls
+l
+ls
+l
+vim keymap
+l
+lf
+lf ~/videos
+l
+ping zwled.xyz
+ping zwled.xyz
+l
+zwled.xyz
+ping zwled.xyz
+l
+ping blog.zwled.xyz
+ls
+ping http://vps.zwled.xyz/
+ping vps.zwled.xyz
+ping zwled.xyz
+ssh wintersun@zwled.xyz
+l
+ping zwled.xyz
+ping zwled.xyz
+ping zwled.xyz
+ping zwled.xyz
+ping zwled.xyz
+ping zwled.xyz
+ping zwled.xyz
+ping zwled.xyz
+ssh wintersun@zwled.xyz
+ssh wintersun@zwled.xyz
+l
+ping zwled.xyz
+ssh wintersun@zwled.xyz
+ls
+ssh wintersun@zwled.xyz
+ssh git@zwled.xyz
+ping nstop.cn
+ping nstop.cn
+ls
+ssh git@zwled.xyz
+ssh wintersun@zwled.xyz
+ls
+ping vps
+ping nstop.cn
+ping 139.9.206.237
+ping baidu.com
+man screen 
+ls
+vim 
+l
+clb
+l
+vim keymap
+l
+cat test
+cat t
+l
+cat t
+rm -rf t test
+l
+vim keymap
+sudo pacman -S xsel
+fg
+l
+cfv
+cd 
+cd -
+l
+clb
+l
+cd
+cfv
+l
+l
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+fg
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+fg
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+fg
+fg
+vim init.lua
+vim init.lua
+fg
+fg
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+fg
+vim init.lua 
+vim init.lua 
+vim init.lua
+vim init.lua 
+fg
+vim init.lua 
+vim init.lua 
+fg
+fg
+cd
+l
+echo sdff\n
+echo sdff
+echo sdff\n
+echo sdff\ n
+echo require("ajsdf")
+echo require\("ajsdf"\)
+echo require(\"ajsdf\")
+echo require\(\"ajsdf\"\)
+echo require\("ajsdf"\)
+xclip -selection clipboard -i
+xclip -selection clipboard ajsdlfjas
+xclip -selection clipboard < 
+xclip -selection clipboard < ajskldf
+echo adjfl | xclip -selection clipboard
+l
+print local\ packer
+print local\ local\ packer_bootstrap\ =\ require\(\(vim\.g\.user_dir\ or\ \'user\'\)\ \.\.\ \'\.packer\-startup\'\)\
+if\ not\ packer_bootstrap\ then
+echo 'local\ local\ packer_bootstrap\ =\ require\(\(vim\.g\.user_dir\ or\ \'user\'\)\ \.\.\ \'\.packer\-startup\'\)\
+if\ not\ packer_bootstrap\ then'
+echo "local\ local\ packer_bootstrap\ =\ require\(\(vim\.g\.user_dir\ or\ \'user\'\)\ \.\.\ \'\.packer\-startup\'\)\
+if\ not\ packer_bootstrap\ then"
+echo local\ packer_bootstrap\ =\ require\(\(vim\.g\.user_dir\ or\ \'user\'\)\ \.\.\ \'\.packer\-startup\'\)\
+if\ not\ packer_bootstrap\ then
+echo "local\ packer_bootstrap\ =\ require\(\(vim\.g\.user_dir\ or\ \'user\'\)\ \.\.\ \'\.packer\-startup\'\)\
+if\ not\ packer_bootstrap\ then\
+"
+echo "\local\ packer_bootstrap\ =\ require\(\(vim\.g\.user_dir\ or\ \'user\'\)\ \.\.\ \'\.packer\-startup\'\)\
+if\ not\ packer_bootstrap\ then\
+echo "local\ packer_bootstrap\ =\ require\(\(vim\.g\.user_dir\ or\ \'user\'\)\ \.\.\ \'\.packer\-startup\'\)\
+if\ not\ packer_bootstrap\ then\
+"
+echo \\
+"asjdlff\
+"
+echo "\
+ajsdfjasdf\
+asdjflasjdf\
+"
+echo "\
+local\ packer_bootstrap\ =\ require\(\(vim\.g\.user_dir\ or\ \'user\'\)\ \.\.\ \'\.packer\-startup\'\)\
+if\ not\ packer_bootstrap\ then\
+\ \ \-\-\ é€ƒ²å½ƒ²åƒªƒ€è½½æƒ©€æƒ¼ƒ©çƒºƒ¤æƒ¶ƒ§ä»¶å¤¹ä¸­æƒ©€æƒ¼ƒ©luaèƒ¤ƒºæƒ¼¬\
+\ \ \-\-\ å¦‚æƒ¾ƒ¼æƒ¶ƒ§ä»¶å¤¹ä¸­æƒ¼ƒ©init\.luaï¼ƒ¬åƒ¨ƒ¹åƒ¯ªåƒªƒ€è½½init\.luaå¹¶ä¸ƒ´ä¸ƒ­ä¼ƒºåƒ¦ƒ­å¾€ä¸ƒ«é€ƒ²å½ƒ²åƒªƒ€è½½çƒ»®å½ƒµä¸­çƒºƒ¤luaèƒ¤ƒºæƒ¼¬ï¼ƒ¬åƒ°¦åƒ¨ƒ¹åƒªƒ€è½½åƒ¥¨éƒ£¨çƒºƒ¤luaèƒ¤ƒºæƒ¼¬\
+\ \ require\(\"utils\"\)\.load_all_plugins\(\)\
+end"
+echo "\
+local packer_bootstrap = require((vim.g.user_dir or 'user') .. '.packer-startup')\
+if not packer_bootstrap then\
+  -- é€ƒ²å½ƒ²åƒªƒ€è½½æƒ©€æƒ¼ƒ©çƒºƒ¤æƒ¶ƒ§ä»¶å¤¹ä¸­æƒ©€æƒ¼ƒ©luaèƒ¤ƒºæƒ¼¬\
+  -- å¦‚æƒ¾ƒ¼æƒ¶ƒ§ä»¶å¤¹ä¸­æƒ¼ƒ©init.luaï¼ƒ¬åƒ¨ƒ¹åƒ¯ªåƒªƒ€è½½init.luaå¹¶ä¸ƒ´ä¸ƒ­ä¼ƒºåƒ¦ƒ­å¾€ä¸ƒ«é€ƒ²å½ƒ²åƒªƒ€è½½çƒ»®å½ƒµä¸­çƒºƒ¤luaèƒ¤ƒºæƒ¼¬ï¼ƒ¬åƒ°¦åƒ¨ƒ¹åƒªƒ€è½½åƒ¥¨éƒ£¨çƒºƒ¤luaèƒ¤ƒºæƒ¼¬\
+  require(\"utils\").load_all_plugins()\
+end"\
+
+echo "  vim.notify(str)\
+  vim.cmd(\"echo "\
+local packer_bootstrap = require((vim.g.user_dir or 'user') .. '.packer-startup')\
+if not packer_bootstrap then\
+  -- é€ƒ²å½ƒ²åƒªƒ€è½½æƒ©€æƒ¼ƒ©çƒºƒ¤æƒ¶ƒ§ä»¶å¤¹ä¸­æƒ©€æƒ¼ƒ©luaèƒ¤ƒºæƒ¼¬\
+  -- å¦‚æƒ¾ƒ¼æƒ¶ƒ§ä»¶å¤¹ä¸­æƒ¼ƒ©init.luaï¼ƒ¬åƒ¨ƒ¹åƒ¯ªåƒªƒ€è½½init.luaå¹¶ä¸ƒ´ä¸ƒ­ä¼ƒºåƒ¦ƒ­å¾€ä¸ƒ«é€ƒ²å½ƒ²åƒªƒ€è½½çƒ»®å½ƒµä¸­çƒºƒ¤luaèƒ¤ƒºæƒ¼¬ï¼ƒ¬åƒ°¦åƒ¨ƒ¹åƒªƒ€è½½åƒ¥¨éƒ£¨çƒºƒ¤luaèƒ¤ƒºæƒ¼¬\
+  require(\"utils\").load_all_plugins()\
+end"\
+ \".. str.. \" | xclip -selection clipboard\")"\
+\
+"\
+""
+echo "  vim.notify(str)\
+  vim.cmd(\"echo "\
+local packer_bootstrap = require((vim.g.user_dir or 'user') .. '.packer-startup')\
+if not packer_bootstrap then\
+  -- é€ƒ²å½ƒ²åƒªƒ€è½½æƒ©€æƒ¼ƒ©çƒºƒ¤æƒ¶ƒ§ä»¶å¤¹ä¸­æƒ©€æƒ¼ƒ©luaèƒ¤ƒºæƒ¼¬\
+  -- å¦‚æƒ¾ƒ¼æƒ¶ƒ§ä»¶å¤¹ä¸­æƒ¼ƒ©init.luaï¼ƒ¬åƒ¨ƒ¹åƒ¯ªåƒªƒ€è½½init.luaå¹¶ä¸ƒ´ä¸ƒ­ä¼ƒºåƒ¦ƒ­å¾€ä¸ƒ«é€ƒ²å½ƒ²åƒªƒ€è½½çƒ»®å½ƒµä¸­çƒºƒ¤luaèƒ¤ƒºæƒ¼¬ï¼ƒ¬åƒ°¦åƒ¨ƒ¹åƒªƒ€è½½åƒ¥¨éƒ£¨çƒºƒ¤luaèƒ¤ƒºæƒ¼¬\
+  require(\"utils\").load_all_plugins()\
+end"\
+ \".. str.. \" | xclip -selection clipboard\")"
+echo "  vim.notify(str)\
+  vim.cmd(\"echo "  vim.notify(str)\
+  vim.cmd(\"echo "\
+local packer_bootstrap = require((vim.g.user_dir or 'user') .. '.packer-startup')\
+if not packer_bootstrap then\
+  -- é€ƒ²å½ƒ²åƒªƒ€è½½æƒ©€æƒ¼ƒ©çƒºƒ¤æƒ¶ƒ§ä»¶å¤¹ä¸­æƒ©€æƒ¼ƒ©luaèƒ¤ƒºæƒ¼¬\
+  -- å¦‚æƒ¾ƒ¼æƒ¶ƒ§ä»¶å¤¹ä¸­æƒ¼ƒ©init.luaï¼ƒ¬åƒ¨ƒ¹åƒ¯ªåƒªƒ€è½½init.luaå¹¶ä¸ƒ´ä¸ƒ­ä¼ƒºåƒ¦ƒ­å¾€ä¸ƒ«é€ƒ²å½ƒ²åƒªƒ€è½½çƒ»®å½ƒµä¸­çƒºƒ¤luaèƒ¤ƒºæƒ¼¬ï¼ƒ¬åƒ°¦åƒ¨ƒ¹åƒªƒ€è½½åƒ¥¨éƒ£¨çƒºƒ¤luaèƒ¤ƒºæƒ¼¬\
+  require(\"utils\").load_all_plugins()\
+end"\
+ \".. str.. \" | xclip -selection clipboard\")" \".. str.. \" | xclip -selection clipboard\")"
+echo "  vim.notify(str)\
+  vim.cmd(\"echo "  vim.notify(str)\
+  vim.cmd(\"echo "  vim.notify(str)\
+  vim.cmd(\"echo "\
+local packer_bootstrap = require((vim.g.user_dir or 'user') .. '.packer-startup')\
+if not packer_bootstrap then\
+  -- é€ƒ²å½ƒ²åƒªƒ€è½½æƒ©€æƒ¼ƒ©çƒºƒ¤æƒ¶ƒ§ä»¶å¤¹ä¸­æƒ©€æƒ¼ƒ©luaèƒ¤ƒºæƒ¼¬\
+  -- å¦‚æƒ¾ƒ¼æƒ¶ƒ§ä»¶å¤¹ä¸­æƒ¼ƒ©init.luaï¼ƒ¬åƒ¨ƒ¹åƒ¯ªåƒªƒ€è½½init.luaå¹¶ä¸ƒ´ä¸ƒ­ä¼ƒºåƒ¦ƒ­å¾€ä¸ƒ«é€ƒ²å½ƒ²åƒªƒ€è½½çƒ»®å½ƒµä¸­çƒºƒ¤luaèƒ¤ƒºæƒ¼¬ï¼ƒ¬åƒ°¦åƒ¨ƒ¹åƒªƒ€è½½åƒ¥¨éƒ£¨çƒºƒ¤luaèƒ¤ƒºæƒ¼¬\
+  require(\"utils\").load_all_plugins()\
+end"\
+ \".. str.. \" | xclip -selection clipboard\")" \".. str.. \" | xclip -selection clipboard\") \".. str.. \" | xclip -selection clipboard\")"
+echo "else\
+    vim.notify(\"translate failed\")\
+  end"
+echo "else\
+    vim.notify(\"translate failed\")\
+  end"
+clc
+clb
+vim manpdf
+cd
+ls
+fg
+kp
+ls
+l
+pwd
+ls
+pkill -42 dwmblocks
+lf
+lf
+cat <<EOF > t\
+ajslkdfasdf\
+asjdklfasldf\
+asdjfkasdf\
+asjdklfjsdf\
+ajslkdfjsdf\
+EOF
+l
+cat t
+rm -rf t
+l
+l /tmp/vimcopyfile
+cat /tmp/vimcopyfile
+fg
+xclip -selection clipboard /tmp/vimcopyfile
+cat <<EOF > a && xclip -selection clipboard a\
+ajslkefjasf\
+asjdklfasjkldf\
+EOF
+xclip -selection clipboard /tmp/vimcopyfile
+\
+local packer_bootstrap = require((vim.g.user_dir or 'user') .. '.packer-startup')\
+if not packer_bootstrap then\
+  -- é€ƒ²å½ƒ²åƒªƒ€è½½æƒ©€æƒ¼ƒ©çƒºƒ¤æƒ¶ƒ§ä»¶å¤¹ä¸­æƒ©€æƒ¼ƒ©luaèƒ¤ƒºæƒ¼¬\
+  -- å¦‚æƒ¾ƒ¼æƒ¶ƒ§ä»¶å¤¹ä¸­æƒ¼ƒ©init.luaï¼ƒ¬åƒ¨ƒ¹åƒ¯ªåƒªƒ€è½½init.luaå¹¶ä¸ƒ´ä¸ƒ­ä¼ƒºåƒ¦ƒ­å¾€ä¸ƒ«é€ƒ²å½ƒ²åƒªƒ€è½½çƒ»®å½ƒµä¸­çƒºƒ¤luaèƒ¤ƒºæƒ¼¬ï¼ƒ¬åƒ°¦åƒ¨ƒ¹åƒªƒ€è½½åƒ¥¨éƒ£¨çƒºƒ¤luaèƒ¤ƒºæƒ¼¬\
+  require("utils").load_all_plugins()\
+endEOF\
+
+cat <<EOF > a\
+jaldfEOF
+cat <<EOF > a\
+jaldfEOF
+cat <<EOF > a\
+ajskldfjas EOF
+ls
+ls
+l
+rm -rf a
+l
+nvim --listen 127.0.0.1:8888
+l
+ls
+ls
+fg
+sb-pacpackages
+sudo pacman -Syyu
+sb-pacpackages
+pacman -SQu
+ls
+l
+pacman -Qu
+pacman -Qus
+pacman -QuS
+pacman -Sy && pacman -Qu
+pacman -Sy
+pacman -Syy
+pacman -Syu
+pacman -Syy
+efb
+l
+cf
+cd x11
+l
+vim xprofile
+l
+cfv
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+lf
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+l
+vim init.lua
+vim init.lua
+l
+vim init.lua
+vim init.lua
+ls
+efu
+vim init.lua
+l
+clc
+l
+cd archinstall
+l
+vim chroot.sh
+git status
+git checkout master
+l
+git branch -a
+git checkout personal/master
+git checkout personal/master
+l
+git status
+git checkout master
+l
+git checkout origin/master
+l
+git status
+git checkout master
+l
+git status
+l
+git push personal
+l
+cd ..
+l
+fg
+ls
+file --mime-type -b ~/videos/ï¼ƒ¨2019ï¼ƒ©å¯ƒ¬çƒ¨¸çƒ¨¸\ -\ ç‚ºä»€éº¼æƒ¼ƒ©äºƒ»äººé‚ƒ¤æƒ¸¯æƒ³ºèƒ¤«ä¸ƒ­äºƒ¦çª®äººçƒºƒ¤æ€ƒ½ç¶­\ âƒ¶º\ å€¼å¾ƒ·ä¸€çƒ¼ƒ«\ -\ Robert\ Kiyosaki\ ç¾ƒ¥ä¼¯çƒ©¹.æ¸ƒ¥å´ƒ®ï¼ƒ¨ä¸­èƒ«±å­ƒ·å¹ƒµï¼ƒ©\ \[s-qttEH9YHo\].mkv
+file --mime-type -b ~/videos/ï¼ƒ¨2019ï¼ƒ©å¯ƒ¬çƒ¨¸çƒ¨¸\ -\ ç‚ºä»€éº¼æƒ¼ƒ©äºƒ»äººé‚ƒ¤æƒ¸¯æƒ³ºèƒ¤«ä¸ƒ­äºƒ¦çª®äººçƒºƒ¤æ€ƒ½ç¶­\ âƒ¶º\ å€¼å¾ƒ·ä¸€çƒ¼ƒ«\ -\ Robert\ Kiyosaki\ ç¾ƒ¥ä¼¯çƒ©¹.æ¸ƒ¥å´ƒ®ï¼ƒ¨ä¸­èƒ«±å­ƒ·å¹ƒµï¼ƒ©\ \[s-qttEH9YHo\].mkv
+vim 
+file --mime-type -b .Xauthority
+l
+vim .zprofile
+vim .zprofile
+l
+vim .zprofile
+l
+l workspace
+l
+ls
+l
+git rev-parse --is-inside-work-tree
+cd workspace
+git rev-parse --is-inside-work-tree
+cd cc
+cd project/cc
+git rev-parse --is-inside-work-tree
+cd ..
+cd ..
+l
+cd 
+cfv
+l
+cd plugin
+cd
+cd -
+cd ../lua/wintersun/plugins
+l
+l
+lf
+cfv
+l
+vim filetype.vimbak
+l
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+cd
+vim a
+vim .zprofile
+vim .zprofile
+l
+vim .zprofile
+vim .zprofile
+vim .zprofile
+l
+l
+l
+sudo pacman -S lcd
+fg
+vim 
+vim 
+vim 
+vim 
+vim 
+vim a
+l
+vim .zprofile
+vim .
+vim .
+vim .
+vim .
+file --mine-type ~/.local/bin/bookmarkadd
+file --mime-type ~/.local/bin/bookmarkadd
+l
+vim .
+cd workspace/project
+l
+cd http-server
+l
+vim server.cc
+cd
+vim .zprofile
+l
+l
+ls
+l
+vim .zprofile
+l
+vim .zprofile
+vim .zprofile
+l
+l
+vim .Xauthority
+l
+clb
+l
+l
+cd
+vim .zprofile
+l
+lf
+l
+lf
+l
+ls
+e .zprofile
+ls
+man brave
+man brave
+vim .
+l
+vim .zprofile
+l
+cfv
+vim init.lua
+vim init.lua
+l
+vim init.lua
+l
+l
+ls
+vim filetype.vimbak
+e filetype.vimbak p
+l
+vim init.lua
+l
+ls
+l
+ls
+ls
+vim init.lua
+vim init.lua
+l
+l
+vim init.lua
+vim init.lua
+lf
+l
+lf
+l
+vim filetype.vimbak
+l
+vim init.lua
+efa
+l
+l
+rm -rf shortcuts.vim
+l
+vim init.lua
+l
+vim init.lua
+l
+ls
+cd
+l
+cd workspace/project/cc/typespeed
+l
+vim typespeed.cc
+l
+./typespeed
+./typespeed
+./typespeed
+vim typespeed.cc
+l
+vim wordlist
+vim sizeofstring.cc
+vim readme
+l
+vim ncurses_ui.h
+l
+vim typespeed.cc
+vim typespeed
+vim typespeed.cc
+fg
+ls
+kp
+yt-dlp --flat-playlist
+man yt-dlp
+alias yt
+man yt-dlp
+ls
+alias
+efa
+efa
+cd workspace/project/tanchishe
+l
+xclip -t text/html test.html
+uptime| xclip
+ls
+fg
+ls
+efa
+yt 
+alias yt
+efa
+yta
+alias yta
+yt https://www.youtube.com/watch\?v\=jaznaL0o2tg
+ep
+showip
+curl -i google.com
+curl -i https://google.com
+l
+efa
+yt https://www.youtube.com/watch\?v\=jaznaL0o2tg
+yt https://www.youtube.com/watch\?v\=COGXH8sZZ2k
+ ls
+l
+rm -rf a
+l
+lf
+l
+efa
+l
+l
+ref
+l
+pu
+efa
+ref
+l
+alias ref
+pu
+yt https://www.youtube.com/watch\?v\=jSIcR3RNVio > a && tail -f a
+tail -f a
+vim a
+vim a
+vim a
+tail -f a
+l
+lf
+l
+l
+l
+l
+l
+l
+ls
+yt https://www.youtube.com/watch\?v\=jSIcR3RNVio
+l
+ls
+rm -rf a
+l
+yt https://www.youtube.com/watch\?v\=jSIcR3RNVio > a 2&> /dev/null
+ls
+vim /tmp/vimcopyfile
+xclip -i -selection clipboard /tmp/vimcopyfile
+ls
+l
+man xclip
+nt="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="speed" class="speed-label">level:</label>
+    asjdkflaslkjdflkasdfja
+    <span>æƒ¨ƒ±æƒ¸¯ä½ƒ€çƒºƒ¤å°ƒ¯åƒ¯¯çƒ¨±ï¼</span>
+    <a href="#">è¿ƒ¹æƒ¸¯ä¸€ä¸ªå¥½éƒ³¾æƒ®¥</a>
+    <div class="box">
+    </div>
+    <style>
+        @font-face {
+            font-family: 'wsFont';
+            src: url('fonts/two.ttf');
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: 'wsFont';
+        body {
+            color: #121212;
+        html {
+            cursor: url(cursor/html.cur),default;
+            overflow-x: hidden;
+            background-color: rgb(244 245 248);
+        a:hover { 
+            cursor:url(cursor/a.cur),pointer
+        .box {
+            width: 1200px;
+            height: 1000px;
+            border-radius: 20px;
+            box-shadow: 0px 0px 10px 0px rgb(189 189 189/50%);
+            background-color: #fff;
+            margin: auto;
+            overflow-y: scroll;
+        .content {
+            margin-top: 10px;
+            margin-left: 10px;
+    </style>
+    <script>
+class Net {
+    constructor() {\
+\
+        this.websocket_ = new WebSocket("ws://192.168.235.40:8889");\
+\
+        this.websocket_.onopen = function() {\
+\
+            console.log("æƒ¨ƒ°åƒªƒ¿è¿ƒ¾æƒ®¥æƒ¼ƒ­åƒªƒåƒ¹¨);
+            //config.uiDisplayer.displayInitFinishDialog();\
+\
+            //config.uiDisplayer.displayLoginDialog();\
+\
+            //displayLoginDialog();\
+\
+        };
+        this.websocket_.onerror = function(evt) {
+            //alert("ä¸ƒ®æƒ¼ƒ­åƒªƒåƒ¹¨æƒ¶­å¼€è¿ƒ¾æƒ®¥ï¼ƒ¬è¯·æ£€æƒ¿¥ç½ƒ±ç»ƒ¼æƒ¸¯åƒ°¦æ­£å¸¸ï¼");
+        this.websocket_.onclose = function() {\
+\
+            //alert("ä¸ƒ®æƒ¼ƒ­åƒªƒåƒ¹¨æƒ¶­å¼€è¿ƒ¾æƒ®¥ï¼ƒ¬è¯·æ£€æƒ¿¥ç½ƒ±ç»ƒ¼æƒ¸¯åƒ°¦æ­£å¸¸ï¼");\
+\
+            //config.uiDisplayer.displayConnectedErrorDialog();\
+\
+        };
+        this.websocket_.onmessage = function(net) {
+            return function(evt) {
+                var span = document.createElement('div');
+                span.innerHTML = evt.data;
+                span.className = "content";
+                document.getElementsByClassName("box")[0].appendChild(span);
+        }(this);
+        //this.websocket_.binaryType = "arraybuffer";
+window.onload = function() {\
+\
+    new Net();\
+\
+}
+    </script>
+</body>
+ls
+ls
+l
+rm -rf et=\"UTF-8\"\>
+l
+l
+rm -rf ã€ƒ®å¤ƒºå·´èƒ£ºåƒ¨ƒ¦æ³ƒ¬éƒ¿³æ¨‚ã€ƒ¯\ å¿ƒ£æƒ£ƒ¥èƒ¨ƒ§è¨ƒ¸æƒ¦¶æƒ´¹åƒ¶ƒ¤\ éƒ«¼çƒ°´BGM\ ï½ƒ¼\ ç¾ƒ®ä¸½çƒºƒ¤æµªæ¼«éƒ¿³ä¹ƒ°\ ï½ƒ¼\ èƒ¨ƒ²ç¼ƒ³çƒºƒ¤çƒ½ƒçƒ¼ƒ€éƒ¿³ä¹ƒ°\ ï½ƒ¼\ åƒª©æ­£èƒ£½éƒ§ƒ¯éƒ§ƒªæƒ´¾\ ç»ƒ¯å¸¸åƒ°¬\ ï¼ƒºå¤§èƒ¤ƒ±èƒ¤ƒ±åƒ¾‚ä½ƒ³åƒ¨ƒ¦æ³ƒ¬å¤ƒºå·´èƒ£ºçƒ©©è´¨è¿ƒ¹ç§ƒ­çƒ©©è´¨ä¼ƒºä½¿ä½ƒ€äº§çƒ´ƒ¿å¿«æƒ¤ƒ¿\ \[jaznaL0o2tg\].f248.webm.part
+l
+mv ã€ƒ¬çƒ¤ƒå»£åƒ±ƒªçƒ©ƒ¨ã€ƒ­è¶ƒ¥å°ƒ¨å¿ƒ£\!\ å­¸ç¿ƒ²å°ƒ¨æ³¨åƒªƒ»è®€æƒ»¸éƒ¿³æ¨‚\ \ ğƒ¿ƒ³ƒº\ æƒ¼€ä½³å£°éƒ¿³èƒ£ƒ¬æƒ¹¯éƒ¿³ä¹ƒ°\ -\ ä¸€å€ƒ«äººå®ƒ©éƒ½ƒ¼çƒºƒ¤å·¥ä½ƒ¼\&è®€æƒ»¸\ 1\ â€ƒ«Hours\ Studying\ Music\ for\ Concentration\ \[COGXH8sZZ2k\].webm relaxing-music-01.webm
+l
+l
+fg
+aria2c --enable-rpc --rpc-listen-all
+aria2c --enable-rpc --rpc-listen-all
+aria2c --enable-rpc --rpc-listen-all
+brave --proxy-server https://127.0.0.1:9000
+brave --proxy-server="https://127.0.0.1:9000"
+fg
+gs
+cd workspace/
+gs
+efa
+l
+efa
+l
+cd
+kp
+ls
+kp
+l
+l
+ls D:
+l
+rm -rf D:
+l
+lf
+l
+lf
+l
+cd files/aria2_download
+l
+rarp MP4+JSONæƒ€¼å¼ƒ¯ç±»åƒ¾ƒ«.rar
+l
+l
+tar -xvf MP4+JSONæƒ€¼å¼ƒ¯ç±»åƒ¾ƒ«.rar
+l
+pi rar
+man rar
+cht rar
+rar e MP4+JSONæƒ€¼å¼ƒ¯ç±»åƒ¾ƒ«.rar
+l
+lf
+l
+l
+cd ..
+l
+cd ..
+l
+l Downloads
+l
+mv Downloads downloads
+l
+l
+man aria2
+man aria2c
+l
+cd webui-aria2
+node node-server.js
+sl
+ls
+cd
+ls
+l
+efa
+alias ref
+vim .config/shell/shortcutrc
+ls ~/.config/shell
+l ~/.config/shell
+cd .config/shell
+l
+vim aliasrc
+gs
+pi transmission
+pi transmission-remote
+pi transmission-daemon
+sudo pacman -S transmission
+yay -S transmission-daemon
+yay -S transmission
+yay -S transmission
+pi idm
+sudo pacman -S aria2
+pi aria
+pi aria2
+l
+aria2
+l
+cd
+l
+git clone https://github.com/ziahamza/webui-aria2.git
+l
+cd webui-aria2
+l
+node node-server.js
+node node-server.js
+ls
+cd
+l
+l
+pi amule
+amule
+ls
+sudo pacman -Rc amule
+l
+rm -rf .aMule
+l
+l
+l
+lf files
+virtualbox
+fg
+ld
+ls
+ls
+cd virtualbox
+l
+rm -rf machines/win10/
+l
+cd
+lf
+ls
+l
+alias gc
+man gc
+gc videos
+lf
+l
+l
+l .aMule
+l
+efu
+aria2c --enable-rpc --rpc-listen-all
+l /
+clb
+vim dmenuu
+vim dmenuunicode
+ls
+ls
+find / -name virtualbox -type d
+sudo find / -name virtualbox -type d
+ls 
+ls /usr/share/vi
+ls /usr/share/virtualbox
+ls /usr/lib/virtualbox
+find / -name VboxLinuxAdditions.run
+sudo find / -name VboxLinuxAdditions.run
+sudo find / -name VBoxLinuxAdditions.run
+sudo find / -name VBoxLinuxAdditions.run
+l
+cat linkhandler
+ls
+cat bookmarkadd
+l
+efd
+ls
+ls
+l
+vim kp
+l
+vim screenshot
+find / -name VBoxLinuxAdditions.run
+sudo find / -name VBoxLinuxAdditions.run
+sudo find / -name VBoxLinuxAdditions.run
+fzf /
+sudo fzf /
+fzf
+ls
+sudo find / -name VBoxLinuxAdditions.run
+cd
+curl -sL https://gitee.com/mirrors/dochat/raw/main/dochat.sh | bash
+l
+pi docker
+sudo systemctl enable docker
+sudo systemctl start docker
+l
+echo $USER
+sudo usermod -aG docker $USER
+l
+curl -sL https://gitee.com/mirrors/dochat/raw/main/dochat.sh | bash
+ls /var/run
+l /var/run
+l /var/run/docker
+sudo usermod -aG docker $USER
+cat /etc/group
+ls
+groups
+ls
+l
+l
+sudo chown -R wintersun:wheel DoChat
+l
+curl -sL https://gitee.com/mirrors/dochat/raw/main/dochat.sh | bash
+groups
+ls
+l
+ls
+curl -sL https://gitee.com/mirrors/dochat/raw/main/dochat.sh | bash
+curl -sL https://gitee.com/mirrors/dochat/raw/main/dochat.sh | bash
+curl -sL https://gitee.com/mirrors/dochat/raw/main/dochat.sh | DOCHAT_DEBUG=true bash
+curl -sL https://gitee.com/mirrors/dochat/raw/main/dochat.sh | DOCHAT_DEBUG=true bash
+ls
+rm -rf DoChat
+l
+cd
+groups
+man newgrp
+cht newgrp
+newgrp docker
+fg
+l /var/run/docker
+l /var/run/docker.sock
+l /var/run/docker
+sudo ls /var/run/docker
+l
+ll
+curl -sL https://gitee.com/mirrors/dochat/raw/main/dochat.sh | bash
+docker images
+cat /etc/group
+cat /etc/passwd | column -t -s:
+cat /etc/passwd | column -t -s: | grep $USER
+pgrep docker
+ls
+l
+sudo groupadd docker
+whoami
+groups
+sudo usermod -aG docker $USER
+groups
+groups
+sudo usermod -aG docker wintersun
+groups
+ls
+sudo usermod -aG docker wintersun
+l
+groups
+cat /etc/group
+cat /etc/group | grep $USER
+man usermod
+cht usermod
+sudo usermod -aG docker,wheel wintersun
+groups
+newgrp
+echo $DISPLAY
+sudo pacman -S xorg-xhost
+xhost +
+man xhost
+ls
+groups
+ls
+l
+docker images
+ls
+efa
+ref
+efa
+fg
+ref
+l
+efa
+ref
+gcl
+ref
+gcl
+l
+efa
+alias ref
+fg
+efa
+efa
+efs
+vim .config/shell/shortcutrc
+l
+ls
+cd .config/shell/
+l
+chmod +x aliasrc
+l
+vim profile
+l
+vim aliasrc
+l
+cfz
+efa
+efz
+l
+cd -
+l
+chmod -x aliasrc
+l
+l
+vim aliasrc
+l
+cd
+source ~/.config/shell/aliasrc
+l
+gcl
+efa
+source ~/.config/shell/aliasrc
+gcl
+fg
+efa
+ref
+gcl
+l
+efa
+ref
+l
+source ~/.config/shell/aliasrc
+l
+efa
+alias ref
+source /home/wintersun/.config/shell/{shortcutrc,aliasrc}
+source /home/wintersun/.config/shell/aliasrc
+fg
+efa
+fg
+ref
+l
+ref
+l
+efa
+ref
+efa
+ref
+gcl
+l
+fg
+ls
+l
+gcl
+fg
+ls
+l
+l .local
+l
+efz
+efa
+ref
+l
+ls
+l
+l
+gcl
+ls
+pwd
+ls
+d
+l
+tar xvf tsetup.4.4.1.tar.xz
+l
+cd Telegram
+l
+./Telegram
+ep
+./Telegram
+ls
+fg
+cd ..
+l
+rm -rf *
+l
+cd 
+rm -rf Downloads
+l
+kp
+man curl 
+curl -X POST https://textbelt.com/text \\
+       --data-urlencode phone='18373845984' \\
+       --data-urlencode message='hello world' \\
+       -d key=textbelt
+curl -X POST https://textbelt.com/text \\
+       --data-urlencode phone='+8618373845984' \\
+       --data-urlencode message='hello world' \\
+       -d key=textbelt
+curl -X POST https://textbelt.com/text \\
+       --data-urlencode phone='+8618373845984' \\
+       --data-urlencode message='hello world' \\
+       -d key=879ced1eb27734b2e73a9a24adc2c78155d97a73ZQcCCGFDgCf1e0GNQxOt2hd06
+curl -X POST https://textbelt.com/text \\
+       --data-urlencode phone='+8618373845984' \\
+       --data-urlencode message='hello world' \\
+       -d key="879ced1eb27734b2e73a9a24adc2c78155d97a73ZQcCCGFDgCf1e0GNQxOt2hd06"
+man nohup 
+jobs
+trap while true; do sleep 1; done "echo hello, captured signal sigint!" SIGINT
+trap "while true; do sleep 1; done" "echo hello, captured signal sigint SIGINT
+man trap
+ls
+l
+vim workspace/project
+l
+vim files
+lf
+lf
+l
+vim .zprofile
+ls
+vim /etc/pacman.d/mirrorlist
+crontab -e
+lf
+fg
+ls 
+l files
+lf
+ls
+ls
+ls
+ls
+l
+clb
+vim searchpdf
+chmod +x searchpdf
+searchpdf
+ls
+l
+vim searchpdf
+searchpdf
+fg
+l
+l
+vim searchpdf
+searchpdf
+searchpdf
+fg
+vim searchpdf
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+ls ~/files/pdfs
+ls ~/files/pdfs/c-c++
+ls ~/files/pdfs/c-c++ | cut -d' ' -f
+ls ~/files/pdfs/c-c++ | cut -d' ' -f1
+ls ~/files/pdfs/c-c++ | cut -d'\n' -f1
+ls ~/files/pdfs/c-c++ | cut -d'\n' -f 1
+ls ~/files/pdfs/c-c++ | cut -d'\n' -f1
+ls ~/files/pdfs/c-c++ | xargs echo
+ls ~/files/pdfs/c-c++ | xargs ls -al
+ls ~/files/pdfs/c-c++ | xargs -r ls -al
+ls ~/files/pdfs/c-c++ | xargs -0 -r ls -al
+ls ~/files/pdfs/c-c++ | xargs -n -r ls -al
+ls ~/files/pdfs/c-c++ | xargs -t -r ls -al
+man xargs
+ls ~/files/pdfs/c-c++ | xargs -print'\n' -r ls -al
+fg
+man xargs
+ls ~/files/pdfs/c-c++ | xargs -d'\n' -r ls -al
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+man ls
+ls -l
+fg
+man ls
+ls --format=single-column
+fg
+ls --format=single-column
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+set | grep IFS
+fg
+set 
+set  | grep IFS
+fg
+searchpdf
+searchpdf
+fg
+set | grep IFS
+fg
+searchpdf
+fg
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+s="ls -al"
+echo $s
+fg
+echo $s
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+searchpdf
+fg
+efa
+fg
+man zathura
+fg
+searchpdf
+searchpdf
+saer
+mv searchpdf readpdf
+l
+cd
+l
+ls
+clb
+l
+vim readpdf
+l
+cd
+print î®ƒ¹
+print -hî®ƒ¹
+print "%x" î®ƒ¹
+printf "%x" î®ƒ¹
+printf "%s" î®ƒ¹
+ls
+î®ƒ¹
+l
+curl -sS https://webi.sh/nerdfont | sh
+curl https://webi.sh/nerdfont
+curl https://webi.sh/nerdfont | less
+l
+ls
+pdf
+lf
+ls
+eb99
+echo u'eb99'
+echo 'eb99'
+efa
+efz
+ls
+ls
+l
+l downloads
+lf
+ls
+l
+fjg
+l
+kp
+efd
+l
+ls
+l
+efa
+cd workspace
+gs
+gs
+cd
+ssh wintersun@zwled.xyz
+kp
+kp
+kp
+kp
+clb
+readpdf
+vim readpdf
+l
+cd
+ls
+pwd
+l
+fg
+lf
+fg
+du -ch virtualbox
+du -ch videos
+lf vi
+lf videos
+l
+crontab -l
+vim test.cron
+crontab -e
+vim test.cron
+l
+vim test.cron
+date +%Y
+date +%Y-%M
+date +%Y-%M-%d
+date +%Y-%m-%d
+date +%Y-%m-%d\ %H:%M:%S
+date +%Y-%m-%d\ %H:%M:%S
+crontab test.cron
+l
+l
+lf
+lf
+fg
+fg
+l
+lf
+l
+crontab -l
+fg
+crontab -e
+vim test.cron
+sudo systemctl status cronie.service
+l
+l
+vim test.cron
+l
+lf
+lf
+l
+ls /root
+sudo ls /root
+vim test.cron
+crontab test.cron
+l
+crontab -e
+ls
+l
+l
+crontab -e
+ls
+sudo ls /root
+ls
+ls
+vim test.cron
+/usr/bin/date +%Y-%m-%d\ %H:%M:%S > /home/wintersun/dtable\
+
+l
+vim dtable
+rm -rf dtable
+l
+crontab -e
+l
+crontab -l
+crontab -l -u wintersun
+sudo crontab -l -u wintersun
+sudo crontab -l
+crontab -l
+l
+ls
+l
+crontab -l
+ls
+pacman -Qu
+pacman Qu
+pacman -Qu
+piy
+pacman -Qu
+pacman -Qu && pkill -42 dwmblocks
+ls
+ls
+sensors
+lshw
+sudo pacman -S lshw
+clb
+vim statusbar/sb-pacpackages
+yay -Syu
+fg
+man grep 
+fg
+fg
+vim statusbar/sb-pacpackages
+man pacman
+sudo pacman -Syyuq
+sudo pacman -Syyq
+sudo pacman -Syq
+sudo pacman -Syq 2&> /dev/null
+sudo pacman -Syq > /dev/null
+sudo pacman -Syy > /dev/null
+fg
+kp
+ls
+l
+vim statusbar/sb-popupgrade
+ls
+l
+vim statusbar/sb-popupgrade
+sb-popupgrade
+sb-popupgrade
+fg
+fg
+l
+vim cron/updatemirrorlist
+cd cron
+l
+vim updatepacages
+chmod +x updatepacages
+l
+l
+cd ..
+l
+crontab -e
+l
+sudo pacman -S tcpdump
+l
+ip route
+ip route
+ls
+ip neighbor
+ip neigh
+docker images
+groups
+fg
+l
+ls
+l
+crontab -e
+l
+vim test.cron
+ls
+l
+clb
+vim test
+vim displaydate
+l
+chmod +x displaydate
+l
+cd
+vim test.cron
+ls
+l
+crontab -e
+crontab
+crontab -e
+ls
+l
+vim test.cron
+fg
+vim test.cron
+crontab -e
+crontab -e
+vim test.cron
+crontab -e
+fg
+crontab -e
+fg
+/usr/bin/date +%Y-%m-%d\ %H:%M:%S > "$HOME/dtable"\
+
+l
+cat dtable
+rm -rf dtable
+l
+crontab test.cron
+fg
+fg
+vim test.cron
+fg
+fg
+fg
+crontab -e
+vim test.cron
+fg
+vim test.cron
+cfv
+vim filetype.vimbak
+vim filetype.vimbak
+fg
+vim filetype.vimbak
+fg
+vim filetype.vimbak
+vim filetype.vimbak
+vim
+fg
+vim
+fg
+cat lua/clipboard.lua
+cd
+efz
+fg
+ls
+l
+vim test.cron
+l
+crontab -e
+displaydate
+l
+cat dtable
+rm -rf dtable
+l
+which displaydate
+fg
+vim test.cron
+fg
+vim test.cron
+crontab test.cron
+crontab -e
+crontab -l
+l
+ls
+l
+l
+cat dtable
+cat dtable
+cat dtable
+ls
+l
+tail -f dtable
+tail -f dtable -n 10
+fg
+crontab -e
+vim test.cron
+clb
+vim displaydate
+l
+cd
+rm dtable
+l
+ls
+l
+tail -f dtable
+ls
+tail -f dtable
+ls
+l
+ls
+l
+ls
+clb
+l
+cd cron
+l
+vim task.cron
+l
+cd
+l
+tail -f dtable
+vim test.cron
+crontab test.cron
+l
+rm -rf dtable
+l
+l
+l
+crontab -e
+l
+tail -f test.cron
+tail -f dtable
+fg
+l
+vim test.cron
+rm -rf test.cron
+l
+clb
+cd cron/
+l
+vim task.cron
+l
+vim task.cron
+l
+cd
+l
+crontab .local/bin/cron/task.cron
+task.cron
+l
+ls
+clb
+l
+cd cron
+l
+ls
+l
+cd
+mkdir .config/cron
+l
+mv .local/bin/cron/task.cron .config/cron/
+l
+rm -rf dtable
+l
+l
+crontab .config/cron/task.cron
+crontab -e
+l
+crontab -l
+clb
+vim cron/updatepacages
+l
+l
+cd
+l
+l
+vim .zprofile
+l
+cat s
+cat s 2>&1
+cat s 2>&1 > /dev/null
+fg
+ls
+l
+clb
+vim statusbar
+l
+dc
+cd
+l
+crontab -l
+ls
+l
+fg
+ls
+lf
+lf
+lf
+ls
+l
+ls
+clb
+vim cron
+ls
+l
+vim statusbar/sb-app
+l
+ls
+l
+vim screenshot
+date +%y
+fg
+vim dmenurecord
+l
+lf
+lf
+cd
+l
+vim .npmrc
+l
+kp
+ls
+l
+lf
+l
+clb
+vim dmenurecord
+lf
+kp
+fg
+l
+vim noisereduce
+l
+kp
+vim dmenurecord
+l
+ls
+l
+vim compiler
+l
+l
+fg
+l
+cd
+lf
+lf
+lf
+lf
+cd vi
+cd videos
+l
+ffplay ï¼ƒ¨2019ï¼ƒ©å¯ƒ¬çƒ¨¸çƒ¨¸\ -\ ç‚ºä»€éº¼æƒ¼ƒ©äºƒ»äººé‚ƒ¤æƒ¸¯æƒ³ºèƒ¤«ä¸ƒ­äºƒ¦çª®äººçƒºƒ¤æ€ƒ½ç¶­\ âƒ¶º\ å€¼å¾ƒ·ä¸€çƒ¼ƒ«\ -\ Robert\ Kiyosaki\ ç¾ƒ¥ä¼¯çƒ©¹.æ¸ƒ¥å´ƒ®ï¼ƒ¨ä¸­èƒ«±å­ƒ·å¹ƒµï¼ƒ©\ \[s-qttEH9YHo\].mkv
+ffplay webcam_2022-12-13_13-16-52.mkv
+l
+lf
+fg
+lf
+lf
+lf
+ffmpeg -i /dev/video0 -f matroska - filename.mkv | ffplay -i -
+ls
+vim filename.mkv
+lf
+rm -rf file
+rm -rf filename.mkv
+l
+l files
+ls
+ffmpeg -i /dev/video -c:v copy -c:a copy -f matroska - filename.mkv | ffplay -i -
+ffmpeg -i /dev/video0 -f matroska - filename.mkv | ffplay -i -
+man mpv
+ffmpeg -i /dev/video0 -f matroska - filename.mkv | mpv
+ffmpeg -i /dev/video0 -f matroska - filename.mkv | mpv -
+ffmpeg -i /dev/video0 -f matroska - filename.mkv | mpv -i -
+matroska
+ls
+ffmpeg -f v4l2 -i /dev/video0 - tmp.mkv | ffplay -i -
+ffmpeg -i /dev/video -c:v copy -c:a copy -f matroska - filename.mkv | ffplay -i -
+ls
+rm -rf filename.mkv
+l
+rm -rf filename.mkv
+l
+ffmpeg -i /dev/video -c:v copy -c:a copy -f matroska - filename.mkv | ffplay -i -
+ffmpeg -i /dev/video -c:v copy -f matroska - filename.mkv | ffplay -i -
+ffmpeg -i /dev/video -c:v libx264 -f matroska - filename.mkv | ffplay -i -
+ffmpeg -i /dev/video0 -c:v copy -f matroska - filename.mkv | ffplay -i -
+ffmpeg -i /dev/video0 -c:v libx264 -f matroska - filename.mkv | ffplay -i -
+ffmpeg -i /dev/video0 -c:v libx264 -f matroska - -y filename.mkv | ffplay -i -
+ls
+rm -rf filename.mkv 
+ffmpeg -i x11grab -c:v copy -f matroska - filename.mkv | ffplay -i -
+ffmpeg -f x11grab -c:v copy -c:a copy -i $DISPLAY - filename.mkv | ffplay -i -
+ffmpeg -f x11grab -i $DISPLAY -c:v copy -c:a copy - filename.mkv | ffplay -i -
+echo $DISPLAY
+ffmpeg -f x11grab -i $DISPLAY -c:v copy -c:a copy - filename.mkv | ffplay -i -
+ls
+ffmpeg -f x11grab -i $DISPLAY -c:v copy -c:a copy - filename.mkv | ffplay -i -
+ffmpeg -f x11grab -i $DISPLAY -c:v libx264 -c:a copy - filename.mkv | ffplay -i -
+ffmpeg -f x11grab -i $DISPLAY -c:v copy -c:a copy - filename.mkv | ffplay -i -
+ls
+l
+ffmpeg -i /dev/video0 -c:v copy -c:a copy -f matroska - filename.mkv | ffplay -i -
+ffmpeg -i /dev/video0 -c:v mpeg4 -c:a copy -f matroska - filename.mkv | ffplay -i -
+ls
+rm filename.mkv
+ffmpeg -i /dev/video0 -c:v mpeg4 -c:a copy -f matroska - filename.mkv | ffplay -i -
+ffmpeg -f x11grab -s 1920x1080 -i :0.0 -vcodec mpeg4 -preset medium -qscale:v 5 rec.mkv
+ls
+l
+rm filename.mkv rec.mkv
+l
+ffmpeg -i /dev/video0 -c:v copy -c:a copy -f matroska - tmp.mkv | ffplay -i -
+ffmpeg -f x11grab -i $DISPLAY - tt.mkv
+ffmpeg -f x11grab -i $DISPLAY - tt.mp4
+ffmpeg -f x11grab -i $DISPLAY tt.mp4
+ffmpeg -f x11grab -i $DISPLAY tt.mp4
+rm tt.mp4
+ffmpeg -f x11grab -i $DISPLAY - | ffplay -i -
+ffmpeg -f x11grab - -i $DISPLAY | ffplay -i -
+ffmpeg -i $DISPLAY -f x11grab - tt.mkv | ffplay -i -
+ffmpeg -i $DISPLAY -c:v copy -f x11grab - tt.mkv | ffplay -i -
+ffmpeg -i $DISPLAY -c:v copy -f x11grab  tt.mkv
+echo $DISPLAY
+ffmpeg -i default -c:v copy -f x11grab  tt.mkv
+ffmpeg -i "$DISPLAY"
+ffmpeg -f x11grab -i "$DISPLAY"
+ffmpeg -f x11grab -i "$DISPLAY" t.mkv
+ffmpeg -f x11grab -i "$DISPLAY" -framerate 60 t.mkv
+ffmpeg -f x11grab -i "$DISPLAY" -framerate 60 -c:v copy -f matroska - t.mkv | ffplay -i -
+l
+rm -rf t.mkv
+ffmpeg -f x11grab -i "$DISPLAY" -framerate 60 -c:v copy -f matroska - t.mkv | ffplay -i -
+ffmpeg -f x11grab -i "$DISPLAY" -framerate 60 -c:v copy -f matroska - | ffplay -i -
+ffmpeg -f x11grab -i "$DISPLAY" -framerate 60 -c:v copy -i /dev/video0 -f matroska - | ffplay -i -
+ffmpeg -f x11grab -i "$DISPLAY" -framerate 60 -i /dev/video0 -c:v copy -f matroska - | ffplay -i -
+ffmpeg  -i /dev/video0 -c:v copy -f matroska - | ffplay -i -
+l
+ls
+l
+ffmpeg  -i /dev/video0 -c:v copy -f v4l2 - | ffplay -i -
+ffmpeg  -i /dev/video0 -c:v copy -f matroska - | ffplay -i -
+ls
+rm -rf *.mkv
+l
+l
+lf
+ld
+ls
+kp
+se
+ls
+vim dmenurecord
+man ffmpeg 
+fg
+l
+l
+lf
+cd
+lf
+l
+lf
+l
+lf
+l
+lf
+l
+lf
+clb
+vim dmenurecord
+ls
+l
+fg
+ffmpeg -i /dev/video0 -itsoffset 0.350 -c:v copy -f matroska - | ffplay -i -
+ffmpeg -i /dev/video0 -itsoffset 0.350 -i /dev/video0 -c:v copy -f matroska - | ffplay -i -
+ffmpeg -i /dev/video0 -itsoffset 0.350 -i /dev/video0 -c:v copy -map 0:0 -map 1:1 -f matroska - | ffplay -i -
+ls
+fg
+kp
+fg
+efu
+ls
+ls
+fg
+ls
+fg
+kp
+kp
+ls
+pwd
+l
+git clone git@zwled.xyz:/srv/git/dwmblocks.git
+l
+cd dwmblocks
+l
+vim main.c
+vim config.h
+l
+g log
+git branch
+git remote -v
+git branch
+git branch -a
+l
+l
+ssh git@zwled.xyz
+git branch -a
+ls
+git pull
+cd ..
+l
+rm -rf dwmblocks
+git clone git@zwled.xyz:/srv/git/dwmblocks.git
+cd dwmblocks
+l
+git branch -a
+cd ..
+l
+rm -rf dwmblocks
+l
+ls
+l
+ls
+ls
+l
+clc
+l
+cd archinstall
+l
+cd ..
+l
+cd dmenu
+l
+git status
+cd ..
+l
+cd dotfiles
+cd ..
+l
+cd dwm
+l
+gs
+git diff
+efd
+g diff
+efa
+ref
+gd
+gd
+l
+vim config.def.h
+l
+gam "change font and add some utils shortcut"
+gp
+gp origin
+gp personal
+l
+cd ..
+l
+cd dotfiles/
+l
+cd ..
+l
+l
+cd dwmblocks
+l
+gd
+gam "add app icons"
+gp origin
+l
+gd
+gs
+g log
+l
+gp personal
+cd ..
+ls
+cd dwmblocks
+l
+cd ..
+l
+l
+cd st
+l
+gd
+gam "add openurl shortcut and change font"
+gp 
+gp personal
+l
+cd ..
+l
+cd dotfiles
+cd ..
+cd dwmblocks
+l
+cd ..
+l
+rm -rf dwmblocks
+l
+cd dotfiles
+l
+cd ..
+l
+cd archinstall
+l
+vim clonerepos.sh
+l
+git clone git@github.com:neverwaiting/dwmblocks.git
+l
+rm -rf dwmblocks
+l
+vim clonerepos.sh
+cd ..
+l
+git clone git@github.com:neverwaiting/dwmblocks.git
+l
+fg
+cd dwmblocks
+l
+vim .clang-format
+l
+l .github
+lf .github/
+l
+e .git
+e .gitignore
+l
+lf
+rm -rf .clang-format .gitignore .github preview.png
+l
+gam "remove some files"
+gp
+ls
+l
+ls
+l
+gs
+git remote -v
+fg
+git remote add personal git@zwled.xyz:/srv/git
+git remote -v
+l
+vim ../archinstall/clonerepos.sh
+l
+gp personal
+vim .git/branches
+vim .git/config
+gp personal
+l
+gs
+gd
+ls
+l
+cd ..
+l
+ls
+l
+ls
+l
+cd ..
+l
+cd
+l
+l .local/bin
+l .local/bin
+lf .local/bin
+tutorialvids
+ep
+tutorialvids
+fg
+clb
+vim tutorialvids
+mpv https://videos.lukesmith.xyz/videos/watch/f6b78db7-b368-4647-bc64-28c08fff1988
+curl -i https://videos.lukesmith.xyz
+fg
+tutorialvids
+fg
+uep
+fg
+tutorialvids
+tutorialvids
+ep
+tutorialvids
+tutorialvids
+tutorialvids
+tutorialvids
+ls
+l
+tutorialvids
+tutorialvids
+ls
+cd
+ls
+l
+rm -rf tmp
+l
+l
+fg
+lf
+ls
+pi urlview
+ls
+ls
+ls
+cbl
+clb
+l
+l st-utils
+vim st-utils/st-urlhandler
+cd st-utils
+l
+l
+ls
+l
+vim st-copyout
+l
+cd
+gpg --full-gen-key
+ls
+l
+lf
+echo "this is a example file" >> file
+l
+mv file tmp
+gpg -r zwsled@163.com -e tmp
+ls
+l
+vim tmp.gpg
+l
+lf
+rm tmp
+gpg -d tmp.gpg 
+gpg -d tmp.gpg
+gpg -d tmp.gpg > secret
+l
+cat secret
+rm secret
+l
+gpg -d tmp.gpg
+gpg -d tmp.gpg
+l
+ls
+l
+fg
+bind -P
+bindkey -P
+bindkey -a
+bindkey -a | dmenu -l 30
+ls
+gpg -k
+ls
+ls
+ls
+l
+pi telnet
+pi telnet
+ls
+which telnet
+pi inetutils
+telnet smtp.qq.com 25
+ls
+telnet baidu.com
+telnet baidu.com 80
+telnet zwled.xyz 443
+telnet zwled.xyz 80
+telnet zwled.xyz 25
+telnet zwled.xyz 22
+telnet zwled.xyz 21
+telnet zwled.xyz 8080
+telnet zwled.xyz 8888
+telnet zwled.xyz 8090
+telnet zwled.xyz 3389
+telnet zwled.xyz 3389
+telnet zwled.xyz 25
+ls
+l
+ssh git@zwled.xyz
+ls
+vim tmp
+l
+vim tmp.gpg
+ls
+l
+rm tmp.gpg
+l
+ls
+l 
+lf
+l
+clb
+vim dmenurecord
+cd && ffmpeg -f x11grab -i $DISPLAY tt.mp4
+l
+l
+l
+mpv tt.mp4
+ls
+l
+rm tt.mp4
+l
+clb
+vim dmenurecord
+kp
+fg
+l
+vim dmenurecord
+fg
+ls
+lf
+fg
+vim dmenurecord
+ls
+vim dmenurecord
+fg
+l
+ffmpeg \\
+  -f x11grab \\
+  -framerate 60 \\
+  -s "$(xdpyinfo | awk '/dimensions/ {print $2;}')" \\
+  -i "$DISPLAY" \\
+  -f pulse -i $(pactl list short sources | grep -oE "alsa_output\S*o\.monitor") -ac 2 \\
+  tt.mp4
+l
+mpv tt.mp4
+rm tt.mp4
+ffmpeg \\
+  -f x11grab \\
+  -framerate 60 \\
+  -s "$(xdpyinfo | awk '/dimensions/ {print $2;}')" \\
+  -i "$DISPLAY" \\
+  -f pulse -i $(pactl list short sources | grep -oE "alsa_output\S*o\.monitor") -ac 2 \\
+  -c:v h265 -c:a opus tt.mp4
+ffmpeg \\
+  -f x11grab \\
+  -framerate 60 \\
+  -s "$(xdpyinfo | awk '/dimensions/ {print $2;}')" \\
+  -i "$DISPLAY" \\
+  -f pulse -i $(pactl list short sources | grep -oE "alsa_output\S*o\.monitor") -ac 2 \\
+  -c:v h264 -c:a opus tt.mp4
+ffmpeg \\
+  -f x11grab \\
+  -s "$(xdpyinfo | awk '/dimensions/ {print $2;}')" \\
+  -i "$DISPLAY" \\
+  -f pulse -i $(pactl list short sources | grep -oE "alsa_output\S*o\.monitor") -ac 2 \\
+  -c:v h264 -c:a opus tt.mp4
+l
+rm tt.mp4
+l
+ffmpeg \\
+  -f x11grab \\
+  -s "$(xdpyinfo | awk '/dimensions/ {print $2;}')" \\
+  -i "$DISPLAY" \\
+  -f pulse -i $(pactl list short sources | grep -oE "alsa_output\S*o\.monitor") -ac 2 \\
+  -c:v h264 -crf 0 -preset veryslow -c:a aac tt.mp4
+mpv tt.mp4
+ffplay -i tt.mp4
+ffplay tt.mp4
+ls
+ffmpeg \\
+  -f x11grab \\
+  -s "$(xdpyinfo | awk '/dimensions/ {print $2;}')" \\
+  -i "$DISPLAY" \\
+  -f pulse -i $(pactl list short sources | grep -oE "alsa_output\S*o\.monitor") -ac 2 \\
+  -c:v h264 -crf 0 -preset altrafast -c:a aac tt.mp4
+l
+rm tt.mp4
+ffmpeg \\
+  -f x11grab \\
+  -s "$(xdpyinfo | awk '/dimensions/ {print $2;}')" \\
+  -i "$DISPLAY" \\
+  -f pulse -i $(pactl list short sources | grep -oE "alsa_output\S*o\.monitor") -ac 2 \\
+  -c:v h264 -crf 0 -preset ultrafast -c:a aac tt.mp4
+mpv tt.mp4
+rm tt.mp4
+ffmpeg \\
+  -f x11grab \\
+  -s "$(xdpyinfo | awk '/dimensions/ {print $2;}')" \\
+  -i "$DISPLAY" \\
+  -f pulse -i $(pactl list short sources | grep -oE "alsa_output\S*o\.monitor") -ac 2 \\
+  -c:v h264 -crf 0 -preset ultrafast -c:a aac -s 1920x1080 tt.mp4
+mpv tt.mp4
+ffmpeg \\
+  -f x11grab \\
+  -s "$(xdpyinfo | awk '/dimensions/ {print $2;}')" \\
+  -i "$DISPLAY" \\
+  -f pulse -i $(pactl list short sources | grep -oE "alsa_output\S*o\.monitor") -ac 2 \\
+  -c:v h264 -crf 0 -preset ultrafast -c:a aac -r 60 -s 1920x1080 tt.mp4
+ls
+mpv tt.mp4
+ffmpeg \\
+  -f x11grab -framerate 60 \\
+  -s "$(xdpyinfo | awk '/dimensions/ {print $2;}')" \\
+  -i "$DISPLAY" \\
+  -f pulse -i $(pactl list short sources | grep -oE "alsa_output\S*o\.monitor") -ac 2 \\
+  -c:v h264 -crf 0 -preset ultrafast -c:a aac -r 60 -s 1920x1080 tt.mp4
+mpv tt.mp4
+ls
+ffmpeg \\
+  -f x11grab -framerate 60 \\
+  -s "$(xdpyinfo | awk '/dimensions/ {print $2;}')" \\
+  -i "$DISPLAY" \\
+  -f pulse -i $(pactl list short sources | grep -oE "alsa_output\S*o\.monitor") -ac 2 \\
+  -c:v h264 -crf 0 -preset veryslow -c:a aac -r 60 -s 1920x1080 tt.mp4
+ffmpeg \\
+  -f x11grab -framerate 60 \\
+  -s "$(xdpyinfo | awk '/dimensions/ {print $2;}')" \\
+  -i "$DISPLAY" \\
+  -f pulse -i $(pactl list short sources | grep -oE "alsa_output\S*o\.monitor") -ac 2 \\
+  -c:v h264 -crf 0 -preset slow -c:a aac -r 60 -s 1920x1080 tt.mp4
+mpv tt.mp4
+fg
+ffmpeg \\
+  -f x11grab -framerate 60 \\
+  -s "$(xdpyinfo | awk '/dimensions/ {print $2;}')" \\
+  -i "$DISPLAY" \\
+  -f pulse -i $(pactl list short sources | grep -oE "alsa_output\S*o\.monitor") -ac 2 \\
+  -c:v libx624 -crf 0 -preset slow -c:a aac -r 60 -s 1920x1080 tt.mp4
+ffmpeg \\
+  -f x11grab -framerate 60 \\
+  -s "$(xdpyinfo | awk '/dimensions/ {print $2;}')" \\
+  -i "$DISPLAY" \\
+  -f pulse -i $(pactl list short sources | grep -oE "alsa_output\S*o\.monitor") -ac 2 \\
+  -c:v libx264 -crf 0 -preset slow -c:a aac -r 60 -s 1920x1080 tt.mp4
+mpv tt.mp4
+ffmpeg \\
+  -f x11grab -framerate 60 \\
+  -s "$(xdpyinfo | awk '/dimensions/ {print $2;}')" \\
+  -i "$DISPLAY" \\
+  -f pulse -i $(pactl list short sources | grep -oE "alsa_output\S*o\.monitor") -ac 2 \\
+  -c:v libx264 -crf 0 -preset ultrafast -c:a aac -r 60 tt.mp4
+ffmpeg \\
+  -f x11grab -framerate 60 \\
+  -s "$(xdpyinfo | awk '/dimensions/ {print $2;}')" \\
+  -i "$DISPLAY" \\
+  -f pulse -i $(pactl list short sources | grep -oE "alsa_output\S*o\.monitor") -ac 2 \\
+  -c:v libx264 -crf 0 -preset ultrafast -c:a aac -r 60 hello.mp4
+mpv hello.mp4
+ffmpeg \\
+  -f x11grab -framerate 60 \\
+  -s "$(xdpyinfo | awk '/dimensions/ {print $2;}')" \\
+  -i "$DISPLAY" \\
+  -f pulse -i $(pactl list short sources | grep -oE "alsa_output\S*o\.monitor") -ac 2 \\
+  -c:v libx264 -crf 0 -preset slow -c:a aac -r 60 hello.mp4
+mpv hello.mp4
+l
+rm -rf hello.mp4
+l
+lf
+lf
+lf
+lf
+lf
+ffmpeg -f concat -i tt.mp4 videos/screencast_2022-12-14_00-07-54.mp4 file.mp4
+ffmpeg -f concat -i tt.mp4 videos/screencast_2022-12-14_00-07-54.mp4 file.mp4
+cht ffmpeg
+ls
+vim cf
+l
+ffmpeg -f concat -safe 0 -i cf -c copy output.mp4
+fg
+vim cf
+ffmpeg -f concat -safe 0 -i cf -c copy output.mp4
+l
+mpv output.mp4
+ffmpeg -f concat -safe 0 -i cf -c copy output.mp4
+ls
+mpv output.mp4
+ls
+l
+rm -rf output.mp4
+vim cf
+ffmpeg -f concat -i cf -c copy output.mp4
+l
+rm output.mp4
+ffmpeg -f concat -i cf -c copy output.mp4
+l
+mpv tt.mp4
+mpv output.mp4
+l
+rm -rf output.mp4
+l
+l
+cht ffmepg
+cht ffmpeg
+ffmpeg -i tt.mp4 -codec:video libvpx-vp9 -crf 30 -b:video 0 -codec:audio libopus -vbr on -threads 10 output_video.webm
+ffmpeg -i tt.mp4 -codec:video libvpx-vp9 -crf 30 -b:video 0 -codec:audio libopus -vbr on -threads 10 output_video.webm
+ffmpeg -i tt.mp4 -codec:video libvpx-vp9 -crf 30 -codec:audio libopus -vbr on -threads 10 output_video.webm
+ffmpeg -i tt.mp4 -crf 20 out.mp4
+ls
+vim cf
+ffmpeg -f concat -i cf -c copy output.mp4
+l
+mpv output.mp4
+mpv output.mp4
+ls
+ffmpeg -i tt.mp4 -i out.mp4 -filter_complex hstack comp.mp4
+mpv comp.mp4
+ls
+l
+cht ffmpeg
+ffmpeg -i videos/relaxing-music-01.webm -vn sound.mp3
+l
+mpv sound.mp3
+lf
+l
+l sound.mp3
+ls
+l
+fg
+lf
+lf videos
+ls videos
+fg
+l
+kp
+ls
+l
+efa
+ls
+l
+man mpv
+ls
+l
+lf
+lf
+ls
+clb
+l
+vim webi
+webi
+vi webi
+l
+vim pauseallmpv
+vim noisereduce
+l
+vim compiler
+vim manpdf
+l
+up
+ep
+showip
+showip
+showip
+showip
+showip
+curl -i ip.gs
+curl -i ip.config
+curl -i config.ip
+curl -i ipconfig
+l
+clb
+cd statusbar
+l
+vim sb-pacpackages
+pacman -Qu
+pacman -Qu | grep -Fcv "[ignored]"
+pacman -Qu | grep -Fcv "[ignored]" | sed 's/^/ğƒ¿ƒ³¦/;s/^ğƒ¿ƒ³¦0$//g'
+pacman -Qu | grep -Fcv "[ignored]" | sed 's/^/ğƒ¿ƒ³¦/;s/^ğƒ¿ƒ³¦0$//g'
+pacman -Qu | grep -Fcv "[ignored]" | sed 's/^/ğƒ¿ƒ³¦/;s/^ğƒ¿ƒ³¦0$//g'
+pkill -RTMIN+8 dwmblocks
+pkill -RTMIN+8 dwmblocks
+pkill -RTMIN+8 dwmblocks
+pkill -RTMIN+8 dwmblocks
+pkill -RTMIN+8 dwmblocks
+pkill -RTMIN+8 dwmblocks
+date +%s
+pkill -RTMIN+8 dwmblocks
+pkill -RTMIN+8 dwmblocks
+efb
+pkill -42 dwmblocks
+pkill -42 dwmblocks
+pkill -RTMIN+8 dwmblocks
+pkill -RTMIN+8 dwmblocks
+pacman -Qu
+pacman -Qu
+pacman -Qu
+pkill -RTMIN+8 dwmblocks
+vim 
+l
+sb-popupgrade
+ls
+l
+cd
+ls
+lf
+lf
+ls
+ps aux | grep pacman 
+ps aux | grep pacman | grep -v grep
+ls
+l
+ls
+pacman -Qu
+ls
+l
+lf
+lf
+mpv sound.mp3
+ls
+l
+lf
+lf
+lf
+ls
+lf
+lf
+fg
+lf
+mpv sound.mp3
+ls
+kp
+kp
+man dd
+fdisk -l
+sudo fdisk -l
+man lsblk
+lsblk -a
+lsblk -l
+ls
+man dd
+man dd
+pgrep dd
+ls p
+ls
+ps aux | grep dd
+pgrep dd
+ls
+sb-popupgrade
+sb-price
+ls
+xdg-settings
+ls
+kp
+ls
+pwd
+l
+vim cf
+rm cf
+l
+mpv comp.mp4
+l
+vim out
+mpv out.mp4
+l
+rm out.mp4
+l
+mpv output.mp4
+rm output.mp4
+l
+ls
+l
+lf comp.mp4
+rm comp.mp4
+l
+rm tt.mp4
+l
+mpv sound.mp3
+lf
+ls
+ls
+l
+ls
+l
+ls
+l
+ls
+lf
+l
+ls
+l
+pi etcher
+ls
+wget https://github.com/ventoy/Ventoy/releases
+l
+lf
+rm releases
+wget https://github.com/ventoy/Ventoy/releases/download/v1.0.84/ventoy-1.0.84-linux.tar.gz
+wget https://github.91chi.fun/https://github.com/ventoy/Ventoy/releases/download/v1.0.84/ventoy-1.0.84-linux.tar.gz
+wget https://github.91chi.fun/https://github.com/ventoy/Ventoy/releases/download/v1.0.84/ventoy-1.0.84-linux.tar.gz
+ls
+l
+rm ventoy-1.0.84-linux.tar.gz
+l
+wget https://github.91chi.fun/https://github.com/ventoy/Ventoy/releases/download/v1.0.84/ventoy-1.0.84-linux.tar.gz
+wget https://objects.githubusercontent.com/github-production-release-asset-2e65be/246335987/d81cb33d-4733-4304-bc7a-8c18b45c142e\?X-Amz-Algorithm\=AWS4-HMAC-SHA256\&X-Amz-Credential\=AKIAIWNJYAX4CSVEH53A%2F20221214%2Fus-east-1%2Fs3%2Faws4_request\&X-Amz-Date\=20221214T070956Z\&X-Amz-Expires\=300\&X-Amz-Signature\=7e9eb030389933406747daa615fc36234e0ecdb30fd7df34b53ddcd51fa729f4\&X-Amz-SignedHeaders\=host\&actor_id\=53208089\&key_id\=0\&repo_id\=246335987\&response-content-disposition\=attachment%3B%20filename%3Dventoy-1.0.84-linux.tar.gz\&response-content-type\=application%2Foctet-stream
+ls
+rm d81cb33d-4733-4304-bc7a-8c18b45c142e\?X-Amz-Algorithm=AWS4-HMAC-SHA256\&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20221214%2Fus-east-1%2Fs3%2Faws4_request\&X-Amz-Date=20221214T070956Z\&X-Amz-Expires=300\&X-Amz-Signature=7e9eb030389933406747daa
+l
+l
+d
+l
+l downloads
+cd downloads
+l
+rm ventoy-1.0.84-linux.tar.gz
+l
+tar -zxvf ventoy-1.0.84-linux\ \(1\).tar.gz
+l
+cd ventoy-1.0.84
+l
+./Ventoy2Disk.sh
+vim Ventoy2Disk.sh
+l
+l
+fdisk -l
+sudo fdisk -l
+sudo ./Ventoy2Disk.sh -i /dev/sdb
+sudo ./Ventoy2Disk.sh -i /dev/sdb
+ls
+fdisk -l
+sudo fdisk -l
+man dd
+dd if=/home/wintersun/files/aria2_download/SW_DVD9_Win_Pro_10_22H2_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X23-20012.ISO of=/dev/sdb1
+sudo dd if=/home/wintersun/files/aria2_download/SW_DVD9_Win_Pro_10_22H2_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X23-20012.ISO of=/dev/sdb1
+sudo ./Ventoy2Disk.sh -i /dev/sdb
+sudo ./Ventoy2Disk.sh -I /dev/sdb
+l /mnt
+ls
+dd if=/home/wintersun/files/aria2_download/SW_DVD9_Win_Pro_10_22H2_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X23-20012.ISO of=/mnt
+dd if=/home/wintersun/files/aria2_download/SW_DVD9_Win_Pro_10_22H2_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X23-20012.ISO of=/mnt/win10.iso
+ls /mnt
+l /mnt
+ls
+l /mnt
+ls
+sudo fdisk -l
+ls
+lsblk -l
+lsblk -a
+ls
+ls /dev/sdb1
+l /dev/sdb1
+ls
+l
+rm -rf /mnt/win10.iso
+l
+ls
+dd if=/home/wintersun/files/aria2_download/SW_DVD9_Win_Pro_10_22H2_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X23-20012.ISO of=/dev/sdb1
+sudo dd if=/home/wintersun/files/aria2_download/SW_DVD9_Win_Pro_10_22H2_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X23-20012.ISO of=/dev/sdb1
+sudo dd if=/home/wintersun/files/aria2_download/SW_DVD9_Win_Pro_10_22H2_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X23-20012.ISO of=/dev/sdb1 --status=progress
+sudo dd if=/home/wintersun/files/aria2_download/SW_DVD9_Win_Pro_10_22H2_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X23-20012.ISO of=/dev/sdb1 -status=progress
+sudo dd if=/home/wintersun/files/aria2_download/SW_DVD9_Win_Pro_10_22H2_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X23-20012.ISO of=/dev/sdb1 status=progress
+ls
+l
+cd
+l
+fg
+lf
+lf
+clc
+vim archinstall/preinstall.sh
+sudo fdisk -l
+man dd
+l /mnt
+lsblk -rpo "name,type,size,label,mountpoint,fstype" | column -t
+l /dev/loop0
+ls /dev/loop0
+ls
+l /mnt
+l /mnt
+lf /mnt
+lf /mnt
+l /mnt
+l /mnt
+cd /mnt
+l
+cp ~/files/aria2_download/SW_DVD9_Win_Pro_10_22H2_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X23-20012.ISO .
+ls
+cd
+l /mnt
+l /mnt
+l /mnt
+l
+cd
+ls
+ls
+ls
+ls
+fdisk -l
+lsblk
+sudo fdisk -l
+lsblk -l
+lsblk -a
+lsblk -l
+lsblk -raw
+lsblk -r
+lsblk -rpo "name,type,size,label,mountpoint,fstype" | column -t | dmenuwrap -l 30
+lsblk -rpo "name,type,size,label,mountpoint,fstype" | column -t
+cd downloads/ventoy-1.0.84
+l
+vim Ventoy2Disk.sh
+l
+./VentoyGUI.x86_64
+./VentoyGUI.x86_64
+./VentoyGUI.x86_64
+sudo ./VentoyGUI.x86_64
+ls
+l
+l
+vim Ventoy2Disk.sh
+vim Ventoy2Disk.sh
+man dd
+l
+l ventoy
+l
+l
+./CreatePersistentImg.sh
+sudo ./CreatePersistentImg.sh
+vim ExtendPersistentImg.sh
+./ExtendPersistentImg.sh -h
+./CreatePersistentImg.sh -h
+sudo ./CreatePersistentImg.sh -h
+sudo fdisk /dev/sdb
+l
+sudo mkfs.ext4 /dev/sdb1
+sudo mkfs.ext4 /dev/sdb1
+ls
+l
+sudo ./Ventoy2Disk.sh -i /dev/sdb
+sudo ./Ventoy2Disk.sh -I /dev/sdb
+l
+lsblk -a
+lsblk -r
+lsblk -rp
+sudo mkfs.ext4 /dev/sdb1
+lsblk -r
+lsblk -rp
+l
+sudo dd if=/home/wintersun/files/aria2_download/SW_DVD9_Win_Pro_10_22H2_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X23-20012.ISO of=/dev/sdb1 status=progress
+ls
+l
+sudo ./CreatePersistentImg.sh
+l
+l boot
+ls
+l
+sudo mkfs.ext4 /dev/sdb1
+ls
+l
+sudo ./Ventoy2Disk.sh -I /dev/sdb
+sudo mkfs.ext4 /dev/sdb1
+ls
+l
+ls
+l
+ls /mnt
+l
+cd
+l
+efu
+sudo fdisk -l
+sudo fdisk -l
+ls
+sudo fdisk -l
+sudo fdisk /dev/sdb
+l
+lsblk -rp
+sudo dd if=/home/wintersun/files/aria2_download/SW_DVD9_Win_Pro_10_22H2_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X23-20012.ISO of=/dev/sdb status=progress bs=1M
+ps aux 
+ps aux  | grep fdisk
+kill 16061
+ps aux  | grep fdisk
+kill -9 16061
+ps aux  | grep fdisk
+kill -9 16062
+ps aux  | grep fdisk
+sudo kill -9 16062
+ps aux  | grep fdisk
+ps aux  | grep fdisk
+ls
+fdisk -l
+ps aux | grep dd
+htop
+ps aux
+htop
+ps aux | grep fdisk -l
+ps aux | grep fdisk
+sudo kill -9 16062
+ps aux | grep fdisk
+sudo kill -9 16062
+lsblk -rp
+ls
+ps aux | grep dd
+ps aux | grep dd
+ps aux | grep dd
+ps aux | grep dd
+ps ef
+ps -ef
+ps -ef | grep dd
+ps -ef | grep dd
+ps -ef | grep dd
+sudo kill -9 1855
+sudo kill -9 1855
+sudo kill -9 1856
+ps -ef | grep dd
+fdisk -l
+sudo fdisk -l
+ls
+sudo dd if=/home/wintersun/files/aria2_download/SW_DVD9_Win_Pro_10_22H2_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X23-20012.ISO of=/dev/sdb status=progress bs=2M
+sudo dd if=/home/wintersun/files/aria2_download/SW_DVD9_Win_Pro_10_22H2_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X23-20012.ISO of=/dev/sdb status=progress bs=1M
+ps aux | grep dd
+kill -9 5394
+ps aux | grep dd
+ps aux | grep dd
+pwd
+dd if=/home/wintersun/files/aria2_download/SW_DVD9_Win_Pro_10_22H2_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X23-20012.ISO of=/dev/sdb status=progress bs=1M
+sudo dd if=/home/wintersun/files/aria2_download/SW_DVD9_Win_Pro_10_22H2_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X23-20012.ISO of=/dev/sdb status=progress bs=1M
+ls
+l
+l
+lsblk -l
+fdisk -l
+sudo fdisk -l
+sudo fdisk -l
+sudo fdisk -l
+sudo fdisk -l
+sudo fdisk -l
+l
+pwd
+lf
+ls
+sudo fdisk -l
+ls
+man dd
+ls
+l
+reboot
+man mkfs
+man mkfs.ntfs
+fg
+ls
+l
+lf
+l
+man mkfs
+man mkfs
+sudo pacman -S ntfsprogs
+ls
+ls
+l
+sudo fdisk -l
+sudo fdisk -l 
+sudo mkfs.ntfs -F /dev/nvme1n1
+sudo mkfs.ntfs -Ff /dev/nvme1n1
+ls
+l
+fdisk -l
+sudo fdisk -l
+ls
+l
+l
+l .pki
+ls
+l
+l workspace/project
+l
+l .local
+l
+cd workspace/project
+l
+efb
+efd
+efd
+fg
+ls
+ls
+l
+fdisk -l
+sudo fdisk -l
+lsblk -rp
+l
+lf
+l
+aria2c --enable-rpc --rpc-listen-all
+ls
+uname -m
+pacman -Qu
+ls
+lf
+mpv sound.mp3
+l /dev/ | grep cdrom
+modprobe -l
+modprobe -a
+modprobe -h
+man modprobe
+modprobe -a
+man modprobe
+modprobe -v
+modprobe -V
+ls
+lsblk -l
+lsblk -rp
+lsblk -l
+lf
+l
+pi woeusb
+sudo woeusb --device files/aria2_download/SW_DVD9_Win_Pro_10_22H2_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X23-20012.ISO /dev/sdb
+ls
+l /media/woeusb_target_1671015286_166194
+ls
+l /media
+l /media/woeusb_target_1671015286_166194
+l
+rm -rf /media/woeusb_target_1671015286_166194
+l
+l /
+rm /media
+rm -rf /media
+sudo rm -rf /media
+l
+fdisk -l
+sudo fdisk -l
+ls
+l
+l /mnt
+l /mnt/boot
+l /mnt/
+l /mnt/efi
+ls
+cd /mnt
+ls
+l
+cd ../
+cd
+l
+ls
+lsblk
+ls
+clc
+cd archinstall
+vim pre`
+vim preinstall.sh
+sudo umount /dev/sdb1
+sudo umount /dev/sdb2
+sudo umount /dev/sdb
+ls
+cd
+sudo mkfs.vfat /dev/sdb
+sudo mkfs.vfat /dev/sdb -I
+fdisk -l
+sudo fdisk -l
+lsblk -l
+lsblk -rp
+lsblk -l
+lsblk -rpo "name,type,size,label,mountpoint,fstype" | column -t
+man column
+man mkfs.vfat
+l
+mount /mnt /dev/sdb
+mount /dev/sdb /mnt
+l /mnt
+umount /mnt
+l /mnt
+ls
+mount /dev/sdb /mnt
+man sync
+sudo dd if=/home/wintersun/files/aria2_download/SW_DVD9_Win_Pro_10_22H2_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X23-20012.ISO of=/dev/sdb status=progress bs=1M
+sudo mkfs.vfat /dev/sdb
+ls
+sudo mkfs.vfat /dev/sdb -I
+ls
+l
+sudo fdisk -l
+ls
+ls
+ffmpeg -i sound.mp3 -f ffmetadata metadata
+l
+vim metadata
+l
+cat metadata
+cat metadata
+ls
+l
+rm metadata
+l
+ffmpeg -i sound.mp3 -f ffmetadata metadata
+cat metadata
+l
+ffmpeg -i sound.mp3 -map 0 -c copy -metadata:s title="" remove_metadata_sound.mp3
+l
+mpv remove_metadata_sound.mp3
+mpv remove_metadata_sound.mp3
+l
+rm remove_metadata_sound.mp3
+l
+ffmpeg -i sound.mp3 -map 0 -c copy -metadata title="" remove_metadata_sound.mp3
+ls
+mpv remove_metadata_sound.mp3
+rm remove_metadata_sound.mp3
+l
+ls
+sudo dd if=downloads/archlinux-x86_64.iso of=/dev/sdb && sync
+l
+ffmpeg -i sound.mp3 -metadata title="Relaxing Music" remove_metadata_music.mp3
+ls
+mpv remove_metadata_music.mp3
+ls
+ls
+cat metadata
+cat metadata | grep -E '.*='
+cat metadata | grep -E '.*=[^=]'
+cat metadata | grep -E '.*='
+cat metadata | grep -oE '.*='
+ffmpeg -i sound.mp3 -metadata title="Relaxing Music" COMMENT="" artist="" date="" DESCRIPTION="" SYNOPSIS="" PURL="" encoder="" remove_metadata_music.mp3
+ffmpeg -i sound.mp3 -metadata title="Relaxing Music" COMMENT="" artist="" date="" DESCRIPTION="" SYNOPSIS="" PURL="" encoder="" remove_metadata_music.mp3
+ffmpeg -i sound.mp3 -metadata title="Relaxing Music" COMMENT="" artist="" date="" DESCRIPTION="" SYNOPSIS="" PURL="" encoder="" remove_metadata_music.mp3
+cat metadata | grep -Eo '^.*='
+cat metadata | grep -Eo '^[^=]*='
+ffmpeg -i sound.mp3 -metadata title="Relaxing Music" COMMENT="" artist="" date="" DESCRIPTION="" SYNOPSIS="" PURL="" encoder="" remove_metadata_music.mp3
+ffmpeg -i sound.mp3 -metadata title="Relaxing Music" -metadata COMMENT="" -metadata artist="" -metadata date="" -metadata DESCRIPTION="" -metadata SYNOPSIS="" -metadata PURL="" -metadata encoder="" remove_metadata_music.mp3
+l
+mpv remove_metadata_music.mp3
+ls
+echo asjdlkfa | sed 'w a'
+l
+vim a
+l
+rm a
+echo adjlf | sed '\x0'
+echo adjlf | sed '/\x0/ p'
+echo adjlf | sed '/\x0/ p'
+echo adjlf\ ajdk | sed '/\x0/ p'
+echo ajdkf\ ajdlkf | sed '$ d'
+echo -e "ajdkf\ ajdlkf\najdksf" | sed '$ d'
+echo -e "ajdkf ajdlkf\najdksf" | sed '$ d'
+echo -e "ajdkf ajdlkf\najdksf" | sed '$ d'
+echo ajdsklfj | sed 's/[^^]/[&]/g'
+ls
+l
+vim remove_metadata_music.mp3
+ls
+ls
+l
+vim remove_metadata_music.mp3
+ls
+l
+efu
+ls
+clb
+ls
+l
+cd st-utils
+l
+vim st-copyout
+vim st-urlhandler
+mv st-urlhandler ..
+l
+cd ..
+l
+l st-utils/st-copyout
+vim st-utils/st-copyout
+l
+vim st-utils/st-copyout
+l
+cp st-utils/st-copyout .
+l
+rm -rf st-utils
+l
+vim st-urlhandler
+vim st-urlhandler
+ls
+efs
+efu
+ls
+efu
+echo adjflka | tr -d'\n'
+echo adjflka | tr -d '\n'
+fg
+ls
+fg
+vim
+fg
+fg
+vim
+echo -e "ajksdlf\nasdjkflasd" 
+echo -e "ajksdlf\nasdjkflasd" | sed '$ d'
+echo -e "ajksdlf\nasdjkflasd" | sed '$ s/\n//g'
+echo -e "ajksdlf\nasdjkflasd" | sed '$ s/\\n//g'
+echo -e "ajksdlf\nasdjkflasd" | sed -n '$ s/\\n// p'
+echo -e "ajksdlf\nasdjkflasd" | sed -n '$ s/\n// p'
+echo -e "ajksdlf\nasdjkflasd" | sed -n '$ s/n// p'
+echo -e "ajksdlf\nasdjkflasd" | sed -n '$ s/\\n// p'
+echo -e "ajksdlf\nasdjkflasd\n" | sed -n '$ s/\\n// p'
+echo -e "ajksdlf\nasdjkflasd\n" | sed -n '$ s/^$// p'
+echo -e "ajksdlf\nasdjkflasd\n" | sed '$ s/^$// p'
+echo -e "ajksdlf\nasdjkflasd\n" | sed '$ s/^$//'
+echo -e "ajksdlf\nasdjkflasd\n" | sed '$ d'
+echo -e "ajksdlf\nasdjkflasd\n" | sed '$ d'
+fg
+vim 
+vim 
+vim 
+fg
+vim 
+fg
+l
+ls
+lsblk -l
+lsblk -rp
+ls
+fg
+l
+sudo fdisk -l
+ls
+fg
+cd webui-aria2
+l
+node node-server.js
+ls
+cd  ../files/aria2_download
+l
+cd
+l
+cd downloads
+l
+ls
+sh balenaEtcher-1.11.10-x64.AppImage
+vim balenaEtcher-1.11.10-x64.AppImage
+ls balenaEtcher-1.11.10-x64.AppImage
+ls
+yay -S balena-etcher
+yay -S etcher
+yay -S balena
+yay -S balena-etcher
+ls
+l
+chmod +x balenaEtcher-1.11.10-x64.AppImage
+./balenaEtcher-1.11.10-x64.AppImage
+rm -rf ./balenaEtcher-1.11.10-x64.AppImage
+l
+cd ventoy-1.0.84
+l
+l
+ls
+vim Ventoy2Disk.sh
+for i in {1..9}; do echo $i; done
+fg
+l
+cd ..
+l
+l
+cd ventoy-1.0.84
+l
+vim Ventoy2Disk.sh
+fg
+ls
+l
+ls
+cd
+ls
+l
+rm -rf metadata
+l
+mpv sound.mp3
+ls
+kp
+ls
+lf
+pwd
+efu
+efu
+fg
+lf
+ls
+l
+ls
+l
+ls
+ls
+l
+l
+mpv sound.mp3
+fg
+sudo fdisk /dev/sda
+sudo fdisk /dev/sdb
+sudo fdisk -l
+ls
+man mkntfs
+sudo mkfs.ntfs -Ff /dev/sdb
+l
+sudo dd if=/home/wintersun/files/aria2_download/SW_DVD9_Win_Pro_10_22H2_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X23-20012.ISO of=/dev/sdb status=progress bs=1M && sync
+mount.ntfs /dev/sdb /mnt
+mount /dev/sdb /mnt
+mount.ntfs /dev/sdb /mnt
+ls /mnt
+l
+l /mnt
+umount /mnt
+mount.ntfs /dev/sdb /mnt
+sudo mount.ntfs /dev/sdb /mnt
+l /mnt
+fdisk -l
+sudo fdisk -l
+mount /dev/sda /mnt
+mount /dev/sdb /mnt
+ls /mnt
+l
+l /mnt
+du -ch /mnt
+du -chm /mnt
+du -ch /mnt
+umount /mnt
+l /mnt
+kp
+efu
+fg
+ls
+ls
+l downloads
+cd downloads
+l
+rm ventoy-1.0.84-linux\ \(1\).tar.gz
+l
+l
+cd ventoy-1.0.84
+l
+cd ..
+l
+l
+mount /dev/sdb /mnt
+l
+cd /mnt
+l
+ls
+mount /dev/sdb /mnt
+cd
+cd /mnt
+ls
+ls
+cd
+ls
+ls
+l
+lf
+kp
+kp
+ls
+kp
+ls
+lf
+l downloads
+l downloads
+cd downloads
+l
+chmod +x balenaEtcher-1.12.0-x64.AppImage
+./balenaEtcher-1.12.0-x64.AppImage
+sudo ./balenaEtcher-1.12.0-x64.AppImage
+ls
+l
+cd ..
+l
+sudo ls /
+sudo ls /root
+ls
+l
+sudo fdisk -l
+sudo ls
+lsblk -l
+lsblk -rp
+lsblk -rpo "name,type,size,label,mountpoint,fstype" | column -t
+ls
+ls
+l
+sudo fdisk -l
+mount /dev/sdb1 /mnt
+ls /mnt
+ls /mnt/System\ Volume\ Information
+ls
+ls
+cd /mnt
+ls
+man rsync
+man rsync
+rsync ~/files/aria2_download/SW_DVD9_Win_Pro_10_22H2_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X23-20012.ISO . --progress
+ls
+sudo rsync ~/files/aria2_download/SW_DVD9_Win_Pro_10_22H2_64BIT_ChnSimp_Pro_Ent_EDU_N_MLF_X23-20012.ISO . --progress
+ls
+l
+cd
+ls
+sudo umount /mnt
+ls
+ls
+ls
+cd downloads
+l
+sudo ./balenaEtcher-1.12.0-x64.AppImage
+ls
+clb
+l
+vim dmenurecord
+ls
+lf
+cd
+lf
+l
+ls
+l
+l
+fg
+pacman -Qu
+pacman -Qu
+pacman -Qu
+fg
+pacman -Qu
+ls
+ls
+l
+clb
+vim statusbar/sb-popupgrade
+pkill -RTMIN+8 "${STATUSBAR:-dwmblocks}"
+ls
+l
+cd
+l
+vim .zprofile
+ls
+ls
+l
+l downloads
+ls
+l
+ls
+cd downloads
+l
+sudo ./balenaEtcher-1.12.0-x64.AppImage
+cd
+ls /mnt
+umount /dev/sdb
+ls
+l
+groups
+groups
+fg
+ls
+cat /etc/passwd | column -t -s:
+groups
+cat /etc/group
+sudo usermod -G vboxusers -a wintersun
+groups
+newgrp
+ls
+fdisk -l
+sudo fdisk -l
+ls /usr/bin
+du -ch /usr
+du -ch /home
+du -ch /usr/bin
+du -ch /usr/lib
+du -ch /etc
+du -ch /boot
+du -ch /opt
+du -ch /opt
+du -ch /root
+du -ch /run
+du -ch /tmp
+du -ch /sys
+du -ch /sys
+du -ch /tmp
+du -ch ! /home
+du -ch /home
+du -ch /proc
+du -ch /sbin
+du -ch /usr
+du -ch /usr | fzf
+df /usr
+ls
+l
+ls
+l
+ls
+cd files/virtual_shared_dir
+ls
+ls
+echo helloworld > a
+l
+ls
+rm -rf a
+cd
+l
+ls
+ls
+pwd
+ls
+l
+mpv sound.mp3
+mpv remove_metadata_music.mp3
+mpv remove_metadata_music.mp3
+ls
+reboot
+ls
+reboot
+ls /boot
+cd /boot
+ls
+l
+l System\ Volume\ Information
+ls grub
+ls EFI
+ls EFI/Microsoft
+ls EFI/Microsoft/Boot
+ls
+l
+l EFI
+l EFI/Microsoft
+ls
+l
+ls
+cd
+lf
+lf
+timedatectl set-ntp true
+sudo timedatectl set-ntp true
+sudo timedatectl set-ntp true
+ld
+ls
+date
+cd .local/bin
+l
+rm webi
+l
+l
+cd ..
+l
+cd ..
+l
+clc
+echo ".config/ajdkf: ajkdfa" | grep -oE "^[^:]*"
+echo ".config/ajdkf: ajkdfa" | grep -oE "^[^:]*"
+echo ".config: ajkdfa" | grep -oE "^[^:]*"
+fg

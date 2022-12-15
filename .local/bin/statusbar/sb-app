@@ -1,0 +1,17 @@
+#!/bin/sh
+
+if ps aux | grep yesplaymusic | grep -qv grep; then
+  icons="🎸"
+fi
+
+if ps aux | grep obs | grep -qv grep; then
+  icons="$icons 🎬"
+fi
+
+if netstat -tan | grep -qE ".*127.0.0.1:9000\s+.*LISTEN\s*$"; then
+  icons="$icons 🔐"
+fi
+
+[ -f /tmp/recordingicon ] && icons="$(cat /tmp/recordingicon) $icons"
+
+echo "$icons<"

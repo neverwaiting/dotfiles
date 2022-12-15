@@ -1,0 +1,5 @@
+#!/bin/sh
+
+command=$(man -k . | dmenuwrap -l 30 -p Which\ command: | cut -d' ' -f1)
+[ -n "$command" ] || exit 0;
+man -Tpdf "$command" | zathura -

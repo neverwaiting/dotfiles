@@ -58,7 +58,7 @@ onescreen() { # If only one output available or chosen.
 
 postrun() { # Stuff to run to clean up.
 	setbg		# Fix background if screen size/arangement has changed.
-	remaps		# Re-remap keys if keyboard added (for laptop bases)
+	keymap		# Re-remap keys if keyboard added (for laptop bases)
 	{ killall dunst ; setsid -f dunst ;} >/dev/null 2>&1 # Restart dunst to ensure proper location on screen
 	}
 
@@ -73,7 +73,7 @@ screens=$(echo "$allposs" | awk '/ connected/ {print $1}')
 	{ onescreen "$screens"; postrun; notify-send "💻 Only one screen detected." "Using it in its optimal settings...";  exit ;}
 
 # Get user choice including multi-monitor and manual selection:
-chosen=$(printf "%s\\nmulti-monitor\\nmanual selection" "$screens" | dmenu -i -p "Select display arangement:") &&
+chosen=$(printf "%s\\nmulti-monitor\\nmanual selection" "$screens" | dmenuwrap -i -p "Select display arangement:") &&
 case "$chosen" in
 	"manual selection") arandr ; exit ;;
 	"multi-monitor") multimon ;;

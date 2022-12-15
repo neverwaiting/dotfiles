@@ -1,4 +1,4 @@
-# personal resources
+# personal
 https://github.com/neverwaiting/
 https://github.com/
 https://blog.zwled.xyz/
@@ -7,8 +7,8 @@ https://app.netlify.com/
 https://nstop.cn/chat/
 
 # video
-https://www.bilibili.com/
 https://www.youtube.com/
+https://www.bilibili.com/
 
 # mail
 https://mail.qq.com/
@@ -30,10 +30,16 @@ https://translate.google.com/
 https://fanyi.baidu.com/?aldtype=16047#auto/zh
 https://cn.bing.com/translator
 
-# vim / neovim
+# vim/neovim
 https://www.nerdfonts.com/
 https://vimawesome.com/
 https://vim.rtorr.com/lang/zh_cn
+https://www.nerdfonts.com/font-downloads
+https://github.com/glepnir/nvim-lua-guide-zh
+https://neovim.io/doc/user/lua.html
+https://github.com/nvim-telescope/telescope.nvim
+https://github.com/rockerBOO/awesome-neovim
+https://github.com/L3MON4D3/LuaSnip
 
 # shell
 http://yangtze736.github.io/%E6%8A%80%E6%9C%AF/2018/05/02/shell-tips/
@@ -85,7 +91,6 @@ https://blog.csdn.net/deng624796905/article/details/103908588
 https://blog.csdn.net/diyal/article/details/54948858?reload
 https://blog.csdn.net/u010144805/article/details/80349875
 https://blog.csdn.net/weixin_42869573/article/details/101751416?spm=1001.2101.3001.6650.11&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-11-101751416-blog-119372244.pc_relevant_multi_platform_whitelistv2_ad_hc&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-11-101751416-blog-119372244.pc_relevant_multi_platform_whitelistv2_ad_hc&utm_relevant_index=22
-https://greasyfork.org/zh-CN/scripts/418182-%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E7%AE%80%E6%98%93%E4%B8%8B%E8%BD%BD%E5%8A%A9%E6%89%8B-%E7%9B%B4%E9%93%BE%E4%B8%8B%E8%BD%BD%E5%A4%8D%E6%B4%BB%E7%89%88
 https://www.likecs.com/show-203417004.html
 https://zhuanlan.zhihu.com/p/252702978?utm_source=wechat_session
 
@@ -94,6 +99,7 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generati
 
 # mirrors
 http://mirrors.aliyun.com/centos/7/isos/x86_64/
+https://arch-archive.tuna.tsinghua.edu.cn/2022/12-12/iso/2022.12.01/archlinux-x86_64.iso
 
 # vpn
 https://hide.me/en/software/linux
@@ -135,7 +141,7 @@ http://cht.sh/
 https://ifconfig.me/
 https://wttr.in/
 
-# vmware workstation pro hack
+# vmware
 https://www.olecn.com/9304.html
 https://blog.csdn.net/zhangcongyi420/article/details/125577669
 
@@ -181,12 +187,6 @@ https://blog.codingnow.com/eo/skynet/
 # selenium
 https://www.selenium.dev/zh-cn/documentation/webdriver/waits/
 
-# vim / neovim
-https://github.com/glepnir/nvim-lua-guide-zh
-
-# vim / neovim
-https://neovim.io/doc/user/lua.html
-
 # awk
 https://www.gnu.org/software/gawk/manual/html_node/String-Functions.html
 
@@ -197,4 +197,27 @@ https://git-scm.com/book/en/v2/Git-on-the-Server-Setting-Up-the-Server
 https://wohugb.gitbooks.io/javascript/content/htmlapi/file.html
 https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Sending_and_Receiving_Binary_Data
 https://juejin.cn/post/7056728714800791560
+
+# 4k game video
+https://www.youtube.com/watch?v=wZyYwjNZ4ls
+
+# extensions
+https://chrome.google.com/webstore/category/extensions
+brave://extensions/
+
+# browser history
+brave://history/
+
+# windows mirrors
+https://software.download.prss.microsoft.com/dbazure/Win10_22H2_Chinese_Simplified_x64.iso?t=a405eddc-0907-4dbd-b9c3-e2b6d75d12c8&e=1670650680&h=d4a3d07eafcd68968091c532dfe3113248e753dd54c6c2940907857aeb4ccd0a
+https://msdn.itellyou.cn/
+
+# detect network
+https://tcp.ping.pe/
+https://ping.pe/
+
+# cloud disk
+https://www.tampermonkey.net/
+https://blog.csdn.net/qq_39677429/article/details/116404062
+https://greasyfork.org/zh-CN/scripts/418182-%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E7%AE%80%E6%98%93%E4%B8%8B%E8%BD%BD%E5%8A%A9%E6%89%8B-%E7%9B%B4%E9%93%BE%E4%B8%8B%E8%BD%BD%E5%A4%8D%E6%B4%BB%E7%89%88
 

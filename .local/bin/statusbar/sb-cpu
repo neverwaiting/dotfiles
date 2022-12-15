@@ -4,7 +4,7 @@
 cache=/tmp/cpubarscache
 
 case $BLOCK_BUTTON in
-  1) notify-send "🖥 CPU hogs" "$(ps axch -o cmd:15,%cpu | sed 's/./&|/16' | awk -F'|' '{p[$1]+=$2} END {for (i in p) {print p[i],i,p[i]}}' | sort -r -nk1 | sed 's/^\S*\s//' | head)\\n(100% per core ncore=$(nproc))" ;;
+  1) notify-send "🖥 CPU hogs" "$(ps axch -o cmd:15,%cpu | sed 's/./&|/16' | awk -F'|' '{p[$1]+=$2} END {for (i in p) {print p[i],i,p[i]}}' | sort -r -nk1 | sed 's/^\S*\s//' | head)\\n(100% per core, ncore=$(nproc), total $(nproc)00%)" ;;
 	2) setsid -f "$TERMINAL" -e htop ;;
 	3) notify-send "🖥 CPU module " "\- Shows CPU temperature.
 - Click to show intensive processes.

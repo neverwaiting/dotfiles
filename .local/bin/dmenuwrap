@@ -1,0 +1,3 @@
+#!/bin/sh
+
+dmenu -fn "Fira Code Nerd Font:size=14" -nb "#222222" -nf "#bbbbbb" -sb "#ffd700" -sf "#005577" "$@"

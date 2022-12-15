@@ -1,11 +1,15 @@
 #!/bin/sh
 
-url="$(xclip -o)"
+if [ -n "$1" ]; then
+  url="$1"
+else
+  url="$(xclip -o)"
+fi
 
-protocol="^(https?|ftps?|mailto|about|file):///?"
+protocol="^(https?|ftps?|mailto|about|file|brave):///?"
 
 if echo "$url" | grep -qvE "$protocol"; then
-  notify-send "$url" "is not a valid url"
+  notify-send "$url" "is not a valid url" -u critical
   exit 1
 fi
 
@@ -14,14 +18,14 @@ file="$HOME/.local/share/bookmarks/urls"
 if grep -q "^$url$" "$file"; then
   notify-send "bookmark have already been added!" -u critical
 else
-  tag_input="$(grep -e '^# ' $file | dmenu -i -l 30 -p 'select tag' | sed 's/^ *//g; s/ *$//g')"
+  tag_input="$(sed -n 's/^#// p' $file | dmenuwrap -i -l 30 -p Select\ tag: | sed 's/^/#/; s/^ *//g; s/ *$//g')"
   if [ -z "$tag_input" ]; then
     notify-send "cancel bookmark this url!"
   else
     if echo "$tag_input" | grep -q '^# '; then
-      tag="$tag_input"
+      tag=$(echo "$tag_input" | sed 's/\//\\\//g')
     else
-      tag="# $tag_input"
+      tag=$(echo "# $tag_input" | sed 's/\//\\\//g')
     fi
     insert_line_number="$(sed -n "/^$tag$/,/^$/ {/^$/=}" $file)"
     if [ -z "$insert_line_number" ]; then
@@ -29,6 +33,6 @@ else
     else
       sed -i "$insert_line_number c $url\n" "$file"
     fi
-    notify-send "bookmark added: tag($tag)" "$url"
+    notify-send "bookmark added: tag($tag)" "$url" -u critical
   fi
 fi
