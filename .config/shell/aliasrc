@@ -11,7 +11,7 @@ for command in mount umount sv pacman updatedb su shutdown poweroff reboot ; do
 	alias $command="sudo $command"
 done; unset command
 
-se() { cd ~/.local/bin; $EDITOR $(fzf) ;}
+se() { cd "$HOME/.local/bin"; fzf | xargs -r $EDITOR ;}
 
 # Verbosity and settings that you pretty much just always are going to want.
 alias \
@@ -33,7 +33,7 @@ alias \
 	diff="diff --color=auto" \
 	ccat="highlight --out-format=ansi" \
 	ip="ip -color=auto" \
-	showip="curl ip.gs"
+  showip="curl ifconfig.me/ip"
 
 # These common commands are just too long! Abbreviate them.
 alias \
@@ -76,3 +76,7 @@ alias \
   pi="sudo pacman -S" \
   piy="sudo pacman -Sy" \
   pu="sudo pacman -Syyu"
+
+# split windows with the same as current active window dir
+alias sp="setsid -f $TERMINAL"
+

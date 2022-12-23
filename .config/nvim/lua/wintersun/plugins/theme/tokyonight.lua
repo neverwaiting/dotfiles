@@ -7,5 +7,3 @@ require('tokyonight').setup({
     colors.error = "#ff0000"
   end
 })
-
-vim.cmd[[colorscheme tokyonight]]

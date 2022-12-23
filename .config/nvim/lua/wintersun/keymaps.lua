@@ -1,15 +1,4 @@
-local opts = { noremap = true, silent = true }
-
-local term_opts = { silent = true }
-
--- Shorten function name
-local keymap = vim.api.nvim_set_keymap
-
---Remap space as leader key
-keymap('', '<Space>', '<Nop>', opts)
-vim.g.mapleader = ' '
-vim.g.maplocalleader = ' '
-
+local keymap = vim.api.nvim_set_keymap -- Shorten function name
 -- Modes
 --   normal_mode = 'n',
 --   insert_mode = 'i',
@@ -18,68 +7,118 @@ vim.g.maplocalleader = ' '
 --   term_mode = 't',
 --   command_mode = 'c'
 
+local noremap_opts = { noremap = true, silent = true }
+local slient_opts = { silent = true }
+
+local allnoremap = function(lhs, rhs)
+  keymap('', lhs, rhs, noremap_opts)
+end
+local nnoremap = function(lhs, rhs)
+  if type(rhs) == "function" then
+    vim.keymap.set('n', lhs, rhs)
+  else
+    keymap('n', lhs, rhs, noremap_opts)
+  end
+end
+local vnoremap = function(lhs, rhs)
+  keymap('v', lhs, rhs, noremap_opts)
+end
+local xnoremap = function(lhs, rhs)
+  keymap('x', lhs, rhs, noremap_opts)
+end
+local nmap = function(lhs, rhs)
+  keymap('n', lhs, rhs, slient_opts)
+end
+
+--Remap space as leader key
+allnoremap('<Space>', '<Nop>')
+vim.g.mapleader = ' '
+vim.g.maplocalleader = ' '
+
 -- better save(quit,refresh) file
-keymap('n', '<leader>w', '<cmd>w<CR>', opts)
-keymap('n', '<leader>q', '<cmd>q<CR>', opts)
-keymap('n', '<leader>a', '<cmd>qall<CR>', opts)
-keymap('n', '<leader>z', '<cmd>source %<CR>', {})
+nnoremap('<leader>w', '<cmd>w<CR>')
+nnoremap('<leader>q', '<cmd>q<CR>')
+nnoremap('<leader>a', '<cmd>qall<CR>')
+nnoremap('<leader>z', '<cmd>source %<CR><cmd>echo "This file is sourced!"<CR>')
 
 -- split window operations
-keymap('n', 'sr', '<cmd>set splitright<CR><cmd>vsp<CR>', opts)
-keymap('n', 'sl', '<cmd>set nosplitright<CR><cmd>vsp<CR>', opts)
-keymap('n', 'su', '<cmd>set nosplitbelow<CR><cmd>sp<CR>', opts)
-keymap('n', 'sd', '<cmd>set splitbelow<CR><cmd>sp<CR>', opts)
+nnoremap('sr', '<cmd>set splitright<CR><cmd>vsp<CR>')
+nnoremap('sl', '<cmd>set nosplitright<CR><cmd>vsp<CR>')
+nnoremap('su', '<cmd>set nosplitbelow<CR><cmd>sp<CR>')
+nnoremap('sd', '<cmd>set splitbelow<CR><cmd>sp<CR>')
 
 -- move window
-keymap('n', '<leader>l', '<C-w>l', opts)
-keymap('n', '<leader>k', '<C-w>k', opts)
-keymap('n', '<leader>j', '<C-w>j', opts)
-keymap('n', '<leader>h', '<C-w>h', opts)
+nnoremap('<leader>l', '<C-w>l')
+nnoremap('<leader>k', '<C-w>k')
+nnoremap('<leader>j', '<C-w>j')
+nnoremap('<leader>h', '<C-w>h')
 
 -- resize with arrows
-keymap('n', '<up>', '<cmd>resize -3<CR>', opts)
-keymap('n', '<down>', '<cmd>resize +3<CR>', opts)
-keymap('n', '<left>', '<cmd>vertical resize -3<CR>', opts)
-keymap('n', '<right>', '<cmd>vertical resize +3<CR>', opts)
+nnoremap('<up>', '<cmd>resize -3<CR>')
+nnoremap('<down>', '<cmd>resize +3<CR>')
+nnoremap('<left>', '<cmd>vertical resize -3<CR>')
+nnoremap('<right>', '<cmd>vertical resize +3<CR>')
 
 -- line numbers
--- keymap('n', '<leader>n', '<cmd>set nu!<CR>', opts)
-keymap('n', '<leader>n', '<cmd>set rnu!<CR>', opts)
+-- nnoremap('<leader>n', '<cmd>set nu!<CR>')
+nnoremap('<leader>n', '<cmd>set rnu!<CR>')
 
 -- table
-keymap('n', 'tu', '<cmd>tabe<CR>', opts)
-keymap('n', 'tl', '<cmd>+tabnext<CR>', opts)
-keymap('n', 'th', '<cmd>-tabnext<CR>', opts)
+nnoremap('tu', '<cmd>tabe<CR>')
+nnoremap('tl', '<cmd>+tabnext<CR>')
+nnoremap('th', '<cmd>-tabnext<CR>')
 
 -- netrw
-keymap('n', '<leader>t', '<cmd>Ex<CR>', opts)
+nnoremap('<leader>t', '<cmd>Ex<CR>')
+
 -- format
-keymap('n', '<leader>f', 'gg=G<C-o>', opts)
--- copy virtual text to system clipboard
--- keymap('v', '<leader>p', ":w !xclip -selection clipboard<CR><CR>:echo 'Already copy to system clipboard!'<CR>", opts) -- don't use <cmd>
-
--- bufferline
--- keymap('n', '<C-h>', '<cmd>BufferLineCyclePrev<CR>', opts)
--- keymap('n', '<C-l>', '<cmd>BufferLineCycleNext<CR>', opts)
-
--- telescope
-keymap('n', 'sj', '<cmd>Telescope find_files<CR>', opts)
-keymap('n', 'sk', '<cmd>Telescope treesitter<CR>', opts)
-keymap('n', 'sh', '<cmd>Telescope current_buffer_fuzzy_find<CR>', opts)
-keymap('n', 'sv', '<cmd>lua require("wintersun.plugins.telescope").nvim_config()<CR>', opts)
-keymap('n', 'sz', '<cmd>lua require("wintersun.plugins.telescope").zsh_config()<CR>', opts)
-keymap('n', 'sx', '<cmd>lua require("wintersun.plugins.telescope").xconfig()<CR>', opts)
-
--- toggle terminal
-keymap('n', 'sfl', '<cmd>ToggleTerm direction=vertical<CR>', opts)
-keymap('n', 'sfj', '<cmd>ToggleTerm direction=horizontal<CR>', opts)
+nnoremap('<leader>f', vim.lsp.buf.format)
 
 -- unhighlight search
-keymap('n', '<esc>', '<cmd>noh<CR>', opts)
+nnoremap('<esc>', '<cmd>noh<CR>')
 
-keymap('v', '<leader>y', ':lua require("clipboard").yank()<CR>:echo "Already copy to clipboard!"<CR>', opts)
-keymap('v', '<leader>b', ':lua require("translate").trans()<CR>', opts)
+-- copy with clipboard
+vnoremap('<leader>y', [["+y]])
+nnoremap('<leader>y', [["+y]])
+nnoremap('<leader>Y', [["+Y]])
+
+-- greatest remap ever
+xnoremap('<leader>p', [["_dP]])
+
+-- keep the cursor position unchanged
+nnoremap('J', 'mzJ`z')
+
+-- keep the cursor in the middle of the screen
+nnoremap('<C-u>', '<C-u>zz')
+nnoremap('<C-d>', '<C-d>zz')
+nnoremap('n', 'nzzzv')
+nnoremap('N', 'Nzzzv')
+
+-- move visual text to anywhere
+vnoremap('J', ":m '>+1<CR>gv=gv")
+vnoremap('K', ":m '<-2<CR>gv=gv")
+
+-- replace string
+nnoremap('<leader>s', [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
+
+-- make excuteable
+nnoremap('<leader>x', '<cmd>!chmod +x %<CR>')
+
+
+vnoremap('<leader>b', ':lua require("translate").trans()<CR>')
 
 -- winshift
-keymap('n', '<C-h>', ':WinShift<CR>Jq<leader>k', term_opts)
-keymap('n', '<C-l>', ':WinShift<CR>Lq<leader>h', term_opts)
+nmap('<C-h>', ':WinShift<CR>Jq<leader>k')
+nmap('<C-l>', ':WinShift<CR>Lq<leader>h')
+
+-- telescope
+nnoremap('sj', '<cmd>Telescope find_files<CR>')
+nnoremap('sk', '<cmd>Telescope treesitter<CR>')
+nnoremap('sh', '<cmd>Telescope current_buffer_fuzzy_find<CR>')
+nnoremap('sv', '<cmd>lua require("wintersun.plugins.telescope").nvim_config()<CR>')
+nnoremap('sz', '<cmd>lua require("wintersun.plugins.telescope").zsh_config()<CR>')
+nnoremap('sx', '<cmd>lua require("wintersun.plugins.telescope").xconfig()<CR>')
+
+-- toggle terminal
+nnoremap('sfl', '<cmd>ToggleTerm direction=vertical<CR>')
+nnoremap('sfj', '<cmd>ToggleTerm direction=horizontal<CR>')

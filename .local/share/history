@@ -21113,3 +21113,2554 @@ echo ".config/ajdkf: ajkdfa" | grep -oE "^[^:]*"
 echo ".config/ajdkf: ajkdfa" | grep -oE "^[^:]*"
 echo ".config: ajkdfa" | grep -oE "^[^:]*"
 fg
+ls
+l
+lf
+ls
+l
+clc
+l
+cd dotfiles
+l
+l
+ls
+ls
+du -ch .
+git log 
+ls
+ls
+ls
+ls
+ll
+l
+git log 
+l
+git status
+gs
+l
+l
+l
+cd 
+cd -
+l
+l
+l
+l
+gs
+l
+lf
+cd ..
+vim archinstall
+hwclock --sync
+vim
+hwclock --systohc
+vim 
+hwclock --systohc
+sudo hwclock --systohc
+ls
+date -
+date
+ls
+fg
+l
+vim archinstall/chroot.sh o
+vim archinstall/chroot.sh 
+ls
+l
+ls
+ls
+man diff
+diff -qr ~/.config dotfiles/.config/
+diff -qr ~/.config dotfiles/.config/ | grep differ
+diff -qr ~/.config dotfiles/.config/ | grep -v differ
+diff -qr ~/.config dotfiles/.config/ | grep -v differ
+ls
+l
+diff -qr ~/.local/bin dotfiles/.local/bin 
+diff -qr ~/.local/bin dotfiles/.local/bin  | grep differ
+diff -qr ~/.local/bin dotfiles/.local/bin  | grep differ
+vim dotfiles/.local/bin/statusbar/sb-popupgrade
+vim dotfiles/.local/bin/statusbar/sb-pacpackages 
+l
+diff -qr ~/.local/bin dotfiles/.local/bin  | grep differ
+diff -qr ~/.local/bin dotfiles/.local/bin  | grep -v differ
+l
+cd dotfiles
+l
+/usr/bin/cp -r ~/.local/bin .local
+git status
+gs
+rm -rf .local/bin
+/usr/bin/cp -r ~/.local/bin .local
+gs
+ls
+l .local/share
+l .local/share/larbs/
+l .local/share/wallpaper
+l
+l .local/share
+l .local/share/applications
+ls
+l
+l
+vim update_dotfiles
+chmod +x update_dotfiles
+vim update_dotfiles
+fg
+l .local/share/
+fg
+l
+vim update_dotfiles
+l
+cp update_dotfiles ..
+l
+cd ..
+l
+l
+cd dotfiles
+l
+g reset --hard
+gs
+l
+git reset --hard
+l
+gs
+g log
+g reset --hard d3d13419a9a403ba5a6215204c9508cf0aca9469
+l
+gs
+rm .local/bin
+l
+g reset --hard 
+gs
+l
+rm -rf .local/bin
+l
+gs
+git reset --hard
+gs
+l
+gs
+cd ..
+l
+rm update_dotfiles
+cd dotfiles
+l
+./update_dotfiles
+gs
+ls
+ls
+l
+diff -qr ~/.config dotfiles/.config/ | grep -v differ
+diff -qr ~/.config .config/ | grep -v differ
+diff -qr ~/.config .config/ | grep -v differ
+ls .config
+l .config
+l .config/lf
+lf
+l
+vim update_dotfiles
+diff -qr ~/.config .config/ | grep -v differ
+diff -qr ~/.config .config/ | grep differ
+fg
+diff -qr ~/.config .config/ | grep differ | sed 's/^.* and//; s/\sdiffer$//'
+vim 
+./update_dotfiles
+fg
+./update_dotfiles
+fg
+./update_dotfiles
+fg
+./update_dotfiles
+fg
+./update_dotfiles
+./update_dotfiles
+fg
+./update_dotfiles
+fg
+./update_dotfiles
+fg
+./update_dotfiles
+fg
+fg
+alias cp
+fg
+./update_dotfiles
+fg
+./update_dotfiles
+fg
+./update_dotfiles
+fg
+./update_dotfiles
+./update_dotfiles
+fg
+diff -qr ~/.config .config/ | grep -v differ
+diff -qr ~/.config .config/ | grep -v differ | grep $HOME
+diff -qr ~/.config .config/ | grep -v differ | grep $HOME
+fg
+diff -qr ~/.config .config/ | grep -v differ | grep "$HOME" | sed 's/^Only in $HOME//'
+diff -qr ~/.config .config/ | grep -v differ | grep "$HOME" | sed "s/^Only in $HOME//"
+diff -qr ~/.config .config/ | grep -v differ | sed "s/^Only in .config//"
+diff -qr ~/.config .config/ | grep -v differ | sed "s#^Only in $HOME##"
+diff -qr ~/.config .config/ | grep -v differ | grep "$HOME" | sed "s#^Only in $HOME/##"
+fg
+fg
+fg
+fg
+./update_dotfiles
+fg
+fg
+./update_dotfiles
+fg
+./update_dotfiles
+fg
+./update_dotfiles
+fg
+./update_dotfiles
+fg
+./update_dotfiles
+fg
+./update_dotfiles
+fg
+fg
+vim ~/.local/bin/readpdf
+fg
+vim ~/.local/bin/readpdf
+./update_dotfiles
+fg
+./update_dotfiles
+fg
+fg
+fg
+./update_dotfiles
+fg
+fg
+./update_dotfiles
+fg
+./update_dotfiles
+fg
+fg
+fg
+l
+./update_dotfiles
+fg
+vim update_dotfiles
+./update_dotfiles
+fg
+ls
+l
+l
+gs
+git reset --hard 
+gs
+rm -rf .config
+rm -rf .local
+git reset --hard
+l
+gs
+./update_dotfiles
+l
+./update_dotfiles
+l
+gs
+ls .config/cron
+l
+gs
+gd
+l
+ls
+gp
+gam "update dotfiles"
+gp
+gp personal
+g log
+gs
+l
+l .config
+l .local/bin
+fg
+cd ..
+l
+l
+l dmenu
+cd dmenu
+cd ..
+l
+cd dotfiles
+cd ..
+cd archinstall
+l
+cd ..
+l
+cd dwmblocks
+l
+cd ..
+ls
+l
+cd dotfiles
+l
+vim update_dotfiles
+l
+./update_dotfiles
+l
+gs
+gam "update dotfiles"
+gp
+gp personal
+ls
+ls
+cd .
+cd ..
+l
+cd
+l
+clc
+cd dotfiles
+l
+gs
+cd
+efa
+ls
+cd project/cc
+setsid -f st
+sd
+setsid -f st
+setsid -f st
+man st
+man setsid
+man setsid
+setsid -f st
+setsid -f st
+fg
+st
+se
+ls
+efa
+se
+se
+ref
+se
+se
+se
+ls
+efa
+man fzf
+fg
+ref
+se
+fzf /home/wintersun/.local/bin
+man fzf
+l
+efa
+ref
+se
+se
+ls
+cd
+se
+ls
+cd
+cd workspace
+setsid -f st
+setsid -f st
+cd "$(dirname "$(fzf)")"
+cd
+setsid -f st
+sd
+cd workspace/project/'
+cd workspace/project/
+setsid -f "$TERMINAL"
+ls
+cd project
+setsid -f "$TERMINAL"
+cd workspace
+setsid -f "$TERMINAL"
+cd "$(dirname "$(fzf)")"
+cd workspace/project
+ls
+sp
+shuf -n 1
+echo "123456" | shuf -n 1
+echo -e "1\n2\n3\n4\n5\n6" | shuf -n 1
+echo -e "1\n2\n3\n4\n5\n6" | shuf -n 1
+man shuf
+shuf -i 1-10
+shuf -i a-b
+shuf -i a-z
+shuf -r -n 50 -i 0-9
+se
+se
+vim
+vim
+se
+ls
+clb
+l
+cd ..
+l
+cd
+cd "$(dirname "$(fzf)")"
+ls
+cd
+l
+ping 111.67.192.127
+ftp 111.67.192.127
+ftp ftp6560383@111.67.192.127
+ls
+ls
+l
+ce
+se
+ls
+l
+rm sd
+l
+efa
+l
+efz
+fg
+efz
+efa
+ref
+sp
+sp
+sp
+sp
+sp
+sp
+cd workspace/
+cd project/cchess
+sp
+vim /etc/pacman.d/mirrorlist
+vim /etc/pacman.d/mirrorlist
+pacman -Syyu
+sudo pacman -Syyu
+dd if=/dev/zero of=dummy count=10 bs=10M
+dd if=/dev/zero of=dummy count=1000 bs=10M
+dd if=/dev/zero of=dummy count=1000 bs=10M status=progress
+dd if=/dev/zero of=dummy count=10000 bs=1M status=progress
+dd if=/dev/zero of=dummy count=1000 bs=10M status=progress
+dd if=/dev/zero of=dummy count=100 bs=100M status=progress
+dd if=/dev/zero of=dummy count=1000000 bs=4096K status=progress
+ls
+rm dummy
+l
+ls
+sp
+cd "$(dirname "$(fzf)")"
+ls
+vim ncurses_ui.h
+cd
+ls
+l
+ls
+cd
+se
+updatemirrorlist
+se
+updatemirrorlist
+fg
+sudo pacman -Syyu
+ls
+ls
+l
+pacman -Qu
+ls
+ls
+cd
+lf
+lf
+efd
+clc
+cd dwmblocks
+l
+cd ..
+cd dwm
+l
+vim config.def.h
+vim Makefile
+l
+cd ..
+l
+l
+ls
+l
+cd
+ssh git@zwled.xyz
+ls
+l
+ls
+ssh git@zwled.xyz
+clc
+l
+cd
+linkhandler remove_metadata_music.mp3
+sudo pacman qndl
+sudo pacman -S qndl
+alias pi
+pi tsp
+pi task-spooler
+ls
+systemd-run --user yt-dlp https://www.youtube.com/watch\?v\=dum7q6UXiCE
+systemd-run 
+ls
+ps aux
+ps aux | grep yt-dlp
+ps aux | grep yt-dlp |grep -v
+ps aux | grep yt-dlp |grep -v grep
+ps aux | grep yt-dlp | grep -v grep
+man disown
+man disown
+ps aux | grep yt-dlp | grep -v grep
+kill -9 405620
+ps aux | grep yt-dlp | grep -v grep
+ls
+clc
+git clone git clone https://git.suckless.org/slock
+git clone https://git.suckless.org/slock
+l
+sudo pacman -Rc slock
+l
+cd slock
+l
+slock
+fg
+l
+vim config.def.h
+l
+fg
+slock
+vim config.def.h
+slock
+l
+vim Makefile
+vim config.def.h
+l
+gs
+ls
+l
+slock
+l
+vim config.def.h
+vim config.def.h
+l
+cd ..
+l
+ls
+man slock
+l
+cd slock
+l
+git remote -v
+git remote remove origin
+git remote -v
+l
+git log
+l
+rm -rf .git
+l
+git init
+git log
+git remove -v
+l
+gam "init commit"
+git branch -a
+git remove add origin git@github.com:neverwaiting/slock.git
+git remote add origin git@github.com:neverwaiting/slock.git
+git remove -v
+git remote -v
+git remote add personal git@zwled.xyz:/srv/git/slock.git
+git remove -v
+git remote -v
+ls
+gp 
+l
+git rebase 
+git branch --set-upstream-to=origin/master
+git fetch
+git branch -v
+git branch -a
+git remove -v
+git remote -v
+gp
+git push --set-upstream origin master
+git pull
+git pull origin master
+git log
+git remote -v
+git push personal
+l
+gs
+git branch -a
+l
+git rebase origin/master
+gp
+gp origin
+l
+g log
+gs
+git push origin 
+git push --set-upstream origin master
+gp
+gp personal
+ls
+git pull personal
+ls
+vim README.md
+vim README
+l
+ls
+l
+rm -rf .git
+l
+rm README.md
+vim README
+ls
+l
+git init
+gam "init commit"
+ls
+l
+vim README
+l
+git remote add origin git@github.com:neverwaiting/slock.git
+git remote add personal git@zwled.xyz:/srv/git/slock.git
+l
+git push -u origin master
+git push personal
+git remote -v
+git push personal
+ls
+l
+git push personal
+git log
+l
+cd ..
+cd archinstall
+l
+vim chroot.sh
+l
+gs
+gam "add slock"
+gp
+ls
+l
+ls
+l
+cd ..
+ls
+l
+cd archinstall
+l
+gp personal
+l
+cd
+l
+ls
+l
+ls
+l
+lf
+ls
+ls
+l
+se
+se
+rm displaydate
+l
+se
+se
+l
+vim dmenumount
+ls
+ls
+vim manpdf
+vim setbg
+vim tutorialvids
+tutorialvids
+tutorialvids
+tutorialvids
+tutorialvids
+tutorialvids
+tutorialvids
+l
+man tune2fs
+vim screenshot
+screenshot
+lf
+l
+cd
+lf
+lf
+l
+lf
+lf
+ls
+l
+cd files
+l
+mkdir music
+l
+cd ..
+l
+l
+rm sound.mp3
+l
+mv remove_metadata_music.mp3 relaxing_music_01.mp3
+l
+mv relaxing_music_01.mp3 files/music
+l
+lf
+l
+l
+lf virtualbox
+l
+lf workspace
+l
+cd
+cd videos
+l
+ffmpeg -i video_2022-12-16_12-22-50.mkv -ss 00:21:24 -c:v copy best_typing.mkv
+ffmpeg -i video_2022-12-16_12-22-50.mkv -ss 00:21:20 -c:v copy best_typing.mkv
+ffmpeg -i video_2022-12-16_12-22-50.mkv -ss 00:21:20 -c:v copy best_typing.mkv -y
+ffmpeg -i video_2022-12-16_12-22-50.mkv -ss 00:21:10 -c:v copy best_typing.mkv -y
+ffmpeg -i video_2022-12-16_12-22-50.mkv -ss 00:21:20 -c:v copy best_typing.mkv -y
+ffmpeg -i video_2022-12-16_12-22-50.mkv -ss 00:21:15 -c:v copy best_typing.mkv -y
+fg
+lf
+ls
+ls
+lf
+l
+lf
+ls
+vim test.csv
+column -t -s, test.csv
+ls
+cat /etc/passwd
+column -t -s: /etc/passwd
+column -t -s: /etc/passwd
+column -t -s: /etc/passwd
+column -t -s: /etc/passwd
+column -t -s: /etc/passwd
+ls
+l
+rm test.csv
+l
+vim a.h
+vim a.h
+vim a.h
+vim a.h
+vim a.h
+l
+rm a.h
+vim hello_world.h
+vim a.h
+vim a.h
+vim a.h
+vim muduo_base.h
+vim muduo_base.h
+vim muduo_base.h
+rm -rf muduo_base.h
+l
+mkdir test_snips
+cd test_snips
+l
+mkdir cc
+cd cc
+l
+touch .cls
+rm .cls
+touch .ccls
+vim muduo_base.h
+vim muduo_base.h
+vim muduo_base.h
+vim muduo_base.h
+vim muduo_base.h
+vim muduo_base.h
+vim muduo_base.h
+vim muduo_base.h
+vim muduo_base.h
+vim muduo_base.h
+vim muduo_base.h
+ls
+vim muduo_base.h
+vim muduo_base.h
+vim muduo_base.h
+vim muduo_base.h
+vim muduo_base.h
+vim muduo_base.h
+vim muduo_base.h
+vim muduo_base.h
+cd test_snips/cc
+l
+vim muduo_base.h
+vim muduo_base.h
+vim muduo_base.h
+g++ muduo_base.h
+l
+rm muduo_base.h.gch
+l
+vim muduo_base.h
+mv muduo_base.h muduo_base.cc
+vim muduo_base.cc
+l
+vim muduo_base.cc
+cd test_snips/cc
+l
+vim muduo_base.h
+vim muduo_base.h
+vim muduo_base.h
+cd
+cfv
+vim init.lua
+l
+cd
+vim a
+ls
+cd workspace/project
+l
+cd http-server
+ls
+l
+vim client.cc
+l
+ls
+l
+vim server.cc
+ls
+ls
+l
+vim server.cc
+l
+vim CMakeLists.txt
+vim httpserver.cc
+l
+vim client.cc
+l
+cd third/muduo
+l
+cd muduo
+l
+vim net
+l
+ls
+l
+vim base/AsyncLogging.cc
+l
+l
+cd ..
+l
+vim cli
+cfv
+vim init.lua
+vim a
+vim test.h
+vim test_test.h
+fg
+vim test_test.h
+vim test/test.sh
+fg
+vim test/test.sh
+fg
+vim test.sh
+fg
+vim init.lua
+vim a
+vim a.h
+fg
+vim a
+vim a.h
+fg
+vim test/a.h
+fg
+vim test/a.sh
+fg
+vim test/a.sh
+vim test/a.sh
+fg
+vim test/test/test.sh
+vim test/test/filename.h
+fg
+fg
+vim init.lua
+l
+vim init.lua
+vim init.lua
+lf
+ping 10fastfingers.com
+ping 10fastfingers.com
+lf
+fg
+clc
+cd dotfiles
+l
+./update_dotfiles
+lf
+f
+ld
+ls
+ls
+echo $XDG_CONFIG_HOME
+ls $XDG_CONFIG_HOME/nvim
+echo $XDG_CONFIG_DIRS
+ls
+ls
+cd
+vim .
+vim .
+cfv
+mkdir after
+l
+cd after
+l
+vim test.lua
+vim 
+l
+cd ..
+l
+vim 
+vim
+l
+l
+vim
+ls
+ ls
+cd after
+l
+mkdir plugin
+l
+mv test.lua plugin
+l
+l
+cd ..
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+time vim init.lua
+time vim init.lua
+ls
+vim init.lua
+ls
+l
+cd 
+gcl https://github.com/ThePrimeagen/anime.git
+gcl https://github.com/ThePrimeagen/anime.git
+lf
+lf
+ls
+ls
+local packer_bootstrap = require((vim.g.user_dir or 'user').. '.packer-startup')\
+if not packer_bootstrap then\
+  -- é€ƒ²å½ƒ²åƒªƒ€è½½æƒ©€æƒ¼ƒ©çƒºƒ¤æƒ¶ƒ§ä»¶å¤¹ä¸­æƒ©€æƒ¼ƒ©luaèƒ¤ƒºæƒ¼¬\
+  -- å¦‚æƒ¾ƒ¼æƒ¶ƒ§ä»¶å¤¹ä¸­æƒ¼ƒ©init.luaï¼ƒ¬åƒ¨ƒ¹åƒ¯ªåƒªƒ€è½½init.luaå¹¶ä¸ƒ´ä¸ƒ­ä¼ƒºåƒ¦ƒ­å¾€ä¸ƒ«é€ƒ²å½ƒ²åƒªƒ€è½½çƒ»®å½ƒµä¸­çƒºƒ¤luaèƒ¤ƒºæƒ¼¬ï¼ƒ¬åƒ°¦åƒ¨ƒ¹åƒªƒ€è½½åƒ¥¨éƒ£¨çƒºƒ¤luaèƒ¤ƒºæƒ¼¬\
+  require("utils").load_all_plugins()\
+end\
+
+ls
+ls
+npm instlal -g neovim
+sudo npm install -g neovim
+ls
+cfv
+l
+vim filetype.vimbak
+l
+vim init.lua
+vim lua/clipboard.lua
+vim init.lua
+l
+rm shortcuts.vim
+l
+vim init.lua
+l
+l
+vim init.lua
+vim init.lua
+ls
+vim init.lua
+vim init.lua
+cfv
+vim
+cfv
+vim init.lua
+vim init.lua
+l
+vim lua/translate.lua
+vim lua/utils.lua
+l
+l
+vim filetype.vimbak
+l
+ls
+l
+ls
+l
+vim after
+vim init.lua
+l
+vim lua/translate.lua
+ls
+l
+vim init.lua
+l
+vim init.lua
+l
+ls
+l
+vim init.lua
+ls
+vim init.lua
+l
+l
+vim filetype.vimbak
+l
+l
+cd "$(dirname "$(fzf)")"
+cd "$(dirname "$(fzf)")"
+sp
+sp
+ls
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim after
+vim
+vim
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim 
+vim init.lua
+vim init.lua
+ls
+l
+vim filetype.vimbak
+vim after
+vim 
+vim 
+vim 
+vim
+vim 
+vim
+vim 
+vim 
+vim 
+vim i
+vim init.lua
+vim 
+vim init.lua
+vim init.lua
+l
+vim init.lua
+ls
+ls
+l
+vim init.lua
+vim init.lua
+vim init.lua
+l
+vim init.lua
+efa
+efd
+efs
+l
+efd
+l
+clc
+l
+se
+l
+cd
+cd files/pdfs
+l
+cd l
+cd lua
+l
+linkhandler
+linkhandler
+se
+dmenuhandler
+se
+cd
+l
+lf
+ls
+lf
+ls
+lf
+man du
+du -S *
+du -S workspace
+du -S vi
+du -S videos
+du -S | sort -nr
+du -S | sort -nr > temp
+vim temp
+l
+man sort
+man du
+du workspace
+du videos
+du workspace
+du -S workspace
+du -S workspace | sort -nr
+du -S workspace | sort -nr | fzf
+cd workspace/.git/objects/pack
+l
+cd
+ls
+less videos/best_typing.mkv
+less tm
+less temp
+less temp
+ls
+file temp
+file anime/about-to-die.jpg
+file files/2048éƒ¸ƒ¿åƒ¨ƒ·çƒ©ƒ¨.cpp
+file files/deepin-wine-wechat-3.7.6.44-1-x86_64.pkg.tar.zst
+file files/music/relaxing_music_01.mp3
+file files/wallhaven-4ge897.jpg
+file files/zwled.xyz_nginx.zip
+fstab
+cat /etc/fstab
+man cp 
+l
+cp -s temp tlink
+l
+ls
+l
+mkdir temp_dir
+cp -s workspace temp_dir
+cp -sr workspace temp_dir
+l
+cd temp_dir/workspace
+l
+cd ..
+l
+cd workspace/
+l
+l cnet
+l
+l project
+l project/bench
+l project/benchmark
+l project/cc
+l project/cc/asio
+l
+cd ..
+l
+rm workspace
+rm workspace -r
+l
+cd ..
+l
+l workspace
+ls
+man cp
+type command
+type type
+type who
+type which 
+type docker
+type newgrp
+which newgrp
+echo adfjklasdj asjdkfljs
+echo adfjklasdj asjdkfljs | fmt
+ls
+man fmt
+echo *
+echo !
+echo ~
+printenv
+ls
+file $(ls /usr/bin/* | grep bin/zip)
+man file
+file --mime-type $(ls /usr/bin/* | grep bin/zip)
+file --mime-type $(ls ~/.local/bin)
+clb
+file --mime-type bookmark
+file --mime-type bookmarkadd
+cal
+se
+cal --color=always
+ls
+l
+ls -r
+man ls
+ls -R
+cd
+ls -R workspace
+bg
+whlie true; do sleep 1; done &
+whlie true; do sleep 1; done; &
+while true; do sleep 1; done 
+bg
+fg
+while true; do sleep 1; done &
+bg
+fg
+ls
+egrep -l
+man egrep
+man egrep
+l
+egrep
+ls
+find . -maxpath 1 -name '*.zip' -print0 
+find . --maxpath 1 -name '*.zip' -print0 
+find . -maxdepth 1 -name '*.zip' -print0 
+find . -maxdepth 2 -name '*.zip' -print0 
+man xargs 
+ls
+l
+ffmpeg -framerate 30 -pattern_type glob -i 'workspace/wallpaper/*' -c:v libx264 -pix_fmt yuv420p out.mp4
+ffmpeg -framerate 30 -pattern_type glob -i 'workspace/wallpaper/**' -c:v libx264 -pix_fmt yuv420p out.mp4
+ffmpeg -framerate 30 -pattern_type glob -i 'workspace/wallpaper/*.jpg' -c:v libx264 -pix_fmt yuv420p out.mp4
+l
+lf out.mp4
+lf out.mp4
+ffmpeg -framerate 1 -pattern_type glob -i 'workspace/wallpaper/*.jpg' -c:v libx264 -pix_fmt yuv420p out.mp4
+lf
+fg
+l
+ffmpeg -framerate 1 -pattern_type glob -i 'workspace/wallpaper/*.png' -c:v libx264 -pix_fmt yuv420p out.mp4
+lf
+ffmpeg -framerate 1 -pattern_type glob -i 'workspace/wallpaper/*.*' -c:v libx264 -pix_fmt yuv420p out.mp4
+ffmpeg -framerate 1 -pattern_type glob -i 'workspace/wallpaper/*.\(jpg|png\)' -c:v libx264 -pix_fmt yuv420p out.mp4
+ffmpeg -framerate 1 -pattern_type glob -i 'workspace/wallpaper/*.\(jpg\|png\)' -c:v libx264 -pix_fmt yuv420p out.mp4
+ffmpeg -framerate 1 -pattern_type glob -i 'workspace/wallpaper' -c:v libx264 -pix_fmt yuv420p out.mp4
+ffmpeg -framerate 1 -pattern_type glob -i 'workspace/wallpaper/{*.jpg,*.png}' -c:v libx264 -pix_fmt yuv420p out.mp4
+ffmpeg -framerate 1 -pattern_type glob -i 'workspace/wallpaper/*.jpg' -c:v libx264 -pix_fmt yuv420p out.mp4
+ls
+history
+history -w /dev/stdout
+man history
+history
+fc -l
+fc -l -i 0 1
+fc -l -i 0 -1
+ls
+clear
+ls
+convert workspace/wallpaper/*.jpg -append out.jpg
+lf
+sxiv out.jpg
+man convert
+ls
+curl ping.gl
+telnet mapscii.me
+column -s: -t -n . -N USERNAME,PASS,UID,GID,NAME,HOMEDIR,SHELL -T NAME /etc/passwd|sed "1,2 i $(printf %80s|tr ' ' '=')"
+find . -type f -regex '.*\.\(cpp\|h\)' -exec grep -Pl "[\x80-\xFF]" {} \; | xargs -I % bash -c 'echo "%"; grep --color='auto' -P -n "[\x80-\xFF]" "%"'
+ls
+egrep -l
+man grep 
+ls /usr/src
+ls /usr/src/linux-lts
+ls
+cd /usr/src
+ls
+cd
+lsblk
+hexdump -c
+read -N6 a;
+pi indent
+man as
+man tc
+man tc
+man tc
+vmstat
+os-prober
+sudo os-prober
+ls /dev/nvme0n1
+ls /boot
+ls /boot/EFI
+ls /boot/EFI/Microsoft/Boot/bootmgfw.efi
+uname -r
+ls
+man os-prober
+man os-prober
+ls
+cht PROGRAM
+curl cht.sh/PROGRAM
+l
+pi bashish
+efu
+cd workspace/wallpaper
+l
+lf
+lf
+lss
+lf
+efu
+ls
+ls
+l
+sensors
+sudo sensors-detect
+sudo sensors-detect
+ls
+sensors
+nvidia-smi -q -d MEMORY
+nvidia-smi -q -d MEMORY, UTILIZATION
+nvidia-smi -q -d MEMORY UTILIZATION
+nvidia-smi -q -d MEMORY,UTILIZATION
+nvidia-smi -q -d UTILIZATION
+nvidia-smi -q -d UTILIZATION | grep Gpu
+nvidia-smi -q -d UTILIZATION | grep Gpu
+nvidia-smi -q -d UTILIZATION | grep memory
+nvidia-smi -q -d UTILIZATION | grep Memory
+nvidia-smi -q -d UTILIZATION | grep -E "Memory\s*:"
+nvidia-smi -q -d UTILIZATION | grep -E "Memory.*%"
+nvidia-smi -q -d UTILIZATION | grep -E "Gpu.*%"
+nvidia-smi -q -u
+nvidia-smi -u
+nvidia-smi -q -d CLOCK
+nvidia-smi -q -d ECC
+nvidia-smi -q -d POWER
+nvidia-smi -q -d POWER
+nvidia-smi -q -d POWER
+nvidia-smi -q -d POWER
+nvidia-smi -q -d POWER
+nvidia-smi -q -d POWER
+nvidia-smi -q -d POWER
+nvidia-smi -q -d POWER
+nvidia-smi -q -d POWER
+nvidia-smi -q -d POWER
+nvidia-smi -q -d POWER
+nvidia-smi -q -d POWER
+nvidia-smi -q -d POWER
+nvidia-smi -q -d POWER
+nvidia-smi -q -d POWER
+nvidia-smi -q -d POWER
+nvidia-smi -q -d performance
+nvidia-smi -q -d accounting
+nvidia-smi -q -d compute
+nvidia-smi -q -i
+nvidia-smi -q -u
+nvidia-smi -q -d VOLTAGE
+nvidia-smi -q -d PIDS
+nvidia-smi -q -d compute
+nvidia-smi -q -d compute --format=csv
+nvidia-smi -q -d compute --format="csv"
+nvidia-smi -q -d compute --format csv
+nvidia-smi -q -d compute --format="nounits"
+nvidia-smi --format="csv"
+nvidia-smi -q -d UTILIZATION | grep -E "Memory.*%" | tr -d '.*:'
+nvidia-smi -q -d UTILIZATION | grep -E "Memory.*%" | tr -d '.*:'
+man tr
+nvidia-smi -q -d UTILIZATION | grep -E "Memory.*%" | tr -d ' '
+nvidia-smi -q -d UTILIZATION | grep -E "Memory.*%" | tr -d
+nvidia-smi -q -d UTILIZATION | grep -E "Memory.*%" | tr -d ' '
+nvidia-smi -q -d utilization
+ls
+sensors
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+nvidia-smi -q -d power 
+nvidia-smi -q -d power | grep -oE "Draw.*W"
+nvidia-smi -q -d power | grep -oE "Power Draw.*W"
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+fg
+fg
+sb-gpu
+nvidia-smi
+nvidia-smi -q -d memory
+nvidia-smi -q -d memory | grep "Used"
+nvidia-smi -q -d memory | grep "Free"
+nvidia-smi -q -d memory | grep "Free" | cut -n 1
+nvidia-smi -q -d memory | grep "Free" | cut -f 1
+nvidia-smi -q -d memory | grep "Free" | head -n 1
+nvidia-smi -q -d memory 
+echo ((3 -2))
+echo (( 3 - 2 ))
+echo "(( 3 - 2 ))"
+echo [[ 3 - 2 ]]
+echo [ 3 - 2 ]
+echo expr 3 - 2 
+expr 3 - 2 
+(( 3 - 2))
+(( 3 - 2 ))
+((3-2))
+((3-2))
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+printf "ajsdfk" "ajsdkf"
+printf "ajsdfk \" "ajsdkf"\
+ajsdkf
+print "ajdflkls \\
+ajsdkfsadf \\
+asdjfksdf "
+printf "ajdflkls \\
+ajsdkfsadf \\
+asdjfksdf "
+printf "ajdflkls \\
+ajsdkfsadf \\
+asdjfksdf "
+printf "ajdflkls \\
+ajsdkfsadf \\
+asdjfksdf "
+printf "%s\n%d" "ajsdklf" 1
+printf "%s\n%d" "ajsdklf" 1
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+nvidia-smi -q -d Power | grep -E "Power Draw.*W"
+nvidia-smi -q -d Power | grep -E "CUDA_Version"
+nvidia-smi -q -d Power | grep -E "CUDA Version"
+nvidia-smi -q -d Power | grep -E "Driver Version"
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+ls
+efb
+pkill -9 dwmblocks
+dwmblocks
+nohup dwmblocks &
+fg
+ls
+nohup dwmblocks &
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi
+nvidia-smi -q -d memory 
+nvidia-smi -q -d memory 
+nvidia-sm
+nvidia-smi
+nvidia-smi
+yay -S fancontrol
+nvidia-smi
+nvidia-smi | awk '/[0-9]+C/'
+nvidia-smi | awk '/[0-9]+C/'
+nvidia-smi | awk '/[0-9]+C/'
+nvidia-smi | awk '/[0-9]+C/'
+nvidia-smi | awk '/[0-9]+C/'
+nvidia-smi | grep -oE '[0-9]+C'
+nvidia-smi | grep -oE '[0-9]+C' | cut -d 'C'
+nvidia-smi | grep -oE '[0-9]+C' | tr -d 'C'
+nvidia-smi | grep -oE '[0-9]+C' | tr -d 'C'
+clb
+cd
+cfv
+vim init.lua
+clb
+cd statusbar
+vim sb-gpu
+vim sb-gpu
+l
+vim sb-gpu
+l
+vim sb-gpu
+fg
+l
+sb-gpu
+fg
+vim sb-gpu
+sb-gpu
+fg
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+fg
+nvidia-smi
+fg
+fg
+nvidia-smi | grep -oE '[0-9]+MiB / [0-9]+MiB'
+nvidia-smi | grep -oE '[0-9]+MiB\s*/\s*[0-9]+MiB'
+fg
+sb-gpu
+fg
+nvidia-smi | grep -oE '[0-9]+MiB\s*/\s*[0-9]+MiB'
+fg
+nvidia-smi | grep -oE '[0-9]+MiB\s*/\s*[0-9]+MiB'
+sb-gpu
+fg
+sb-gpu
+fg
+sb-gpu
+fg
+sb-gpu
+fg
+sb-gpu
+sb-gpu
+sb-gpu
+fg
+sb-gpu
+fg
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+sb-gpu
+fg
+sb-gpu
+fg
+nvidia-smi  | grep -E '[0-9]%'
+nvidia-smi  | grep -E '[0-9]%'
+nvidia-smi  | grep -E '[0-9]%'
+nvidia-smi  | grep -E '[0-9]%'
+nvidia-smi  | grep -E '[0-9]%'
+nvidia-smi  | grep -E '[0-9]%'
+nvidia-smi  | grep -E '[0-9]%'
+nvidia-smi
+man nvidia-smi
+nvidia-smi mig
+man nvidia-smi
+nvidia-smi -L
+fg
+nvidia-smi -q
+nvidia-smi -q s
+nvidia-smi -q -h
+nvidia-smi -q Clock Policy
+nvidia-smi -q -i
+nvidia-smi -h
+nvidia-smi -h | grep -q
+nvidia-smi -h | grep '-q'
+nvidia-smi -h
+nvidia-smi -format=csv
+nvidia-smi -h
+fg
+fg
+fg
+l
+cd
+l
+man v2ray
+pacman -Q v2ray
+v2ray -h
+v2ray --help
+v2ray -version
+v2ray -v
+v2ray --version
+ls
+qv2ray -h
+v2ctl
+ls /usr/bin/v2*
+curl ipconfig.me
+curl ipconfig.me/ip
+curl ifconfig.me/ip
+curl ifconfig.me
+curl ifconfig.me/ip\n
+curl ifconfig.me/ip
+curl ifconfig.me/ip
+curl ifconfig.me/ip
+ep
+curl ifconfig.me/ip
+curl ifconfig.me/ip
+curl ifconfig.me/ip
+ls
+efa
+showip
+fg
+ref
+showip
+showip
+l
+efa
+ref
+showip
+showip
+fg
+ls
+l
+rm tlink
+l
+rm temp*
+rm -rf temp*
+l
+lf
+rm out.*
+l
+vim nohup.out
+rm nohup.out
+l
+l
+ls
+l
+ls -R
+ls
+l
+ls -R vi
+ls -R videos
+ls
+nvidia-smi -q -d UTILIZATION | grep -E "Memory.*%" | tr -d
+nvidia-smi -q -d UTILIZATION
+nvidia-smi -q -d temperature
+nvidia-smi -q -d temperature | grep GPU\ Current\ Temp
+nvidia-smi -q -d temperature | grep "GPU Current Temp"
+ls
+man st
+nvidia-smi
+watch -n1 nvidia-smi
+nvidia-smi -l2
+nvidia-smi -l 1
+nvidia-smi -l 1
+ls
+man st
+ls
+ps aux | grep ffmpeg
+ps aux | grep ffmpeg
+kill -9 735284
+ps aux | grep ffmpeg
+ls
+ls
+l
+l test_snips
+l
+l webui-aria2
+ls
+ls
+l
+efu
+se
+ls
+l
+cd
+l
+se
+ls
+l
+cd
+lf
+kp
+lf
+lf
+l
+ls
+l
+ls
+l
+lf
+ls
+l
+ls
+ls
+d
+ls
+efa
+l
+cd downloads
+l
+unzip -d tools.zip
+unzip tools.zip -d tools
+l
+unzip tools.zip
+unzip -D tools.zip
+l
+rm tools.zip
+cd
+l /usr/share/qv2ray
+l /usr/share/qv2ray/plugins
+l /usr/share/qv2ray/lang
+l
+ps aux | grep v2ray
+ls
+netstat -tna
+ls /usr/share/v2ray/
+vim /usr/share/v2ray/
+l /usr/share/v2ray/
+l /usr/share/vi
+l /usr/share/vim
+l /usr/share/vim/vimfiles
+vim -v
+ls
+ls
+which qv2ray
+pi qv2ray-plugin-ss-dev-git
+l /usr/share/qv2ray/
+l /usr/share/qv2ray/plugins
+pi qv2ray-plugin-ssr-dev-git
+kp
+pi qv2ray-plugin-command-dev-git
+ls
+l
+yay -S v2ray-plugin-git
+yay -S v2ray-plugin-git
+yay -S v2ray-plugin-git
+yay -S v2ray-plugin-git
+yay -S v2ray-plugin-git
+which v2ray-plugin
+ls /usr/share/qv2ray/plugins
+sudo pacman -S shadowsocks
+ss
+which ss
+ss
+ls
+ss
+ss
+ss
+ss
+ls
+l
+vim .
+l
+ls
+l
+pwd
+nvidia-smi 
+nvidia-smi  -q -d
+man nvidia-smi 
+nvidia-smi -q -d row_remapper
+nvidia-smi -q -d ecoder_stats
+nvidia-smi -q -d encoder_stats
+nvidia-smi -q -d clock
+nvidia-smi -q -d performance
+nvidia-smi -q -d performance
+nvidia-smi -q -d computer
+nvidia-smi -q -d compute
+nvidia-smi -q -d ecc
+nvidia-smi -q -d pids
+nvidia-smi -q -d supported_clocks
+nvidia-smi -q -d page_retirement
+nvidia-smi -q -d counting
+nvidia-smi -q -d ac-counting
+nvidia-smi -q -d ac-counting
+nvidia-smi -q -d accounting
+nvidia-smi -q -d voltage
+cd ar
+clc
+l
+cd archinstall
+l
+l
+vim chroot.sh
+l
+vim clonerepos.sh
+lf
+ls
+l
+ls
+ls
+nvidia-smi
+man nvidia-smi
+alias ka
+man killall
+ka dwmblocks
+ps aux | grep dwmblocks
+nvidia-smi stat
+nvidia-smi stats
+nvidia-smi stats -h
+nvidia-smi dmon
+nvidia-smi -h
+nvidia-smi --query-gpu
+nvidia-smi -h
+nvidia-smi -h
+nvidia-smi --help-query-gpu
+nvidia-smi --help-query-gpu | less
+sb-gpu1
+sb-gpu1
+sb-gpu1
+sb-gpu1
+sb-gpu1
+sb-gpu1
+sb-gpu1
+sb-gpu1 && sb-gpu
+sb-gpu1 && sb-gpu
+sb-gpu1 && sb-gpu
+ls
+sb-gpu1 && sb-gpu
+sb-gpu1 && sb-gpu
+sb-gpu1 && sb-gpu
+sb-gpu1 && sb-gpu
+sb-gpu1 && sb-gpu
+sb-gpu1 && sb-gpu
+sb-gpu1 && sb-gpu
+sb-gpu1 && sb-gpu
+sb-gpu1 && sb-gpu
+vim /etc/dunst/dunstrc
+vim .config/dunst/dunstrc
+kp
+notify-send ajdklf
+notify-send ajsdkf
+sb-gpu1 && sb-gpu
+sb-gpu1 && sb-gpu
+sb-gpu1 && sb-gpu
+sb-gpu1 && sb-gpu
+sb-gpu1 && sb-gpu
+sb-gpu1 && sb-gpu
+sb-gpu1 && sb-gpu
+sb-gpu1 && sb-gpu
+sb-gpu1 && sb-gpu
+sb-gpu1 && sb-gpu
+sb-gpu1 && sb-gpu
+sb-gpu1 && sb-gpu
+sb-gpu1 && sb-gpu
+ls
+ls
+se
+l
+cd statusbar
+l
+cp sb-gpu sb-gpu1
+l
+vim sb-gpu1
+l
+ls
+l
+rm sb-gpu1
+l
+cd ..
+l
+se
+ls
+ls
+vim .
+l
+ls
+l
+cd files/
+l
+l
+cd nerdfont-icons
+l
+./convert.sh
+./convert.sh
+./convert.sh
+./convert.sh
+./convert.sh
+./convert.sh
+./convert.sh
+./convert.sh
+./convert.sh
+./convert.sh
+./convert.sh
+./convert.sh
+./convert.sh
+./convert.sh
+fg
+./convert.sh
+./convert.sh
+./convert.sh
+./convert.sh
+./convert.sh
+./convert.sh
+fg
+./convert.sh
+./convert.sh
+./convert.sh
+./convert.sh
+./convert.sh
+./convert.sh
+./convert.sh
+./convert.sh
+./convert.sh
+ls
+l
+clb
+l
+vim nerdfonticons
+l
+vim nerdfonticons
+vim nerdfonticons
+vim nerdfonticons
+l
+cht curl
+cht curl | less
+cht curl | less
+man curl
+ls
+l
+cd files
+l
+l
+cd nerdfont-icons
+l
+l
+vim test.sh
+man unlink
+fg
+sh test.sh
+fg
+sh test.sh
+l
+rm -rf temp_dir
+l
+vim temp_file
+fg
+rm temp_file
+sh test.sh
+fg
+l
+rm temp_file test.sh
+l
+vim convert.sh
+man trap
+cht trap
+kill -l
+cd
+diff ~/files/nerdfont-icons/nerdfont_icons ~/.local/share/symbols/nerdfont_icons
+diff -q ~/files/nerdfont-icons/nerdfont_icons ~/.local/share/symbols/nerdfont_icons
+diff ~/files/nerdfont-icons/nerdfont_icons ~/.local/share/symbols/nerdfont_icons
+man diff
+cht diff
+diff -b ~/files/nerdfont-icons/nerdfont_icons ~/.local/share/symbols/nerdfont_icons
+diff -qb ~/files/nerdfont-icons/nerdfont_icons ~/.local/share/symbols/nerdfont_icons
+diff -s ~/files/nerdfont-icons/nerdfont_icons ~/.local/share/symbols/nerdfont_icons
+diff -q ~/files/nerdfont-icons/nerdfont_icons ~/.local/share/symbols/nerdfont_icons
+diff -qr ~/files/nerdfont-icons/nerdfont_icons ~/.local/share/symbols/nerdfont_icons
+ls
+l
+ls
+diff -qr ~/files/nerdfont-icons/nerdfont_icons ~/.local/share/symbols/nerdfont_icons
+diff -qr ~/files/nerdfont-icons/nerdfont_icons ~/.local/share/symbols/nerdfont_icons
+nvidia-smi --query-gpu=name
+nvidia-smi --query-gpu="name"
+nvidia-smi --query-gpu=name,driver_version
+nvidia-smi --query-gpu=name,driver_version --format=csv
+nvidia-smi --query-gpu=name,driver_version --format=csv | column -t -s,
+nvidia-smi --query-gpu=name,driver_version --format=csv | column -t -s,
+nvidia-smi --query-gpu=name,driver_version --format=csv | column -t -s,
+nvidia-smi --query-gpu=name,driver_version --format=csv | column -t -s,
+nvidia-smi --query-gpu=name,driver_version --format=csv | column -t -s,
+nvidia-smi --query-gpu=name --format=csv | column -t -s,
+nvidia-smi --query-gpu=name --format=csv | column -t -s,
+nvidia-smi --query-gpu=name --format=
+nvidia-smi --query-gpu=name --format=csv
+nvidia-smi --query-gpu=name --format=nounits
+nvidia-smi --query-gpu=name --format=noheader
+nvidia-smi --query-gpu=name
+nvidia-smi -name
+nvidia-smi name
+nvidia-smi -q -u -x --dtd
+nvidia-smi power-hint -l
+nvidia-smi --format=csv,noheader --query-gpu=name
+nvidia-smi --format=csv,noheader --query-gpu=name,serial
+nvidia-smi --format=csv,noheader --query-gpu=name,uuid
+nvidia-smi --format=csv,noheader --query-gpu=name,pci.domain
+nvidia-smi --format=csv,noheader --query-gpu=name,display_active
+nvidia-smi --format=csv,noheader --query-gpu=name,vbios_version
+nvidia-smi --format=csv,noheader --query-gpu=name,fanspeed
+nvidia-smi --format=csv,noheader --query-gpu=name,fan.speed
+nvidia-smi --format=csv,noheader --query-gpu=name,memory
+nvidia-smi --format=csv,noheader --query-gpu=name,memory.total
+nvidia-smi --format=csv,noheader --query-gpu=name,memory.used
+nvidia-smi --format=csv,nounits --query-gpu=name,memory.used
+nvidia-smi --format=csv,nounits --query-gpu=name,temperature.gpu
+nvidia-smi --format=csv,nounits --query-gpu=name,temperature.memory
+nvidia-smi --format=csv,nounits --query-gpu=name,power.management
+nvidia-smi --format=csv,nounits --query-gpu=name,enforced.power.limit
+nvidia-smi --format=csv,nounits --query-gpu=name,power.default_limit
+nvidia-smi --format=csv,nounits --query-gpu=name,clocks.current.graphics
+nvidia-smi --format=csv,nounits --query-gpu=name,clocks.current.video
+nvidia-smi --format=csv,nounits --query-gpu=name,clocks.current.sm
+nvidia-smi --format=csv,nounits --query-gpu=name,clocks.current.memory
+nvidia-smi --format=csv,nounits --query-gpu=name,clocks.current.memory
+nvidia-smi --format=csv,nounits --query-gpu=name,clocks.current.memory
+echo -e "\eb99"
+echo \eb99
+print \eb99
+printf \eb99
+ls
+ls
+ls
+l
+ls
+ls
+cd workspace
+cd ../files
+l
+git clone https://github.com/ryanoasis/nerd-fonts.git
+ls
+cd nerd-fonts
+l
+ls
+cd bin/scripts/lib
+ls
+pwd
+ls
+cd 
+cd -
+cd ~/files/
+mkdir nerdfont-icons
+cd -
+cp *.sh ~/files/nerdfont-icons
+cd -
+l
+cd nerdfont-icons
+l
+l
+vim i_cod.sh
+l
+head i_cod.sh
+head i_cod.sh | sed "s/^i='//; s/'\si_/ /; s/=%$i//"
+head i_cod.sh | sed "s/^i='//; s/'\si_/ /; s/=\$i//"
+head i_cod.sh | sed -n "s/^i='//; s/'\si_/ /; s/=\$i//"
+head i_cod.sh | sed -n "s/^i='//; s/'\si_/ /; s/=\$i// p"
+sed -n "s/^i='//; s/'\si_/ /; s/=\$i// p" *.sh >> nerdfont_icons
+l
+vim nerdfont_icons
+cat nerdfont_icons | dmenuwrap -l 30
+cat nerdfont_icons | dmenuwrap -l 30 -p NerdfontIcons:
+vim i_fa.sh
+l
+head i_fa.sh
+head -n 50 i_fa.sh
+head -n 50 i_fa.sh | sed -n "s/^i='//; s/'\si_/ /; s/=\$i// p"
+head -n 50 i_fa.sh | sed -n "s/^i='//; s/'\si_/ /; s/=\$i// p"
+head -n 50 i_fa.sh | sed -n "s/^i='//; s/'\si_/ /; s/=\$i// p"
+head -n 50 i_fa.sh  
+head -n 50 i_fa.sh | sed -n "s/^i='(.+)'\si_(.+)=\$i/\1 \2/ p"
+head -n 50 i_fa.sh | sed -n "s/^i='(.+)'\si_(.+)=\$i/\1 \2/ p"
+head -n 50 i_fa.sh | sed -n "s/^i='(.+)'\si_(.+)=\$i/\1 p"
+head -n 50 i_fa.sh | sed -n "s/^i='(.+)'\si_(.+)=\$i/\& p"
+head -n 50 i_fa.sh | sed -n "s/^i='(.+)'\si_(.+)=\$i/&1 &2/ p"
+head -n 50 i_fa.sh | sed -n "s/^i='(.+)'\si_(.+)=\$i/&1 &2/ p"
+head -n 50 i_fa.sh | sed -n "s/^i='(.+)'\si_(.+)=\$i/ajsdlkf/ p"
+head -n 50 i_fa.sh | sed -n "s/^i='\(.+\)'\si_\(.+\)=\$i/ajsdlkf/ p"
+head -n 50 i_fa.sh | sed "s/^i='\(.+\)'\si_\(.+\)=\$i/ajsdlkf/ p"
+head -n 50 i_fa.sh | sed "s/^i='(.+)'\s*i_\(.+\)=\$i/ajsdlkf/ p"
+head -n 50 i_fa.sh | sed "s/i='(.+)'\si_(.+)=\$i/ajsdlkf/ p"
+head -n 50 i_fa.sh | sed "s/^i='(.*)'\si_(.+)=\$i/ajsdlkf/ p"
+head -n 50 i_fa.sh | sed "s/^i='.+'\si_.+=\$i/ajsdlkf/ p"
+head -n 50 i_fa.sh | sed "s/^i=.+\si_.+=\$i/ajsdlkf/ p"
+head -n 50 i_fa.sh | sed "s/^i=.+\si_.+=\$i/ajsdlkf/"
+head -n 50 i_fa.sh | sed "s/^i=.+/ajsdlkf/"
+head -n 50 i_fa.sh | sed "s/^i=/ajsdlkf/"
+head -n 50 i_fa.sh | sed "s/^i='/ajsdlkf/"
+head -n 50 i_fa.sh | sed "s/^i='./ajsdlkf/"
+head -n 50 i_fa.sh | sed "s/^i='.'/ajsdlkf/"
+head -n 50 i_fa.sh | sed "s/^i='(.)'/ajsdlkf/"
+head -n 50 i_fa.sh | sed "s/^i='\(.\)'/ajsdlkf/"
+head -n 50 i_fa.sh | sed "s/^i='\(.\)'/[&]/"
+head -n 50 i_fa.sh | sed "s/^i='\(.\)'\s/[&]/"
+head -n 50 i_fa.sh | sed "s/^i='\(.\)'\si/[\1]/"
+head -n 50 i_fa.sh | sed "s/^i='\(.\)'\si/\1 /"
+head -n 50 i_fa.sh | sed "s/^i='\(.\)'\si_\(.+\)=\$i/\1 /"
+head -n 50 i_fa.sh | sed "s/^i='\(.\)'\si_\(.+\)/\1 /"
+head -n 50 i_fa.sh | sed "s/^i='\(.\)'\si_\(.+\)/\1 \2/"
+head -n 50 i_fa.sh | sed "s/^i='\(.\)'\si_.+/\1 /"
+head -n 50 i_fa.sh | sed "s/^i='\(.\)'\si_.+/\1 /"
+head -n 50 i_fa.sh | sed "s/^i='\(.\)'\si_/\1 /"
+head -n 50 i_fa.sh | sed "s/^i='\(.\)'\si_.*/\1 /"
+head -n 50 i_fa.sh | sed "s/^i='\(.\)'\si_./\1 /"
+head -n 50 i_fa.sh | sed "s/^i='\(.\)'\si_.+/\1 /"
+head -n 50 i_fa.sh | sed "s/^i='\(.\)'\si_.\+/\1 /"
+head -n 50 i_fa.sh | sed "s/^i='\(.\)'\si_.\+/\1 /"
+man sed
+head -n 50 i_fa.sh | sed -E "s/^i='(.)'\si_(.+)=\$i/\1 /"
+head -n 50 i_fa.sh | sed "s/^i='\(.\)'\si_\(.\+\)=\$i/\1 /"
+head -n 50 i_fa.sh | sed "s/^i='\(.\)'\si_\(.\+\)=\$i/\1 \2/"
+head -n 50 i_fa.sh | sed -n "s/^i='\(.\)'\si_\(.\+\)=\$i/\1 \2/ p"
+head -n 50 i_fa.sh | sed -n "s/^i='\(.\)'\si_\(.\+\)=\$i/\1 \2/ p"
+head -n 50 i_fa.sh | sed -n "s/^i='\(.\)'\si_\(.\+\)=\$i/\1 \2/ p"
+sed -n "s/^i='\(.\)'\si_\(.\+\)=\$i/\1 \2/ p" *.sh > nerdfont_icons
+l
+cat nerdfont_icons | dmenuwrap -l 30 -p NerdfontIcons:
+l
+vim convert.sh
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+l
+vim convert.sh
+./convert.sh
+fg
+vim ./convert.sh
+l
+fg
+./convert.sh
+l
+l
+cat nerdfont_icons | dmenuwrap -l 30 -p NerdfontIcons:
+ls
+l
+cd
+cca
+l
+cd ~/.local/share
+l
+l icons
+lf
+l
+echo adjklf | xclip --selection clipboard
+ls
+ls
+ls
+ls
+lf
+ls
+l
+cd
+ls
+ls
+l
+cd files
+l
+cd nerdfont-icons
+l
+vim nerdfont_icons
+l
+vim convert.sh
+ls *.sh
+fg
+ls
+fg
+rm -rf *.sh
+l
+l
+fg
+ls
+fg
+l
+fg
+rm nerdfont_icons
+l
+./convert.sh
+fg
+ls
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+l
+fg
+./convert.sh
+fg
+ls
+fg
+fg
+./convert.sh
+fg
+l
+./convert.sh
+l
+l temp
+rm temp
+rm -rf temp
+l
+fg
+l
+rm nerdfont_icons
+./convert.sh
+ls
+fg
+l
+rm nerdfont_icons
+./convert.sh
+fg
+l
+./convert.sh
+ls
+cat nerdfont_icons
+fg
+l
+rm nerdfont_icons
+fg
+l
+./convert.sh
+l
+./convert.sh
+fg
+l
+cat nerdfont_icons
+ls
+l
+lf
+l
+cat nerdfont_icons
+ls
+l
+cat nerdfont_icons
+cat nerdfont_icons | grep "^[0-9]"
+ls
+cat nerdfont_icons | dmenuwrap -l 30
+vim convert.sh
+l
+./convert.sh
+fg
+ls
+l
+vim convert.sh
+./convert.sh
+ls
+l
+rm nerdfont_icons
+l
+mv convert.sh download_nerdfont_icons
+l
+ls
+ls
+l
+cd
+l
+cd .local/share
+l
+mkdir scripts
+l
+mv ~/files/nerdfont-icons/download_nerdfont_icons scripts
+l
+lf
+l
+cd ~/files
+l
+lf
+l
+ls
+l
+cd
+l
+lf
+efb
+efd
+ls
+lf
+efd
+ls
+pacman -Q BGRA
+pacman -Q xft
+pacman -Q libxft
+pacman -Qm libxft
+pi libxft-bgra
+yay -S libxft-bgra
+pacman -Qm libxft
+man pacman 
+clc
+cd dmenu
+l
+grep iscol *
+grep iscol **
+grep iscol **/**
+grep iscol *
+l
+grep iscol *.c
+grep iscol drw.c
+cd
+clc 
+cd dwm
+grep iscol *
+grep iscol *.*
+grep iscol *.*
+ls
+ls
+echo asdjfl | cut -b1
+fg
+cat .cache/dmenu_run
+ls
+lf
+man stest
+ls .config/BraveSoftware/Brave-Browser/Default
+ls .config/BraveSoftware/Brave-Browser/Default/History
+cat .config/BraveSoftware/Brave-Browser/Default/History
+head .config/BraveSoftware/Brave-Browser/Default/History
+vim .config/BraveSoftware/Brave-Browser/Default/History
+man brave
+man brave-bin
+brave -h
+man brave 
+brave -v
+echo "^C#bd93f9^ajsdkf"
+echo "^c#bd93f9^ajsdkf"
+echo "^c#bd93f9^ajsdkf"
+cd
+cf
+vim dunst/dunstrc
+ka dunst
+notify-send ajdklf
+notify-send "asjdklf"
+ls
+notify-send "asjdklf"
+nvidia-smi \\
+  --format=csv,noheader,nounits \\
+  --query-gpu=name,uuid,driver_version,utilization.gpu,utilization.memory,temperature.gpu,memory.used,memory.total,power.draw,power.limit
+nvidia-smi \\
+  --format=csv,noheader,nounits \\
+  --query-gpu=name,uuid,driver_version,utilization.gpu,utilization.memory,temperature.gpu,memory.used,memory.total,power.draw,power.limit | cut -d ',' -f 1
+vim dunst/dunstrc
+ka dunst
+clc
+cd dwm
+l
+cd patches
+l
+cd ..
+l
+cd patches
+l
+ls
+l
+cd
+l
+lf files
+ls
+l
+ls
+l anime
+ls
+efu
+se
+l
+cd
+wget https://tools.suckless.org/dmenu/scripts/dmenu_run_with_command_history/dmenu_run_history
+lf
+ls
+fg
+fg
+fg
+ls
+se
+se
+se
+l
+se
+echo $PATH | tr ':' '\n' | uniq | sed 's#$#/#'
+echo $PATH | tr ':' '\n' | uniq | sed 's#$#/#' | xargs ls -lu --time-style=+%s
+ls
+vim dmenurecord
+l
+vim bookmarkadd
+ls
+l
+cd
+xprop -root
+xprop -root | grep '^_NET_ACTIVE_WINDOW'
+xprop -root _NET_ACTIVE_WINDOW | sed 's/.*[[:space:]]//'
+xprop -id "0x2e00006" WM_CLASS
+ls
+l
+clc
+cd dwm
+l patches
+l patches | grep status
+g log
+ls
+dwm
+echo asjdlkf | dwm
+ls
+se
+vim ~/.local/share/scripts
+cd
+vim .
+pi awesome-terminal-fonts
+echo -e "normal \x01 selected \x03 warning/urgent \x04 error \x01 back to normal text"
+dwm -v
+ls
+clc
+cd dwm
+l
+cd
+efd
+ls
+pacman -Q
+pacman -Q | grep font
+l /usr/share/fonts/awesome-terminal-fonts
+vim /usr/share/fonts/awesome-terminal-fonts/fontawesome-regular.sh
+vim /usr/share/fonts/awesome-terminal-fonts
+vim /usr/share/fonts/awesome-terminal-fonts
+ls
+ls
+ls
+ls
+ls
+ls
+timedatectl set-ntp true
+sudo timedatectl set-ntp true
+clc
+vim archinstall/preinstall.sh
+vim archinstall/preinstall.sh
+ls
+cd
+ls
+l
+l anime
+ls
+l workspace
+os-prober
+sudo os-prober
+vim /etc/default/grub
+sudo vim /etc/default/grub
+sudo nvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+ls
+lf
+ls
+efd
+efd
+ls
+cd downloads
+l
+unzip vecteezy_casual-game-ui-menu-popups-with-buttons-and-game-assets_4249358.zip -D ui
+unzip vecteezy_casual-game-ui-menu-popups-with-buttons-and-game-assets_4249358.zip -d ui
+l
+cd ui
+l
+l
+lf
+ls
+ls
+curl -i https://temp-mail.org/
+ls
+nvim -v
+ls
+ls
+ls
+ls
+ls

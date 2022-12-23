@@ -1,0 +1,40 @@
+#!/bin/sh
+
+info=$(nvidia-smi \
+  --format=csv,noheader,nounits \
+  --query-gpu=name,uuid,driver_version,utilization.gpu,utilization.memory,temperature.gpu,memory.used,memory.total,power.draw,power.limit | sed 's/,\s*/,/g')
+
+gpu_usage=$(echo "$info" | cut -d ',' -f 4)
+memory_usage=$(echo "$info" | cut -d ',' -f 5)
+temperature=$(echo "$info" | cut -d ',' -f 6)
+
+show_more_information() {
+  name=$(echo "$info" | cut -d ',' -f 1)
+  uuid=$(echo "$info" | cut -d ',' -f 2)
+  driver_version=$(echo "$info" | cut -d ',' -f 3)
+  memory_used=$(echo "$info" | cut -d ',' -f 7)
+  memory_total=$(echo "$info" | cut -d ',' -f 8)
+  power_draw=$(echo "$info" | cut -d ',' -f 9)
+  power_limit=$(echo "$info" | cut -d ',' -f 10)
+
+  dummy_delimiter="@@"
+  result=$(printf "%s\n%s\n%s\n%s\n%s\n" \
+    "GPU Name:$dummy_delimiter$name" \
+    "Driver Version:$dummy_delimiter$driver_version" \
+    "Usage:$dummy_delimiter$gpu_usage%" \
+    "Temperature:$dummy_delimiter$temperature°C" \
+    "Memory:$dummy_delimiter$memory_used MiB / $memory_total MiB" \
+    "Power:$dummy_delimiter$power_draw w / $power_limit w" | column -t -s"$dummy_delimiter")
+  notify-send "🖥 GPU information" "$result"
+}
+
+case $BLOCK_BUTTON in
+  1) show_more_information ;;
+	2) setsid -f "$TERMINAL" -e watch -n 1 nvidia-smi ;;
+	3) notify-send "🖥 GPU module " "\- Shows GPU usage/temperature.
+- Click to show more information.
+- Middle click to open nvidia-smi." ;;
+	6) "$TERMINAL" -e "$EDITOR" "$0" ;;
+esac
+
+printf "GPU: %2d%%|%2d%%(memory) 🌡 %2d°C\n" "$gpu_usage" "$memory_usage" "$temperature"

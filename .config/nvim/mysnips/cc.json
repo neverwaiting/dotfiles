@@ -1,27 +1,4 @@
 {
-  "namespace": {
-    "prefix": "ns",
-    "body": [
-      "namespace $1 {",
-      "",
-      "$0",
-      "",
-      "} // namespace $1"
-    ],
-    "description": "namespace for cc"
-  },
-  "ifndef-def-endif": {
-    "prefix": "inf",
-    "body": [
-      "#ifndef $1_H_",
-			"#define $1_H_",
-			"",
-      "$0",
-			"",
-      "#endif // #ifndef $1_H"
-    ],
-    "description": "#ifndef-#define-#endif"
-  },
   "main": {
     "prefix": "main",
     "body": [
@@ -53,20 +30,6 @@
       "} // namespace $2",
       "",
       "#endif // #ifndef $1_H"
-    ],
-    "description": "define class for cc"
-  },
-  "class": {
-    "prefix": "cls",
-    "body": [
-			"class $1 {",
-			" public:",
-			"\t$1();",
-			"\t~$1();",
-			"",
-			" private:",
-			"\t$0",
-			"};"
     ],
     "description": "define class for cc"
   },

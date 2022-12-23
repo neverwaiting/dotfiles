@@ -2,9 +2,9 @@
 local luasnip = require 'luasnip'
 
 -- load friendly-snippets
-require('luasnip.loaders.from_vscode').lazy_load()
+-- require('luasnip.loaders.from_vscode').lazy_load()
 -- load snippets from $HOME/.config/nvim/mysnips
-require('luasnip.loaders.from_vscode').load({ paths = { './mysnips' } })
+-- require('luasnip.loaders.from_vscode').load({ paths = { './mysnips' } })
 
 local has_words_before = function()
   local line, col = unpack(vim.api.nvim_win_get_cursor(0))

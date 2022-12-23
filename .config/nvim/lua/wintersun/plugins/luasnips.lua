@@ -7,6 +7,7 @@ local f = ls.function_node
 local c = ls.choice_node
 local d = ls.dynamic_node
 local r = ls.restore_node
+local events = require("luasnip.util.events")
 local l = require("luasnip.extras").lambda
 local rep = require("luasnip.extras").rep
 local p = require("luasnip.extras").partial
@@ -194,31 +195,189 @@ ls.add_snippets("lua", {
   s("req", fmt("require(\"{}\")", { i(1, "module") })),
 }, { key = "lua" })
 
+local function get_file_name()
+  return vim.fn.expand("%:t:r"):upper()
+end
+
+local function snip_for_stl(name)
+  local headers = {
+    {
+      include_name = "memory",
+      components = { "unique_ptr", "shared_ptr", "make_shared" }
+    }, {
+      include_name = "map",
+      components = { "multimap", "map" }
+    }, {
+      include_name = "queue",
+      components = { "priority_queue", "queue" }
+    }, {
+      include_name = "iostream",
+      components = { "cout", "endl" }
+    }, {
+      include_name = "fstream",
+      components = { "fstream", "ifstream", "ofstream" }
+    }, {
+      include_name = "sstream",
+      components = { "stringstream", "istreamstring", "ostringstream" }
+    }
+  }
+  local include_name = nil
+  for _, item in ipairs(headers) do
+    if include_name then break end
+    for _, comp in ipairs(item.components) do
+      if comp == name then
+        include_name = "#include <".. item.include_name.. ">"
+        break
+      end
+    end
+  end
+  if not include_name then
+    include_name = "#include <".. name.. ">"
+  end
+
+  local callback = function()
+    local lines = vim.api.nvim_buf_get_lines(0, 0, -1, false)
+    local include = true
+    local add_blank_line = true
+    local insert_line_no = 0
+    for line_no, line in ipairs(lines) do
+      if line:match(include_name) then
+        include = false
+        break
+      elseif line:match("#ifndef.*_H_") then
+        insert_line_no = line_no + 2
+      elseif line:match("#include") then
+        insert_line_no = line_no
+        add_blank_line = false
+      end
+    end
+    if include then
+      local content = { include_name }
+      if add_blank_line then
+        table.insert(content, "")
+      end
+      vim.api.nvim_buf_set_lines(0, insert_line_no, insert_line_no, false, content)
+    end
+  end
+
+  local other_keywords = {
+    "string", "cout", "endl", "fstream", "ifstream", "ofstream",
+    "stringstream", "istreamstring", "ostringstream"
+  }
+
+  local find_keywords = function()
+    for _, keyword in ipairs(other_keywords) do
+      if keyword == name then return true end
+    end
+    return false
+  end
+
+  if find_keywords() then
+    return s(name, { t("std::".. name.. " "), i(0) }, {
+      callbacks = {
+        [-1] = { [events.leave] =  callback }
+      }
+    });
+  else
+    return s(name, fmt("std::".. name.. "<{}> {}", { i(1), i(0) }), {
+      callbacks = {
+        [-1] = { [events.leave] =  callback }
+      }
+    })
+  end
+end
+
 ls.add_snippets("cpp", {
-  s("fn", {
-    -- Simple static text.
-    t("-- Parameters: "),
-    -- function, first parameter is the function, second the Placeholders
-    -- whose text it gets as input.
-    f(copy, 2),
-    t({ "", "function " }),
-    -- Placeholder/Insert.
+  -- header define macro
+  s("hdef", fmt("#ifndef {}_H_\n#define {}_H_\n\n{}\n\n#endif //{}_H_", {
+    i(1, get_file_name()),
+    rep(1),
+    i(2),
+    rep(1)
+  })),
+
+  -- namespace
+  s("ns", fmt("namespace {} {{\n{}\n}} // namespace {}", {
     i(1),
-    t("("),
-    -- Placeholder with initial text.
-    i(2, "int foo"),
-    -- Linebreak
-    t({ ") {", "\t" }),
-    -- Last Placeholder, exit Point of the snippet.
-    i(0),
-    t({ "", "}" }),
-  }),
+    i(2),
+    rep(1),
+  })),
+
+  -- class
+  s("cls", fmt("class {} {{\n public:\n\t{}();\n\t~{}();\n\n private:\n\t{}\n}};", {
+    i(1),
+    rep(1),
+    rep(1),
+    i(2),
+  })),
+
+  -- for
+  s("for", fmt("for ({}; {}; {}) {{\n\t{}\n}}", {
+    i(1),
+    i(2),
+    i(3),
+    i(4)
+  })),
+  s("fora", fmt("for (const auto& {} : {}) {{\n\t{}\n}}", {
+    i(1, "item"),
+    i(2),
+    i(3),
+  })),
+  s("fori", fmt("for (auto it = {}.begin(); it != {}.end(); ++it) {{\n\t{}\n}}", {
+    i(1),
+    rep(1),
+    i(2),
+  })),
+  s("foric", fmt("for (auto it = {}.cbegin(); it != {}.cend(); ++it) {{\n\t{}\n}}", {
+    i(1),
+    rep(1),
+    i(2),
+  })),
+  s("forir", fmt("for (auto it = {}.rbegin(); it != {}.rend(); ++it) {{\n\t{}\n}}", {
+    i(1),
+    rep(1),
+    i(2),
+  })),
+
+  -- while
+  s("while", fmt("while ({}) {{\n\t{}\n}}", {
+    i(1),
+    i(2)
+  })),
+  s("dowhile", fmt("do {{\n\t{}\n}} while({});", {
+    i(1),
+    i(2)
+  })),
+
+  -- main
+  s("main", fmt("int main(int argc, char** argv) {{\n\t{}\n\n\treturn 0;\n}}", i(1))),
+
+  -- container (string list vector queue priority_queue stack map set multi_set multi_map unordered_map unordered_set)
+  snip_for_stl("string"),
+  snip_for_stl("fstream"),
+  snip_for_stl("ifstream"),
+  snip_for_stl("ofstream"),
+  snip_for_stl("stringstream"),
+  snip_for_stl("istringstream"),
+  snip_for_stl("ostringstream"),
+  snip_for_stl("cout"),
+  snip_for_stl("endl"),
+  snip_for_stl("vector"),
+  snip_for_stl("list"),
+  snip_for_stl("queue"),
+  snip_for_stl("priority_queue"),
+  snip_for_stl("stack"),
+  snip_for_stl("set"),
+  snip_for_stl("map"),
+  snip_for_stl("multiset"),
+  snip_for_stl("multimap"),
+  snip_for_stl("unordered_set"),
+  snip_for_stl("unordered_map"),
+  snip_for_stl("shared_ptr"),
+  snip_for_stl("unique_ptr"),
+  snip_for_stl("make_shared"),
+
+  -- snips for third library (muduo)
 }, {
   key = "cc"
 })
-
-vim.notify("hello, this is luasnip")
-
-local function hello()
-  print("hello")
-end

@@ -1,3 +1,0 @@
-#!/bin/sh
-
-/usr/bin/date +%Y-%m-%d\ %H:%M:%S >> "$HOME/dtable"

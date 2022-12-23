@@ -2,6 +2,7 @@
 
 file="$HOME/.local/share/bookmarks/urls"
 http_proxy="127.0.0.1:9000"
+browser="brave-bin"
 
 sed -i 's/^\s*//; s/\s*$//' "$file"
 
@@ -12,7 +13,7 @@ else if (!/^$/) printf(" %s  %s\n",tag,$0)
 
 [ -n "$url" ] || exit 1
 
-if ps aux | grep "brave-bin" | grep -qv grep; then
+if ps aux | grep "$browser" | grep -qv grep; then
   xdg-open "$url"
 else
   if netstat -tan | grep -qE ".*$http_proxy\s+.*LISTEN\s*$"; then

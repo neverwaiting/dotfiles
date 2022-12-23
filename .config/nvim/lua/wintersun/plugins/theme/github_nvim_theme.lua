@@ -16,5 +16,3 @@ require("github-theme").setup{
     }
   end
 }
-
--- vim.cmd [[colorscheme gruvbox-material]]
