@@ -37,4 +37,4 @@ case $BLOCK_BUTTON in
 	6) "$TERMINAL" -e "$EDITOR" "$0" ;;
 esac
 
-printf "GPU: %2d%%|%2d%%(memory) 🌡 %2d°C\n" "$gpu_usage" "$memory_usage" "$temperature"
+printf "  %2d%%|%2d%%(memory)🔥%2d°C\n" "$gpu_usage" "$memory_usage" "$temperature"

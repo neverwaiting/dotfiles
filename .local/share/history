@@ -24436,3 +24436,121 @@ ls
 cd ..
 l
 se
+cfd
+clc
+cd dwm
+l
+rm config.h
+efd
+ls
+l
+gs
+cd ..
+l
+clb
+l
+l
+cd ../share
+l
+ls
+l
+l TelegramDesktop
+l
+cd
+l
+efb
+pkill -RTMIN+8 dwmblocks
+lf
+l
+l
+se
+se
+l
+rm dmenuunicode
+l
+vim dmenumountcifs
+l
+l
+vim readpdf
+ls
+mv nerdfonticons dmenusymbols
+l
+vim dmenusymbols
+efd
+se
+l
+l
+l
+cd
+clc
+vim archinstall/chroot.sh
+l
+cd dotfiles
+l
+vim update_dotfiles
+l
+./update_dotfiles
+l
+rm -rf .config/balena-etcher
+l
+gs
+l
+l .local/bin
+l .local/share
+l .local/share/bookmarks
+l .local/share/bookmarks/urls
+cat .local/share/bookmarks/urls
+ls
+gs
+gd
+l
+vim update_dotfiles
+gd update_dotfiles
+l
+gam "update"
+gp
+gp personal
+l
+cd .local/share
+l
+l larbs/getkeys/
+l
+rm -rf larbs
+l
+clc
+cd dotfiles
+l
+gs
+gam "update"
+gp && gp personal
+l
+ls
+gp personal
+l
+cd ..
+l
+l
+ls
+ls
+l
+cd dmenu
+l
+grep color dmenu.c
+l
+l
+cd ..
+l
+cd archinstall
+l
+cd ..
+l
+cd dwm
+l
+cd ..
+l
+l
+l
+ls
+se
+se
+ls
