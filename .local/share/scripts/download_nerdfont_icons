@@ -1,0 +1,33 @@
+#!/bin/sh
+
+temp_dir="temp"
+trap "rm -rf $temp_dir; exit" HUP INT QUIT TERM
+
+download_url="https://github.91chi.fun/https://raw.githubusercontent.com/ryanoasis/nerd-fonts/master/bin/scripts/lib"
+mkdir "$temp_dir"
+for file in {"i_cod","i_fae","i_iec","i_material","i_ple","i_seti","i_dev","i_fa","i_logos","i_oct","i_pom","i_weather"}; do
+  echo "download '${file}.sh'..."
+  curl -fsL "$download_url/${file}.sh" > "$temp_dir/${file}.sh"
+done
+
+for icon_file in `ls temp`; do
+  awk '{
+    if (/^i=/) {
+      $0=gensub(/^i='\''(.)'\''\si_(.+)=\$i/, "\\1 \\2", "g")
+      icon_key=$1
+      icons[$1]=$2
+    }
+    else if (/\s*i_.+=\$i/) {
+      icons[icon_key]=icons[icon_key] gensub(/^\s*i_(.+)=\$.+/, " \\1", "g")
+    }
+  }
+  END {
+    for (icon in icons) {
+      print icon " " icons[icon]
+    }
+  }' "$temp_dir/$icon_file"
+done > nerdfont_icons
+
+rm -rf "$temp_dir"
+
+echo "Successfully generated 'nerdfont_icons' file!"

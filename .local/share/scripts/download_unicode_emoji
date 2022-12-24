@@ -1,0 +1,9 @@
+#!/bin/sh
+
+raw_file="unicode_emoji.html"
+trap "rm -rf $raw_file; exit" HUP INT QUIT TERM
+
+curl -i https://unicode-table.com/en/emoji/ > "$raw_file"
+grep -oE "data-symbol=\".\"|title=\"[^\"]*\"" "$raw_file" | sed -E '1d; N;s/data-symbol=\"(.)\"\ntitle=\"(.+)\"/\1 \2/' > emoji
+
+rm -rf "$raw_file"

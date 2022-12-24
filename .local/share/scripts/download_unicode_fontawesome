@@ -1,0 +1,10 @@
+#!/bin/sh
+
+raw_file="fontawesome.html"
+
+if [ ! -f "$raw_file" ]; then
+  echo "please go to https://fontawesome.com/v5/cheatsheet/ save as fontawesome.html!"
+  exit
+fi
+
+grep -oE "<span[^>]+>.</span></dt> <dd[^>]+icon-name\">[^<]+<" "$raw_file" | sed -E 's/<[^>]+>(.)<.+">(.+)</\1 \2/' > fontawesome

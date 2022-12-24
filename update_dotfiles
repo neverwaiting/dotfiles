@@ -1,12 +1,13 @@
 #!/bin/sh
 
-/usr/bin/rm -rf .local/bin
-/usr/bin/cp -r $HOME/.local/bin .local/
-/usr/bin/rm -rf .local/share/bookmarks
-/usr/bin/rm -rf .local/share/fonts
-/usr/bin/cp -r $HOME/.local/share/bookmarks .local/share/
-/usr/bin/cp -r $HOME/.local/share/fonts .local/share/
-/usr/bin/cp $HOME/.local/share/history .local/share/history
+update_file() {
+  for file in "$@"; do
+    /usr/bin/rm -rf "$file"
+    /usr/bin/cp -r "$HOME/$file" "$file"
+  done
+}
+
+update_file ".local/bin" ".local/share/bookmarks" ".local/share/fonts" ".local/share/symbols" ".local/share/scripts" ".local/share/history"
 
 IFS=$'\n'
 raw_config_path="$HOME/.config"

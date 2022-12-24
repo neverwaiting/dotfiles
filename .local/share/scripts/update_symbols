@@ -1,0 +1,8 @@
+#!/bin/sh
+
+./download_unicode_emoji
+./download_unicode_fontawesome
+./download_nerdfont_icons
+
+/usr/bin/cp nerdfont_icons emoji fontawesome "$HOME/.local/share/symbols/"
+rm -rf nerdfont_icons emoji fontawesome

@@ -23664,3 +23664,775 @@ ls
 ls
 ls
 ls
+cfv
+vim init.lua
+ls
+ls
+l
+vim filetype.vimbak
+ls
+se
+l
+l
+clc
+l
+l
+cd dotfiles
+l
+./update_dotfiles
+l
+gd
+gd
+gs
+ls
+l ~/.config/nvim/after
+l ~/.config/nvim/after/plugin
+l
+gp 
+gs
+gam "update some scripts"
+gp
+gp personal
+ls
+cd ..
+l
+cd dmenu
+cd ..
+l
+cd dwm
+l
+gs
+gd
+gam "add shortcut for nerdfonticons script"
+gp
+gp personal
+l
+cd ..
+cd st
+l
+gs
+gd
+gam "update command st-urlhandler"
+gp && gp personal
+gs
+gp personal
+l
+cd ..
+l
+cd slock
+cd ..
+cd dwm
+cd ../dwmblocks
+l
+gs
+gd
+gam "add sb-gpu script and resort statusbar"
+gp && gp personal
+gs
+cd ..
+l
+l dotfiles
+cd dotfiles
+ls
+l
+gs
+cd ..
+l
+cd
+cd -
+cd archinstall
+l
+cd
+clc
+cd archinstall
+l
+vim chroot.sh
+l
+cd
+clc
+vim archinstall/chroot.sh
+cd
+cd .local/share
+l
+l scripts
+ls larbs
+ls
+l
+lf
+l
+lf
+cd
+netstat -tna
+netstat -tna
+showip
+alias cmk
+efa
+lf
+l
+l webui-aria2
+l
+l workspace
+cd workspace
+l
+gs
+l
+cd 
+cd -
+l
+cd project
+ls
+l
+cd cchess
+ls
+l
+l
+vim CMakeLists.txt
+l
+gs
+mkdir third
+ls
+l
+git submodule add https://github.com/chenshuo/muduo.git third/muduo
+l third/muduo
+l
+vim ../http-server/CMakeLists.txt
+l
+alias cmkj
+cmk
+l
+gs
+l
+cmk
+vim cchess_engine/search_engine.h
+cmk
+l
+./startup.sh -h
+./startup.sh
+./startup.sh start
+ls
+mv asserts assets
+l
+cd assets
+l
+xdg-open index.html
+l
+vim js/con
+vim js/config.js
+xdg-open index.html
+ls
+cd ..
+l
+./startup.sh monitor
+./startup.sh stop
+./startup.sh monitor
+l
+vim startup.sh
+l
+gs
+rm -rf build
+l
+cmk
+l
+rm -rf build
+l
+gs
+l
+l temp
+rm -rf temp
+l
+gs
+gd
+gs
+l
+cd third
+ls
+cd muduo
+l
+cd ..
+l
+rm -rf muduo
+l
+cd ..
+l
+gs
+gs
+gam "add submodule muduo"
+l
+gp
+l
+gs
+git clone https://github.com/neverwaiting/cchess.git
+ls
+cd ..
+l
+rm -rf cchess
+l
+git clone git@github.com:neverwaiting/cchess.git
+l
+cd cchess
+l
+git submodule init --update
+git submodule update
+l
+vim .gitmodules
+cd ..
+git clone --recursive git@github.com:neverwaiting/cchess.git
+rm -rf cchess
+git clone --recursive git@github.com:neverwaiting/cchess.git
+l
+cd cchess
+l
+vim .gitmodules
+git submodule add https://github.com/chenshuo/muduo.git third/muduo
+ls
+cd third/muduo
+l
+cd ..
+l
+cd ..
+l
+l
+gam "add submodule muduo"
+gp
+git log
+vim .gitmodules
+ls
+cd ..
+l
+rm -rf cchess
+git clone --recursive git@github.com:neverwaiting/cchess.git
+git clone --recursive git@github.com:neverwaiting/cchess.git
+rm cchess
+rm -rf cchess
+git clone --recursive git@github.com:neverwaiting/cchess.git
+cd cchess
+l
+git submodule update
+ls
+vim .gitmodules
+git submodule update
+l third/muduo
+git submodule update
+git submodule update
+l
+cd ..
+l
+rm -rf cchess
+l
+ep
+git clone --recursive git@github.com:neverwaiting/cchess.git
+l
+cd cchess
+l
+git log
+git log
+l
+gs
+cmk
+gs
+l
+l build
+l build/third/muduo
+l build/third/muduo/bin
+l
+vim CMakeLists.txt
+vim ../http-server/CMakeLists.txt
+l
+rm -rf build
+l
+vim README.md
+l
+gs
+l
+gam "change url"
+gp
+gs
+git log
+vim README.md
+ls
+fg
+mkdir build && cd build && cmake -DCMAKE_BUILD_TYPE=release .. && make -j$(nproc)
+cmake -Bbuild -DCMAKE_BUILD_TYPE=release && cmake --build build -j$(nproc)
+cd ..
+rm -rf build
+cmake -Bbuild -DCMAKE_BUILD_TYPE=release && cmake --build build -j$(nproc)
+ls
+l
+fg
+vim README.md
+l
+rm -rf build
+l
+gs
+gd
+fg
+vim README.md
+gs
+gam "update readme"
+gp
+fg
+cd ..
+l
+rm -rf cchess
+l
+lf
+lf
+pi aira
+pi aria
+pi aria2c
+pi ariac
+yay -S aria
+ls
+l webui-aria2
+kp
+cd videos
+l
+man ffmpeg
+ffmpeg -i å¤ƒºå·´èƒ£ºåƒ¨ƒ¦æ³ƒ¬éƒ¿³æ¨‚\[60åƒ¨ƒ¦éƒ°ƒ¸\]ç¬¬åƒ¥­è¼¯\ ç¶±çƒ°´æƒ»²çƒ»®\ å¿ƒ£æƒ£ƒ¥èƒ¨ƒ§è¨ƒ¸æƒ¦¶æƒ´¹åƒ¶ƒ¤\ åƒª©æ­£éƒ½ƒ‚èƒ£½éƒ§ƒ¯éƒ§ƒ«æƒ´¾\ \[hBo9k8FlrCQ\].f251.webm -vn relaxing-music-02.mav
+se
+ffmpeg -i å¤ƒºå·´èƒ£ºåƒ¨ƒ¦æ³ƒ¬éƒ¿³æ¨‚\[60åƒ¨ƒ¦éƒ°ƒ¸\]ç¬¬åƒ¥­è¼¯\ ç¶±çƒ°´æƒ»²çƒ»®\ å¿ƒ£æƒ£ƒ¥èƒ¨ƒ§è¨ƒ¸æƒ¦¶æƒ´¹åƒ¶ƒ¤\ åƒª©æ­£éƒ½ƒ‚èƒ£½éƒ§ƒ¯éƒ§ƒ«æƒ´¾\ \[hBo9k8FlrCQ\].f251.webm -vn relaxing-music-02.wav
+cd -
+ffmpeg -i å¤ƒºå·´èƒ£ºåƒ¨ƒ¦æ³ƒ¬éƒ¿³æ¨‚\[60åƒ¨ƒ¦éƒ°ƒ¸\]ç¬¬åƒ¥­è¼¯\ ç¶±çƒ°´æƒ»²çƒ»®\ å¿ƒ£æƒ£ƒ¥èƒ¨ƒ§è¨ƒ¸æƒ¦¶æƒ´¹åƒ¶ƒ¤\ åƒª©æ­£éƒ½ƒ‚èƒ£½éƒ§ƒ¯éƒ§ƒ«æƒ´¾\ \[hBo9k8FlrCQ\].f251.webm -vn relaxing-music-02.wav
+ls
+mpv relaxing-music-02.wav
+ffmpeg -i videos/relaxing-music-01.webm -vn sound.wav
+ffmpeg -i relaxing-music-01.webm -vn sound.wav
+l
+ffmpeg -i sound.mp3 -metadata title="Relaxing Music" -metadata COMMENT="" -metadata artist="" -metadata date="" -metadata DESCRIPTION="" -metadata SYNOPSIS="" -metadata PURL="" -metadata encoder="" remove_metadata_music.wav
+ffmpeg -i sound.wav -metadata title="Relaxing Music" -metadata COMMENT="" -metadata artist="" -metadata date="" -metadata DESCRIPTION="" -metadata SYNOPSIS="" -metadata PURL="" -metadata encoder="" relaxing_music_01.wav
+l
+cd
+lf
+l
+lf
+l
+lf
+lf
+l
+lf
+l
+man sed
+ls
+ls
+l
+vim
+lf
+l
+l
+cd downloads
+l
+rm -rf unicode_emoji.html*
+l
+rm -rf emoji
+l
+l
+rm -rf convert_to_emoji emoji_bak
+l
+cd ..
+l
+cd downloads
+l
+l
+unzip fontawesome-free-6.2.1-desktop.zip -D fontawesome
+unzip fontawesome-free-6.2.1-desktop.zip -d fontawesome
+l
+cd fontawesome
+l
+cd fontawesome-free-6.2.1-desktop
+l
+lf
+lf
+l
+l
+fg
+cd ..
+l
+cd ..
+l
+lf
+unzip font-awesome-wallpapers.zip
+l
+lf
+l
+cd
+ls
+cd downloads
+l
+grep -E "data-symbol=" unicode_emoji.html
+grep -oE "data-symbol=\".\"" unicode_emoji.html
+grep -oE "data-symbol=\".\"" unicode_emoji.html | wc -l
+grep -oE "data-symbol=\".\"" unicode_emoji.html
+grep -oE "data-symbol=\".\"" unicode_emoji.html > test
+vim test
+man grep
+grep -oE "data-symbol=\".\"|title=\".*\"" unicode_emoji.html > test
+vim test
+vim test
+grep -oE "data-symbol=\".\"|title=\"[^\"]*\"" unicode_emoji.html > test
+vim test
+grep -oE "data-symbol=\".\"|title=\"[^\"]*\"" unicode_emoji.html.html > test1
+vim test1
+diff -qr test test1
+l
+man head 
+man cut
+echo -e "one line\ntwo line\nthree line"
+echo -e "one line\ntwo line\nthree line" | sed "{N;s/\n/ /p}"
+echo -e "one line\ntwo line\nthree line" | sed -n "{N;s/\n/ /p}"
+echo -e "one line\ntwo line\nthree line" | sed -n "{N;}"
+echo -e "one line\ntwo line\nthree line" | sed "{N;}"
+echo -e "one line\ntwo line\nthree line" | sed "{N;p}"
+echo -e "one line\ntwo line\nthree line" | sed -n "{N;p}"
+echo -e "one line\ntwo line\nthree line\nfour line" | sed -n "{N;p}"
+man sed
+echo -e "one line\ntwo line\nthree line\nfour line" | sed 1q
+echo -e "one line\ntwo line\nthree line\nfour line" | sed 2q
+man sed
+echo -e "one line\ntwo line\nthree line\nfour line" | sed 'N;s/\n/,/'
+echo -e "one line\ntwo line\nthree line" | sed 'N;s/\n/,/'
+echo -e "one line\ntwo line\nthree line" | sed '1d; N;s/\n/,/'
+vim test
+sed '1d; N;s/data-symbol="(.)"\ntitle="([^"]+)"/\1 \2/' test
+sed '1d; N;s/data-symbol="(.)"\ntitle="([^"]+)"/\\1 \\2/' test
+sed '1d; N;s/data-symbol="(.)"\ntitle="([^"]+)"/\1 \2/' test
+sed '1d; N;s/data-symbol="(.)"\ntitle="([^"]+)"/asjd/' test
+sed '1d; N;s/data-symbol="(.)"\ntitle="([^\"]+)"/asjd/' test
+sed '1d; N;s/data-symbol="\(.\)"\ntitle="([^\"]+)"/asjd/' test
+sed '1d; N;s/data-symbol="(.)"\n/sajskdf/' test
+sed '1d; N;s/\n/,/' test
+sed '1d; N;s/data-symbol="."\n/,/' test
+sed '1d; N;s/data-symbol="(.)"\n/,/' test
+sed '1d; N;s/data-symbol="(.)"\n/\1,/' test
+sed '1d; N;s/data-symbol="(.)"\n/\\1,/' test
+sed '1d; N;s/data-symbol="\(.\)"\n/\1,/' test
+sed '1d; N;s/data-symbol="\(.\)"\ntitle="\(.+\)"/\1 \2/' test
+sed '1d; N;s/data-symbol="\(.\)"\ntitle=".+"/\1 /' test
+sed '1d; N;s/data-symbol="\(.\)"\ntitle=".+"/\1 /' test
+sed '1d; N;s/data-symbol="\(.\)"\ntitle=/\1 /' test
+sed '1d; N;s/data-symbol="\(.\)"\ntitle=\"/\1 /' test
+sed '1d; N;s/data-symbol=\"\(.\)"\ntitle=\"/\1 /' test
+sed '1d; N;s/data-symbol=\"\(.\)"\ntitle=\"/\1 /' test
+sed '1d; N;s/data-symbol=\"\(.\)\"\ntitle=\"/\1 /' test
+sed '1d; N;s/data-symbol=\"(.)\"\ntitle=\"/\1 /' test
+sed '1d; N;s/data-symbol=\"\(.\)\"\ntitle=\"\(.+\)\"/\1 \2/' test
+sed '1d; N;s/data-symbol=\"\(.\)\"\ntitle=\"\(.\+\)\"/\1 \2/' test
+sed '1d; N;s/data-symbol=\"\(.\)\"\ntitle=\"\(.\+\)\"/\1 \2/'
+grep -oE "data-symbol=\".\"|title=\"[^\"]*\"" unicode_emoji.html > test
+grep -oE "data-symbol=\".\"|title=\"[^\"]*\"" unicode_emoji.html | sed '1d; N;s/data-symbol=\"\(.\)\"\ntitle=\"\(.\+\)\"/\1 \2/' > emoji
+vim emoji
+cat emoji | dmenuwrap -l 30 -p emoji:
+cat emoji | dmenuwrap -l 30 -p Emoji:
+cat emoji | dmenuwrap -i -l 30 -p Emoji:
+cat emoji | dmenuwrap -l 30 -p Emoji:
+cat emoji | dmenuwrap -i -l 30 -p Emoji:
+l
+ls
+l
+man sed
+grep -oE "data-symbol=\".\"|title=\"[^\"]*\"" unicode_emoji.html | sed -E '1d; N;s/data-symbol=\"(.)\"\ntitle=\"(.+)\"/\1 \2/' > emoji
+vim emoji
+grep -oE "data-symbol=\".\"|title=\"[^\"]*\"" unicode_emoji.html | sed -E '1d; N;s/data-symbol=\"(.)\"\ntitle=\"(.+)\"/\1 \2/'
+grep -oE "data-symbol=\".\"|title=\"[^\"]*\"" unicode_emoji.html | sed -E '1d; N;s/data-symbol=\"(.)\"\ntitle=\"(.+)\"/\1 \2/'
+grep -oE "data-symbol=\".\"|title=\"[^\"]*\"" unicode_emoji.html | sed -E '1d; N;s/data-symbol=\"(.)\"\ntitle=\"(.+)\"/\1 \2/' > emoji
+l
+curl -i https://unicode-table.com/en/emoji/
+l
+l
+vim convert_to_emoji
+l
+fg
+l
+mv emoji emoji_bak
+l
+rm test*
+l
+rm -rf unicode_emoji.html.html
+l
+mv unicode_emoji.html unicode_emoji.html.bak
+l
+vim convert_to_emoji
+vim convert_to_emoji
+./convert_to_emoji
+l
+diff -qr emoji emoji_bak
+l
+l
+cp convert_to_emoji ~/.local/share/scripts
+l
+cls
+l
+l scripts
+cd scripts
+l
+mv convert_to_emoji download_unicode_emoji
+l
+vim download_
+vim download_unicode_emoji
+l
+vim download_unicode_emoji
+l
+./download_unicode_emoji
+vim download_unicode_emoji
+./download_unicode_emoji
+l
+l
+rm -rf emoji
+l
+l
+./download_nerdfont_icons
+l
+rm -rf nerdfont_icons
+l
+l
+./download_unicode_emoji
+cat emoji | dmenuwrap -i -l 30 -p Emoji:
+cat emoji | dmenuwrap -i -l 30 -p Emoji:
+cat emoji | dmenuwrap -i -l 30 -p Emoji:
+cat emoji | dmenuwrap -i -l 30 -p Emoji:
+cat emoji | dmenuwrap -i -l 30 -p Emoji:
+cat emoji | dmenuwrap -i -l 30 -p Emoji:
+cat emoji | dmenuwrap -i -l 30 -p Emoji:
+cd ..
+l
+cd larbs/chars
+l
+vim emoji
+l
+vim font-awesome
+l
+cd ../../
+l
+cd scripts
+l
+cat emoji | dmenuwrap -i -l 30 -p Emoji:
+cat emoji | dmenuwrap -i -l 30 -p Emoji:
+cat emoji | dmenuwrap -i -l 30 -p Emoji:
+cat emoji | dmenuwrap -i -l 30 -p Emoji:
+cat emoji | dmenuwrap -i -l 30 -p Emoji:
+cat emoji | dmenuwrap -i -l 30 -p Emoji:
+cat emoji | dmenuwrap -i -l 30 -p Emoji:
+cat emoji | dmenuwrap -i -l 30 -p Emoji:
+cat emoji | dmenuwrap -i -l 30 -p Emoji:
+cat emoji | dmenuwrap -i -l 30 -p Emoji:
+cat emoji | dmenuwrap -i -l 30 -p Emoji:
+cat emoji | dmenuwrap -i -l 30 -p Emoji:
+cat emoji | dmenuwrap -i -l 30 -p Emoji:
+cat emoji | dmenuwrap -i -l 30 -p Emoji:
+cat emoji | dmenuwrap -i -l 30 -p Emoji:
+cat emoji | dmenuwrap -i -l 30 -p Emoji:
+cat emoji | dmenuwrap -i -l 30 -p Emoji:
+cat emoji | dmenuwrap -i -l 30 -p Emoji:
+ls
+lf
+l
+vim download_unicode_fontawesome
+man curl
+fg
+l
+fg
+l
+./download_unicode_fontawesome
+ls
+cat fontawesome.html
+ls
+grep -A 3 -E "<span class=\"[^\"]+\">" fontawesome.html
+grep -A 3 -E "<span class=.*>" fontawesome.html
+grep -A 3 -E "<span class" fontawesome.html
+grep -E "<span class" fontawesome.html
+vim fontawesome.html
+vim download_unicode_fontawesome
+l
+vim fontawesome.html
+l
+rm fontawesome.html
+l
+curl -i https://fontawesome.com/v5/cheatsheet/
+curl -L https://fontawesome.com/v5/cheatsheet/
+curl -L https://fontawesome.com/v5/cheatsheet/ | grep span
+l
+man curl
+cht curl
+curl http://ifconfig.me/all.json
+curl http://ifconfig.me/ipaddress
+curl http://ifconfig.me/ip_addr
+curl http://ifconfig.me/ip
+curl http://ifconfig.me/forwarded
+curl curl http://ifconfig.me/all.json
+ls
+l
+cht curl
+curl -OL https://fontawesome.com/v5/cheatsheet
+l
+grep "span" cheatsheet
+ls
+rm -rf cheatsheet
+l
+cp ~/downloads/fontawesome.html .
+l
+grep "span" fontawesome.html
+cp ~/downloads/fontawesome.html .
+l
+vim fontawesome.html
+grep "span" fontawesome.html
+grep -o "<span class=" fontawesome.html
+grep -oE "<span[^>]+>.</span>" fontawesome.html
+grep -E "<span[^>]+>.</span>" -A 3 fontawesome.html
+grep -oE "<span[^>]+>.</span>\s<dd[^>]+>.+</dd>" fontawesome.html
+grep -oE "<span[^>]+>.</span>.*<dd[^>]+>.+</dd>" fontawesome.html
+grep -oE "<span[^>]+>.</span></dt> <dd[^>]+>.+</dd>" fontawesome.html
+sed -nE "s/<span[^>]+>(.)</span></dt> <dd[^>]+>(.+)</dd>/\1 \2/" fontawesome.html
+sed -nE "s/<span[^>]+>(.)<\/span><\/dt> <dd[^>]+>(.+)<\/dd>/\1 \2/" fontawesome.html
+sed -E "s/<span[^>]+>(.)<\/span><\/dt> <dd[^>]+>(.+)<\/dd>/\1 \2/" fontawesome.html
+grep -oE "<span[^>]+>.<\/span><\/dt> <dd[^>]+>.+<\/dd>" fontawesome.html
+grep -oE "<span[^>]+>.<\/span><\/dt> <dd[^>]+icon_name>.+<\/dd>" fontawesome.html
+grep -oE "<span[^>]+>.<\/span><\/dt> <dd[^>]+icon_name\">.+<\/dd>" fontawesome.html
+grep -oE "<span[^>]+>.</span></dt> <dd[^>]+icon_name\">.+</dd>" fontawesome.html
+grep -oE "<span[^>]+>.</span></dt> <dd[^>]+icon-name\">.+</dd>" fontawesome.html
+sed -E "s/<span[^>]+>.<\/span><\/dt> <dd[^>]+icon-name\">.+<\/dd>/ajsdf/g" fontawesome.html
+sed -nE "s/<span[^>]+>.<\/span><\/dt> <dd[^>]+icon-name\">.+<\/dd>/ajsdf/g" fontawesome.html
+sed -nE "s/<span[^>]+>.<\/span><\/dt>/ajsdf/g" fontawesome.html
+sed -nE "s/<span[^>]+>.<\/span><\/dt>/ajsdf/g p" fontawesome.html
+grep -oE "<span[^>]+>.</span></dt> <dd[^>]+icon-name\">.+</dd>" fontawesome.html
+grep -oE "<span[^>]+>.</span></dt> <dd[^>]+icon-name\">.+</dd>" fontawesome.html | sed -E "s/<span>[^>]+>(.)</span>/\1/g"
+grep -oE "<span[^>]+>.</span></dt> <dd[^>]+icon-name\">.+</dd>" fontawesome.html | sed -E "s/<span[^>]+>(.)</span>/\1/g"
+grep -oE "<span[^>]+>.</span></dt> <dd[^>]+icon-name\">.+</dd>" fontawesome.html | sed -E "s/<span[^>]+>(.)<\/span>/\1/g"
+grep -oE "<span[^>]+>.</span></dt> <dd[^>]+icon-name\">.+</dd>" fontawesome.html | sed -nE "s/<span[^>]+>(.)<\/span>/\1/g"
+grep -oE "<span[^>]+>.</span></dt> <dd[^>]+icon-name\">.+</dd>" fontawesome.html | sed -E "s/<span[^>]+>(.)<\/span></dt> <dd[^>]+>(.+)<\/dd>/\1 \2/g"
+grep -oE "<span[^>]+>.</span></dt> <dd[^>]+icon-name\">.+</dd>" fontawesome.html | sed -E "s/<span[^>]+>(.)<\/span><\/dt> <dd[^>]+>(.+)<\/dd>/\1 \2/g"
+grep -oE "<span[^>]+>.</span></dt> <dd[^>]+>.+</dd>" fontawesome.html | sed -E "s/<span[^>]+>(.)<\/span><\/dt> <dd[^>]+>(.+)<\/dd>/\1 \2/g"
+grep -oE "<span[^>]+>.</span></dt> <dd[^>]+>.+</dd>" fontawesome.html | sed -E "s/<span[^>]+>(.)<\/span><\/dt>/\1/g"
+grep -oE "<span[^>]+>.</span></dt> <dd[^>]+>.+</dd>" fontawesome.html | sed -nE "s/<span[^>]+>(.)<\/span><\/dt>/\1/g"
+grep -oE "<span[^>]+>.</span></dt> <dd[^>]+>.+</dd>" fontawesome.html | sed -nE "s/<span[^>]+>(.)<\/span><\/dt>/\1/g p"
+grep -oE "<span[^>]+>.</span></dt> <dd[^>]+>.+</dd>" fontawesome.html | sed -nE "s/<span[^>]+>(.)<\/span><\/dt>/\1/g n"
+grep -oE "<span[^>]+>.</span></dt> <dd[^>]+>.+</dd>" fontawesome.html | sed -nE "n;s/<span[^>]+>(.)<\/span><\/dt>/\1/g"
+grep -oE "<span[^>]+>.</span></dt> <dd[^>]+>.+</dd>" fontawesome.html | sed -nE "n; s/<span[^>]+>(.)<\/span><\/dt>/\1/g"
+grep -oE "<span[^>]+>.</span></dt> <dd[^>]+>.+</dd>" fontawesome.html | sed -E "n; s/<span[^>]+>(.)<\/span><\/dt>/\1/g"
+grep -oE "<span[^>]+>.</span></dt> <dd[^>]+>.+</dd>" fontawesome.html | sed -E "s/<span[^>]+>(.)<\/span><\/dt>/\1/g"
+grep -oE "<span[^>]+>.</span></dt> <dd[^>]+>.+</dd>" fontawesome.html | sed -E "s/<span[^>]+>(.)<\/span><\/dt> <dd[^>]+>/\1/g"
+grep -oE "<span[^>]+>.</span></dt> <dd[^>]+icon-name\">.+</dd>" fontawesome.html | sed -E "s/<span[^>]+>(.)<\/span><\/dt> <dd[^>]+>/\1/g"
+grep -oE "<span[^>]+>.</span></dt> <dd[^>]+icon-name\">.+</dd>" fontawesome.html | sed -E "s/<span[^>]+>(.)<\/span><\/dt> <dd[^>]+>/\1/g"
+grep -oE "<span[^>]+>.</span></dt> <dd[^>]+icon-name\">.+</dd>" fontawesome.html
+grep -oE "<span[^>]+>.</span></dt> <dd[^>]+icon-name\">[^<]+<" fontawesome.html
+grep -oE "<span[^>]+>.</span></dt> <dd[^>]+icon-name\">[^<]+<" fontawesome.html
+sed -nE "s/<span[^>]+>(.)<\/span><\/dt> <dd[^>]+icon-name\">([^<]+)</\1 \2/g" fontawesome.html
+sed -E "s/<span[^>]+>(.)<\/span><\/dt> <dd[^>]+icon-name\">([^<]+)</\1 \2/g" fontawesome.html
+grep -oE "<span[^>]+>.</span></dt> <dd[^>]+icon-name\">[^<]+<" fontawesome.html
+grep -oE "<span[^>]+>.</span></dt> <dd[^>]+icon-name\">[^<]+<" fontawesome.html | sed -E 's/<[^>]+>(.)<.+\">(.+)</\1 \2'
+grep -oE "<span[^>]+>.</span></dt> <dd[^>]+icon-name\">[^<]+<" fontawesome.html | sed -E 's/<[^>]+>(.)<.+">(.+)</\1 \2'
+grep -oE "<span[^>]+>.</span></dt> <dd[^>]+icon-name\">[^<]+<" fontawesome.html | sed -E 's/<[^>]+>(.)<.+">(.+)</\1 \2/'
+grep -oE "<span[^>]+>.</span></dt> <dd[^>]+icon-name\">[^<]+<" fontawesome.html | sed -E 's/<[^>]+>(.)<.+">(.+)</\1 \2/' > fontawesome
+l
+vim fontawesome
+l
+ls ../larbs/chars/font-awesome
+l ../larbs/chars/
+wc -l ../larbs/chars/
+wc -l ../larbs/chars/font-awesome
+wc -l fontawesome
+cat fontawesome | dmenuwrap -i -l 30 -p Font\ Awesome:
+pi ttf-font-awesome 
+lf
+cat fontawesome | dmenuwrap -i -l 30 -p Font\ Awesome:
+ls
+cat emoji | dmenuwrap -i -l 30 -p Emoji:
+cat emoji | dmenuwrap -i -l 30 -p Emoji:
+cat emoji | dmenuwrap -i -l 30 -p Emoji:
+cat emoji | dmenuwrap -i -l 30 -p Emoji:
+cat emoji | dmenuwrap -i -l 30 -p Emoji:
+ls
+l
+ls
+ls
+l
+cat fontawesome | dmenuwrap -i -l 30 -p Font\ Awesome:
+cat fontawesome | dmenuwrap -i -l 30 -p Font\ Awesome:
+cat fontawesome | dmenuwrap -i -l 30 -p Font\ Awesome:
+cat fontawesome | dmenuwrap -i -l 30 -p Font\ Awesome:
+cat fontawesome | dmenuwrap -i -l 30 -p Font\ Awesome:
+mv fontawesome.html fontawesome.html.bak
+l
+./download_unicode_fontawesome
+l
+grep "ïƒª¹" fontawesome.html
+grep "user" fontawesome.html
+grep -o "user" fontawesome.html
+grep -o "language" fontawesome.html
+grep -o "language*" fontawesome.html
+grep -o "language.*" fontawesome.html
+grep -o "laptop" fontawesome.html
+grep -o "laptop<" fontawesome.html
+grep "laptop" fontawesome.html
+grep -A 2 "laptop" fontawesome.html
+grep -o "lemon" fontawesome.html
+grep -o "leaf" fontawesome.html
+ls
+l
+rm -rf fontawesome.html
+l
+l
+vim fontawesome.html.bak
+l
+vim download_unicode_fontawesome
+l
+./download_unicode_fontawesome
+vim download_unicode_fontawesome
+./download_unicode_fontawesome
+vim download_unicode_fontawesome
+./download_unicode_fontawesome
+fg
+l
+mv fontawesome.html.bak fontawesome.html
+l
+rm -rf fontawesome emoji
+l
+vim update_symbols
+l
+vim update_symbols
+l ../symbols
+./update_symbols
+l
+vim download_unicode_fontawesome
+l
+./update_symbols
+vim download_unicode_fontawesome
+fg
+fg
+./download_unicode_fontawesome
+l
+fg
+fg
+./download_unicode_fontawesome
+l
+cat fontawesome
+l
+rm -rf fontawesome
+l
+rm -rf fontawesome.html
+l
+./download_unicode_fontawesome
+./download_unicode_fontawesome
+fg
+./download_unicode_fontawesome
+l
+vim fontawesome.html
+l
+rm fontawesome
+l
+mv fontawesome.html fontawesome.html.bak
+./download_unicode_fontawesome
+l
+lf
+l
+mv fontawesome.html.bak fontawesome.html
+l
+./update_symbols
+l
+l
+lf 
+l
+ls
+l
+ls
+cd ..
+l
+se
