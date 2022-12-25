@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# curl -LO https://fontawesome.com/v5/cheatsheet is not a valid html
+# please go to browser and inspect save body party as a fontawesome.html
+
 raw_file="fontawesome.html"
 
 if [ ! -f "$raw_file" ]; then
