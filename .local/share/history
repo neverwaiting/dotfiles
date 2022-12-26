@@ -24554,3 +24554,915 @@ ls
 se
 se
 ls
+ls
+l
+clc
+l
+cd archinstall
+l
+gam "udpate" 
+gp && gp personal
+l
+cd ..
+l
+cd dotfiles
+l
+./update_dotfiles
+l
+gs
+l
+gam "update" && gp && gp personal
+l
+cd ..
+l
+cd dwm
+l
+gam "update" && gp && gp personal
+l
+cd ..
+l
+cd dwmblocks
+l
+cd ..
+l
+cd slock
+cd ..
+cd st
+cd ..
+l
+cd
+efd
+l
+clc
+cd dwm
+l
+efd
+man dmenu
+efd
+clc
+cd dmenu
+l
+vim config.def.h
+efd
+efm
+l
+gs
+gd
+gd
+efm
+gds
+gs
+gd
+ls
+l
+gs
+gd
+gam "add emoji font" && gp && gp personal
+cd 
+fg
+cat .local/share/symbols/emoji
+cat .local/share/symbols/emoji | head 
+cat .local/share/symbols/emoji | head -n 50
+pacman -Qm libxft
+pacman -Q libxft
+pacman -Qm libxft
+ls
+clc
+cd dmenu
+grep iscol *
+grep iscol */*
+grep iscol *.*
+grep color\ fonts *.*
+ls
+pi ttf-linux-libertine
+pi ttf-inconsolata
+ls
+man dmenu
+se
+fg
+ls
+lf
+l
+lf
+lf
+l
+lf
+l
+lf anime
+l
+cp anime/* workspace/wallpaper
+l
+rm -rf anime
+l
+lf
+lf
+ls
+man -k .
+man -k .
+man -k . | column -t -s"-\s"
+man -k . | column -t -s"-"
+man -k . | column -t
+w
+curl cip.cc
+ep
+curl cip.cc
+curl ifconfig.me
+curl cip.cc
+curl cip.cc/ip
+curl -i cip.cc
+curl cip.cc
+curl cip.cc
+uep
+curl cip.cc
+curl cip.cc
+curl cip.cc
+ls
+curl ifconfig.em
+curl ifconfig.me
+curl ifconfig.me | print "\n"
+curl ifconfig.me | printf "\n"
+curl ifconfig.me
+curl ifconfig.me | cut -d'\n'
+ls
+printf "$(curl ifconfig.me)\n"
+printf "$(curl -s ifconfig.me)\n"
+printf "$(curl -s ifconfig.me)\n"
+printf "$(curl -s ifconfig.me)\n"
+efa
+ref
+showip
+showip
+l
+ep
+showip
+showip
+showip
+ref
+showip
+showip
+showip
+l
+uep
+showip
+efa
+ref
+showip
+ep
+showip
+efa
+ref
+showip
+showip
+uep
+showip
+ls
+man curl
+ls
+man -K .
+man -K
+man -k
+man -k .
+man -K
+man -K .
+man man
+man -k
+man -k .
+se
+man -k .
+fg
+se
+neofetch
+ls
+l
+ls
+l
+vim screenshot
+l
+ls /sys/class/power_supply/
+l /sys/class/power_supply/
+l /sys/class/powercap/
+ls
+l /sys/power/state
+cat /sys/power/state
+cat /sys/power/disk
+cat /sys/power/mem_sleep
+cat /sys/power/suspend_stats
+cat /sys/power/suspend_stats/success
+cat /sys/power/pm_trace
+ls
+l /proc/acpi/
+l /proc/acpi/wakeup
+cat /proc/acpi/wakeup
+ls
+nvidia-smi
+pi powertop
+powertop
+sudo powertop
+l
+ls
+pi s-tui
+s-tui
+s-tui
+s-tui
+sensors
+ls
+efu
+efu
+yt https://www.youtube.com/watch\?v\=wZyYwjNZ4ls
+ep
+yt https://www.youtube.com/watch\?v\=wZyYwjNZ4ls
+ls
+mv Cyberpunk\ 2077\ -\ MAX\ SETTINGS\ 8k\ Resolution\ Ray\ Tracing\ PC\ Graphics\!\ Night\ City\ Free\ Roam\ Gameplay\ \[wZyYwjNZ4ls\].webm Cyberpunk\ 2077\ 8k\ Game.webm
+l
+mv Cyberpunk\ 2077\ 8k\ Game.webm videos
+l
+lf
+cd videos
+ffplay -i Cyberpunk\ 2077\ 8k\ Game.webm
+ffplay -i Cyberpunk\ 2077\ 8k\ Game.webm
+l
+ffmpeg -i Cyberpunk\ 2077\ 8k\ Game.webm -c:v copy out.mkv
+mpv out.mkv
+l
+lf
+lf
+ffmpeg -codecs
+ffmpeg -codecs | grep nv
+l
+cd videos
+l
+ffmpeg -i out.mkv -c:v h264_nvenc -c:a aac output.mp4
+ffmpeg -i Cyberpunk\ 2077\ 8k\ Game.webm -c:v h264_nvenc -c:a aac output.mp4
+ffmpeg -i Cyberpunk\ 2077\ 8k\ Game.webm
+ls
+ffmpeg -i Cyberpunk\ 2077\ 8k\ Game.webm -s 3840x2160 -c:v h264_nvenc -c:a aac output.mp4
+l
+rm -rf 4k.webm
+l
+rm -rf out.mkv
+l
+l
+lf
+ls
+cd
+lf
+lf
+nvidia-smi
+nvidia-smi
+ls
+ffmpeg -formats
+ffmpeg -formats | less
+neofetch
+ls
+display
+display
+display -h
+ls
+neofetch
+xdpyinfo
+xdpyinfo | grep d
+xdpyinfo | grep de
+xdpyinfo | grep dme
+xdpyinfo | grep dim
+xdpyinfo | grep dimensions
+xdpyinfo | awk /dimensions/
+xdpyinfo | awk /dimensions/ 'print $2'
+xdpyinfo | awk /dimensions/ '{print $2}'
+xdpyinfo | awk /dimensions/ '{print $1}'
+xdpyinfo | awk /dimensions/ '{print $0}'
+xdpyinfo | awk /dimensions/ '{print }'
+xdpyinfo | awk '/dimensions/ {print }'
+xdpyinfo | awk '/dimensions/ {print $0}'
+xdpyinfo | awk '/dimensions/ {print $1}'
+xdpyinfo | awk '/dimensions/ {print $2}'
+xdpyinfo | awk '/dimensions/ {print $2}'
+fg
+cd videos
+ffmpeg -i Cyberpunk\ 2077\ 8k\ Game.webm
+lf
+mpv output.mp4
+mpv output.mp4
+ffplay -i output.mp4
+ls
+lf
+ffmpeg -i Cyberpunk\ 2077\ 8k\ Game.webm -s 3840x2160 -c:v copy 4k.webm
+l
+lf
+lf
+ffmpeg -i 4k.webm
+ffmpeg -i Cyberpunk\ 2077\ 8k\ Game.webm -s 3840x2160 -c:v h264 4k.webm
+ffmpeg -i Cyberpunk\ 2077\ 8k\ Game.webm -s 3840x2160 -c:v h264_nenv 4k.webm
+ffmpeg -i Cyberpunk\ 2077\ 8k\ Game.webm -s 3840x2160 -c:v h265_nvenc 4k.webm
+ffmpeg -i Cyberpunk\ 2077\ 8k\ Game.webm -s 3840x2160 -c:v h264_nvenc 4k.webm
+ffmpeg -i Cyberpunk\ 2077\ 8k\ Game.webm -s 3840x2160 -c:v h264_nvenc -c:a aac 4k.webm
+ffmpeg -i Cyberpunk\ 2077\ 8k\ Game.webm -s 3840x2160 -c:v h264_nvenc -c:a aac 4k.mkv
+lf
+ffmpeg -i Cyberpunk\ 2077\ 8k\ Game.webm -vf -scale=2160:3840 4k.webm
+ffmpeg -i Cyberpunk\ 2077\ 8k\ Game.webm -vf -scale=2160:3840 4k.mkv
+ffmpeg -i Cyberpunk\ 2077\ 8k\ Game.webm -vf scale=2160:3840 4k.webm
+lf
+lf
+cd videos
+l
+ffmpeg -i Cyberpunk\ 2077\ 8k\ Game.webm -threads 6 -vf scale=2160:3840 Cyberpunk\ 2077\ 4k\ Game.webm
+ffmpeg -i Cyberpunk\ 2077\ 8k\ Game.webm -threads 6 -preset ultrafast -vf scale=2160:3840 Cyberpunk\ 2077\ 4k\ Game.webm
+ffmpeg -i Cyberpunk\ 2077\ 8k\ Game.webm -threads 12 -preset ultrafast -vf scale=2160:3840 Cyberpunk\ 2077\ 4k\ Game.webm
+ls
+l
+rm -rf Cyberpunk\ 2077\ 4k\ Game.webm
+l
+lf
+lf
+man dmenu
+dmenu -f
+dmenu -f
+echo adfjlsa dmenu -f
+echo adfjlsa | dmenu -f
+man dmenu
+dmenu -l
+dmenu -v
+ls
+ls
+neofetch
+ls
+lf
+lf
+lf
+ls
+l
+cd videos
+l
+l
+ffmpeg -i Cyberpunk\ 2077\ 8k\ Game.webm -c:v libx264 -s 3840x2160 out1.webm
+ffmpeg -i Cyberpunk\ 2077\ 8k\ Game.webm -c:v libx264 -s 3840x2160 out1.mkv
+ls
+ffmpeg -i Cyberpunk\ 2077\ 8k\ Game.webm -c:v libx264 -s 3840x2160 out1.mkv
+l
+ffmpeg -i Cyberpunk\ 2077\ 8k\ Game.webm -c:v h264_nvenc -s 3840x2160 out1.mkv
+ffmpeg -i Cyberpunk\ 2077\ 8k\ Game.webm -c:v h264_nvenc -s 3840x2160 out_gpu.mkv
+lf
+ls
+l
+lf
+lf
+lf
+cf
+vim mpv/input.conf
+cd mpv
+l
+vim scripts/modules.lua
+l
+vim mpv.conf
+lf
+vim mpv.conf
+vim mpv.conf
+vim mpv.conf
+lf
+lf
+lf
+lf
+sudo nvidia-settings
+mpv --hwdec=vdpau output.mkv
+mpv --hwdec=vdpau videos/Cyberpunk\ 2077\ 8k\ Game.webm
+lf
+ls
+lf
+mpv videos/Cyberpunk\ 2077\ 8k\ Game.webm
+kp
+lf
+ffmpeg -y -hwaccels cuda -hwaccels_output_format cuda -i videos/Cyberpunk\ 2077\ 8k\ Game.webm -c:v h264_nvenc out.mkv
+ffmpeg -y -hwaccels cuda -hwaccel_output_format cuda -i videos/Cyberpunk\ 2077\ 8k\ Game.webm -c:v h264_nvenc out.mkv
+ffmpeg -y -hwaccels cuda -hwaccel_output_format cuda -i videos/Cyberpunk\ 2077\ 8k\ Game.webm -c:v h264_nvenc out.mkv
+ffmpeg -y -hwaccels cuda -hwaccel_output_format cuda -i videos/Cyberpunk\ 2077\ 8k\ Game.webm -c:v h264_nvenc out.mp4
+ffmpeg -y -hwaccel cuda -hwaccel_output_format cuda -i videos/Cyberpunk\ 2077\ 8k\ Game.webm -c:v h264_nvenc out.mp4
+ffmpeg -y -hwaccel cuda -hwaccel_output_format cuda -i videos/Cyberpunk\ 2077\ 8k\ Game.webm -c:v h264_nvenc out.mkv
+ffmpeg -y -hwaccel cuda -hwaccel_output_format cuda -i videos/Cyberpunk\ 2077\ 8k\ Game.webm -c:v h264_nvenc out.mkv
+ffmpeg -y -vsync 0 -hwaccel cuda -hwaccel_output_format cuda -i videos/Cyberpunk\ 2077\ 8k\ Game.webm -vf scale_npp=3840:2160 -c:a copy -c:v h264_nvenc output.mkv
+ffmpeg -y -vsync 0 -hwaccel cuda -hwaccel_output_format cuda -i videos/Cyberpunk\ 2077\ 8k\ Game.webm -vf scale=3840:2160 -c:a copy -c:v h264_nvenc output.mkv
+l
+rm -rf out*
+l
+ffmpeg -y -vsync 0 -hwaccel cuda -hwaccel_output_format cuda -i videos/Cyberpunk\ 2077\ 8k\ Game.webm -vf scale=3840:2160 -c:a copy -c:v -b:v copy h264_nvenc output.mkv
+ffmpeg -y -vsync 0 -hwaccel cuda -hwaccel_output_format cuda -i videos/Cyberpunk\ 2077\ 8k\ Game.webm -vf scale=3840:2160 -c:a copy -c:v -b:v 8M h264_nvenc output.mkv
+ffmpeg -y -vsync 0 -hwaccel cuda -hwaccel_output_format cuda -i videos/Cyberpunk\ 2077\ 8k\ Game.webm -vf scale=3840:2160 -c:a copy -c:v h264_nvenc -b:v copy output.mkv
+ffmpeg -y -vsync 0 -hwaccel cuda -hwaccel_output_format cuda -i videos/Cyberpunk\ 2077\ 8k\ Game.webm -vf scale=3840:2160 -c:a copy -c:v h264_nvenc -b:v 8M output.mkv
+l
+vim .config/mpv/mpv.conf
+ffmpeg -y -vsync 0 -hwaccel cuda -hwaccel_output_format cuda -i videos/Cyberpunk\ 2077\ 8k\ Game.webm -vf scale=3840:2160 -c:a copy -c:v h264_nvenc -b:v 14M output.mkv
+ffmpeg -i videos/Cyberpunk\ 2077\ 8k\ Game.webm
+ffmpeg -y -vsync 0 -hwaccel cuda -hwaccel_output_format cuda -i videos/Cyberpunk\ 2077\ 8k\ Game.webm -vf scale=3840:2160 -c:a copy -c:v h264_nvenc -b:v 30M output.mkv
+lf
+ls
+l
+l .nv
+l .nv/ComputeCache
+l
+rm -rf .nv
+l
+lf
+ffmpeg -y -vsync 0 -hwaccel cuda -hwaccel_output_format cuda -i videos/Cyberpunk\ 2077\ 8k\ Game.webm -vf scale=3840:2160 -c:a copy -c:v h264_nvenc -b:v 32M output1.mkv
+ffmpeg -y -vsync 0 -hwaccel cuda -hwaccel_output_format cuda -i videos/Cyberpunk\ 2077\ 8k\ Game.webm -vf scale=3840:2160 -c:a copy -c:v h264_nvenc -b:v 34M output1.mkv
+ls
+l
+ls
+lf
+lf
+l
+man ffmpeg
+ls
+lf
+ls
+lf
+clc
+l
+cd dmenu
+ls
+l
+l patches
+vim config.def.h
+l
+cd ../
+cd dwm
+l
+vim config.def.h
+l
+gs
+gd
+vim config.def.h
+vim config.def.h
+efx
+efp
+vim config.def.h
+l
+gd
+ls
+lf
+lf
+vim /etc/xdg/picom.conf
+sudo nvim /etc/xdg/picom.conf
+xev
+xprop
+xprop
+ls
+clc
+cd archinstall
+l
+vim chroot.sh
+l
+cd
+lf workspace/wallpaper
+efd
+gd
+clc
+cd dwm
+l
+gd
+gs
+cd ../dmenu
+l
+vim config.def.h
+vim config.def.h
+ls
+l
+cd ..
+l
+cd st
+l
+cd
+se
+l
+cd
+ls
+sudo pacman -S archey3
+archey3
+neofetch
+ls
+sudo pacman -Rc archey3
+pacman -Q
+pacman -Q | fzf
+stat .zprofile
+stat -c .zprofile
+stat -c %y .zprofile
+ls
+clc
+cd dotfiles
+l
+cd .local/share/scripts
+l
+vim fontawesome.html
+l
+vim download_unicode_fontawesome
+l
+rm -rf fontawesome.html
+l
+clc
+cd dotfiles
+l
+gs
+gam "update" && gp && gp personal
+gs
+rm -rf ~/.local/share/scripts
+cp -r .local/share/scripts .local/share
+cp -r .local/share/scripts ~/.local/share
+l
+cd
+lf
+l
+cd videos
+l
+rm -rf out_gpu.mkv
+l
+mv output1.mkv Cyberpunk\ 2077\ 4k\ Game.mkv
+l
+lf
+lf
+l
+sudo fdisk -l
+man dd
+kp
+sudo kill -9 673013
+man dd
+ls
+ls
+l
+clc
+cd archinstall
+l
+gs
+l
+vim chroot.sh
+l
+vim preinstall.sh
+l
+gam "grab packages to packages.csv and update chroot.sh"
+gp && gp personal
+l
+l
+cd
+ls
+fdisk -l 
+sudo fdisk -l 
+ls
+l
+clc
+l
+cd archinstall
+l
+vim chroot.sh
+l
+vim packages.csv
+lf
+l
+l
+vim packages.csv
+lf
+fg
+column -t -s, packages.csv
+fg
+lf
+lf
+column -t -s, packages.csv
+ls
+vim chroot.sh
+vim install.sh
+man read 
+cht read
+read -s ajdsf
+echo $ajdsf
+fg
+fg
+fg
+./install.sh
+fg
+fg
+./install.sh
+fg
+./install.sh
+fg
+fg
+./install.sh
+fg
+cht read
+fg
+fg
+./install.sh
+fg
+./install.sh
+fg
+./install.sh
+fg
+./install.sh
+fg
+fg
+./install.sh
+fg
+./install.sh
+fg
+cht read
+fg
+./install.sh
+fg
+./install.sh
+fg
+./install.sh
+fg
+./install.sh
+fg
+./install.sh
+fg
+./install.sh
+fg
+l
+fg
+./install.sh
+fg
+vim install.sh
+./install.sh
+fg
+./install.sh
+fg
+./install.sh
+fg
+./install.sh
+fg
+./install.sh
+fg
+./install.sh
+fg
+./install.sh
+fg
+./install.sh
+fg
+./install.sh
+fg
+./install.sh
+fg
+./install.sh
+fg
+./install.sh
+fg
+./install.sh
+fg
+./install.sh
+fg
+./install.sh
+fg
+l
+vim install.sh
+vim preinstall.sh
+l
+vim preinstall.sh
+vim chroot.sh
+l
+vim packages.csv
+l
+vim chroot.sh
+l
+gs
+vim install.sh
+vim install.sh
+rm -rf install.sh
+l
+vim chroot.sh
+gd
+gs
+vim preinstall.sh
+l
+vim preinstall.sh
+l
+ls
+l
+ls
+l
+ls
+cd
+dd if=/home/wintersun/downloads/archlinux-x86_64.iso of=/dev/sdb bs=1M status=progress
+sudo dd if=/home/wintersun/downloads/archlinux-x86_64.iso of=/dev/sdb bs=1M status=progress
+sudo fdisk -l 
+sudo dd if=/home/wintersun/downloads/archlinux-x86_64.iso of=/dev/sdb bs=1M status=progress
+l
+clc
+cd archinstall
+l
+vim packages.csv
+gam "remove yay from packages.csv"
+gp && gp persnoal
+gp && gp personal
+echo $name
+echo $name
+echo $name
+echo $name
+echo $name
+clc
+cd archinstall
+l
+vim preinstall.sh
+name=1234
+echo $name
+export name
+zsh
+l
+echo $name
+unset name
+echo $name
+l
+echo $name
+name=5555
+zsh
+export name
+zsh
+fg
+cat <<EOF\
+ajsdlf\
+asdjflajskdf\
+asdjfkl\
+EOF
+fg
+echo "asj/dlkf" | sed -E "s#(asj/).*#\1#g"
+fg
+sh preinstall.sh
+fg
+sh preinstall.sh
+fg
+sh preinstall.sh
+fg
+sh preinstall.sh
+fg
+sh preinstall.sh
+./preinstall.sh
+sh preinstall.sh
+fg
+l
+vim chroot.sh
+l
+gd
+gs
+gd
+l
+gam "update scripts" && gp && gp personal
+l
+vim preinstall.sh
+ls
+lf
+expr 275 / 4096
+expr 275.0 / 4096
+expr 275 // 4096
+expr 275 \/ 4096
+expr 275 // 4096
+expr 275 \/\/ 4096
+expr 275 / 4096
+lua
+ls
+lf
+echo asjdkl/fas | sed -E 's#(asjdkl/fas)#ajsdk/\1#g'
+echo asjdkl/fas | sed -E 's#(asjdkl/fas)#ajsdk//\1#g'
+echo asjdkl/fas | sed -E 's#asjdkl/fas#ajsdk//&#g'
+clc
+l
+cd archinstall
+l
+vim chroot.sh
+gd
+l
+gam "update scripts" && gp && gp personal
+l
+cd ..
+l
+cd dmenu
+cd ..
+cd dwm
+cd ..
+cd dwmblocks
+l
+cd ..
+l
+l
+cd st
+cd ..
+cd slock
+cd ..
+l
+l
+cd dotfiles
+cd ..
+sudo -u wintersun cat .zprofile
+vim test.sh
+fg
+sh test.sh
+fg
+sh test.sh
+fg
+l /tmp
+l /tmp/packages
+l /tmp/packages/yay
+fg
+fg
+rm -rf /tmp/packages
+l
+sh test.sh
+fg
+fg
+rm -rf /tmp/packages
+sh test.sh
+fg
+rm -rf /tmp/packages
+sh test.sh
+vim /tmp/packages/yay/PKGBUILD
+fg
+l
+rm -rf test.sh
+rm -rf /tmp/packages
+l
+ccl
+clc
+cd archinstall
+l
+vim chroot.sh
+gam "update scripts" && gp && gp personal
+pi networkmanager
+sudo systemctl start networkmanager
+sudo systemctl start NetworkManager
+ls /etc/services
+cat /etc/services
+vim /etc/services
+l
+ls
+clc
+cd archinstall
+vim chroot.sh
+l
+gs
+vim chroot.sh
+gd
+gs
+gam "update scripts" && gp && gp personal
+ls
+ls
+vim chroot.sh
+gs
+gd
+gam "update scripts" && gp && gp personal
+lf
+lf
+l
+vim chroot.sh
+g
+gs
+gs
+gam "update scripts" && gp && gp personal
+ls
+l
+vim preinstall.sh
+l
+gam "exit when error" && gp && gp personal
+;
+l
+vim chroot.sh
+ls
+l
+vim chroot.sh
+vim chroot.sh
+vim preinstall.sh
+gam "exit when error" && gp && gp personal
+clc
+cd archinstall
+l
+vim chroot.sh
+gam "update scripts" && gp && gp personal
+fg
+gam "update scripts" && gp && gp personal
+fg
+gd
+fg
+gam "update scripts" && gp && gp personal
+l
+l
+vim clonerepos.sh
+cd
+vim test.sh
+man set
+fg
+sh test.sh
+fg
+l
+ls VirtualBox\ VMs
+ls
+l
+clc
+cd archinstall
+l
+vim preinstall.sh
+cd
+l
+rm -rf VirtualBox\ VMs
+l
+l virtualbox
+l
+clc
+cd archinstall
+vim chroot.sh
+gs
+gd
+gam "update scripts" && gp && gp personal
+vim chroot.sh
+cd

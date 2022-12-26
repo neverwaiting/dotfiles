@@ -33,7 +33,7 @@ alias \
 	diff="diff --color=auto" \
 	ccat="highlight --out-format=ansi" \
 	ip="ip -color=auto" \
-  showip="curl ifconfig.me/ip"
+  showip="curl -s ifconfig.me/ip"
 
 # These common commands are just too long! Abbreviate them.
 alias \
