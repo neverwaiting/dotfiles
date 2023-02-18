@@ -1,7 +1,8 @@
 vim.g.user_dir = "wintersun"
 
 -- if not set mirror_github_url, default github_url="https://github.com/"
-vim.g.mirror_github_url = "https://github.91chi.fun/https://github.com/"
+-- vim.g.mirror_github_url = "https://github.91chi.fun/https://github.com/"
+vim.g.mirror_github_url = "https://ghproxy.com/https://github.com/"
 
 -- 指定lua脚本加载的优先级，值越大代表优先级越高
 -- NOTE: 优先级值的设置必须大于或等于200

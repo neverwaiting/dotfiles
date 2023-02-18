@@ -1,0 +1,15 @@
+#!/bin/sh
+
+configs_storage_file="$HOME/.local/share/configs"
+
+choice=$(sed '/^#.*/ d; /^$/ d; s/\s*#.*//g' "$configs_storage_file" | column -t | dmenuwrap -i -l 30 -p "Get which config:" | sed 's/[^ ]*\s*//')
+
+[ -n "$choice" ] || exit
+eval dir="$choice"
+if [ -d "$dir" ]; then
+  choice=$(for f in $(find "$dir" -type f); do
+    printf "🧰"`basename $f`" $f\n"
+  done | column -t | dmenuwrap -i -l 30 -p "Get which config:" | sed 's/[^ ]*\s*//')
+fi
+eval file="$choice"
+setsid -f st -e "$EDITOR" "$file"

@@ -1,0 +1,30 @@
+#!/bin/sh
+
+time_point_start=$(date +%s)
+rb_start=$(cat /sys/class/net/[ew]*/statistics/rx_bytes)
+tb_start=$(cat /sys/class/net/[ew]*/statistics/tx_bytes)
+
+read -p "type Enter to stop: "
+
+rb_end=$(cat /sys/class/net/[ew]*/statistics/rx_bytes)
+tb_end=$(cat /sys/class/net/[ew]*/statistics/tx_bytes)
+rb=`expr $rb_end - $rb_start`
+tb=`expr $tb_end - $tb_start`
+
+net_print() {
+  per_g=`expr 1024 \* 1024 \* 1024`
+  per_m=`expr 1024 \* 1024`
+  per_k=1024
+  unit_g=`expr $1 / $per_g`
+  unit_m=`expr $1 % $per_g / $per_m`
+  unit_k=`expr $1 % $per_m / $per_k`
+  unit_b=`expr $1 % $per_k`
+
+  printf "$unit_g G $unit_m M $unit_k KB $unit_b B\n"
+}
+
+echo "spend time: $(expr $(date +%s) - $time_point_start) s"
+printf "Received: "
+net_print $rb 
+printf "Transmit: "
+net_print $tb

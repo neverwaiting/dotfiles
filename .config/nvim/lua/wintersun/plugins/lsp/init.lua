@@ -1,7 +1,7 @@
 -- installed lsp server list
 local servers = {
 	'jsonls',
-	'sumneko_lua',
+	'lua_ls',
 	'cmake',
 	'ccls',
 	'bashls',

@@ -1,6 +1,8 @@
 #!/bin/sh
 # This script helps me quickly to find and open the specified pdf
 
+tag_icon="🔖"
+ebook_icon="📚"
 pdf_dir="$HOME/files/pdfs"
 
 IFS=$'\n' # set IFS only with '\n', because there are spaces in filename
@@ -9,10 +11,10 @@ declare -A pdf_paths
 for tag in `ls "$pdf_dir"`; do
   for pdf in `ls "$pdf_dir/$tag"`; do
     pdf_paths["$pdf"]="$pdf_dir/$tag/$pdf"
-    printf " $tag  $pdf\n"
+    printf "$tag_icon$tag $ebook_icon$pdf\n"
   done
 done > /tmp/pdflist
-choice_pdf=$(cat /tmp/pdflist | column -t -s"" | dmenuwrap -i -l 30 -p "Read which PDF:" | sed 's/^.* //')
+choice_pdf=$(cat /tmp/pdflist | column -t -s"" | dmenuwrap -i -l 30 -p "Read which PDF:" | sed "s/^.*$ebook_icon//")
 [ -n "$choice_pdf" -a -n "${pdf_paths["$choice_pdf"]}" ] || exit
 
 zathura "${pdf_paths["$choice_pdf"]}"

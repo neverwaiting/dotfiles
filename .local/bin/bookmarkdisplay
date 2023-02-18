@@ -1,15 +1,18 @@
 #!/bin/sh
 
+tag_icon="🔖"
+url_icon="🔗"
+
 file="$HOME/.local/share/bookmarks/urls"
 http_proxy="127.0.0.1:9000"
 browser="brave-bin"
 
 sed -i 's/^\s*//; s/\s*$//' "$file"
 
-url=$(awk '{
+url=$(awk -v tagicon="$tag_icon" -v urlicon="$url_icon" '{
 if (/^# /) { sub(/^# /,""); tag=$0 }
-else if (!/^$/) printf(" %s  %s\n",tag,$0)
-}' "$file" | column -t -s"" | dmenuwrap -i -l 30 -p Bookmarks: | sed 's/^ .*\s*//')
+else if (!/^$/) printf("%s%s %s%s\n",tagicon,tag,urlicon,$0)
+}' "$file" | column -t -s"" | dmenuwrap -i -l 30 -p Bookmarks: | sed "s/^$tag_icon.*$url_icon\s*//")
 
 [ -n "$url" ] || exit 1
 

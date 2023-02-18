@@ -25466,3 +25466,1533 @@ gd
 gam "update scripts" && gp && gp personal
 vim chroot.sh
 cd
+ls
+l
+rm -rf test
+rm -rf test.sh
+lf
+clc
+cd dotfiles
+l
+vim update_dotfiles
+./update_dotfiles
+gs
+gd
+l
+./update_dotfiles
+gs
+gam "update scripts" && gp && gp personal
+cd
+lf
+l
+man hwclock 
+clc 
+cd
+ls
+l
+lf
+ls
+clc
+l
+cd dmenu
+l
+cd ..
+l
+efu
+ clc
+cd dmenu
+l
+cd patches
+wget https://tools.suckless.org/dmenu/patches/printindex/dmenu-printindex-5.0.diff
+wget https://tools.suckless.org/dmenu/patches/printindex/dmenu-printindex-5.0.diff
+ls
+l
+curl https://tools.suckless.org/dmenu/patches/printindex/dmenu-printindex-5.0.diff
+curl -OL https://tools.suckless.org/dmenu/patches/printindex/dmenu-printindex-5.0.diff
+l
+cd ..
+gs
+patch -p1 < patches/dmenu-printindex-5.0.diff
+vim dmenu.c.rej
+l
+gs
+gd
+vim dmenu.c.rej
+gs
+sudo make clean install
+ls
+git reset --hard 
+gs
+sudo make clean
+l
+gs
+rm -rf patches/dmenu-printindex-5.0.diff
+l
+vim config.def.h
+ls
+cd
+ls
+efu
+ls
+l
+lf
+lf
+l
+cat /sys/class/net/enp7s0/statistics/rx_bytes
+cat /sys/class/net/enp7s0/statistics/tx_bytes
+cat /sys/class/net/enp7s0/statistics/tx_bytes
+cat /proc/net/dev
+cat /proc/net/dev && cat /sys/class/net/enp7s0/statistics/tx_bytes
+cat /proc/net/dev && cat /sys/class/net/enp7s0/statistics/tx_bytes && cat /sys/class/net/enp7s0/statistics/rx_bytes
+cat /sys/class/net/e.*/statistics/tx_bytes && cat /sys/class/net/enp7s0/statistics/rx_bytes
+cat /sys/class/net/[ew]*/statistics/tx_bytes && cat /sys/class/net/enp7s0/statistics/rx_bytes
+cat /sys/class/net/[ew]*/statistics/tx_bytes
+cat /sys/class/net/[ew]*/statistics/tx_bytes
+cat /sys/class/net/[ew]*/statistics/tx_bytes
+cat /sys/class/net/[ew]*/statistics/tx_bytes
+ls
+l
+cat /proc/net/packet
+cat /proc/net/unix
+cat /proc/net/wireless
+cat /proc/net/netstat
+cat /proc/net/netstat
+cat /proc/net/sockstat
+cat /proc/net/protocols
+cat /sys/class/mem/full
+cat /sys/class/mem/full/dev
+cat /sys/class/mem/random/dev
+cat /sys/class/nvme/nvme0/dev
+cat /sys/class/nvme/nvme0/power/runtime_status
+cat /sys/class/nvme/nvme0/power/autosuspend_delay_ms
+cat /sys/class/nvme/nvme0/power/runtime_suspended_time
+cat /sys/class/nvme/nvme0/power/runtime_active_time
+lf /sys/class
+cat /proc/net/netstat
+cat /dev/net/tun
+cat /proc/net/tcp
+cat /proc/net/dev
+cat /proc/net/dev
+cat /proc/net/dev
+se
+cat /sys/class/net/enp7s0
+se
+ls
+l
+l virtualbox
+l
+l virtualbox/machines
+l
+clc
+cd dmenu
+l
+vim config.def.h
+git log
+fg
+fg
+make
+cat ~/.local/share/symbols/emoji ./dmenu 
+cat ~/.local/share/symbols/emoji | ./dmenu 
+cat ~/.local/share/symbols/emoji | ./dmenu -l 30 -i
+fg
+make
+cat ~/.local/share/symbols/emoji | ./dmenu -l 30 -i
+fg
+vim dmenu.c
+make
+cat ~/.local/share/symbols/emoji | ./dmenu -l 30 -i
+fg
+make
+cat ~/.local/share/symbols/emoji | ./dmenu -l 30 -i
+fg
+make
+cat ~/.local/share/symbols/emoji | ./dmenu -l 30 -i
+fg
+make
+cat ~/.local/share/symbols/emoji | ./dmenu -l 30 -i
+fg
+make
+cat ~/.local/share/symbols/emoji | ./dmenu -l 30 -i
+fg
+gs
+make clean
+gs
+gd
+vim dmenu.c
+make
+fg
+gs
+gd
+make clean
+ls
+l
+gs
+gam "update patches numbers" && gp && gp personal
+l
+vim config.def.h
+ls
+cd
+clc
+cd dmenu
+l
+cd
+ls
+ls
+l
+l downloads
+l
+vim .zprofile
+lf
+gs
+clc
+cd dmenu
+l
+gs
+ls
+l
+cd webui-aria2
+l
+cd
+l
+ls
+ls
+sudo nvim /etc/xdg/picom.conf
+ls
+se
+man awk 
+fg
+se
+fg
+brave
+ssh root@101.42.47.166
+ls
+l
+ssh send.zwled.xyz
+ssh root@send.zwled.xyz
+ssh wintersun@send.zwled.xyz
+se
+ls
+vim bookmarkdisplay
+fg
+fg
+fg
+brave
+ls
+fg
+ls
+ls
+vim bookmarkdisplay
+fg
+ls
+vim bookmarkdisplay
+vim readpdf
+ls
+efu
+cd
+ssh wintersun@send.zwled.xyz
+ssh wintersun@send.zwled.xyz
+ls
+cd videos && yt https://www.youtube.com/watch\?v\=unqsQJaECv0
+ep
+yt https://www.youtube.com/watch\?v\=unqsQJaECv0
+ls
+l
+mv Suckless\'s\ dwmï¼ƒº\ So\ easy\ even\ a\ caveman\ could\ do\ it\!.webm
+mv Suckless\'s\ dwmï¼ƒº\ So\ easy\ even\ a\ caveman\ could\ do\ it\!\ \[unqsQJaECv0\].webm Suckless\'s\ dwmï¼ƒº\ So\ easy\ even\ a\ caveman\ could\ do\ it\!.webm
+l
+l
+cd
+cd videos
+curl -OL https://www.johnvansickle.com/ffmpeg/old-releases/ffmpeg-4.0.3-64bit-static.tar.xz
+man rsync
+rsync ffmpeg-4.0.3-64bit-static.tar.xz wintersun@send.zwled.xyz:~/
+rsync ffmpeg-4.0.3-64bit-static.tar.xz wintersun@send.zwled.xyz:~/
+rsync Suckless\'s\ dwmï¼ƒº\ So\ easy\ even\ a\ caveman\ could\ do\ it\!.webm wintersun@send.zwled.xyz:~/videos/
+lf
+l
+ffmpeg -i Suckless\'s\ dwmï¼ƒº\ So\ easy\ even\ a\ caveman\ could\ do\ it\!.webm -c:v copy -c:a copy Suckless\'s\ dwmï¼ƒº\ So\ easy\ even\ a\ caveman\ could\ do\ it\!.mp4
+l
+rsync Suckless\'s\ dwmï¼ƒº\ So\ easy\ even\ a\ caveman\ could\ do\ it\!.mp4 wintersun@send.zwled.xyz:~/videos/
+lf
+ls
+l
+lf
+ssh wintersun@send.zwled.xyz
+cd videos
+l
+ffmpeg -i Suckless\'s\ dwmï¼ƒº\ So\ easy\ even\ a\ caveman\ could\ do\ it\!.mp4
+ffmpeg -i Suckless\'s\ dwmï¼ƒº\ So\ easy\ even\ a\ caveman\ could\ do\ it\!.webm -c:v libx264 -c:a copy test.mp4
+ffmpeg -i test.mp4
+lf
+rsync test.mp4 wintersun@send.zwled.xyz:~/videos/
+man ffmpeg
+ssh wintersun@send.zwled.xyz
+ssh wintersun@send.zwled.xyz
+ssh wintersun@send.zwled.xyz
+ssh wintersun@send.zwled.xyz
+ssh wintersun@send.zwled.xyz
+ssh wintersun@send.zwled.xyz
+ls
+ffmpeg -re -i videos/Cyberpunk\ 2077\ 4k\ Game.mkv -preset ultrafast -vcodec libx264 -g 60 -b:v 6000k -c:a aac -b:a 128k -strict -2 -f flv "rtmp://live-push.bilivideo.com/live-bvc/?streamname=live_326164608_9765850&key=8ba3dde083ab65a5be8f24a595c2874f&schedule=rtmp&pflag=1"
+ffmpeg -re -i videos/test.mp4 -preset ultrafast -vcodec libx264 -g 60 -b:v 6000k -c:a aac -b:a 128k -strict -2 -f flv "rtmp://live-push.bilivideo.com/live-bvc/?streamname=live_326164608_9765850&key=8ba3dde083ab65a5be8f24a595c2874f&schedule=rtmp&pflag=1"
+ffmpeg -re -i videos/test.mp4 -preset ultrafast -vcodec libx264 -g 60 -b:v 6000k -c:a aac -b:a 128k -strict -2 -f flv rtmp://live-push.bilivideo.com/live-bvc/?streamname=live_326164608_9765850&key=8ba3dde083ab65a5be8f24a595c2874f&schedule=rtmp&pflag=1
+cd videos && ffmpeg -re -i test.mp4 -preset ultrafast -vcodec libx264 -g 60 -b:v 6000k -c:a aac -b:a 128k -strict -2 -f flv "rtmp://live-push.bilivideo.com/live-bvc/?streamname=live_326164608_9765850&key=8ba3dde083ab65a5be8f24a595c2874f&schedule=rtmp&pflag=1"
+ls
+rm -rf test.mp4
+ffmpeg -i Suckless\'s\ dwmï¼ƒº\ So\ easy\ even\ a\ caveman\ could\ do\ it\!.webm test.mp4
+cd videos && ffmpeg -re -i test.mp4 -preset ultrafast -vcodec libx264 -g 60 -b:v 6000k -c:a aac -b:a 128k -strict -2 -f flv "rtmp://live-push.bilivideo.com/live-bvc/?streamname=live_326164608_9765850&key=8ba3dde083ab65a5be8f24a595c2874f&schedule=rtmp&pflag=1"
+ffmpeg -re -i test.mp4 -preset ultrafast -vcodec libx264 -g 60 -b:v 6000k -c:a aac -b:a 128k -strict -2 -f flv "rtmp://live-push.bilivideo.com/live-bvc/?streamname=live_326164608_9765850&key=8ba3dde083ab65a5be8f24a595c2874f&schedule=rtmp&pflag=1"
+ffmpeg -re -i test.mp4 -f flv "rtmp://live-push.bilivideo.com/live-bvc/?streamname=live_326164608_9765850&key=8ba3dde083ab65a5be8f24a595c2874f&schedule=rtmp&pflag=1"
+ffmpeg -re -i test.mp4 -f flv "rtmp://live-push.bilivideo.com/live-bvc/?streamname=live_326164608_9765850&key=8ba3dde083ab65a5be8f24a595c2874f&schedule=rtmp&pflag=1"
+l
+ffmpeg -v
+ffprobe -version
+l
+ffprobe -version
+ffmpeg -version
+fg
+lf
+ssh wintersun@send.zwled.xyz
+ssh wintersun@send.zwled.xyz
+ssh wintersun@send.zwled.xyz
+ssh wintersun@send.zwled.xyz
+netstat -tan
+netstat -tan
+netstat -tan
+ls
+cd videos
+ls
+ffmpeg -re -i test.mp4 -f flv rtmp://localhost:8888/test
+ffmpeg -re -i test.mp4 -f flv "rtmp://live-push.bilivideo.com/live-bvc/?streamname=live_326164608_9765850&key=8ba3dde083ab65a5be8f24a595c2874f&schedule=rtmp&pflag=1"
+ffmpeg -re -i test.mp4 -f flv rtmp://live-push.bilivideo.com/live-bvc/?streamname=live_326164608_9765850&key=8ba3dde083ab65a5be8f24a595c2874f&schedule=rtmp&pflag=1
+ffmpeg -re -i test.mp4 -f flv rtmp://live-push.bilivideo.com/live-bvc/?streamname=live_326164608_9765850&key=8ba3dde083ab65a5be8f24a595c2874f\&schedule=rtmp\&pflag=1
+ffmpeg -re -i test.mp4 -f flv rtmp://live-push.bilivideo.com/live-bvc/?streamname=live_326164608_9765850&key=8ba3dde083ab65a5be8f24a595c2874f\&schedule=rtmp\&pflag=1
+fg
+ffmpeg -re -i test.mp4 -f flv rtmp://live-push.bilivideo.com/live-bvc/?streamname=live_326164608_9765850&key=8ba3dde083ab65a5be8f24a595c2874f\&schedule=rtmp\&pflag=1
+fg
+ffmpeg -re -i test.mp4 -f flv rtmp://live-push.bilivideo.com/live-bvc/?streamname=live_326164608_9765850\&key=8ba3dde083ab65a5be8f24a595c2874f\&schedule=rtmp\&pflag=1
+ffmpeg -re -i test.mp4 -f flv "rtmp://live-push.bilivideo.com/live-bvc/?streamname=live_326164608_9765850\&key=8ba3dde083ab65a5be8f24a595c2874f\&schedule=rtmp\&pflag=1"
+ffmpeg -re -i test.mp4 -f flv "rtmp://live-push.bilivideo.com/live-bvc/"
+ffmpeg -re -i test.mp4 -f flv "rtmp://live-push.bilivideo.com/live-bvc/adf"
+ffmpeg -re -i test.mp4 -f flv rtmp://live-push.bilivideo.com/live-bvc/adf
+ffmpeg -re -i test.mp4 -f flv rtmp://live-push.bilivideo.com
+ffmpeg -re -i test.mp4 -f flv rtmp://localhost/test
+ffmpeg -re -i test.mp4 -f flv rtmp://localhost/
+pi vlc
+vlc
+ls
+vlc ï¼ƒ¨2019ï¼ƒ©å¯ƒ¬çƒ¨¸çƒ¨¸\ -\ ç‚ºä»€éº¼æƒ¼ƒ©äºƒ»äººé‚ƒ¤æƒ¸¯æƒ³ºèƒ¤«ä¸ƒ­äºƒ¦çª®äººçƒºƒ¤æ€ƒ½ç¶­\ âƒ¶º\ å€¼å¾ƒ·ä¸€çƒ¼ƒ«\ -\ Robert\ Kiyosaki\ ç¾ƒ¥ä¼¯çƒ©¹.æ¸ƒ¥å´ƒ®ï¼ƒ¨ä¸­èƒ«±å­ƒ·å¹ƒµï¼ƒ©\ \[s-qttEH9YHo\].mkv
+mpv ï¼ƒ¨2019ï¼ƒ©å¯ƒ¬çƒ¨¸çƒ¨¸\ -\ ç‚ºä»€éº¼æƒ¼ƒ©äºƒ»äººé‚ƒ¤æƒ¸¯æƒ³ºèƒ¤«ä¸ƒ­äºƒ¦çª®äººçƒºƒ¤æ€ƒ½ç¶­\ âƒ¶º\ å€¼å¾ƒ·ä¸€çƒ¼ƒ«\ -\ Robert\ Kiyosaki\ ç¾ƒ¥ä¼¯çƒ©¹.æ¸ƒ¥å´ƒ®ï¼ƒ¨ä¸­èƒ«±å­ƒ·å¹ƒµï¼ƒ©\ \[s-qttEH9YHo\].mkv
+ls
+cd
+ls
+l
+lf
+se
+ls
+vim bookmarkdisplay
+l
+vim bookmarkdisplay
+vim dmenuhandler
+lf
+lf
+lf
+ls
+l
+ssh wintersun@send.zwled.xyz
+ls
+lf
+l
+ssh wintersun@send.zwled.xyz
+ssh wintersun@send.zwled.xyz
+ls
+ssh wintersun@zwled.xyz
+cd downloads
+l
+lf
+rsync send.zwled.xyz_nginx.zip wintersun@send.zwled.xyz:~/
+ls
+lf
+cd
+ssh wintersun@zwled.xyz
+ssh wintersun@send.zwled.xyz
+ping send.zwled.xyz
+ssh wintersun@send.zwled.xyz
+ls
+ls
+ls
+ssh wintersun@send.zwled.xyz
+ping 192.168.1.*
+ping 192.168.1.1
+ping 192.168.1.2
+ping 192.168.1.3
+ping 192.168.1.4
+ping 192.168.1.5
+ping 192.168.1.6
+ping 192.168.1.7
+ping 192.168.1.8
+ping 192.168.1.9
+ping 192.168.1.10
+ls
+for i in {1..255}; do ping 192.168.1.$i; done;
+ls
+man ping
+cht ping
+ping -O 192.168.1.1
+ping -c 2 192.168.1.1
+for i in {1..255}; do ping -c 2 192.168.1.$i; done;
+ping -n 1 192.168.1.1
+ping -c 1 192.168.1.1
+for i in {1..255}; do ping -c 1 192.168.1.$i; done;
+ls
+l
+ssh 192.168.1.120
+ls
+lf
+ls
+ls
+;s
+ls
+pwd
+lf
+ls
+efd
+clc
+cd dwm
+l
+fg
+ls
+fg
+l
+gs
+vim config.def.h
+lf
+modifyconfigs
+modifyconfigs
+modifyconfigs
+modifyconfigs
+modifyconfigs
+modifyconfigs
+man path
+man dir
+dir
+dir
+ls
+dirname
+dirname .
+path
+man path
+man sed
+ls \/
+ls "/"
+ls "\/"
+ls "\\/"
+ls "\./"
+modifyconfigs
+modifyconfigs
+ls '.config'
+modifyconfigs
+modifyconfigs
+modifyconfigs
+modifyconfigs
+fg
+ls
+efa
+vim efa
+cf
+l
+cd dconf
+ls
+cd
+cd .config/shell
+l
+vim bm-files
+ls
+cd
+vim .local/share/configs
+clc
+clb
+l
+vim modifyconfigs
+ls
+fg
+ls
+l
+fg
+cp ~/.config/shell/bm-files ~/.local/share/configs
+l
+fg
+fg
+./modifyconfigs
+fg
+fg
+./modifyconfigs
+fg
+./modifyconfigs
+fg
+./modifyconfigs
+fg
+./modifyconfigs
+fg
+./modifyconfigs
+fg
+./modifyconfigs
+./modifyconfigs
+modi
+modifyconfigs
+modifyconfigs
+modifyconfigs
+fg
+modifyconfigs
+fg
+modifyconfigs
+fg
+modifyconfigs
+fg
+modifyconfigs
+fg
+modifyconfigs
+fg
+modifyconfigs
+fg
+modifyconfigs
+fg
+modifyconfigs
+fg
+modifyconfigs
+fg
+modifyconfigs
+man cut 
+fg
+man cut 
+modifyconfigs
+fg
+modifyconfigs
+fg
+man cut 
+fg
+man cut 
+modifyconfigs
+fg
+modifyconfigs
+fg
+modifyconfigs
+fg
+modifyconfigs
+fg
+modifyconfigs
+fg
+modifyconfigs
+fg
+modifyconfigs
+fg
+modifyconfigs
+fg
+fg
+modifyconfigs
+fg
+modifyconfigs
+fg
+modifyconfigs
+fg
+fg
+modifyconfigs
+fg
+modifyconfigs
+fg
+modifyconfigs
+fg
+modifyconfigs
+fg
+modifyconfigs
+fg
+modifyconfigs
+fg
+modifyconfigs
+fg
+vim modifyconfigs
+modifyconfigs
+fg
+fg
+fg
+modifyconfigs
+fg
+fg
+modifyconfigs
+fg
+modifyconfigs
+fg
+modifyconfigs
+fg
+fg
+fg
+modifyconfigs
+fg
+modifyconfigs
+fg
+modifyconfigs
+vim ~/.local/src/dwm/config.def.h
+vim "~/.local/src/dwm/config.def.h"
+fg
+modifyconfigs
+fg
+modifyconfigs
+fg
+modifyconfigs
+fg
+modifyconfigs
+fg
+modifyconfigs
+echo "${HOME}/.confg"
+fg
+echo "${HOME}/.confg"
+modifyconfigs
+fg
+man dirname
+fg
+man dirname
+fg
+ls
+modifyconfigs
+modinfo
+modifyconfigs
+modifyconfigs
+modifyconfigs
+modifyconfigs
+modifyconfigs
+man find
+cht find
+modifyconfigs
+modifyconfigs
+man find 
+man find 
+modifyconfigs
+modifyconfigs
+modifyconfigs
+cht find
+cht find
+modifyconfigs
+man exec
+modifyconfigs
+modifyconfigs
+modifyconfigs
+modifyconfigs
+modifyconfigs
+modifyconfigs
+cht find
+modifyconfigs
+modifyconfigs
+modifyconfigs
+modifyconfigs
+modifyconfigs
+modifyconfigs
+st
+setsid -f st
+ls
+ls
+setsid -f st 
+setsid -f st
+man setsid
+setsid -f st -e ls
+setsid -f st ls
+setsid -f st && ls
+setsid -f st -e htop
+man st
+modifyconfigs
+modifyconfigs
+modifyconfigs
+fzf
+modifyconfigs
+modifyconfigs
+modifyconfigs
+man st
+modifyconfigs
+modifyconfigs
+vim test.sh
+sh test.sh
+ls
+rm -rf test.sh
+modifyconfigs
+ls
+clb
+lf
+lf
+fg
+fg
+ls
+l
+vim modifyconfigs
+ls
+ls
+modifyconfigs
+modifyconfigs
+modifyconfigs
+modifyconfigs
+modifyconfigs
+man cmp
+ss
+man ss
+man ufw
+ls
+clc
+clb
+vim modifyconfigs
+ls
+clb
+ls
+vim netcounter
+fg
+fg
+fg
+lf
+netcounter
+netcounter
+netcounter
+expr 10 % 6 / 2
+expr 10 % 6 / 3
+expr 10 % 7 / 3
+expr 10 % 7 / 2
+expr 10 % 7 / 1
+netcounter
+netcounter
+netcounter
+netcounter
+netcounter
+netcounter
+netcounter
+date +s
+date -s
+date +%s
+netcounter
+netcounter
+netcounter
+clb
+vim netcounter
+expr 10 % 2
+expr 10 % 5
+expr 10 % 6
+fg
+expr 10 / 4
+fg
+fg
+netcounter
+netcounter
+expr 120 / (1024 * 1024)
+expr 120 / 1024 / 1024
+expr 1024 * 1024
+netcounter
+netcounter
+man read
+print
+netcounter
+man print
+print
+alias print
+netcounter
+netcounter
+netcounter
+netcounter
+netcounter
+netcounter
+netcounter
+netcounter
+netcounter
+netcounter
+netcounter
+netcounter
+clb
+vim netcounter
+netcounter
+netcounter
+ls
+ls
+ls
+l
+l downloads
+lf
+lf
+ls
+brave
+curl -LO http://mirrors.aliyun.com/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-2009.iso\?spm\=a2c6h.25603864.0.0.7f5d2d1c3ir49F
+curl -LO http://mirrors.aliyun.com/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-2009.iso
+ls
+rm -rf CentOS-7-x86_64-Minimal-2009.iso
+l
+cd downloads
+ls
+l
+curl -LO http://mirrors.aliyun.com/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-2009.iso
+ls
+l
+lf
+ls
+lf
+cd videos
+ls
+ls
+ffmpeg -i ç»ƒ¯æµƒ®æƒ¼ºåƒ¹¨æƒ¸¯æ€ƒ®æƒ€·è¿ƒ°èƒƒ¬çƒºƒ¤\ \(æƒ·¶éƒµ¿30åƒ¨ƒ¦éƒ²ƒ¿\)\ Ray\ Dalio\ \[rFV7wdEX-Mo\].webm test.mp4
+ls
+scp -r test.mp4 wintersun@192.168.1.122:~/videos
+ssh wintersun@send.zwled.xyz
+vim .ssh/known_hosts
+ssh wintersun@send.zwled.xyz
+ssh root@send.zwled.xyz
+cd videos
+ls
+ffmpeg -re -i test.mp4 -c:v copy -c:a aac -b:a 192k -strict -2 -f flv "rtmp://live-push.bilivideo.com/live-bvc/?streamname=live_279410219_8925559&key=b66d73d11ea5eec544d45e1f148e02ab&schedule=rtmp&pflag=1"
+ssh wintersun@10.0.2.14
+ssh wintersun@10.0.2.15
+ping 10.0.2.15
+cat /proc/net/dev
+ls
+ip addr
+netstat -tan
+sudo netstat -tanp
+sudo netstat -tanp | grep docker
+ls
+ip addr
+ssh wintersun@192.168.1.122
+ssh wintersun@192.168.1.122
+ssh wintersun@192.168.1.122
+ffmpeg -codecs
+ffmpeg -codecs | grep libx264
+ffmpeg -re -i videos/test.mp4 -preset ultrafast -vcodec libx264 -g 60 -b:v 6000k -c:a aac -b:a 128k -strict -2 -f flv "rtmp://live-push.bilivideo.com/live-bvc/?streamname=live_279410219_8925559&key=b66d73d11ea5eec544d45e1f148e02ab&schedule=rtmp&pflag=1"
+ffmpeg -re -i videos/test.mp4 -preset ultrafast -vcodec libx264 -g 60 -b:v 6000k -c:a aac -b:a 128k -strict -2 -f flv "rtmp://live-push.bilivideo.com/live-bvc/?streamname=live_279410219_8925559&key=b66d73d11ea5eec544d45e1f148e02ab&schedule=rtmp&pflag=1"
+ls
+l
+ssh wintersun@send.zwled.xyz
+ssh root@send.zwled.xyz
+ls
+command ffmpeg
+uname -r 
+uname -a
+ls
+uname -r 
+ls
+vim push-stream.sh
+vim auto-push-stream.sh
+fg
+./auto-push-stream.sh
+fg
+./auto-push-stream.sh
+fg
+command ffmpeg
+man command 
+command -v ffmpeg
+command -v grep
+command -v sed
+man command
+fg
+./auto-push-stream.sh
+fg
+./auto-push-stream.sh
+fg
+command -v ss
+command -v s
+fg
+echo {1..10} | shuf -n 1
+echo {1..10} | shuf -n 1
+echo {1..10} | shuf -n 1
+echo {1..10}
+echo {1..10} | shuf -n 1
+man shuf
+shuf -n 1 {1..10}
+echo -e "one\ntwo\ntree\n" | shuf
+echo -e "one\ntwo\ntree\n" | shuf -n 1
+echo -e "one\ntwo\ntree\n" | shuf -n 1
+echo -e "one\ntwo\ntree\n" | shuf -n 1
+echo -e "one\ntwo\ntree\n" | shuf
+echo -e "one\ntwo\ntree\n" | shuf
+echo -e "one\ntwo\ntree" | shuf
+echo -e "one\ntwo\ntree" | shuf
+echo -e "one\ntwo\ntree" | shuf
+fg
+whoami
+fg
+tty
+whoami
+fg
+echo $USER
+fg
+fg
+./auto-push-stream.sh
+fg
+./auto-push-stream.sh
+fg
+fg
+./auto-push-stream.sh
+fg
+ls
+fg
+fg
+./auto-push-stream.sh
+fg
+ls
+ps aux | grep ffmpeg
+l
+ls
+vim auto-push-stream.sh
+./auto-push-stream.sh
+./auto-push-stream.sh
+fg
+ls
+vim auto-push-stream.sh
+ls
+vim auto-push-stream.sh
+ls
+lf
+clc
+ls
+git clone git@github.com:neverwaiting/autolivestream.git
+ls
+cd autolivestream
+ls
+cp ~/auto-push-stream.sh auto_live_stream
+vim auto_live_stream
+ls
+cp /home/wintersun/downloads/ffmpeg-4.0.3-64bit-static.tar.xz .
+ls
+vim auto_live_stream
+ls
+vim auto_live_stream
+gam "first commit" && gp
+l
+l
+cd ..
+l
+cd
+lf
+ls
+ls
+clc
+cd autolivestream
+ls
+vim auto_live_stream
+gam "update" && gp
+clc
+cd autolivestream
+ls
+vim auto_live_stream
+ls
+gam "update" && gp
+vim auto_live_stream
+man rsync
+man rsync
+ls
+cd
+rsync --progress -av videos/animations/webms/*.mp4 wintersun@send.zwled.xyz:~/videos
+ls
+cd downloads
+ls
+lf
+cd
+ls
+cd downloads
+ls
+cd
+s
+ls
+ssh wintersun@send.zwled.xyz
+ssh root@send.zwled.xyz
+ssh wintersun@send.zwled.xyz
+ssh wintersun@send.zwled.xyz
+lf
+lf
+lf
+cd videos/animations/webms
+ls
+ls *.mp4
+ls *.mp4 | wc -l
+ls *.mp4 | wc -l
+ls *.mp4 | wc -l
+watch -n 2 ls *.mp4
+watch -n 2 ls "*.mp4"
+watch -n 1 ls "*.mp4"
+ls
+lf
+docker images
+cd workspace/project
+ls
+mkdir docker
+cd docker
+ls
+mkdir hello-docker
+cd hello-docker
+ls
+ls
+vim app.js
+node app.js
+vim Dockerfile
+l
+docker build -t hello-docker .
+ls
+docker images
+docker image rm hello-docker:latest
+docker images
+docker image rm node:latest
+l
+ls
+vim Dockerfile
+docker build -t hello-docker .
+ls
+docker images
+docker run hello-docker
+docker run hello-docker
+ls
+ls
+vim Dockerfile
+ls
+ls
+ls
+docker ps -a
+docker ps
+docker ps -aux
+docker ps -ax
+docker ps -a
+ls
+vim Dockerfile
+docker build -t hello-docker .
+ls
+docker images
+docker run hello-docker
+docker run <none>
+docker run none
+ls
+docker build -t hello-docker .
+docker images
+docker run hello-docker
+docker run hello-docker:latest
+fg
+vim app.js
+vim Dockerfile
+docker build -t docker-test .
+ls
+docker images
+docker run docker-test:latest
+fg
+ls
+vim Dockerfile
+docker build -t docker-test .
+docker run docker-test:latest
+vim Dockerfile
+docker build -t cchess-docker .
+fg
+vim Dockerfile
+docker build -t cchess-docker .
+vim Dockerfile
+fg
+ls
+docker build -t cchess-docker .
+vim Dockerfile
+gcc -v
+fg
+docker build -t cchess-docker .
+docker run cchess-docker:latest
+docker compose version
+ls
+fg
+docker build -t cchess-docker .
+docker version
+fg
+vim Dockerfile
+docker build -t cchess-docker .
+fg
+docker build -t cchess-docker .
+docker run cchess-docker
+fg
+fg
+docker build -t cchess-docker .
+docker run cchess-docker
+fg
+docker images
+docker image rm b441f4d34236
+docker image rm b441f4d34236
+docker image rm -f b441f4d34236
+ls
+docker images
+fg
+docker build -t cchess-docker .
+docker run cchess-docker
+ls
+ls
+ls
+docker run -it centos /bin/bash
+docker pull centos:centos7.9.2009
+docker run -it centos:centos7.9.2009 /bin/bash
+docker images
+docker run -it centos:centos7.9.2009 /bin/bash
+ls
+docker ps -a
+docker commit 34164f6249d1 newcentos
+docker images
+docker run -it newcentos /bin/bash
+docker images
+ls
+ls
+docker run -it centos:centos.7.2009
+docker run -it centos:centos.7.2009 /bin/bash
+docker images
+docker run -it centos:centos7.9.2009 /bin/bash
+docker run -it centos:centos7.9.2009 /bin/bash
+ls
+ls
+cd
+l
+vim auto-push-stream.sh
+rm -rf auto-push-stream.sh
+clc
+cd autolivestream
+ls
+vim auto_live_stream
+cd
+lf
+cd videos
+lf animations | wc -l
+ls animations | wc -l
+ls animations | wc -l
+cd animations
+ls
+ls
+ls
+ls
+ls | grep *.webm
+ls | grep *webm
+ls 
+ls | grep webm
+ls | grep *webm
+find -type f -name *.webm
+find . -type f -name *.webm
+find . -type f -name "*.webm"
+find . -type f -name "*.part"
+find . -type f -name "*.part"
+find . -type f -name "*.part"
+mkdir webms
+cp -r *.webm webms
+cd webms
+ls
+ls
+ls
+wc -l
+wc -l *
+ls | wc -l
+ls
+lf ..
+ls
+find .
+vim convert.sh
+vim convert.sh
+./convert.sh
+ls
+vim convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+./convert.sh
+fg
+fg
+./convert.sh
+fg
+ls
+ls
+lf
+vim auto-push-stream.sh
+vim auto-push-stream.sh
+ls
+cd videos
+ls
+mkdir animations
+cd animations
+yt https://www.youtube.com/watch\?v\=EF3MTFOv09M\&list\=PLBjMFSAyXy8YtlhoN5ykWvnlKC38LGRkQ
+ep
+yt https://www.youtube.com/watch\?v\=EF3MTFOv09M\&list\=PLBjMFSAyXy8YtlhoN5ykWvnlKC38LGRkQ
+ls
+lf
+lf
+ls
+lf
+ls
+ssh wintersun@send.zwled.xyz
+st -v
+dmenu -v
+dwm -v
+lf
+ssh wintersun@send.zwled.xyz
+man ffmpeg
+man ffmpeg
+ep
+cd videos
+yt https://www.youtube.com/watch\?v\=jSIcR3RNVio
+yt https://www.youtube.com/watch\?v\=COGXH8sZZ2k
+lf
+cd
+ffmpeg -i relaxing_movie.webm -c:v copy -c:a aac -b:a 192k -strict -2 -f flv "rtmp://live-push.bilivideo.com/live-bvc/?streamname=live_279410219_8925559&key=70d3834465f1a5c1ca474a33c7a6e7ec&schedule=rtmp&pflag=1"
+ffmpeg -i relaxing_movie.webm -c:v libx264 -c:a aac -b:a 192k -strict -2 -f flv "rtmp://live-push.bilivideo.com/live-bvc/?streamname=live_279410219_8925559&key=70d3834465f1a5c1ca474a33c7a6e7ec&schedule=rtmp&pflag=1"
+ls
+ffmpeg -i relaxing_movie.mp4 -c:v copy -c:a aac -b:a 192k -strict -2 -f flv "rtmp://live-push.bilivideo.com/live-bvc/?streamname=live_279410219_8925559&key=70d3834465f1a5c1ca474a33c7a6e7ec&schedule=rtmp&pflag=1"
+ls
+ffmpeg -i relaxing_movie.webm -c:v copy -c:a aac  -strict -2 -f flv "rtmp://live-push.bilivideo.com/live-bvc/?streamname=live_279410219_8925559&key=70d3834465f1a5c1ca474a33c7a6e7ec&schedule=rtmp&pflag=1"
+ffmpeg -i relaxing_movie.mp4 -c:v copy -c:a aac  -strict -2 -f flv "rtmp://live-push.bilivideo.com/live-bvc/?streamname=live_279410219_8925559&key=70d3834465f1a5c1ca474a33c7a6e7ec&schedule=rtmp&pflag=1"
+ffmpeg -re -i relaxing_movie.mp4 -preset ultrafast -vcodec libx264 -g 60 -b:v 6000k -c:a aac -b:a 128k -strict -2 -f flv "rtmp://live-push.bilivideo.com/live-bvc/?streamname=live_279410219_8925559&key=70d3834465f1a5c1ca474a33c7a6e7ec&schedule=rtmp&pflag=1
+ffmpeg -re -i relaxing_movie.mp4 -preset ultrafast -vcodec libx264 -g 60 -b:v 6000k -c:a aac -b:a 128k -strict -2 -f flv "rtmp://live-push.bilivideo.com/live-bvc/?streamname=live_279410219_8925559&key=70d3834465f1a5c1ca474a33c7a6e7ec&schedule=rtmp&pflag=1"
+ffmpeg -re -i relaxing_movie.webm -preset ultrafast -vcodec libx264 -g 60 -b:v 6000k -c:a aac -b:a 128k -strict -2 -f flv "rtmp://live-push.bilivideo.com/live-bvc/?streamname=live_279410219_8925559&key=70d3834465f1a5c1ca474a33c7a6e7ec&schedule=rtmp&pflag=1"
+ls
+ssh wintersun@send.zwled.xyz
+cd videos
+ls
+ep
+yt https://www.youtube.com/watch\?v\=jaznaL0o2tg
+ls
+yt https://www.youtube.com/watch\?v\=hBo9k8FlrCQ
+l
+cd
+ep
+yt https://www.youtube.com/watch\?v\=endzhlBIpKM
+ls
+lf
+lf
+lf
+ffmpeg -i relaxing_movie.webm relaxing_movie.mp4
+ls
+lf
+clc
+cd autolivestream
+ls
+vim auto_live_stream
+ls
+cd
+rsync --progress -av relaxing_movie.webm wintersun@send.zwled.xyz:~/videos
+ls
+ssh wintersun@send.zwled.xyz
+ls
+mv relaxing_movie.webm videos/relaxing
+ls
+lf
+ssh wintersun@send.zwled.xyz
+ssh wintersun@send.zwled.xyz
+ls
+rm -rf relaxing_movie.mp4
+ls
+cd videos
+ls
+lf
+mkdir relaxing
+ls
+lf
+man rsync
+cht rsync
+rsync --progress -av relaxing wintersun@send.zwled.xyz:~/videos
+rsync --progress -av relaxing/ã€ƒ¬çƒ¤ƒå»£åƒ±ƒªçƒ©ƒ¨ã€ƒ­è¶ƒ¥å°ƒ¨å¿ƒ£\!\ å­¸ç¿ƒ²å°ƒ¨æ³¨åƒªƒ»è®€æƒ»¸éƒ¿³æ¨‚\ \ ðƒ¿ƒ³ƒº\ æƒ¼€ä½³å£°éƒ¿³èƒ£ƒ¬æƒ¹¯éƒ¿³ä¹ƒ°\ -\ ä¸€å€ƒ«äººå®ƒ©éƒ½ƒ¼çƒºƒ¤å·¥ä½ƒ¼\&è®€æƒ»¸\ 1\ â€ƒ«Hours\ Studying\ Music\ for\ Concentration\ \[COGXH8sZZ2k\].webm wintersun@send.zwled.xyz:~/videos/relaxing/
+rsync --progress -av relaxing/å¤ƒºå·´èƒ£ºåƒ¨ƒ¦æ³ƒ¬éƒ¿³æ¨‚\[60åƒ¨ƒ¦éƒ°ƒ¸\]ç¬¬åƒ¥­è¼¯\ ç¶±çƒ°´æƒ»²çƒ»®\ å¿ƒ£æƒ£ƒ¥èƒ¨ƒ§è¨ƒ¸æƒ¦¶æƒ´¹åƒ¶ƒ¤\ åƒª©æ­£éƒ½ƒ‚èƒ£½éƒ§ƒ¯éƒ§ƒ«æƒ´¾\ \[hBo9k8FlrCQ\].webm wintersun@send.zwled.xyz:~/videos/relaxing/
+cd
+fg
+ls
+lf
+curl weather.in
+curl wttr.in
+curl wtrr.in/help
+curl wtrr.in
+curl wttr.in/help
+curl wttr.in/@github.com
+curl wttr.in/@github.com
+curl wttr.in/:help
+curl wttr.in/format=v2
+curl wttr.in/loudi?format=v2
+curl wttr.in/loudi?format=v2
+curl wttr.in/loudi
+curl v3.wttr.in
+curl v3.wttr.in/Bayern.sxl
+curl zh.wttr.in
+curl zh.wttr.in/loudi
+diff .zprofile ~/.local/src/dotfiles/.zprofile
+echo "ajdsfkla" > temp1
+echo "ajsdflasjdkf" > temp1
+echo "ajdsfkla" > temp2
+diff temp*
+diff temp1 temp
+diff temp1 temp2
+diff -u temp1 temp2
+patch -p1 temp1 < temp2
+diff -u temp1 temp2 > diff.patch
+patch -p1 temp1 < diff.patch
+vim temp1
+cat temp1 temp2
+ls
+rm -rf diff.patch
+rm -rf temp*
+l
+lf
+clc
+clb
+ls
+vim modifyconfigs
+modifyconfigs
+fg
+modifyconfigs
+fg
+modifyconfigs
+fg
+modifyconfigs
+fg
+modifyconfigs
+fg
+./modifyconfigs
+ls
+vim cdeditfile
+fg
+ls
+fg
+./modifyconfigs
+fg
+ls
+vim modifyconfigs
+vim modifyconfigs
+./modifyconfigs
+fg
+./modifyconfigs
+fg
+vim modifyconfigs
+ls
+ls
+vim modifyconfigs
+cd
+vim .local/share/configs
+ls
+vim .local/share/configs
+modifyconfigs
+modifyconfigs
+modifyconfigs
+modifyconfigs
+modifyconfigs
+modifyconfigs
+modifyconfigs
+modifyconfigs
+echo {1..10000}
+time echo {1..10000}
+time echo {1..10000} > /dev/null
+time echo {1..10000} > /dev/null
+time echo {1..10000} > /dev/null
+time echo 
+time echo
+man time
+time sed 
+time for i in {1..100000}; do echo $i; done > /dev/null
+time for i in {1..100000}; do echo $i; done > /dev/null
+time for i in {1..100000}; do printf $i; done > /dev/null
+ls
+vim temp
+fg
+./temp
+fg
+./temp
+fg
+./temp
+fg
+fg
+./temp
+fg
+./temp
+fg
+./temp
+fg
+./temp
+fg
+./temp
+fg
+./temp
+fg
+./temp
+fg
+./temp
+fg
+./temp
+fg
+efd
+clc
+cd dwm
+make clean
+fg
+sudo make clean
+ls
+fg
+l
+gs
+cd
+se
+ls
+ls
+cd
+cf
+cd
+se
+ls
+ls
+vim modifyconfigs
+stat modifyconfigs
+man stat
+stat -f %n modifyconfigs
+stat -f"%n" modifyconfigs
+man stat
+cht stat
+stat --format="%n" modifyconfigs
+stat --format="%n" /home/wintersun/.local/bin/modifyconfigs
+file /home/wintersun/.local/bin/modifyconfigs
+cht file
+basename /home/wintersun/.local/bin/modifyconfigs
+fg
+ls
+cd
+fg
+ls
+ssh wintersun@send.zwled.xyz
+brave
+ls
+lf
+ffmpeg -re -i /dev/video0 -video_size 640x480 | ffplay -
+ffmpeg -re -i /dev/video0 -video_size 640x480 out.mkv
+ffmpeg -re -f v4l2 -i /dev/video0 -video_size 640x480 out.mkv
+ffmpeg -f alsa -i default -itsoffset 00:00:00 -f video4linux2 -s 1280x720 -r 25 -i /dev/video0 -f tee "out.avi|[f=nut]-" | ffplay -
+ffmpeg -f v4l2 -i /dev/video0 -map 0 -c:v libx264 -f tee "output.mp4|[f=nut]pipe:" | ffplay pipe:
+ffmpeg -f v4l2 \\
+    -framerate 30 \\
+    -video_size 1024x768 \\
+    -input_format mjpeg \\
+    -i /dev/video0 \\
+    -f alsa \\
+    -i hw:2,0 \\
+    -c:a pcm_s16le \\
+    -c:v mjpeg \\
+    -b:v 64000k \\
+    output.avi \\
+    -map 0:v \\
+    -vf "format=yuv420p" \\
+    -f xv display
+ffmpeg -f alsa -i default -itsoffset 00:00:00 -f video4linux2 -s 1280x720 -r 25 -i /dev/video0 -f tee "out.avi|[f=nut]-" | ffplay -
+ffmpeg -f alsa -i /dev/video0 -itsoffset 00:00:00 -f video4linux2 -s 1280x720 -r 25 -i /dev/video0 -f tee "out.avi|[f=nut]-" | ffplay -
+ffmpeg -f v4l2 -i /dev/video0 -itsoffset 00:00:00 -f video4linux2 -s 1280x720 -r 25 -i /dev/video0 -f tee "out.avi|[f=nut]-" | ffplay -
+ffmpeg -f v4l2 -i /dev/video0 -itsoffset 00:00:00 -s 1280x720 -r 25 -i /dev/video0 -f tee "out.avi|[f=nut]-" | ffplay -
+ffmpeg -f v4l2 -i /dev/video0 -itsoffset 00:00:00 -s 1280x720 -r 25 -f tee "out.avi|[f=nut]-" | ffplay -
+ffmpeg -itsoffset 00:00:00 -f video4linux2 -s 1280x720 -r 25 -i /dev/video0 -f tee "out.avi|[f=nut]-" | ffplay -
+ffmpeg -itsoffset 00:00:00 -f v4l2 -s 1280x720 -r 25 -i /dev/video0 -f tee "out.avi|[f=nut]-" | ffplay -
+ffmpeg -f v4l2 -s 1280x720 -r 25 -i /dev/video0 -f tee "out.avi|[f=nut]-" | ffplay -
+ffmpeg -itsoffset 00:00:00 -f v4l2 -s 1280x720 -i /dev/video0 -f tee "out.avi|[f=nut]-" | ffplay -
+ffmpeg -itsoffset 00:00:00 -f v4l2 -i /dev/video0 -f tee "out.avi|[f=nut]-" | ffplay -
+ffmpeg -f v4l2 -i /dev/video0 -f tee "out.avi|[f=nut]-" | ffplay -
+ffmpeg -f v4l2 -i /dev/video0 -f tee "out.avi|[f=nut]pipe:" | ffplay pipe:
+cd "$(dirname "$(fzf)")"
+ffmpeg -f v4l2 -i /dev/video0 -map 0 -f tee "out.mkv|[f=nut]pipe:" | ffplay pipe:
+ffmpeg -f v4l2 -i /dev/video0 -map 0 -c:v libx264 -f tee "out.mkv|[f=nut]pipe:" | ffplay pipe:
+ffmpeg -f v4l2 -i /dev/video0 -map 0 -c:v libx264 -f tee "out.mp4|[f=nut]pipe:" | ffplay pipe:
+ffmpeg -f v4l2 -i /dev/video0 -map 0 -c:v libx264 -f tee "out.mp4|[f=nut]-" | ffplay -
+ffmpeg -f v4l2 -i /dev/video0 -map 0 -c:v libx264 -f tee "out.mp4|[f=nut]pipe:" | ffplay pipe:
+ls
+rm -rf -
+ls
+lf
+lf
+l
+vim .zprofile
+lf
+lf
+lf
+ls
+pi simple-mtpfs
+yay -S simple-mtpfs
+pi simple-mtpfs
+yay -S simple-mtpfs
+simple-mtpfs -l
+simple-mtpfs -l
+man simple-mtpfs
+simple-mtpfs --devices 1 /mnt
+simple-mtpfs --device 1 /mnt
+lf /mnt
+ls
+lf /mtn
+lf /mnt
+cat /dev/urandom
+cat /dev/random
+echo $RANDOM
+echo $RANDOM
+echo $RANDOM
+echo $RANDOM
+echo $RANDOM
+shuf 
+shuf -n 1
+cat .local/share/symbols/
+cat .local/share/symbols/*
+cat .local/share/symbols/* | shuf
+cat .local/share/symbols/* | shuf -n 1
+cat .local/share/symbols/* | shuf -n 1
+cat .local/share/symbols/* | shuf -n 1
+cat .local/share/symbols/* | shuf -n 1
+cat .local/share/symbols/* | shuf -n 1
+ls
+shuf -n 1 .local/share/symbols/*
+shuf -n 1 .local/share/symbols/fontawesome
+shuf -n 1 .local/share/symbols/emoji
+shuf -n 1 .local/share/symbols/emoji
+shuf -n 1 .local/share/symbols/emoji | cut -f1
+shuf -n 1 .local/share/symbols/emoji | cut -d' ' -f1
+shuf -n 1 .local/share/symbols/emoji | cut -d' ' -f1
+shuf -n 1 .local/share/symbols/emoji | cut -d' ' -f1
+shuf -n 1 .local/share/symbols/emoji | cut -d' ' -f1
+shuf -n 1 .local/share/symbols/emoji | cut -d' ' -f1
+lf
+pi entr
+ls
+man entr
+ls
+pi ag
+markdown2html
+yay -S markdown2html
+vim a.md
+l
+rm -rf a.md
+l
+vim .zprofile
+l
+vim .npmrc
+man markdownpart
+man paste
+clb
+vim netcounter
+cat /sys/class/net/enp7s0/statistics/rx_bytes
+cat /sys/class/net/*/statistics/rx_bytes
+cat /sys/class/net/*/statistics/rx_bytes
+cat /sys/class/net/*/statistics/rx_bytes
+vim modifyconfigs
+cd
+lf
+ls
+ls
+cd workspace/project
+ls
+cd benchmark
+ls
+cd 
+vim test
+fdisk
+fdisk -a
+fdisk --help
+fdisk -l
+sudo fdisk -l
+mkfs.ntfs /dev/sdb
+sudo mkfs.ntfs /dev/sdb
+mkfs.ntfs -h
+mkfs.ntfs -f /dev/sdb
+sudo mkfs.ntfs -f /dev/sdb
+sudo mkfs.ntfs -f /dev/sdb1
+sudo mkfs.ntfs -f /dev/sdb2
+ls
+reboot
+reboot
+reboot
+reboot
+reboot
+reboot
+ping ghproxy.com
+ping github.91chi.fun
+ping baidu.com
+ping github.91chi.fun
+ping ghproxy.com
