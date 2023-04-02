@@ -26996,3 +26996,328 @@ ping github.91chi.fun
 ping baidu.com
 ping github.91chi.fun
 ping ghproxy.com
+ls
+vim pyright.lua
+vim sumneko_lua.lua
+mv sumneko_lua.lua lua_ls.lua
+ls
+vim pylsp.lua
+cd
+cd -
+cd -
+cd
+vim a.py
+vim 
+./pylsp
+vim
+vim 
+cd -
+cd .config/nvim
+ls
+vim init.lua
+pip install pynvim
+vim init.lua
+vim a.py
+vim init.lua
+fg
+ls
+fg
+l
+ping baiduc.om
+ping baidu.com
+ls
+nvim
+vim
+vim
+ls
+fzf
+fzf
+fzf
+alias fzf
+fzf
+cd .config/nvim/
+ls
+vim init.lua
+vim init.lua
+vim init.lua
+ls
+cd ..
+ls
+cd nvim
+ls
+vim filetype.vimbak
+rm -rf plugin
+ls
+rm -rf ~/.cache/nvim
+rm -rf ~/.local/share/nvim
+vim
+vim
+nvim
+ls
+vim init.lua
+vim init.lua
+vim init.lua
+ls
+cd ~/.config
+ls
+cd ~/.local/src
+ls
+cd dotfiles
+ls
+./update_dotfiles
+gs
+cd .local/bin
+ls
+vim cdeditfile
+vim netcounter
+vim modifyconfigs
+gam "update nvim config and add some scripts in bin dir"
+git push
+ls
+l
+git stat
+git status
+ls
+cd ..
+l
+cd ..
+ls
+git status
+ls
+git status
+cd ..
+ls
+cd ..
+ls
+cd
+ls
+cd test_snips
+ls
+cd ..
+ls
+cd fif
+cd files
+ls
+lf
+lf
+cd
+cd workspace/project
+ls
+cd ..
+ls
+cd cnet
+ls
+vim cnet_epoll.c
+cd ..
+l
+cd ..
+ls
+ls
+l
+cd workspace/project
+ls
+mkdir git_record
+cd git 
+cd git_record
+ls
+git clone git@github.com:neverwaiting/hellogit.git
+ls
+cd hellogit
+ls
+echo "this is wintersun's first commit" >> afile
+ls
+gam "first commit by wintersun"
+git push
+ls
+mkdir other
+cd other
+git clone git@github.com:neverwaiting/hellogit.git
+git status
+ls
+cd hellogit
+git status
+git log
+git status
+git log
+ls
+cfz
+cd -
+ls
+cp afile bfile
+vim bfile
+cd ../hellogit
+ls
+cd ../../
+ls
+mv other ..
+ls
+git status
+cd ../other/hellogit
+ls
+git status
+ls
+cd ../../hellogit
+ls
+cp afile a1file
+vim a1file
+git status
+cd -
+ls
+gam "first commit by zwled" && git push
+cd -
+gs
+git pull
+git status
+gs
+ls
+git fetch
+git status
+git log
+gam "second commit by wintersun" && git push
+cd -
+ls
+cp bfile b1file
+vim b
+vim b1file
+ls
+git add b1file
+git status
+gs
+git pull
+git status
+git statu
+ls
+gs
+git log
+ls
+vim b1file
+gam "second commit by zwled" && git push
+cd -
+vim b1file
+ls
+git pull
+git status
+git status
+gs
+git add b1file
+gs
+git pull
+git fetch
+git status
+git log
+gs
+vim b1file
+ls
+vim b1file
+git status
+git fetch
+git status
+git log --all
+git log --all --pretty=oneline --addrev-commit --graph
+git log --all --pretty=oneline --abbrev-commit --graph
+git pull
+git stash
+git status
+git pull
+git stash pop
+ls
+vim b1file
+vim b1file
+gam "save both b1file" 
+git push
+git satus
+gs
+git branch -a
+cd -
+git status
+git pull
+git statu
+gs
+vim b1file
+cd -
+ls
+gs
+efz
+efx
+efp
+vim
+vim a.py
+vim 
+vim a.py
+vim ~/.config/nvim/init.lua
+cd ~/.config/nvim/
+cd -
+vim 
+ls
+git status
+gs
+cd ~/.config/nvim
+ls
+vim init.lua
+vim init.lua
+lf
+fg
+ls
+ls
+ls
+vim
+ls
+ls
+ls
+vim 
+top
+htop
+whoami
+ls
+ls
+ls
+ls
+pwd
+ls
+fzf
+cd "$(dirname "$(fzf)")"
+cd "$(dirname "$(fzf)")"
+ls
+vim muduo_base.cc
+ls
+ls
+htop
+pwd
+nvim -v
+vim
+vim
+ls
+rm -rf .cache/weatherreport
+ls
+cd workspace
+ls
+cd
+lf
+wget -q -O - https://download.vpn4test.com/files/linux_installer.sh | sh
+showip
+ls
+pwd
+ls
+pwd
+alias
+alias | ip
+alias | grep ip
+alias | grep http
+ep
+showip
+ls
+pwd
+ls
+pamac search --aur protonvpn
+pacman search --aur protonvpn
+yay -S protonvpn
+yay -S protonvpn
+yay -S protonvpn
+yay -Syyuu
+yay -Syyuu
+yay -Syyuu
+LS
+pwd
+reboot
+ls
+ls
