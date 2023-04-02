@@ -9,7 +9,7 @@ end
 require'nvim-treesitter.configs'.setup {
   -- A list of parser names, or "all"
   ensure_installed = {
-		"help", "c", "cpp", "lua", "css", "json", "html",
+		"c", "cpp", "lua", "css", "json", "html",
 		"python", "bash", "go", "cmake", "markdown",
 		"javascript", "typescript"
 	},

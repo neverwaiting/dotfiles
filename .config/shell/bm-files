@@ -1,24 +1,24 @@
 # These files automatically update when edited/saved in vim:
 
 # keys	filename				description
-ebf	${XDG_CONFIG_HOME:-$HOME/.config}/shell/bm-files	# This file, a list of bookmarked files
-ebd	${XDG_CONFIG_HOME:-$HOME/.config}/shell/bm-dirs		# A list of bookmarked directories similar to this file
-efx	${XDG_CONFIG_HOME:-$HOME/.config}/x11/xresources	# Colors, themes and variables for X11
+ebf ${XDG_CONFIG_HOME:-$HOME/.config}/shell/bm-files	# This file, a list of bookmarked files
+ebd ${XDG_CONFIG_HOME:-$HOME/.config}/shell/bm-dirs		# A list of bookmarked directories similar to this file
+efx ${XDG_CONFIG_HOME:-$HOME/.config}/x11/xresources	# Colors, themes and variables for X11
 
-efb	~/.local/src/dwmblocks/config.h			# dwmblocks: the status bar for dwm
-efd	~/.local/src/dwm/config.def.h				# dwm: a dynamic window manager
-efm	~/.local/src/dmenu/config.def.h			# dmenu: dwm menu bar
-efs	~/.local/src/st/config.def.h				# st: a simple terminal
+efb ~/.local/src/dwmblocks/config.h			# dwmblocks: the status bar for dwm
+efd ~/.local/src/dwm/config.def.h				# dwm: a dynamic window manager
+efm ~/.local/src/dmenu/config.def.h			# dmenu: dwm menu bar
+efs ~/.local/src/st/config.def.h				# st: a simple terminal
 
 # These do not update automatically, but on the next new instance of a program:
-efv	${XDG_CONFIG_HOME:-$HOME/.config}/nvim/init.lua		# vim/neovim config
-efz	$ZDOTDIR/.zshrc						# zsh (shell) config
-efa	${XDG_CONFIG_HOME:-$HOME/.config}/shell/aliasrc		# aliases used by zsh (and potentially other shells)
-efp	${XDG_CONFIG_HOME:-$HOME/.config}/shell/profile		# profile file for login settings for zsh
-efn	${XDG_CONFIG_HOME:-$HOME/.config}/newsboat/config	# newsboat (RSS reader)
+efv ${XDG_CONFIG_HOME:-$HOME/.config}/nvim/init.lua		# vim/neovim config
+efz $ZDOTDIR/.zshrc						# zsh (shell) config
+efa ${XDG_CONFIG_HOME:-$HOME/.config}/shell/aliasrc		# aliases used by zsh (and potentially other shells)
+efp ${XDG_CONFIG_HOME:-$HOME/.config}/shell/profile		# profile file for login settings for zsh
+efn ${XDG_CONFIG_HOME:-$HOME/.config}/newsboat/config	# newsboat (RSS reader)
 # cfu	${XDG_CONFIG_HOME:-$HOME/.config}/newsboat/urls		# RSS urls for newsboat
-efmb	${XDG_CONFIG_HOME:-$HOME/.config}/ncmpcpp/bindings	# ncmpcpp (music player) keybinds file
-efmc	${XDG_CONFIG_HOME:-$HOME/.config}/ncmpcpp/config	# ncmpcpp (music player) config
+efmb ${XDG_CONFIG_HOME:-$HOME/.config}/ncmpcpp/bindings	# ncmpcpp (music player) keybinds file
+efmc ${XDG_CONFIG_HOME:-$HOME/.config}/ncmpcpp/config	# ncmpcpp (music player) config
 efl	${XDG_CONFIG_HOME:-$HOME/.config}/lf/lfrc		# lf (file browser) config
 efX	${XDG_CONFIG_HOME:-$HOME/.config}/sxiv/exec/key-handler	# sxiv (image viewer) key/script handler
 efu	${XDG_DATA_HOME:-$HOME/.local/share}/bookmarks/urls		# bookmarks file
