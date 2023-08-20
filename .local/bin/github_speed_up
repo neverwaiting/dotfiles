@@ -1,0 +1,14 @@
+#!/bin/sh
+
+urls=("github.com" "api.github.com" "gist.github.com" "raw.github.com")
+
+for url in ${urls[*]}; do
+  IFS=$'\n' read -r -d '' -a ips < <( curl -fsL "https://sites.ipaddress.com/$url" | grep -oE "<a href=\"https://www\.ipaddress\.com/ipv4/[^>]*>[^<]*</a>" | sed 's/<[^>]*>//g' && printf '\0' )
+  for ip in ${ips[*]}; do
+    if ping -c2 -i0.3 -W1 "$ip" > /dev/null; then
+      sed -i "/$url/d" /etc/hosts
+      echo "$ip $url is added!"
+      echo "$ip" "$url" >> /etc/hosts
+    fi
+  done
+done

@@ -27321,3 +27321,1081 @@ pwd
 reboot
 ls
 ls
+vim
+vim
+l
+cd
+sudo pacman -S qv2ray
+pacman -Ss qv2ray
+sudo pacman -S qv2ray-plugin-ss-dev-git
+qv2ray
+ls
+l
+mkdir workspace
+cd workspace
+ls
+mkdir project
+cd project
+ls
+lf
+ls
+ls
+git clone https://github.com/neverwaiting/archinstall.git
+cd archinstall
+ls
+vim clonerepos.sh
+sh clonerepos.sh
+sh clonerepos.sh
+ls
+rm -rf ~/.ssh
+sh clonerepos.sh
+ls
+cd ..
+ls
+rm -rf archinstall
+ls
+cls
+ls
+clb
+cd
+lf
+ls
+lf
+ls
+git clone git@github.com:neverwaiting/sokoban_solver.git
+cd sokoban_solver
+ls
+g++ *.cc -O2 -o main
+./main 1
+./main 101
+./main 102
+l screens
+lf
+l
+vim solver.h
+ls
+lf
+l
+ls
+lf
+./main 91
+./main 92
+./main 93
+./main 94
+./main 95
+./main 96
+./main 97
+./main 98
+./main 99
+./main 100
+ls
+ls
+cd ..
+ls
+git clone git@github.com:neverwaiting/cchess-engine.git
+cd cchess-engine
+ls
+cd c-cchess-update
+ls
+cmake -Bbuild -j$(nproc) && cmake --build build
+cmake -Bbuild && cmake --build build -j$(nproc)
+./build/test/cc_engine_test 1000
+ls
+vim CMakeLists.txt
+cmake -Bbuild && cmake --build build -j$(nproc)
+./build/test/generate_move_unittest
+./build/test/generate_move_unittest
+./build/test/generate_move_unittest
+ls
+./build/test/backstep_unittest
+./build/test/backstep_unittest
+ls
+l
+cd ..
+l
+cd c-cchess
+ls
+cmake -Bbuild && cmake --build build -j$(nproc)
+./build/test/engine_test 1000
+cd ../c-cchess-update
+./build/test/cc_engine_test 1000
+fg
+ls
+ls
+ls
+cd ..
+cd ..
+cd sokoban_solver
+ls
+vim main.cc
+ls
+cfv
+ls
+rm -rf *
+ls
+rm -rf ~/.local/share/nvim
+rm -rf ~/.cache/nvim
+l
+ls
+git clone git@github.com:neverwaiting/nvim-config.git
+ls
+cd nvim-config
+ls
+rm -rf .git
+ls
+l
+ls
+mv * ..
+ls
+cd ..
+l
+rm -rf nvim-config
+ls
+vim
+npm install neovim
+pip3 install neovim
+fg
+vim 
+pip install neovim
+fg
+pip3 install neovim
+pacman -S python-xyz
+cd "$(dirname "$(fzf)")"
+pip3 install neovim
+sudo pacman -S python
+sudo pacman -S python-xyz
+pip3 install neovim
+pacman -S python-xyz
+pacman -Ss python-xyz
+pacman -Ss qv2ray
+sudo pacman -S qv2ray
+ls
+yay -S qv2ray
+ls
+l
+l node_modules
+l
+rm -rf node_modules
+npm install -g neovim
+sudo npm install -g neovim
+ls
+python -v
+python3 -v
+python --version
+python3 --version
+python --version
+ls
+lua -v
+ls
+l
+vim init.lua
+ls
+pip3 --version
+pip --versino
+pip --version
+pip install neovim
+ls
+cd ..
+ls
+cd
+l
+rm -rf .pki
+ls
+l
+rm -rf .python_history
+l
+pip3 install neovim
+ls
+l
+cat .zprofile
+rebot
+lf
+l
+vim ~/.config/sxiv/exec/key-handler
+lf
+ls
+clc
+ls
+cd
+clb
+cat setbg
+ls
+cat setbg
+cht 
+cht lua
+l
+cd ../share/fcitx5
+ls
+cd themes/
+ls
+cd ..
+ls
+cd ..
+ls
+cd fonts
+ls
+lf
+ls
+l
+cd firacode
+ls
+cd ..
+l
+cd ..
+ls
+cat history
+cd ..
+ls
+l
+l share
+l share/fonts/
+lf
+lf
+ls
+cd ..
+l
+cd .config
+lf
+lf
+cd ~/workspace
+l
+lf
+ls
+vim main.cc
+vim main
+vim main.cc
+cfv
+l
+vim init.lua
+vim init.lua
+l
+cd -
+ls
+vim config.h
+ls
+ls
+kls
+ls
+vim main.cc
+lf
+./main 2
+lf
+ls
+fg
+clb
+ls
+ls
+vim statusbar/sb-app
+ls
+cd
+lf
+fg
+lf
+ls
+lf
+vim
+cfv
+vim init.lua
+ls
+cd ..
+l
+cd
+cd workspace/project
+ls
+cd sokoban_solver/
+ls
+./main 2
+./main 1
+ls
+vim mian.c
+vim main.cc
+ls
+vim deadlock.
+vim deadlock.cc
+ls
+ lf
+./main 1
+fcitx5
+sudo pacman -S fcitx5
+sudo pacman -S fcitx
+sudo pacman -S fcitx-qt6
+sudo pacman -S fcitx-qt5
+clc
+cd archinstall
+lf
+fcitx5-config-qt
+fcitx5-config-qt
+reboot
+ls
+clc
+lf
+sudo pacman -S fcitx5-chinese-addons
+fcitx5-configtool
+fcitx5-config-qt
+fcitx5-configtool
+sudo pacman -S pinyin-completion
+fcitx5-configtool
+fcitx5-configtool
+pwd
+./main 2
+cd
+cd workspace/project/sokoban_solver
+./main 2
+ls
+vim test
+l
+vim solver.h
+g++ *.cc -O2 -o main
+./main 1
+./main 2
+fg
+./main 1
+fg
+g++ *.cc -O2 -o main
+./main 1
+fg
+g++ *.cc -O2 -o main
+./main 1
+./main 1
+fg
+g++ *.cc -O2 -o main
+./main 1
+fg
+g++ *.cc -O2 -o main
+./main 1
+fg
+g++ *.cc -O2 -o main
+./main 1
+fg
+g++ *.cc -O2 -o main
+./main 1
+fg
+lf
+ls
+sudo pacman -S fcitx-googlepinyin
+sudo pacman -S fcitx-googlepinyin
+sudo pacman -S fcitx6
+sudo pacman -S fcitx-qt6
+sudo pacman -S fcitx-qt6
+sudo pacman -Sy fcitx5-chinese-addons
+fcitx5-configtool
+ls
+cat /etc/locale.gen
+locale -a
+cat /etc/locale.conf
+vim .zprofile
+vim .config/x11/xinitrc
+vim .config/x11/xprofile
+fcitx5
+fg
+vim .config/x11/xprofile
+cat .config/x11/xprofile
+fcitx5 --disable fcitx5-xkb -d
+echo $LANG
+echo $LANGUAGE
+sudo pacman -S adobe-source-han-serif-cn-fonts
+ls
+vim .zprofile
+fcitx5
+fcitx5-configtool
+ip
+showip
+showip
+curl wttr.in
+uep
+curl wttr.in
+showip
+alias showip
+curl -s ifconfig.me
+curl ifconfig.me
+ls
+cd workspace
+l
+mkdir vpn_account
+cd vpn_account
+l
+cd ..
+l
+rm -rf vpn_account
+mkdir vpn
+cd vpn
+vim v2free_account
+git clone git@github.com:neverwaiting/vfreeTM.git
+git clone git@github.com:neverwaiting/vfreeTM.git
+git clone git@github.com:neverwaiting/vfreeTM.git
+git clone git@github.com:neverwaiting/vfreeTM.git
+alias 
+alias  | grep proxy
+uep
+git clone git@github.com:neverwaiting/vfreeTM.git
+ep
+git clone git@github.com:neverwaiting/vfreeTM.git
+l
+cd ..
+l
+git clone git@github.com:neverwaiting/vfreeTM.git
+git clone git@github.com:neverwaiting/vfreeTM.git
+fg
+ls
+l
+lf
+ls
+l
+ls
+git clone git@github.com:neverwaiting/vfreeTM.git
+ping github.com
+cat /etc/hosts
+cat /etc/hosts
+git clone git@github.com:neverwaiting/vfreeTM.git
+ping github.com
+fg
+lf
+fg
+lf
+cd workspace/project
+l
+cd sokoban_solver
+ls
+vim test
+vim display.cc
+g++ display.cc && ./a.out
+fg
+g++ display.cc && ./a.out
+fg
+fg
+g++ display.cc && ./a.out
+fg
+g++ display.cc && ./a.out
+fg
+fg
+g++ display.cc && ./a.out
+fg
+l
+lf
+l
+l
+ls
+l
+rm -rf a.out
+l
+l
+vim display.cc
+g++ *.cc -O2 -o main
+fg
+rm -rf test
+mv display.cc display.cc.bak
+g++ *.cc -O2 -o main
+./main
+./main 1
+fg
+./main 1
+g++ *.cc -O2 -o main
+./main 1
+fg
+fg
+./main 2
+fg
+g++ *.cc -O2 -o main
+./main 2
+fg
+g++ *.cc -O2 -o main
+./main 2
+fg
+g++ *.cc -O2 -o main
+./main 2
+fg
+./main 1
+./main 3
+fg
+g++ *.cc -O2 -o main
+./main 91
+./main 92
+./main 93
+./main 94
+./main 95
+./main 96
+./main 97
+./main 98
+./main 99
+./main 100
+./main 1
+./main 3
+fg
+ls
+vim config.h
+l
+vim solver.h
+ls
+vim main.cc
+ls
+fg
+vim
+ls
+cfv
+ls
+lf
+cd ~/.local/share/nvim/lazy/markdown-preview.nvim
+ls
+ls
+l
+lf
+l
+cfv
+vim init.lua
+vim init.lua
+l
+vim init.lua
+l
+vim test.md
+fg
+vim init.lua
+vim test.md
+vim init.lua
+vim init.lua
+cd ~/.local/share/nvim/lazy/markdown-preview.nvim/
+lf
+cd "$(dirname "$(fzf)")"
+vim install.
+vim install.sh
+vim in
+ls
+cfv
+vim init.lua
+l
+ls
+ls
+l
+vim init.lua
+vim init.lua
+vim init.lua
+vim test.md
+l
+vim test.md
+l
+cd ..
+l
+l
+cd nvim
+ls
+l
+rm -rf test.md
+ls
+l
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+l
+l
+vim init.lua
+l
+vim init.lua
+v init.lua
+e init.lua
+v init.lua
+l
+v init.lua
+vim init.lua
+l
+vim init.lua
+l
+vim init.lua
+vim .
+v .
+v i
+v i
+v m
+ls
+v
+v
+cd
+l
+l
+l Downloads
+ls
+l
+cd workspace
+cd project
+ls
+cd sokoban_solver
+l
+./main 1
+fg
+ls
+ls
+ls
+vim main.cc
+l
+lf
+l
+rm -rf .ccls-cache
+l
+vim config.h
+l
+ls
+ls
+git status
+l
+vim .gitignore
+l
+git status
+git rm --cached
+git rm --cached .
+git rm --cached -r .
+l
+git status
+git add .
+l
+git status
+rm -rf display.cc.bak
+l
+gs
+git add .
+l
+gs
+rm -rf main
+gs
+git add -A
+gs
+gam "add unicode for display"
+gp
+git push
+ping github.com
+ping github.com
+cat /etc/host
+cat /etc/hosts
+l /etc/hosts
+sudo nvim /etc/hosts
+ping github.com
+git push
+ls
+l
+gs
+l
+sudo nvim /etc/hosts
+ping raw.github.com
+ping gist.github.com
+ping api.github.com
+fg
+ping 185.199.109.133
+ping 185.199.110.133
+ping 185.199.111.133
+fg
+sudo nvim /etc/hosts
+l
+ping raw.github.com
+ls
+ls
+ls
+ls
+ip
+l
+vim main.cc
+l
+l
+vim config.h
+l
+lf
+l
+fg
+ls
+cd workspace/project
+ls
+cd cchess-engine
+ls
+ls
+clc
+ls
+cd archinstall
+ls
+vim chroot.sh 
+clonerepos.sh a
+ls
+ls
+reboot
+curl https://sites.ipaddress.com/github.com/
+curl https://sites.ipaddress.com/github.com/ | less
+curl https://sites.ipaddress.com/github.com/ | grep github.com
+curl -fL https://sites.ipaddress.com/github.com/ | grep github.com
+curl -fL https://sites.ipaddress.com/github.com/ | grep A Records
+curl -fL https://sites.ipaddress.com/github.com/ | grep A Records
+curl -fL https://sites.ipaddress.com/github.com/
+curl -fL https://sites.ipaddress.com/github.com/ | grep -E '\<html\>.*\<\/html\>'
+curl -fL https://sites.ipaddress.com/github.com/ | grep -E '<html>.*</html>'
+curl -fL https://sites.ipaddress.com/github.com/ | grep -E '<html>.*<\/html>'
+curl -fL https://sites.ipaddress.com/github.com/ > test
+grep -E '<html>.*</html>' test
+grep -E '<html>' test
+grep -E "<html>" test
+grep  test
+grep html test
+grep <html>.*</html> test
+grep '<html>.*</html>' test
+grep 'A Records' test
+grep 'A\ Records' test
+grep -E 'A\ Records' test
+grep -e 'A\ Records' test
+grep -iE 'A\ Records' test
+grep -iE 'A Records' test
+man grep
+grep -E 'html' test
+grep -E '<html>' test
+grep -E '\<html\>' test
+grep -E '\<html\>' test
+man grep
+grep -oE '\<html\>' test
+grep -oE 'html\>' test
+grep -oE 'html>' test
+grep -oE '<html>' test
+grep -oE '\<html>' test
+grep -oE "<html>" test
+grep -oE ".html>" test
+grep -oE "<<html>" test
+grep -oE "<html>" test
+grep -oE "[<]html>" test
+grep -oE "[<].html>" test
+grep -oE "/html>" test
+grep -oE "</html>" test
+grep -oE "html>.*</html>" test
+grep -oE "html>\.*</html>" test
+grep -oE "html>+*</html>" test
+grep -oE "html>.+</html>" test
+grep -oE "html.+</html>" test
+grep -oE ".+</html>" test
+grep -oE ".*</html>" test
+grep -oE ".*</html>" test
+grep -oE ".*</span>" test
+grep -oE "a>.*</a>" test
+grep -oE "a>.*</a>" test | less
+grep -oE "a href=>.*</a>" test | less
+grep -oE "a href=.*</a>" test
+grep -oE "a href=.*</a>" test | less
+grep -oE "a href=.*>.*</a>" test | less
+grep -oE "a href=https://www\.ipaddres\.com.*>.*</a>" test | less
+grep -oE "a href=https://www\.ipaddres\.com.*>/.*</a>" test | less
+grep -oE "a href=https:\/\/www\.ipaddres\.com.*>/.*</a>" test | less
+grep -oE "a href=https://www\.ipaddres\.com.*>/.*</a>" test | less
+grep -oE "<a href=https://www\.ipaddres\.com.*>/.*</a>" test | less
+grep -oE "<a href=https://www\.ipaddres\.com/.*>.*</a>" test | less
+grep -oE "<a href=https://www\.ipaddres\.com.*>.*</a>" test | less
+grep -oE "<a href=https://www.ipaddres.com.*>.*</a>" test | less
+grep -oE "https://www.ipaddress.com" test
+grep -lE "https://www.ipaddress.com" test
+man grep
+grep -vE "https://www.ipaddress.com" test
+man grep
+grep -oE "<a href=https://www\.ipaddress\.com.*>.*</a>" test
+grep -oE "<a href=\"https://www\.ipaddress\.com.*>.*</a>" test
+grep -oE "<a href=\"https://www\.ipaddress\.com[^>]*>.*</a>" test
+grep -oE "<a href=\"https://www\.ipaddress\.com[^>]*>.*</a>" test
+grep -oE "<a href=\"https://www\.ipaddress\.com[^>]*>.*</a>" test
+grep -oE "<a href=\"https://www\.ipaddress\.com[^>]*>[^<]*</a>" test
+curl https://sites.ipaddress.com/github.com/ | grep -oE "<a href=\"https://www\.ipaddress\.com[^>]*>[^<]*</a>"
+curl https://sites.ipaddress.com/raw.github.com/ | grep -oE "<a href=\"https://www\.ipaddress\.com[^>]*>[^<]*</a>"
+curl https://sites.ipaddress.com/api.github.com/ | grep -oE "<a href=\"https://www\.ipaddress\.com[^>]*>[^<]*</a>"
+curl https://sites.ipaddress.com/gist.github.com/ | grep -oE "<a href=\"https://www\.ipaddress\.com[^>]*>[^<]*</a>"
+curl https://sites.ipaddress.com/gist.github.com/ | grep -oE "<a href=\"https://www\.ipaddress\.com/ipv4/[^>]*>[^<]*</a>"
+curl https://sites.ipaddress.com/gist.github.com/ | grep -oE "<a href=\"https://www\.ipaddress\.com/ipv4/[^>]*>[^<]*</a>" | grep -oE '[^<>]+'
+curl https://sites.ipaddress.com/gist.github.com/ | grep -oE "<a href=\"https://www\.ipaddress\.com/ipv4/[^>]*>[^<]*</a>"
+cat /etc/hosts
+curl https://sites.ipaddress.com/gist.github.com/ | grep -oE "<a href=\"https://www\.ipaddress\.com/ipv4/[^>]*>[^<]*</a>" | sed 's/<.*>//g'
+curl https://sites.ipaddress.com/gist.github.com/ | grep -oE "<a href=\"https://www\.ipaddress\.com/ipv4/[^>]*>[^<]*</a>" | sed 's/<[^>]*>//g'
+curl -fsL https://sites.ipaddress.com/gist.github.com/ | grep -oE "<a href=\"https://www\.ipaddress\.com/ipv4/[^>]*>[^<]*</a>" | sed 's/<[^>]*>//g'
+curl -fsL https://sites.ipaddress.com/gist.github.com/ | grep -oE "<a href=\"https://www\.ipaddress\.com/ipv4/[^>]*>[^<]*</a>" | sed 's/<[^>]*>//g'
+ls
+vim github_speed_up.sh
+vim github_speed_up.sh
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+echo "asjdlfk\nasdjfklas" | head -n 1
+echo "asjdlfk" | head -n 1
+fg
+echo "asjdlfk" | head -n 1
+sh github_speed_up.sh
+ping 185.199.108.133
+man ip
+man ping
+ping -c 1 185.199.108.133
+man ping
+ping -c 1 185.199.108.133
+ping -c 1 185.199.109.133
+man ping
+ping -c2 -i0.3 -W1 185.199.109.133
+ping -c2 -i0.3 -W1 185.199.109.133
+ping -c1 -i0.3 -W1 185.199.109.133
+ping -c1 -i0.1 -W1 185.199.109.133
+ping -c1 -i0.2 -W1 185.199.109.133
+ping -c1 -i0.3 -W1 185.199.109.133
+ping -c2 -i0.3 -W1 185.199.109.133
+ping -c2 -i0.3 -W1 185.199.110.133
+ping -c1 -i0.3 -W1 185.199.110.133
+ping -c1 -i0.3 -W1 185.199.110.133
+ping -c1 -i0.3 -W1 185.199.110.133
+ping -c1 -i0.3 -W1 185.199.110.133
+ping -c1 -i0.3 -W1 185.199.110.133
+if ping -c1 -i0.3 -W1 185.199.110.133 > /dev/null
+if ping -c1 -i0.3 -W1 185.199.110.133 > /dev/null; then echo up; done
+if ping -c1 -i0.3 -W1 185.199.110.133 > /dev/null; then echo up done
+if ping -c1 -i0.3 -W1 185.199.110.133 > /dev/null; then echo up fi
+if ping -c1 -i0.3 -W1 185.199.110.133 > /dev/null; then echo up; fi
+if ping -c1 -i0.3 -W1 185.199.111.133 > /dev/null; then echo up; fi
+if ping -c1 -i0.3 -W1 185.199.111.133 > /dev/null; then echo up; else echo down; fi
+if ping -c1 -i0.3 -W1 185.199.109.133 > /dev/null; then echo up; else echo down; fi
+fg
+man read -r
+man read
+read -a "ajsdklf\najsdlf\nasjdfkl\n"
+read -r "ajsdklf\najsdlf\nasjdfkl\n"
+read -r
+read -a github_speed_up.sh
+fg
+read -a github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+man read 
+read -a < github_speed_up.sh
+read -a a < github_speed_up.sh
+read -r a < github_speed_up.sh
+echo a
+echo $a
+echo ${a[*}}
+echo ${a[*]}
+read -a a < github_speed_up.sh
+echo $a
+read -r a "asjdfkla"
+fg
+read -r a "asjdfkla"
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+man xargs
+cht xargs
+fg
+echo "ajsdklf\nasjdkfl\nasdjfkl\n" | xargs -print0 echo
+echo "ajsdklf\nasjdkfl\nasdjfkl\n" | xargs -print0 
+man xargs
+cht xargs
+echo "ajsdklf\nasjdkfl\nasdjfkl\n" | xargs -d'\n' echo
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+man tr
+fg
+man tr
+sh github_speed_up.sh
+fg
+cht tr
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+echo "asjdklfkaj\nasdjfkl\n" | xargs -i -n 1 echo {}
+echo "asjdklfkaj\nasdjfkl\n" | xargs -i -n 1 if echo {}; then echo success; fi 
+echo "asjdklfkaj\nasdjfkl\n" | xargs -i -n 1 (if echo {}; then echo success; fi) 
+fg 
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+IFS=$'\n' read -r -d '' -a my_array < <( seq 5 && printf '\0' )
+IFS=$'\n' read -r -d '' -a my_array < <( seq 5 && printf '\0' )
+IFS=$'\n' read -r -d '' -a my_array < <( seq 5 && printf '\0' )
+vim test
+test.sh
+vim test.sh
+sh test.sh
+fg
+vim test.sh
+sh test.sh
+fg
+sh test.sh
+fg
+fg
+sh test.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+man read
+fg
+seq 5
+seq 5 && printf '\0'
+fg
+read -r m < <( seq 5 )
+echo $m
+IFS=$'\n' read -r m < <( seq 5 )
+echo $m
+echo ${m[0]}
+echo ${m[1]}
+echo ${m[2]}
+echo ${m[3]}
+echo ${m[*]}
+IFS=$'\n' read -d '' -r m < <( seq 5 && printf '\0' )
+echo $m
+echo ${m[1]}
+echo ${m[2]}
+echo ${m[0]}
+fg
+echo ${m[0]}
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+fg
+sh github_speed_up.sh
+cat /etc/hosts
+fg
+sh github_speed_up.sh
+fg
+fg
+sh github_speed_up.sh
+fg
+sed 'asjdfkl' /etc/hosts
+sed 's/asjdfkl//g' /etc/hosts
+sed 's/github.com//g' /etc/hosts
+sed '/github.com/d' /etc/hosts
+sed '/raw.github.com/d' /etc/hosts
+sed -i '/raw.github.com/d' /etc/hosts
+sudo sed -i '/raw.github.com/d' /etc/hosts
+fg
+cat /etc/hosts
+fg
+fg
+sh github_speed_up.sh
+fg
+sudo sh github_speed_up.sh
+cat /etc/hosts
+fg
+fg
+fg
+sudo sh github_speed_up.sh
+cat /etc/hosts
+fg
+sudo sh github_speed_up.sh
+fg
+l
+ls
+l
+mv github_speed_up.sh github_speed_up
+l
+vim github_speed_up
+l
+mv github_speed_up ~/.local/bin/
+l
+l .local/bin
+ls
+github_speed_up
+sudo github_speed_up
+fg
+sl
+ls
+rm -rf test test.sh
+l
+l
+l Downloads
+l
+l
