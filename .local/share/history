@@ -29001,3 +29001,197 @@ cd
 pwd
 ls
 pwd
+cd workspace
+lls
+ls
+cd
+clc
+cd archinstall
+ls
+vim preinstall.sh
+vim packages.csv
+sudo pacman -S brave-bin
+ls
+vim clonerepos.sh
+ls
+vim chroot.sh
+l
+vim README.md
+l
+vim clonerepos.sh
+l
+l
+cd ..
+l
+cd dotfiles
+ls
+l
+vim .config/nvim/init.lua
+l
+cd
+cfv
+l
+vim init.lua
+l
+ls
+rm -rf lazy-lock.json
+l
+l lua
+vim init.lua
+vim init.lua
+l
+l
+cd lua
+ls
+vim wintersun
+cd ..
+l
+vim init.lua
+vim init.lua
+vim init.lua
+l
+rm -rf shortcuts.vim
+l
+vim init.lua
+l
+vim init.lua
+l
+vim init.lua
+l
+vim init.lua
+l
+vim test.ts
+l
+rm -rf test.ts
+l
+ls
+vim init.lua
+l
+ls
+l
+clc
+cd dotfiles
+ls
+ls
+./update_dotfiles
+l
+gam "update nvim config"
+git push
+ls
+l
+cd ..
+ls
+l
+l
+cd
+l
+cd Downloads
+ls
+l
+l
+ls
+sudo ventoy -l /dev/sda
+ventoy
+sudo pacman -S ventoy
+ls
+l
+clc
+cd archinstall
+ls
+vim packages.csv
+sudo pacman -S ventoy-bin
+sudo pacman -S brave-bin
+sudo pacman -S brave
+l
+vim chroot.sh
+pacman -Ss ventoy
+pacman -Ss brave
+pacman -Ss brave-bin
+pacman -Ss ventoy-bin
+ls
+vim packages.csv
+l
+l
+gam "update packages"
+git push
+ls
+cd ..
+l
+cd dwmblocks
+ls
+cd ..
+l
+cd
+ls
+ls
+cd workspace
+l
+cd temp-pictures
+l
+cd
+l
+cd workspace
+l
+git status
+l
+cd ..
+l
+l
+l Downloads
+l
+l .config
+l .config/user-dirs.dirs
+lf .config/user-dirs.dirs
+l
+lf
+l
+cd workspace
+l
+l
+cd
+ls
+sudo pacman -S vscode
+ls
+sudo pacman -S code
+sudo pacman -Syyu
+sudo pacman -S code
+code
+code
+ls
+ls
+ls
+cd .config
+ls
+vim yay
+l y
+l yay
+l
+cd ..
+l
+l
+clc
+cd archinstall
+ls
+vim chroot.sh
+l
+cd ..
+l dotfiles/
+cd
+l
+mkdir test
+cp .local/src/dotfiles/.zprofile test/
+l test/
+cp -l .local/src/dotfiles/.zprofile test/
+l test
+l test/.zprofile
+rm -rf test/.zprofile
+cp -s .local/src/dotfiles/.zprofile test/
+l
+sudo pacman -S qv2ray
+yay -S qv2ray
+yay -S qv2ray
+yay -S qv2ray
+rm -rf .cache/yay/qv2ray
+yay -S qv2ray
+yay -S qv2ray
+l
