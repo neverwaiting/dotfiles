@@ -2,7 +2,8 @@
 -- See `:help cmp`
 local cmp = require 'cmp'
 local luasnip = require 'luasnip'
-require('luasnip.loaders.from_vscode').lazy_load()
+-- require('luasnip.loaders.from_vscode').lazy_load()
+-- require("luasnip.loaders.from_lua").lazy_load({ include = { "all", "cpp" } })
 luasnip.config.setup {}
 
 local has_words_before = function()
@@ -89,8 +90,8 @@ cmp.setup {
     ['<C-h>'] = cmp.mapping(function(fallback)
       if luasnip.jumpable(-1) then
         luasnip.jump(-1)
-      elseif has_words_before() then
-        cmp.complete()
+      -- elseif has_words_before() then
+        -- cmp.complete()
       else
         fallback()
       end
@@ -99,8 +100,8 @@ cmp.setup {
     ['<C-l>'] = cmp.mapping(function(fallback)
       if luasnip.expand_or_jumpable() then
         luasnip.expand_or_jump()
-      elseif has_words_before() then
-        cmp.complete()
+      -- elseif has_words_before() then
+        -- cmp.complete()
       else
         fallback()
       end
@@ -118,7 +119,7 @@ cmp.setup {
     ['<C-k>'] = cmp.mapping(cmp.mapping.select_prev_item(), { 'i', 'c' }),
     ['<C-p>'] = cmp.mapping(cmp.mapping.scroll_docs(-4), { 'i', 'c' }),
     ['<C-n>'] = cmp.mapping(cmp.mapping.scroll_docs(4), { 'i', 'c' }),
-    ['<C-;>'] = cmp.mapping(cmp.mapping.complete(), { 'i', 'c' }),
+    ['<C-o>'] = cmp.mapping(cmp.mapping.complete(), { 'i', 'c' }),
     -- ["<C-y>"] = cmp.config.disable, -- Specify `cmp.config.disable` if you want to remove the default `<C-y>` mapping.
     -- ["<C-e>"] = cmp.mapping {
       -- 	i = cmp.mapping.abort(),

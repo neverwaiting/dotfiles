@@ -28399,3 +28399,605 @@ l
 l Downloads
 l
 l
+sudo pacman -Syyu 
+yay -S qv2ray
+ls
+fg
+ls
+git clone https://github.com/neverwaiting/archinstall.git
+cat /etc/hosts
+git clone https://github.com/neverwaiting/archinstall.git
+cd archinstall
+ls
+sh clonerepos.sh
+ls
+clc
+cd archinstall
+vim packages.csv
+l
+vim chroot.sh
+gs
+git diff
+ls
+gam "update"
+git push
+l
+vim preinstall.sh
+l
+ls
+ls
+cd
+ls
+rm -rf archinstall
+ls
+clc
+cd archinstall
+ls
+gs
+cd
+cls
+ls
+vim v2free_account
+l
+cd nvim/lazy/markdown-preview.nvim
+ls
+cd app
+ls
+vim install.
+vim install.sh
+ls
+alias proxy
+alias ep
+ep
+vim
+l
+vim install.sh
+ping github.com
+ping google.com
+ep
+ping google.com
+ping youtube.com
+uep
+alias ep
+ls
+l
+lf
+l
+cd
+l
+ls
+ls
+pwd
+ls
+ls
+pacman -A
+pacman -l
+pacman -s
+ls
+vim .zprofile
+sudo pacman -S fcitx-googlepinyin
+ls
+fcitx5-configtool
+fcitx5-configtool
+yay -S fcitx5-git
+fcitx5-configtool
+fcitx5-configtool
+fcitx5-configtool
+vim /home/wintersun/.config/fcitx5/profile
+sudo pacman -S fcitx5-chinese-addons-git
+fcitx5-configtool
+fcitx5-configtool
+fcitx5-configtool
+ls
+ls
+vim 
+ls
+fg
+sudo pacman -S virtualbox
+fg
+ls
+l
+cd workspace
+ls
+cd project
+ls
+git clone git@github.com:neverwaiting/sokoban_solver.git
+cd sokoban_solver
+cd screens
+ls
+cp screen.100 screen.101
+vim screen.
+vim screen.101
+g++ *.cc -O2 -o main
+ls
+cd ..
+g++ *.cc -O2 -o main
+./main 101
+fg
+ls
+lf
+vim screens/screen.101
+./main 101
+./main 101
+ls
+fg
+ls
+cd workspace
+ls
+vim opensource-to-install.list
+ls
+fg
+cd
+git clone https://github.com/neverwaiting/workspace.git
+git clone git@github.com/neverwaiting/workspace.git
+git clone git@neverwaiting.github.com/workspace.git
+git clone git@github.com:neverwaiting/workspace.git
+github_speed_up
+sudo github_speed_up
+git clone git@github.com:neverwaiting/workspace.git
+cat /etc/hosts
+sudo nvim /etc/hosts
+l
+git clone git@github.com:neverwaiting/workspace.git
+cd workspace
+ls
+rm -rf .git
+l
+cd temp-pictures
+ls
+lf
+l
+lf
+l
+cd
+l
+pwd
+ls
+cfv
+vim init.lua
+vim init.lua
+cd ~/workspace/project/sokoban_solver
+ls
+vim main.cc
+cd -
+vim init.lua
+vim main.cc
+l
+fg
+vim init.lua
+vim init.lua
+vim init.lua
+cd -
+vim main.cc
+cd -
+vim init.lua
+vim init.lua
+l
+cd
+ls
+cd workspace
+ls
+cfv
+vim init.lua
+vim init.lua
+cd
+cfv
+l
+cd lua
+ls
+cd wintersun
+l
+lf
+l
+cd ..
+cd ..
+l
+lf
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+vim init.lua
+cd ~/workspace/project/sokoban_solver
+ls
+vim main.cc
+cd -
+fg
+vim init.lua
+vim init.lua
+fg
+l
+vim init.lua
+vim init.lua
+vim init.lua
+cd -
+vim main.cc
+fg
+vim main.cc
+fg
+gs
+git diff
+fg
+cd -
+vim init.lua
+l
+vim init.lua
+ls
+vim init.lua
+vim init.lua
+ls
+l
+vim test.la
+rm -rf test.lua
+l
+l
+lf
+cd workspace
+l
+cd project/sokoban_solver
+ls
+gs
+./main 101
+l
+vim types.h
+l
+cd workspace
+ls
+cd
+l
+ls
+htop
+htop | grep weousb
+top | grep weousb
+top
+ls
+sudo pacman -S balena
+yay -S balena
+sudo pacman -S balena-etcher
+balena-etcher-electron
+ls
+sudo pacman -S woeusb
+woeusb
+ls
+ls
+l /dev/sda
+l /dev/sda
+ls /dev
+ls /usb
+ls /dev/usb
+woeusb --device ~/Downloads/Win10_22H2_Chinese_Simplified_x64v1.iso /dev/sdb --target-filesystem NTFS
+woeusb --device ~/Downloads/Win10_22H2_Chinese_Simplified_x64v1.iso /dev/sda --target-filesystem NTFS
+sudo woeusb --device ~/Downloads/Win10_22H2_Chinese_Simplified_x64v1.iso /dev/sda --target-filesystem NTFS
+sudo woeusb --device ~/Downloads/Win10_22H2_Chinese_Simplified_x64v1.iso /dev/sda --target-filesystem NTFS
+sudo woeusb --device ~/Downloads/Win10_22H2_Chinese_Simplified_x64v1.iso /dev/sda --target-filesystem NTFS
+umount /dev/sda
+ls /mnt
+
+
+ls /media
+ls
+lf
+lf /
+ls
+ls /media
+sudo woeusb --device ~/Downloads/Win10_22H2_Chinese_Simplified_x64v1.iso /dev/sda --target-filesystem NTFS
+sudo woeusb --device ~/Downloads/Win10_22H2_Chinese_Simplified_x64v1.iso /dev/sda --target-filesystem NTFS\ 
+sudo woeusb --device ~/Downloads/Win10_22H2_Chinese_Simplified_x64v1.iso /dev/sda --target-filesystem NTFS
+sudo woeusb --device ~/Downloads/Win10_22H2_Chinese_Simplified_x64v1.iso /dev/sdb --target-filesystem NTFS
+fg
+woeusb -v
+woeusb -h
+ventoy
+sudo pacman -S ventoy
+sudo ventoy
+ventoy -v
+ls
+sudo fdisk -l
+sudo fdisk -l
+sudo umount /dev/sda1
+sudo umount /dev/sda1
+balena-etcher-electron
+sudo woeusb --device ~/Downloads/Win10_22H2_Chinese_Simplified_x64v1.iso /dev/sdb --target-filesystem NTFS
+dmenumount
+sudo woeusb --device ~/Downloads/Win10_22H2_Chinese_Simplified_x64v1.iso /dev/sda --target-filesystem NTFS
+ls
+ls /media
+ls /media/woeusb_target_1692965684_146827
+ls /media/woeusb_target_1692965684_146827
+rm -rf /media/woeusb_target_1692965684_146827
+sudo rm -rf /media/woeusb_target_1692965684_146827
+sudo woeusb --device ~/Downloads/Win10_22H2_Chinese_Simplified_x64v1.iso /dev/sda --target-filesystem NTFS
+dmenuumount
+l /dev/sda
+sudo umount /dev/sda
+ls /dev/sda
+dmenuumount
+dmenumount
+sudo umount /dev/sda1
+sudo umount /dev/sda1
+sudo umount /dev/sda1
+ls
+sudo umount /dev/sda1
+lsblk
+sudo umount /dev/sda1
+sudo umount /dev/sda1
+ps -ef
+ps -ef | grep media
+kill -9 18084
+sudo kill -9 18084
+ps -ef | grep media
+sudo kill -9 38134
+ps -ef | grep media
+sudo kill -9 82450
+sudo kill -9 82450
+sudo kill -9 82450
+sudo kill -9 82450
+sudo kill -9 82450
+sudo kill -9 82450
+sudo kill -9 82450
+ps -ef | grep media
+ps -ef | grep media
+ps -ef | grep media
+ps -ef | grep sda1
+ps -ef | grep /dev/sda1
+ps -ef | grep /dev/sda2
+ps -ef | grep /dev/sda1
+ps -ef | grep /dev/sda1
+ps -ef | grep /dev/sda2
+ps -ef | grep /dev/sda1
+ls
+ls
+l
+ls
+ls
+ps -ef | grep efi
+ps -ef | grep iso
+ps -ef | grep usb
+ps -ef | grep sda
+ls
+l /media
+l /media
+umount /media/woeusb_target_1692968324_15358
+l /media
+ls
+ventoy -h
+ventoy -I -g -r 10240 /dev/sda
+sudo ventoy -I -g -r 10240 /dev/sda
+sudo ventoy -l
+sudo ventoy -l /dev/sda
+lsblk
+sudo mount /dev/sda1 /mnt/media
+sudo mount /dev/sda1 /mnt/
+ls /mnt
+sudo cp ~/Downloads/Win10_22H2_Chinese_Simplified_x64v1.iso /mnt/
+ls /mnt
+rm -rf /mnt/Win10_22H2_Chinese_Simplified_x64v1.iso
+sudo rm -rf /mnt/Win10_22H2_Chinese_Simplified_x64v1.iso
+ls /mnt
+sudo rm -rf /mnt/Win10_22H2_Chinese_Simplified_x64v1.iso
+l /mnt
+lsblk
+ls /mnt
+l /mnt
+sudo pacman -S rsync
+rsync --progress -av ~/Downloads/Win10_22H2_Chinese_Simplified_x64v1.iso /mnt
+sudo rsync --progress -av ~/Downloads/Win10_22H2_Chinese_Simplified_x64v1.iso /mnt
+sudo rsync --progress -av ~/Downloads/Win10_22H2_Chinese_Simplified_x64v1.iso /mnt
+ls -hl /mnt
+md5sum /mnt/Win10_22H2_Chinese_Simplified_x64v1.iso
+sudo umount /mnt
+sudo umount /mnt
+l /mnt
+ls
+clc
+cd archinstall
+ls
+vim clonerepos.sh
+vim chroot.sh
+vim chroot.sh
+blkid
+blkid /dev/nvme1n1p
+blkid /dev/nvme1n1p1
+blkid /dev/nvme1n1p2
+blkid /dev/nvme1n1p3
+vim /boot/grub/grub.cfg
+fdisk -l
+sudo fdisk -l
+l /dev/nvme1n1p1
+sudo mount /dev/nvme1n1p1 /mnt
+ls /mnt
+ls /mnt/EFI
+ls /mnt/EFI/Microsoft
+ls /mnt/EFI/Microsoft/Boot
+ls /mnt/EFI/Microsoft/Boot/bootmgfw.efi
+vim chroot.sh
+vim /boot/EFI/BOOT/BOOTX64.EFI
+vim /boot/grub/grub.cfg
+echo $fs_uuid
+echo $hints_string
+fg
+vim /boot/grub/grub.cfg
+ls /boot/EFI
+ls /boot/EFI/BOOt
+ls /boot/EFI/BOOT
+ls /boot/EFI/Microsoft
+ls /boot/EFI/BOOT/BOOTX64.EFI
+vim /boot/grub/grub.cfg
+os-prober
+sudo os-prober
+vim /etc/grub.d/30_os-prober
+vim /etc/grub.d/10_linux
+vim /boot/grub/grub.cfg
+vim /etc/default/grub
+sudo nvim /etc/default/grub
+ls
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+vim /boot/grub/grub.cfg
+ls
+fg
+l
+sudo umount /mnt
+reboot
+reboot
+vim /boot/grub/grub.cfg
+sudo nvim /boot/grub/grub.cfg
+reboot
+ls
+ls
+updatepacages
+ls
+updatepacages
+ls
+reboot
+ls
+ls
+ls
+l Downloads
+pwd
+cd workspace/project
+ls
+cd sokoban_solver
+ls
+./main 101
+ls
+pwd
+ls
+ls
+ls
+timedatectl status
+timedatectl status | grep local
+timedatectl set-local-rtc true
+sudo timedatectl set-local-rtc true
+ls
+cd workspace/project
+ls
+vim test_stl.cc
+l
+cd lua
+ls
+vim print_global.lua
+vim array.c
+vim test.lua
+vim tuple.c
+vim test.lua
+ls
+cd workspace/project
+ls
+vim test_stl.cc
+ls
+cd cc
+ls
+vim statistics.cc
+cd ..
+cd ..
+l
+ls
+cd workspace
+ls
+cd cnet
+ls
+cd
+l
+ls
+ls
+ls
+lf
+ls
+git clone git clone https://gitclone.com/github.com/freefq/free
+cd workspace/project
+cd ..
+l
+ls 
+ls
+l
+lf
+cd temp-pictures
+ls
+lf
+cd ..
+lf
+mkdir temp
+cd temp
+git clone https://gitclone.com/github.com/freefq/free
+l
+cd free
+ls
+vim v2
+lf
+lf
+lf
+lf
+ls
+cd ..
+ls
+cd
+cd workspace/temp
+ls
+cd free
+lf
+fg
+lf
+l
+ls
+cd workspace
+ls
+lf
+ls
+ls
+l
+ls
+cd cnet
+ls
+cd ..
+ls
+ls
+l
+lf
+ls
+ls
+cfv
+ls
+vim init.lua
+ls
+vim shortcuts.vim
+ls
+cd
+;s
+ls
+cd workspace/project
+ls
+lf
+l
+cd
+sh -c "$(curl -fsL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/CFcdnym.sh)"
+sh -c "$(curl -fsL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/CFcdnym.sh)"
+sh -c "$(curl -fsL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/cfip.sh)"
+fg
+curl ip.gs
+fg
+ping skk.moe
+showip
+curl ip.gs
+ep
+uep
+ep
+curl ip.gs
+ping google.com
+ping google.com
+uep
+curl ip.gs
+ping google.com
+brave
+sh -c "$(curl -fsL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/CFcdnym.sh)"
+sh -c "$(curl -fsL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/CFcdnym.sh)"
+sh -c "$(curl -fsL https://gitlab.com/rwkgyg/CFwarp/raw/main/point/CFcdnym.sh)"
+ls
+cd workspace/project
+ls
+cd benchmark
+ls
+cd
+pwd
+ls
+pwd

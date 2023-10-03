@@ -96,7 +96,7 @@ return {
       'hrsh7th/cmp-cmdline',
 
       -- Adds a number of user-friendly snippets
-      'rafamadriz/friendly-snippets',
+      -- 'rafamadriz/friendly-snippets',
     },
   },
 
@@ -111,7 +111,7 @@ return {
 
   -- snippet engine and snippet collections
   { 'L3MON4D3/LuaSnip' }, -- snippets engine written in lua
-  { 'rafamadriz/friendly-snippets' }, -- a bunch of snippets to use
+  -- { 'rafamadriz/friendly-snippets' }, -- a bunch of snippets to use
 
   -- comment
   {

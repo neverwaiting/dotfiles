@@ -74,7 +74,7 @@ local on_attach = function(_, bufnr)
 
   -- See `:help K` for why this keymap
   nmap('K', '<cmd>lua vim.lsp.buf.hover()<CR>', 'Hover Documentation')
-  nmap('<C-k>', '<cmd>lua vim.lsp.buf.signature_help()<CR>', 'Signature Documentation')
+  -- nmap('<C-k>', '<cmd>lua vim.lsp.buf.signature_help()<CR>', 'Signature Documentation')
 
   -- Lesser used LSP functionality
   nmap('gD', '<cmd>lua vim.lsp.buf.declaration()<CR>', '[G]oto [D]eclaration')

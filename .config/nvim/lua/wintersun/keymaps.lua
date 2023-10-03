@@ -127,3 +127,6 @@ nnoremap('<leader>sx', '<cmd>lua require("wintersun.plugins.telescope").xconfig(
 -- toggle terminal
 nnoremap('<leader>sfl', '<cmd>ToggleTerm direction=vertical<CR>')
 nnoremap('<leader>sfj', '<cmd>ToggleTerm direction=horizontal<CR>')
+
+-- source my snips config 
+nnoremap('<leader>ss', '<cmd>source ~/.config/nvim/after/plugin/mysnips.lua<CR>')
