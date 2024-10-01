@@ -60,6 +60,9 @@ export _JAVA_AWT_WM_NONREPARENTING=1	# Fix for Java applications in dwm
 # set goproxy
 export GOPROXY=https://goproxy.cn
 
+# set nvm mirrors
+export NVM_NODEJS_ORG_MIRROR=https://cdn.npmmirror.com/binaries/node
+
 # for fcitx5 input
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
