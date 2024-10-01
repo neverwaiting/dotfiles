@@ -6,7 +6,7 @@ set scrolloff 10
 set icons
 set drawbox
 set period 1
-set autoquit on
+set autoquit true
 
 set previewer ~/.config/lf/previewer
 set cleaner ~/.config/lf/cleaner
