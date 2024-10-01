@@ -49,4 +49,7 @@ source $HOME/.config/zsh/zsh-vi-mode/zsh-vi-mode.plugin.zsh 2>/dev/null
 # Load syntax highlighting; should be last.
 source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh 2>/dev/null
 
+# Load nvm
+source /usr/share/nvm/init-nvm.sh
+
 eval "$(starship init zsh)"
