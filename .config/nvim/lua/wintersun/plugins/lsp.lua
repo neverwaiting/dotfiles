@@ -103,7 +103,7 @@ local servers = {
   gopls = {},
   pyright = {},
   html = { filetypes = { 'html', 'twig', 'hbs'} },
-  tsserver = {},
+  ts_ls = {},
   lua_ls = {
     Lua = {
       workspace = { checkThirdParty = false },
@@ -155,7 +155,7 @@ local mason_lspconfig = require 'mason-lspconfig'
 
 mason_lspconfig.setup {
   -- local servers = vim.tbl_keys(servers)
-  ensure_installed = { "lua_ls", "cmake", "jsonls", "tsserver", "gopls", "html" },
+  ensure_installed = { "lua_ls", "cmake", "jsonls", "ts_ls", "gopls", "html" },
 }
 
 for server_name, _ in pairs(servers) do
